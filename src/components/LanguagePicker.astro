@@ -1,0 +1,14 @@
+---
+import { languages } from '../i18n/ui';
+import { pickLangPath } from '../utils/utils';
+
+
+
+---
+<ul>
+  {Object.entries(languages).map(([lang, label]) => (
+    <li>
+      <a href={pickLangPath(lang)}>{label}</a>
+    </li>
+  ))}
+</ul>

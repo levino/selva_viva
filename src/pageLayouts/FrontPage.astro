@@ -1,0 +1,16 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/Hero.astro';
+import RightSideContent from '../components/RightSideContent.astro'
+import LeftSideContent from '../components/LeftSideContent.astro'
+import CenterContentVideoBg from '../components/CenterContentVideoBg.astro'
+
+const { content } = Astro.props
+---
+
+<Layout title={content.pageMetaTitle}>
+	<Hero content={content.hero} />
+	<RightSideContent content={content.situation}/>
+	<LeftSideContent content={content.problem}/>
+	<CenterContentVideoBg content={content.solution}/>
+</Layout>

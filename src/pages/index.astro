@@ -1,14 +1,8 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Hero from '../components/Hero.astro';
-import RightSideContent from '../components/RightSideContent.astro'
-import LeftSideContent from '../components/LeftSideContent.astro'
-import CenterContentVideoBg from '../components/CenterContentVideoBg.astro'
+import FrontPage from '../pageLayouts/FrontPage.astro';
+
+import * as deutschContent from '../content/de/index.md'
+
 ---
 
-<Layout title="Vienvenido a Selva Viva.">
-	<Hero />
-	<RightSideContent />
-	<LeftSideContent />
-	<CenterContentVideoBg />
-</Layout>
+<FrontPage content={ deutschContent.frontmatter }/>

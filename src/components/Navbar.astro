@@ -1,7 +1,20 @@
+---
+import { getLangFromUrl, useTranslations } from '../i18n/utils';
+import LanguagePicker from './LanguagePicker.astro';
+import { pickLangPath } from '../utils/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
+---
+
+
+
 <header class="mx-auto">
+	<LanguagePicker />
 	<nav class="bg-green-400 flex flex-wrap items-center px-4 py-5">
 		<a
-			href="/"
+			href={ pickLangPath(lang) }
 			class="font-medium hover:text-yellow_leave-300 mr-auto text-xl text-yellow_leave-400 uppercase"
 			>Selva viva</a
 		>
@@ -17,15 +30,15 @@
 		>
 			<div class="flex flex-col lg:flex-row">
 				<a
-					href="/"
+					href={ pickLangPath(lang) }
 					class="font-all font-medium hover:text-yellow_leave-400 px-0 py-2 uppercase lg:px-4"
-					>inicio</a
+					>{ t('nav.home') }</a
 				>
 				<div class="dropdown-group flex items-start lg:relative">
 					<a
 						href="/projects"
 						class="font-all font-medium hover:text-yellow_leave-400 px-0 py-2 uppercase z-50 lg:px-4"
-						>proyectos</a
+						>{ t('nav.projects') }</a
 					>
 					<ul
 						class="dropdown-menu h-min ml-4 pt-14 w-max lg:absolute lg:bg-green-400 lg:hidden lg:z-30"
