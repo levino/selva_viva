@@ -1,6 +1,7 @@
 export const languages = {
-    de: 'Deutsch',
-    es: 'Español'
+    de: 'De',
+    es: 'Es',
+    en: 'En'
 };
 
 
@@ -18,4 +19,8 @@ export const languages = {
         'nav.projects': 'Proyectos',
         'nav.about': 'nosotros',
       },
+    en: {
+        'nav.home': 'home',
+        'nav.projects': 'Projects',
+    }
   } as const;
