@@ -1,6 +1,10 @@
 ---
+import CenterContentVideoBg from "../../components/CenterContentVideoBg.astro";
 import ProjectsPage from "../../pageLayouts/ProjectsPage.astro";
+import * as pageContent from '../../content/de/projects/index.md'
+const projects = await Astro.glob('../../content/de/projects/*.md')
+
 
 ---
 
-<ProjectsPage />
+<ProjectsPage projects={ projects } content={pageContent.frontmatter}/>
