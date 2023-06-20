@@ -1,23 +1,28 @@
 ---
-import { languages } from '../i18n/ui';
-import { pickLangPath } from '../utils/utils';
-import { Icon } from 'astro-icon'
+import { languages } from "../i18n/ui";
+import { pickLangPath } from "../utils/utils";
+import { Icon } from "astro-icon";
 ---
+
 <div class="bg-green-200">
-    <ul class="flex justify-end gap-2 mx-auto w-10/12">
-      {Object.entries(languages).map(([lang, label]) => (
+  <ul class="flex justify-end gap-2 mx-auto w-10/12">
+    {
+      Object.entries(languages).map(([lang, label]) => (
         <li class="p-2">
           <a href={pickLangPath(lang)} class="flex">
-            <Icon name={lang}/>
-            <span class="inline-block ml-2 uppercase text-sm font-semibold">{label}</span>
-            </a>
+            <Icon name={lang} />
+            <span class="inline-block ml-2 uppercase text-sm font-semibold">
+              {label}
+            </span>
+          </a>
         </li>
-      ))}
-    </ul>
+      ))
+    }
+  </ul>
 </div>
 
 <style lang="css">
-    [astro-icon] {
-       width: 1.3rem;
-    }
+  [astro-icon] {
+    width: 1.3rem;
+  }
 </style>
