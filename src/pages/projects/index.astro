@@ -2,7 +2,6 @@
 import CenterContentVideoBg from "../../components/CenterContentVideoBg.astro";
 import ProjectsPage from "../../pageLayouts/ProjectsPage.astro";
 import * as pageContent from "../../content/projects/de/_index.md";
-const projects = await Astro.glob("../../content/projects/de/*.md");
 
 import { getCollection } from "astro:content";
 const allProjects = await getCollection("projects");
