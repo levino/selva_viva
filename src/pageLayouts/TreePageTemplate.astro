@@ -1,9 +1,10 @@
 ---
 import Layout from "../layouts/Layout.astro";
 
-const { content } = Astro.props;
+const { content, tree } = Astro.props;
 ---
 
 <Layout title="selva viva projects page">
-  <h1>this is the mucuna page</h1>
+  <h1>this is just for one tree</h1>
+  <div>{tree}!</div>
 </Layout>

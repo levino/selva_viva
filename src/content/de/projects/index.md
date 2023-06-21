@@ -1,3 +1,0 @@
----
-title: 'unsere baume'
----

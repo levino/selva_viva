@@ -1,19 +1,19 @@
 ---
 pageMetaTitle: "hallo"
 hero:
-    p: "willkomen"
-    h1: "Selva Viva"
-    msg: "salkdjflkdajfjlaskdfj"
-    button: "spenden"
+  p: "willkommen bei"
+  h1: "Selva Viva"
+  msg: "mehr Bäume zum erhalt von"
+  button: "spenden"
 
 situation:
-    title: "ölkjasdlkfjds"
-    p: "asdfasdfasdffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-    img: ""
-    button: "hilfee"
+  title: "ölkjasdlkfjds"
+  p: "asdfasdfasdffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+  img: ""
+  button: "hilfee"
 problem:
-    title: ""
-    p: ""
-    img: ""
-    button: ""
+  title: ""
+  p: ""
+  img: ""
+  button: ""
 ---
