@@ -1,5 +1,8 @@
 ---
 import TreesPage from "../../pageLayouts/TreesPage.astro";
+import { getCollection } from "astro:content";
+
+const treesCollection = await getCollection("trees");
 ---
 
-<TreesPage />
+<TreesPage treesCollection={treesCollection} />

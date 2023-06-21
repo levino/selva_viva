@@ -1,6 +1,7 @@
 ---
 import { Image } from "astro:assets";
 const { cardContent } = Astro.props;
+console.log(cardContent.data);
 ---
 
 <div class="md:w-1/2 px-4 w-full xl:w-1/4">
@@ -20,7 +21,7 @@ const { cardContent } = Astro.props;
     </div>
     <div class="px-6 pt-4 pb-2 text-right">
       <a
-        href={cardContent.data.url}
+        href={`/projects/${cardContent.slug}`}
         class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
       >
         {cardContent.data.url}
