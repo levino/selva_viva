@@ -1,17 +1,13 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import TreeCard from "../components/TreeCard.astro";
+import PageTitle from "../components/PageTitle.astro";
 
 const { treesCollection } = Astro.props;
-treesCollection.forEach((tree) => {
-  console.log(tree);
-});
 ---
 
 <Layout title="selva viva projects page">
-  <h1>Conoce nuestros arboles</h1>
-  {treesCollection[0].data.title}
-
+  <PageTitle>Conoce nuestros árboles</PageTitle>
   <div class="mx-auto px-10">
     <ul class="-mx-4 flex flex-wrap">
       {
