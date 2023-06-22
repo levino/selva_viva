@@ -1,10 +1,11 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import PageTitle from "../components/PageTitle.astro";
+import Layout from "../layouts/Layout.astro";
+import HeroTextCenter from "../components/HeroTextCenter.astro";
 
-
-const { content } = Astro.props
+const { content } = Astro.props;
 ---
 
 <Layout title="selva viva projects page">
-  <h1>tree nursery</h1>
+  <HeroTextCenter />
 </Layout>
