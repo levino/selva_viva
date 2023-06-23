@@ -1,4 +1,8 @@
-<div class="bg-green_dark-500 container mx-auto px-4">
+---
+const { bgColor } = Astro.props;
+---
+
+<div class=`${bgColor} container mx-auto px-4`>
   <div class="-mx-4 flex flex-wrap justify-center">
     <h2
       class="font-bold font-sans mt-9 text-3xl text-yellow_leave-600 uppercase"
