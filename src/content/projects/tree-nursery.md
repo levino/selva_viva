@@ -2,7 +2,7 @@
 title: "vivero"
 subtitle: "apadrina un árbol"
 experpt: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil."
-url: "/projects/tree-nursery"
+url: "/projects/plant-a-tree"
 cover: "../../assets/tropical_tree_3.jpg"
 coverAlt: "sisas"
 ---
