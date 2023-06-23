@@ -1,5 +1,9 @@
 ---
-import TreeNurseryPage from '../../pageLayouts/TreeNurseryPage.astro';
+import TreeNurseryPage from "../../pageLayouts/TreeNurseryPageLayout.astro";
+import * as treeNurseryContent from "../../content/projects/tree-nursery.md";
+import { Content } from "../../content/projects/tree-nursery.md";
 ---
 
-<TreeNurseryPage />
+<TreeNurseryPage>
+  <Content />
+</TreeNurseryPage>
