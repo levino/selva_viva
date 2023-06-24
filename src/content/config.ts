@@ -23,7 +23,7 @@ const treesCollection = defineCollection({
       scientific_name: z.string(),
       scientific_synonyms: z.array(z.string()),
       general_information: z.string(),
-      rage: z.string(),
+      range: z.string(),
       habitat: z.string(),
       properties: z.object({
         conservation_status: z.string(),
