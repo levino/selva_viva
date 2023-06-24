@@ -8,7 +8,7 @@ const lang = getLangFromUrl(Astro.url);
 const {
   Content,
   treeEntry: { data: tree },
-  treeProfileTitles: { frontmatter: profileTitles },
+  treeProfileTitles: { frontmatter: titles },
 } = Astro.props;
 ---
 
@@ -18,11 +18,11 @@ const {
     <ul>
       {tree.other_names.map((name) => <li>{name}</li>)}
     </ul>
-    <h3>{profileTitles.general_information[lang]}</h3>
+    <h3>{titles.general_information[lang]}</h3>
     <p>{tree.general_information}</p>
-    <h3>{profileTitles.range[lang]}</h3>
+    <h3>{titles.range[lang]}</h3>
     <p>{tree.range}</p>
-    <h3>{profileTitles.habitat[lang]}</h3>
+    <h3>{titles.habitat[lang]}</h3>
     <p>{tree.habitat}</p>
   </div>
 </Layout>
