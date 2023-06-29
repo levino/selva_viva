@@ -11,7 +11,7 @@ scientific_synonyms:
   - cedro
   - sisas
   - Cedrela dugesii Watson
-experpt: Cedar wood is a monoecious, deciduous, medium-sized to large tree usually growing 30 -40 metres tall, exceptionally to 50 metres
+excerpt: Cedar wood is a monoecious, deciduous, medium-sized to large tree usually growing 30 -40 metres tall, exceptionally to 50 metres
 general_information: "Cedar wood is a monoecious, deciduous, medium-sized to large tree usually growing 30 -40 metres tall, exceptionally to 50 metres[303
 ]. The straight, cylindrical bole can be 60 - 120cm in diameter and unbranched for 15 - 24 metres[378
 ]. It has buttresses that can extend 120 - 360cm up the tree[378
