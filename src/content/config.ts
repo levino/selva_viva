@@ -22,6 +22,7 @@ const treesCollection = defineCollection({
       imgs: z.array(image()),
       scientific_name: z.string(),
       scientific_synonyms: z.array(z.string()),
+      excerpt: z.string(),
       general_information: z.string(),
       range: z.string(),
       habitat: z.string(),
