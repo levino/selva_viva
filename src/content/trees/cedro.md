@@ -6,6 +6,7 @@ other_names:
   - bla bla
 imgs:
   - ../../assets/plant-a-tree.png
+  - ../../assets/canime.jpg
 scientific_name: cedrela odorata
 scientific_synonyms:
   - cedro
