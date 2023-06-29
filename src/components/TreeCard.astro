@@ -12,11 +12,10 @@ const { tree } = Astro.props;
     </div>
     <div class="flex flex-col justify-evenly pl-4 pr-2 py-2 w-4/6">
       <h5 class="font-bold mb-1 text-green-700 text-lg">
-        {tree.data.title}
+        {tree.data.name}
       </h5>
       <p class="mb-1 text-brown-500">
-        This is a paragraph, one or more lines of text. Each paragraph is
-        displayed in a new line.
+        {tree.data.excerpt}
       </p>
       <a
         href={`/trees/${tree.slug}`}
