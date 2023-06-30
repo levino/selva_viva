@@ -13,6 +13,16 @@ const projectsCollection = defineCollection({
     }),
 });
 
+const blogCollection = defineCollection({
+  type: "content",
+  schema: z.object({
+    title: z.string(),
+    subtitle: z.string(),
+    experpt: z.string(),
+    date: z.date(),
+  }),
+});
+
 const treesCollection = defineCollection({
   type: "content",
   schema: ({ image }) =>
@@ -46,4 +56,5 @@ const treesCollection = defineCollection({
 export const collections = {
   projects: projectsCollection,
   trees: treesCollection,
+  blog: blogCollection,
 };
