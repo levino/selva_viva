@@ -1,9 +1,58 @@
 ---
 import Layout from "../layouts/Layout.astro";
 
-const { content } = Astro.props;
+const { blogCollection } = Astro.props;
+console.log(blogCollection[0].data.title);
 ---
 
 <Layout title="selva viva projects page">
-  <h1>{content}</h1>
+  <section class="bg-gray-50 blog_window font-light py-8 text-gray-500">
+    <h2
+      class="font-bold font-sans mt-9 text-3xl text-center text-yellow_leave-600 uppercase"
+    >
+      Lo último
+    </h2>
+    <div class="container mx-auto relative w-9/12">
+      <div class="flex flex-wrap -mx-4 justify-center">
+        {
+          blogCollection.map((blog) => (
+            <div class="p-4 w-full md:w-4/12 lg:w-4/12">
+              <div class="bg-white flex flex-col shadow-lg">
+                <a href={`blog/${blog.slug}`} class="block hover:opacity-75">
+                  <img
+                    src="https://images.unsplash.com/photo-1468818438311-4bab781ab9b8?ixid=MXwyMDkyMnwwfDF8c2VhcmNofDI4fHx0cmF2ZWx8ZW58MHx8fA&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=350&h=240&fit=crop"
+                    class="w-full"
+                    alt="..."
+                    width="350"
+                    height="240"
+                  />
+                </a>
+                <div class="flex items-center justify-around flex-col p-4 text-left">
+                  <div>
+                    <a
+                      href={`blog/${blog.slug}`}
+                      class="block hover:text-blue-600 mb-2 text-gray-800"
+                    />
+                    <h4 class="font-semibold leading-tight mb-2 text-gray-600 text-xs">
+                      {new Date(blog.data.date).toDateString()}:{" "}
+                    </h4>
+                    <p>{blog.data.experpt}</p>
+                  </div>
+                  <div class="self-end text-right">
+                    <a
+                      href={`blog/${blog.slug}`}
+                      class="bg-yellow_leave-500 font-light hover:bg-yellow_leave-500 inline-block px-2 py-1 rounded-sm text-right text-sm text-white uppercase"
+                    >
+                      LEER MAS...
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+  {blogCollection.map((blog) => <a href={`blog/${blog.slug}`}>{blog.slug}</a>)}
 </Layout>
