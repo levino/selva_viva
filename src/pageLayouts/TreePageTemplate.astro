@@ -14,7 +14,14 @@ const {
 
 <Layout title="selva viva projects page">
   <PageTitle>{tree.name}</PageTitle>
-  <div class="prose mx-auto">
+  <div class="prose mx-auto md:max-w-none w-8/12">
+    <h2>{titles.scientific_name[lang]}</h2>
+    <p class="font-bold">{tree.scientific_name}</p>
+    <h3>{titles.scientific_synonyms[lang]}</h3>
+    <ul>
+      {tree.scientific_synonyms.map((name) => <li>{name}</li>)}
+    </ul>
+    <h3>{titles.other_names[lang]}</h3>
     <ul>
       {tree.other_names.map((name) => <li>{name}</li>)}
     </ul>
@@ -24,5 +31,59 @@ const {
     <p>{tree.range}</p>
     <h3>{titles.habitat[lang]}</h3>
     <p>{tree.habitat}</p>
+    <h4>{titles.properties[lang]}</h4>
+
+    <table>
+      <tbody>
+        <tr>
+          <th>{titles.properties.conservation_status[lang]}</th>
+          <td>{tree.properties.conservation_status}</td>
+        </tr>
+        <tr>
+          <th>{titles.properties.medicinal_rating[lang]}</th>
+          <td>{tree.properties.medicinal_rating}</td>
+        </tr>
+        <tr>
+          <th>{titles.properties.other_uses[lang]}</th>
+          <td>{tree.properties.other_uses}</td>
+        </tr>
+        <tr>
+          <th>{titles.properties.wood[lang]}</th>
+          <td>{tree.properties.wood}</td>
+        </tr>
+        <tr>
+          <th>{titles.properties.habit[lang]}</th>
+          <td>{tree.properties.habit}</td>
+        </tr>
+        <tr>
+          <th>{titles.properties.height[lang]}</th>
+          <td>{tree.properties.height}</td>
+        </tr>
+        <tr>
+          <th>{titles.properties.growth_rate[lang]}</th>
+          <td>{tree.properties.growth_rate}</td>
+        </tr>
+        <tr>
+          <th>{titles.properties.pollinators[lang]}</th>
+          <td>{tree.properties.pollinators}</td>
+        </tr>
+        <tr>
+          <th>{titles.properties.cultivation_status[lang]}</th>
+          <td
+            >{
+              tree.properties.cultivation_status.map((status) => (
+                <span class="ms-2">{status}</span>
+              ))
+            }</td
+          >
+        </tr>
+      </tbody>
+    </table>
+    <h4>{titles.uses[lang]}</h4>
+    <p>{tree.uses}</p>
+    <h4>{titles.agroforestry[lang]}</h4>
+    <p>{tree.agroforestry}</p>
+    <h4>{titles.wood[lang]}</h4>
+    <p>{tree.wood}</p>
   </div>
 </Layout>
