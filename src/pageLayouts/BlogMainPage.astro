@@ -3,7 +3,6 @@ import Layout from "../layouts/Layout.astro";
 import { Image } from "astro:assets";
 
 const { blogCollection } = Astro.props;
-console.log(blogCollection[0].data.title);
 ---
 
 <Layout title="selva viva projects page">
@@ -55,5 +54,4 @@ console.log(blogCollection[0].data.title);
       </div>
     </div>
   </section>
-  {blogCollection.map((blog) => <a href={`blog/${blog.slug}`}>{blog.slug}</a>)}
 </Layout>

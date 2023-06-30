@@ -1,7 +1,7 @@
 ---
-pageMetaTitle: "hallo"
+pageMetaTitle: Selva Viva
 hero:
-  p: "willkommen bei"
+  p: willkommen bei
   h1: "Selva Viva"
   msg: "mehr Bäume zum erhalt von"
   button: "spenden"
