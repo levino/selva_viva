@@ -1,3 +1,3 @@
-export function pickLangPath(lang)   {
-    return lang === "de" ? `/` : `/${lang}/`
+export function pickLangPath(lang) {
+  return lang === "de" ? `/` : `/${lang}/`;
 }
