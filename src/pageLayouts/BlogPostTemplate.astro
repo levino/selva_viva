@@ -1,0 +1,18 @@
+---
+import LayoutMarkdown from "../layouts/LayoutMarkdown.astro";
+import PageTitle from "../components/PageTitle.astro";
+const {
+  blogEntry: { data },
+  Content,
+} = Astro.props;
+---
+
+<LayoutMarkdown title="blog post">
+  <div class="prose mx-auto mb-9">
+    <PageTitle>
+      {data.title}
+    </PageTitle>
+    <h3>{data.subtitle}</h3>
+    <Content />
+  </div>
+</LayoutMarkdown>
