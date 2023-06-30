@@ -1,0 +1,7 @@
+---
+import BlogMainPage from "../../pageLayouts/BlogMainPage.astro";
+import { getCollection } from "astro:content";
+const blogCollection = await getCollection("blog");
+---
+
+<BlogMainPage blogCollection={blogCollection} />
