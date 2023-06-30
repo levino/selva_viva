@@ -15,12 +15,15 @@ const projectsCollection = defineCollection({
 
 const blogCollection = defineCollection({
   type: "content",
-  schema: z.object({
-    title: z.string(),
-    subtitle: z.string(),
-    experpt: z.string(),
-    date: z.date(),
-  }),
+  schema: ({ image }) =>
+    z.object({
+      title: z.string(),
+      subtitle: z.string(),
+      experpt: z.string(),
+      date: z.date(),
+      cover: image(),
+      coverAlt: z.string(),
+    }),
 });
 
 const treesCollection = defineCollection({
