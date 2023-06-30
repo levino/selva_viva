@@ -1,5 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import { Image } from "astro:assets";
 
 const { blogCollection } = Astro.props;
 console.log(blogCollection[0].data.title);
@@ -19,10 +20,10 @@ console.log(blogCollection[0].data.title);
             <div class="p-4 w-full md:w-4/12 lg:w-4/12">
               <div class="bg-white flex flex-col shadow-lg">
                 <a href={`blog/${blog.slug}`} class="block hover:opacity-75">
-                  <img
-                    src="https://images.unsplash.com/photo-1468818438311-4bab781ab9b8?ixid=MXwyMDkyMnwwfDF8c2VhcmNofDI4fHx0cmF2ZWx8ZW58MHx8fA&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=350&h=240&fit=crop"
+                  <Image
+                    src={blog.data.cover}
+                    alt={blog.data.coverAlt}
                     class="w-full"
-                    alt="..."
                     width="350"
                     height="240"
                   />
