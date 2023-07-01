@@ -2,6 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import PageTitle from "../components/PageTitle.astro";
 import { getLangFromUrl } from "../i18n/utils";
+import ImageGallery from "../components/ImageGallery.astro";
 
 const lang = getLangFromUrl(Astro.url);
 
@@ -15,6 +16,7 @@ const {
 <Layout title="selva viva projects page">
   <PageTitle>{tree.name}</PageTitle>
   <div class="prose mx-auto md:max-w-none w-8/12 mb-9">
+    <ImageGallery images={tree.imgs} />
     <h2>{titles.scientific_name[lang]}</h2>
     <p class="font-bold">{tree.scientific_name}</p>
     <h3>{titles.scientific_synonyms[lang]}</h3>
