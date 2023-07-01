@@ -1,0 +1,128 @@
+---
+import { Image } from "astro:assets";
+const { images } = Astro.props;
+---
+
+<script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+
+  // Next/previous controls
+  function plusSlides(n) {
+    showSlides((slideIndex += n));
+  }
+
+  // Thumbnail image controls
+  function currentSlide(n) {
+    showSlides((slideIndex = n));
+  }
+
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dots");
+    let captionText = document.getElementById("caption");
+
+    if (n > slides.length) {
+      slideIndex = 1;
+    }
+    if (n < 1) {
+      slideIndex = slides.length;
+    }
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
+    captionText.innerHTML = dots[slideIndex - 1].alt;
+  }
+
+  const next = document.querySelector(".next");
+  next?.addEventListener("click", () => {
+    plusSlides(1);
+  });
+
+  const prev = document.querySelector(".prev");
+  prev?.addEventListener("click", () => {
+    plusSlides(-1);
+  });
+
+  const thumbnails = document.querySelectorAll(".thumbnail");
+
+  thumbnails.forEach((thumbnail) => {
+    thumbnail.addEventListener("click", (elem) => {
+      currentSlide(Number(elem.target?.dataset.imgIndex) + 1);
+    });
+  });
+</script>
+
+<!-- Container for the image gallery -->
+<div class="container w-96 relative md:float-right">
+  <!-- Full-width images with number text -->
+  {
+    images.map((img, index) => (
+      <div class="mySlides hidden m-0">
+        <div class="numbertext text-white font-bold text-sm absolute top-0 p-5">
+          {index + 1} / {images.length}
+        </div>
+        <Image src={img} alt="tree Image" class="object-contain h-80 m-0" />
+      </div>
+    ))
+  }
+
+  <!-- Next and previous buttons -->
+  <a class="prev">&#10094;</a>
+  <a class="next">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container text-black text-center p-2">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="thumbnails overflow-auto whitespace-nowrap bg-slate-800 m-0">
+    {
+      images.map((treeImg, index) => (
+        <Image
+          class="dots cursor-pointer thumbnail h-20 w-auto inline-block m-1"
+          data-img-index={index}
+          src={treeImg}
+          alt="add photo alt"
+        />
+      ))
+    }
+  </div>
+</div>
+
+<style>
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+</style>
