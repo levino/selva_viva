@@ -1,5 +1,9 @@
 ---
 const { content, bgImg } = Astro.props;
+import { getLangFromUrl } from "../i18n/utils";
+import { pickLangPath } from "../utils/utils";
+
+const lang = getLangFromUrl(Astro.url);
 ---
 
 <section class="bg-green-800 hero relative text-gray-400">
@@ -12,7 +16,7 @@ const { content, bgImg } = Astro.props;
         <h1 class="font-extrabold mb-4 text-8xl text-white">{content.h1}</h1>
         <p class="font-all font-light mb-6 text-2xl">{content.msg}</p>
         <a
-          href="#"
+          href={`${pickLangPath(lang)}support`}
           class="bg-yellow_leave-700 font-light hover:bg-yellow_leave-600 inline-block px-5 py-2 rounded-sm text-2xl text-brown_dark-900 uppercase"
           >{content.button}</a
         >
