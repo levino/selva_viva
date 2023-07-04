@@ -5,8 +5,13 @@ other_names:
   - cedar wood
   - bla bla
 imgs:
-  - ../../assets/plant-a-tree.png
-  - ../../assets/canime.jpg
+  - ../../assets/trees/cedro/cedro1.jpg
+  - ../../assets/trees/cedro/cedro2.jpg
+  - ../../assets/trees/cedro/cedro3.jpg
+  - ../../assets/trees/cedro/cedro4.jpg
+  - ../../assets/trees/cedro/cedro5.jpg
+  - ../../assets/trees/cedro/cedro6.jpg
+
 scientific_name: cedrela odorata
 scientific_synonyms:
   - Cedrela dugesii Watson
