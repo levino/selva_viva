@@ -5,6 +5,7 @@ import RightSideContent from "../components/RightSideContent.astro";
 import LeftSideContent from "../components/LeftSideContent.astro";
 import CenterContentVideoBg from "../components/CenterContentVideoBg.astro";
 import bgImg from "../assets/plant-a-tree.png";
+import ContentLeftThreeButtonsRight from "../components/ContentLeftThreeButtonsRight.astro";
 
 const { content } = Astro.props;
 ---
@@ -14,4 +15,5 @@ const { content } = Astro.props;
   <RightSideContent content={content.situation} />
   <LeftSideContent content={content.problem} />
   <CenterContentVideoBg content={content.solution} />
+  <ContentLeftThreeButtonsRight content={content.donors} />
 </Layout>
