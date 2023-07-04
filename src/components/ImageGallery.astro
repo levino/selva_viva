@@ -78,8 +78,8 @@ const { images } = Astro.props;
   <a class="next">&#10095;</a>
 
   <!-- Image text -->
-  <div class="caption-container text-black text-center p-2">
-    <p id="caption"></p>
+  <div class="caption-container text-black text-center">
+    <p id="caption" class="mt-0 mb-0"></p>
   </div>
 
   <!-- Thumbnail images -->
@@ -87,7 +87,7 @@ const { images } = Astro.props;
     {
       images.map((treeImg, index) => (
         <Image
-          class="dots cursor-pointer thumbnail h-20 w-auto inline-block m-1"
+          class="dots cursor-pointer thumbnail h-20 w-auto inline-block m-1 snap-center"
           data-img-index={index}
           src={treeImg}
           alt="add photo alt"
