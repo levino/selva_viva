@@ -1,9 +1,13 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Contact from "../components/Contact.astro";
+import PageTitle from "../components/PageTitle.astro";
 
-const { content } = Astro.props;
+const {
+  content: { frontmatter },
+} = Astro.props;
 ---
 
-<Layout title="selva viva projects page">
-  {content}
+<Layout title={frontmatter.page_title}>
+  <Contact content={frontmatter} />
 </Layout>
