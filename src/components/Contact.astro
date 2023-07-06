@@ -1,0 +1,39 @@
+---
+const { content } = Astro.props;
+---
+
+<section class="bg-gray-50 py-20 text-gray-500">
+  <div class="container mx-auto px-4 relative">
+    <div class="flex flex-wrap -mx-4 items-center">
+      <div class="p-4 w-full flex flex-col items-center">
+        <h2
+          class="font-bold leading-tight mb-6 text-2xl text-gray-800 uppercase"
+        >
+          {content.page_title}
+        </h2>
+        <p class="mb-10">
+          {content.p}
+        </p>
+        <address class="not-italic">
+          <ul class="mb-10 space-y-6">
+            <li class="flex flex-col items-center">
+              <svg
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="h-6 text-blue-600 w-6"
+              >
+                <path
+                  d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm17 4.238l-7.928 7.1L4 7.216V19h16V7.238zM4.511 5l7.55 6.662L19.502 5H4.511z"
+                ></path>
+              </svg>
+              <a
+                href="mailto:info@company.com"
+                class="hover:text-blue-600 text-center">{content.email}</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
+    </div>
+  </div>
+</section>
