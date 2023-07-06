@@ -8,6 +8,7 @@ export default defineConfig({
   integrations: [
     NetlifyCMS({
       config: {
+        disableIdentityWidgetInjection: true,
         // Use Netlify’s “Git Gateway” authentication and target our default branch
         backend: {
           name: "git-gateway",
