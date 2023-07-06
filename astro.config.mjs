@@ -7,6 +7,7 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   integrations: [
     NetlifyCMS({
+      disableIdentityWidgetInjection: false,
       config: {
         // Use Netlify’s “Git Gateway” authentication and target our default branch
         backend: {
