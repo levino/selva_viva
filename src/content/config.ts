@@ -26,7 +26,7 @@ const blogCollection = defineCollection({
     }),
 });
 
-const treesCollection = defineCollection({
+/*const treesCollection = defineCollection({
   type: "content",
   schema: ({ image }) =>
     z.object({
@@ -59,9 +59,9 @@ const treesCollection = defineCollection({
       more_information: z.array(z.string()),
     }),
 });
-
+*/
 export const collections = {
   projects: projectsCollection,
-  trees: treesCollection,
+  //trees: treesCollection,
   blog: blogCollection,
 };
