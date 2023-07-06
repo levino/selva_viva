@@ -50,9 +50,13 @@ const treesCollection = defineCollection({
         pollinators: z.string(),
         cultivation_status: z.array(z.string()),
       }),
-      uses: z.string(),
+      ecological_importance: z.string(),
+      nutritional_uses: z.string().optional(),
+      medical_uses: z.string().optional(),
       agroforestry: z.string(),
+      other_uses: z.string().optional(),
       wood: z.string(),
+      more_information: z.array(z.string()),
     }),
 });
 
