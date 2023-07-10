@@ -1,5 +1,6 @@
 import { defineConfig } from "astro/config";
 import NetlifyCMS from "astro-netlify-cms";
+import { pagesCollection } from "./src/cms_collection_schemas/file_collections/contact";
 
 import tailwind from "@astrojs/tailwind";
 
@@ -15,10 +16,11 @@ export default defineConfig({
           branch: "main",
         },
         // Configure where our media assets are stored & served from
-        media_folder: "public/assets/blog",
-        public_folder: "/assets/blog",
+        media_folder: "/src/assets/trees",
+        public_folder: "/src/assets/trees",
         // Configure the content collections
         collections: [
+          pagesCollection,
           {
             name: "posts",
             label: "Blog Posts",
