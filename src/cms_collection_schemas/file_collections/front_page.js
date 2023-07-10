@@ -1,0 +1,80 @@
+export const frontPageSchema = {
+  label: "Front Page",
+  name: "front page",
+  file: "src/non_collection_content/de/front_page.md",
+  fields: [
+    {
+      label: "Page Meta Title",
+      name: "pageMetaTitle",
+      widget: "string",
+    },
+    {
+      label: "Hero",
+      name: "hero",
+      widget: "object",
+      summary: "{{fields.name}}",
+      fields: [
+        { label: "Greeting", name: "greeting", widget: "string" },
+        { label: "Title", name: "title", widget: "string" },
+        { label: "Message", name: "msg", widget: "string" },
+        { label: "Button", name: "button", widget: "string" },
+      ],
+    },
+    {
+      label: "Situation",
+      name: "situation",
+      widget: "object",
+      summary: "{{fields.name}}",
+      fields: [
+        { label: "Title", name: "title", widget: "string" },
+        { label: "Paragraph", name: "paragraph", widget: "text" },
+        {
+          label: "Image",
+          name: "image",
+          widget: "image",
+          choose_url: true,
+        },
+        { label: "Button", name: "button", widget: "string" },
+      ],
+    },
+    {
+      label: "Problem",
+      name: "problem",
+      widget: "object",
+      summary: "{{fields.name}}",
+      fields: [
+        { label: "Title", name: "title", widget: "string" },
+        { label: "Paragraph", name: "paragraph", widget: "text" },
+        { label: "Image", name: "image", widget: "image", choose_url: true },
+        { label: "Button", name: "button", widget: "string" },
+      ],
+    },
+    {
+      label: "Solution",
+      name: "solution",
+      widget: "object",
+      summary: "{{fields.name}}",
+      fields: [
+        { label: "Title", name: "title", widget: "string" },
+        { label: "Paragraph", name: "paragraph", widget: "text" },
+        { label: "Image", name: "image", widget: "image", choose_url: true },
+        { label: "Button", name: "button", widget: "string" },
+        { label: "Button_2", name: "button_2", widget: "string" },
+      ],
+    },
+    {
+      label: "Donors",
+      name: "donors",
+      widget: "object",
+      summary: "{{fields.name}}",
+      fields: [
+        { label: "Title", name: "title", widget: "string" },
+        { label: "Paragraph", name: "paragraph", widget: "text" },
+        { label: "Image", name: "image", widget: "image", choose_url: true },
+        { label: "Button", name: "button", widget: "string" },
+        { label: "Button_2", name: "button_2", widget: "string" },
+        { label: "Button_3", name: "button_3", widget: "string" },
+      ],
+    },
+  ],
+};
