@@ -6,7 +6,7 @@ import { pickLangPath } from "../utils/utils";
 const lang = getLangFromUrl(Astro.url);
 ---
 
-<section class="bg-green_dark-800 donors">
+<section class="bg-green_dark-800 donors p-8">
   <div class="container mx-auto px-4">
     <div class="-mx-4 flex flex-wrap">
       <div class="px-4 w-full md:w-1/2">
@@ -16,24 +16,24 @@ const lang = getLangFromUrl(Astro.url);
           {content.title}
         </h3>
         <p class="font-all p-8 text-2xl text-left text-white">
-          {content.p}
+          {content.paragraph}
         </p>
       </div>
       <div
         class="flex flex-col items-center justify-center px-4 py-5 w-full md:w-1/2"
       >
         <a
-          href="#"
+          href={`${pickLangPath(lang)}projects/tree-nursery`}
           class="bg-yellow_leave-700 font-light hover:bg-yellow_leave-600 inline-block mb-2 px-5 py-2 rounded-sm text-brown_dark-900 text-center text-xl uppercase w-2/4"
           >{content.button}</a
         >
         <a
-          href="#"
+          href={`${pickLangPath(lang)}projects/plant-a-tree`}
           class="bg-yellow_leave-700 font-light hover:bg-yellow_leave-600 inline-block mb-2 px-5 py-2 rounded-sm text-brown_dark-900 text-center text-xl uppercase w-2/4"
           >{content.button_2}</a
         >
         <a
-          href="#"
+          href={`${pickLangPath(lang)}support`}
           class="bg-yellow_leave-700 font-light hover:bg-yellow_leave-600 inline-block mb-2 px-5 py-2 rounded-sm text-brown_dark-900 text-center text-xl uppercase w-2/4"
           >{content.button_3}</a
         >

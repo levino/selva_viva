@@ -10,7 +10,7 @@ const lang = getLangFromUrl(Astro.url);
   <div class="container mx-auto px-4">
     <div class="-mx-4 flex flex-wrap md:flex-row-reverse">
       <div class="md:flex md:items-center md:justify-center md:p-4 md:w-1/2">
-        <img src="" />
+        <img src={content.image} alt="problem image" width="500" height="400" />
       </div>
       <div
         class="md:border-r-2 md:w-1/2 px-4"
@@ -22,7 +22,7 @@ const lang = getLangFromUrl(Astro.url);
           {content.title}
         </h3>
         <p class="font-all p-8 text-2xl text-left text-white">
-          {content.p}
+          {content.paragraph}
         </p>
         <div class="flex justify-center mb-10">
           <a

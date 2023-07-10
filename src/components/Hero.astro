@@ -1,5 +1,6 @@
 ---
 const { content, bgImg } = Astro.props;
+
 import { getLangFromUrl } from "../i18n/utils";
 import { pickLangPath } from "../utils/utils";
 
@@ -11,7 +12,7 @@ const lang = getLangFromUrl(Astro.url);
     <div>
       <div class="px-4 w-full lg:w-6/12">
         <p class="font-medium mb-2 text-2xl text-yellow_leave-400 uppercase">
-          {content.p}
+          {content.greeting}
         </p>
         <h1 class="font-extrabold mb-4 text-8xl text-white">{content.h1}</h1>
         <p class="font-all font-light mb-6 text-2xl">{content.msg}</p>
