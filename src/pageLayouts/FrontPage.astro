@@ -7,13 +7,16 @@ import CenterContentVideoBg from "../components/CenterContentVideoBg.astro";
 import bgImg from "../assets/plant-a-tree.png";
 import ContentLeftThreeButtonsRight from "../components/ContentLeftThreeButtonsRight.astro";
 
-const { content } = Astro.props;
+const {
+  content: { frontmatter },
+  hero,
+} = Astro.props;
 ---
 
-<Layout title={content.pageMetaTitle}>
-  <Hero content={content.hero} bgImg={bgImg} />
-  <RightSideContent content={content.situation} />
-  <LeftSideContent content={content.problem} />
-  <CenterContentVideoBg content={content.solution} />
-  <ContentLeftThreeButtonsRight content={content.donors} />
+<Layout title={frontmatter.pageMetaTitle}>
+  <Hero content={frontmatter.hero} bgImg={bgImg} />
+  <RightSideContent content={frontmatter.situation} />
+  <LeftSideContent content={frontmatter.problem} />
+  <CenterContentVideoBg content={frontmatter.solution} />
+  <ContentLeftThreeButtonsRight content={frontmatter.donors} />
 </Layout>
