@@ -1,6 +1,6 @@
 export const frontPageSchema = {
   label: "Front Page",
-  name: "front page",
+  name: "front_page",
   file: "src/non_collection_content/de/front_page.md",
   fields: [
     {

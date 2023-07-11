@@ -1,8 +1,7 @@
 import { defineConfig } from "astro/config";
 import NetlifyCMS from "astro-netlify-cms";
-import { pagesCollection } from "./src/cms_collection_schemas/file_collections/contact";
 import { treesSchema } from "./src/cms_collection_schemas/folder_collections/trees";
-
+import pages_schemas from "./src/cms_collection_schemas/file_collections/pages_schemas";
 import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
@@ -21,7 +20,7 @@ export default defineConfig({
         public_folder: "/src/assets/",
         // Configure the content collections
         collections: [
-          pagesCollection,
+          pages_schemas,
           treesSchema,
           {
             name: "posts",
