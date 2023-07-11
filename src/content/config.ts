@@ -20,9 +20,9 @@ const blogCollection = defineCollection({
       title: z.string(),
       subtitle: z.string(),
       experpt: z.string(),
-      date: z.date(),
-      cover: image(),
-      coverAlt: z.string(),
+      publish_date: z.string(),
+      cover_image: image(),
+      cover_alt: z.string(),
     }),
 });
 
