@@ -1,6 +1,7 @@
 ---
 import LayoutMarkdown from "../layouts/LayoutMarkdown.astro";
 import PageTitle from "../components/PageTitle.astro";
+import { Image } from "astro:assets";
 const {
   blogEntry: { data },
   Content,
@@ -13,6 +14,7 @@ const {
       {data.title}
     </PageTitle>
     <h3>{data.subtitle}</h3>
+    <Image src={data.cover_image} alt={data.cover_alt} />
     <Content />
   </div>
 </LayoutMarkdown>
