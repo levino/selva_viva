@@ -14,7 +14,7 @@ situation:
     International bedrohte Baumarten sind auch in dieser Region so selten
     geworden, dass die Suche nach ihren Samen immer schwieriger wird. Das
     Ökosystem beginnt sich zu zersetzen.
-  image: /src/assets/trees/cedro5.jpg
+  image: /src/assets/tropical_tree_2.jpg
   button: Projekte
 problem:
   title: "Wie kommt's? "
