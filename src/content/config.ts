@@ -26,13 +26,13 @@ const blogCollection = defineCollection({
     }),
 });
 
-/*const treesCollection = defineCollection({
+const treesCollection = defineCollection({
   type: "content",
   schema: ({ image }) =>
     z.object({
       name: z.string(),
       other_names: z.array(z.string()),
-      imgs: z.array(image()),
+      galleryImages: z.array(image()),
       scientific_name: z.string(),
       scientific_synonyms: z.array(z.string()),
       excerpt: z.string(),
@@ -52,16 +52,16 @@ const blogCollection = defineCollection({
       }),
       ecological_importance: z.string(),
       nutritional_uses: z.string().optional(),
-      medical_uses: z.string().optional(),
-      agroforestry: z.string(),
-      other_uses: z.string().optional(),
+      medicinal_uses: z.string().optional(),
+      agroforestry: z.string().optional(),
       wood: z.string(),
-      more_information: z.array(z.string()),
+      other_uses: z.string().optional(),
+      more_info: z.array(z.string()),
     }),
 });
-*/
+
 export const collections = {
   projects: projectsCollection,
-  //trees: treesCollection,
+  trees: treesCollection,
   blog: blogCollection,
 };
