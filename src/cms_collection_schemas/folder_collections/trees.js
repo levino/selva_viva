@@ -3,6 +3,7 @@ export const treesSchema = {
   label: "Tree Species",
   label_singular: "Tree",
   folder: "src/content/trees/",
+  identifier_field: "name",
   create: true,
   delete: true,
   fields: [
@@ -22,8 +23,13 @@ export const treesSchema = {
       label: "Gallery",
       name: "galleryImages",
       widget: "list",
-      summary: "{{fields.image}}",
-      field: { label: "Image", name: "image", widget: "image" },
+      summary: "{{field.name}}",
+      field: {
+        label: "Image",
+        name: "image",
+        widget: "image",
+        media_folder: "/src/assets/trees/{{field.name}}",
+      },
     },
     { label: "Scientific Name", name: "scientific_name", widget: "string" },
     {
@@ -37,7 +43,7 @@ export const treesSchema = {
     {
       label: "General Information",
       name: "general_information",
-      widget: "text",
+      widget: "markdown",
     },
     {
       label: "Range",
@@ -95,35 +101,35 @@ export const treesSchema = {
     {
       label: "Ecological importance",
       name: "ecological_importance",
-      widget: "text",
+      widget: "markdown",
     },
     {
       label: "Nutritional uses",
       name: "nutritional_uses",
-      widget: "text",
+      widget: "markdown",
       required: false,
     },
     {
       label: "Medicinal uses",
       name: "medicinal_uses",
-      widget: "text",
+      widget: "markdown",
       required: false,
     },
     {
       label: "Agroforestry",
       name: "agroforestry",
-      widget: "text",
+      widget: "markdown",
       required: false,
     },
     {
       label: "Wood",
       name: "wood",
-      widget: "text",
+      widget: "markdown",
     },
     {
       label: "Other_uses",
       name: "other_uses",
-      widget: "text",
+      widget: "markdown",
       required: false,
     },
     {
@@ -131,7 +137,7 @@ export const treesSchema = {
       name: "more_info",
       widget: "list",
       summary: "{{fields.name}}",
-      field: { label: "Link", name: "link", widget: "string" },
+      field: { label: "Link", name: "link", widget: "markdown" },
     },
   ],
 };
