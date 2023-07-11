@@ -2,6 +2,7 @@ import { defineConfig } from "astro/config";
 import NetlifyCMS from "astro-netlify-cms";
 import { treesSchema } from "./src/cms_collection_schemas/folder_collections/trees";
 import pages_schemas from "./src/cms_collection_schemas/file_collections/pages_schemas";
+import { postsSchema } from "./src/cms_collection_schemas/folder_collections/posts";
 import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
@@ -19,56 +20,7 @@ export default defineConfig({
         media_folder: "src/assets/",
         public_folder: "/src/assets/",
         // Configure the content collections
-        collections: [
-          pages_schemas,
-          treesSchema,
-          {
-            name: "posts",
-            label: "Blog Posts",
-            label_singular: "Blog Post",
-            folder: "src/pages/posts",
-            create: true,
-            delete: true,
-            fields: [
-              { name: "title", widget: "string", label: "Post Title" },
-              {
-                name: "publishDate",
-                widget: "datetime",
-                format: "DD MMM YYYY",
-                date_format: "DD MMM YYYY",
-                time_format: false,
-                label: "Publish Date",
-              },
-              {
-                name: "author",
-                widget: "string",
-                label: "Author Name",
-                required: false,
-              },
-              {
-                name: "authorURL",
-                widget: "string",
-                label: "Author URL",
-                required: false,
-              },
-              {
-                name: "description",
-                widget: "string",
-                label: "Description",
-                required: false,
-              },
-              { name: "body", widget: "markdown", label: "Post Body" },
-              {
-                name: "layout",
-                widget: "select",
-                default: "../../layouts/BlogPost.astro",
-                options: [
-                  { label: "Blog Post", value: "../../layouts/BlogPost.astro" },
-                ],
-              },
-            ],
-          },
-        ],
+        collections: [pages_schemas, treesSchema, postsSchema],
       },
     }),
     ,
