@@ -3,9 +3,10 @@ import Layout from "../layouts/Layout.astro";
 import { Image } from "astro:assets";
 
 const { blogCollection } = Astro.props;
+console.log(blogCollection);
 ---
 
-<Layout title="selva viva projects page">
+<Layout title="Blog">
   <section class="bg-gray-50 blog_window font-light py-8 text-gray-500">
     <h2
       class="font-bold font-sans mt-9 text-3xl text-center text-yellow_leave-600 uppercase"
@@ -20,21 +21,21 @@ const { blogCollection } = Astro.props;
               <div class="bg-white flex flex-col shadow-lg">
                 <a href={`blog/${blog.slug}`} class="block hover:opacity-75">
                   <Image
-                    src={blog.data.cover}
-                    alt={blog.data.coverAlt}
+                    src={blog.data.cover_image}
+                    alt={blog.data.cover_alt}
                     class="w-full"
                     width="350"
                     height="240"
                   />
                 </a>
-                <div class="flex items-center justify-around flex-col p-4 text-left">
+                <div class="flex  justify-around flex-col p-4 text-left">
                   <div>
                     <a
                       href={`blog/${blog.slug}`}
                       class="block hover:text-blue-600 mb-2 text-gray-800"
                     />
                     <h4 class="font-semibold leading-tight mb-2 text-gray-600 text-xs">
-                      {new Date(blog.data.date).toDateString()}:{" "}
+                      {new Date(blog.data.publish_date).toDateString()}:{" "}
                     </h4>
                     <p>{blog.data.experpt}</p>
                   </div>
