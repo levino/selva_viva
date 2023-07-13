@@ -1,10 +1,15 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
+import LayoutMarkdown from "../layouts/LayoutMarkdown.astro";
+import PageTitle from "../components/PageTitle.astro";
 
-
-const { content } = Astro.props
+const { Content, frontmatter } = Astro.props;
 ---
 
-<Layout title="selva viva projects page">
-  h1 hello 
-</Layout>
+<LayoutMarkdown title={frontmatter.title}>
+  <PageTitle>{frontmatter.title}</PageTitle>
+  <p class="text-gray-900 text-center font-bold text-lg">
+    {frontmatter.subtitle}
+  </p>
+  <div class="prose mx-auto mt-9"><slot /></div>
+</LayoutMarkdown>

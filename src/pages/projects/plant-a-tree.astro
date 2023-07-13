@@ -1,5 +1,8 @@
 ---
 import PlantATreePage from "../../pageLayouts/PlantATreePage.astro";
+import { Content, frontmatter } from "../../content/projects/plant-a-tree.md";
 ---
 
-<PlantATreePage />
+<PlantATreePage frontmatter={frontmatter}>
+  <Content />
+</PlantATreePage>
