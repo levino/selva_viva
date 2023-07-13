@@ -2,6 +2,8 @@
 const { content } = Astro.props;
 import { getLangFromUrl } from "../i18n/utils";
 import { pickLangPath } from "../utils/utils";
+import Image from "astro/components/Image.astro";
+import componentImage from "../assets/plant-a-tree.png";
 
 const lang = getLangFromUrl(Astro.url);
 ---
@@ -10,7 +12,8 @@ const lang = getLangFromUrl(Astro.url);
   <div class="container mx-auto px-4">
     <div class="-mx-4 flex flex-wrap md:flex-row-reverse">
       <div class="md:flex md:items-center md:justify-center md:p-4 md:w-1/2">
-        <img src={content.image} alt="problem image" width="500" height="400" />
+        <Image src={componentImage} alt="foto about problem" width="800" />
+        <img src={content.image} alt="problem image" />
       </div>
       <div
         class="md:border-r-2 md:w-1/2 px-4"
