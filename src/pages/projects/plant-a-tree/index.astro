@@ -1,0 +1,15 @@
+---
+import PlantATreePage from "../../../pageLayouts/PlantATreePage.astro";
+import { getCollection } from "astro:content";
+const plantATreeProjects = await getCollection("plantATree");
+console.log(plantATreeProjects);
+
+import {
+  Content,
+  frontmatter,
+} from "../../../content/projects/plant-a-tree.md";
+---
+
+<PlantATreePage frontmatter={frontmatter}>
+  <Content />
+</PlantATreePage>
