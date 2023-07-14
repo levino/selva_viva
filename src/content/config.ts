@@ -1,5 +1,20 @@
 import { defineCollection, z } from "astro:content";
 
+const plantATreeCollection = defineCollection({
+  type: "content",
+  schema: ({ image }) =>
+    z.object({
+      title: z.string(),
+      what_you_get: z.object({
+        first: z.string(),
+        second: z.string(),
+        third: z.string(),
+      }),
+      cover_image: image(),
+      cover_alt: z.string(),
+    }),
+});
+
 const projectsCollection = defineCollection({
   type: "content",
   schema: ({ image }) =>
@@ -64,4 +79,5 @@ export const collections = {
   projects: projectsCollection,
   trees: treesCollection,
   blog: blogCollection,
+  plantATree: plantATreeCollection,
 };
