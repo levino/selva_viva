@@ -15,7 +15,7 @@ const { pageContent, projects } = Astro.props;
   <section class="mb-20 projects_section">
     <section class="mb-20 projects_section">
       <div class="container mx-auto px-4">
-        <div class="flex flex-wrap -mx-4 flex-row-reverse">
+        <div class="flex flex-wrap -mx-4">
           {projects.map((project) => <ProjectCard cardContent={project} />)}
         </div>
       </div>
