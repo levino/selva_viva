@@ -1,5 +1,12 @@
 ---
 import SupportPageLayout from "../pageLayouts/SupportPageLayout.astro";
+import { getCollection } from "astro:content";
+const projectsInGeneral = await getCollection("projects");
+const plantATreeProjects = await getCollection("plantATree");
+
+import * as suportIndexContent from "../non_collection_content/de/support.md";
+
+const allProjects = [...projectsInGeneral, ...plantATreeProjects];
 ---
 
-<SupportPageLayout content="this is the support page" />
+<SupportPageLayout projects={allProjects} indexContent={suportIndexContent} />
