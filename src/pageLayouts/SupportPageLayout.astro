@@ -1,9 +1,15 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import SupportCard from "../components/SupportCard.astro";
+import PageTitle from "../components/PageTitle.astro";
 
-const { content } = Astro.props;
+const { projects, indexContent } = Astro.props;
 ---
 
 <Layout title="selva viva projects page">
-  {content}
+  <PageTitle>{indexContent.frontmatter.title}</PageTitle>
+  <p class="text-gray-900 text-center font-bold text-lg">
+    {indexContent.frontmatter.subtitle}
+  </p>
+  <SupportCard projects={projects} />
 </Layout>
