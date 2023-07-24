@@ -2,7 +2,7 @@
 pageMetaTitle: Selva Viva
 hero:
   greeting: willkommen bei
-  title: Selva Viva
+  title: Viva la Selva
   msg: mehr Bäume für eine biodiverse Welt
   button: spenden
 situation:
