@@ -32,9 +32,9 @@ export const postsSchema = {
       label: "Subtitle",
     },
     {
-      name: "experpt",
+      name: "excerpt",
       widget: "text",
-      label: "Experpt",
+      label: "Excerpt",
       required: false,
     },
     { name: "body", widget: "markdown", label: "Post Body" },
