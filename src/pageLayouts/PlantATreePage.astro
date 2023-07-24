@@ -3,13 +3,14 @@ import Layout from "../layouts/Layout.astro";
 import LayoutMarkdown from "../layouts/LayoutMarkdown.astro";
 import PageTitle from "../components/PageTitle.astro";
 
-const { Content, frontmatter } = Astro.props;
+const { frontmatter } = Astro.props;
 ---
 
 <LayoutMarkdown title={frontmatter.title}>
   <PageTitle>{frontmatter.title}</PageTitle>
-  <p class="text-gray-900 text-center font-bold text-lg">
+  <p class="text-gray-900 text-center font-bold text-2xl">
     {frontmatter.subtitle}
   </p>
+
   <div class="mx-auto mt-9"><slot /></div>
 </LayoutMarkdown>
