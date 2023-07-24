@@ -28,9 +28,11 @@ const lang = getLangFromUrl(Astro.url);
                 class="flex flex-col group-hover:visible h-full hover:bg-green-500 hover:bg-opacity-50 hover:cursor-pointer invisible items-center justify-center left-0 px-4 top-0 w-full"
                 data-pg-collapsed
               >
-                <p>{project.data.what_you_get.first}</p>
-                <p>{project.data.what_you_get.second}</p>
-                <p>{project.data.what_you_get.third}</p>
+                <ul class="list-disc font-bold p-5">
+                  {project.data.what_you_get.map((item) => (
+                    <li>{item}</li>
+                  ))}
+                </ul>
               </div>
             </div>
             <div class="absolute bottom-0 left-0 overflow-hidden px-4 rounded-b-lg w-full">
