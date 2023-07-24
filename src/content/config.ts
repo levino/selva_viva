@@ -1,3 +1,4 @@
+import { string } from "astro/zod";
 import { defineCollection, z } from "astro:content";
 
 const plantATreeCollection = defineCollection({
@@ -5,11 +6,10 @@ const plantATreeCollection = defineCollection({
   schema: ({ image }) =>
     z.object({
       title: z.string(),
-      what_you_get: z.object({
-        first: z.string(),
-        second: z.string(),
-        third: z.string(),
-      }),
+      subtitle: z.string(),
+      excerpt: z.string(),
+      what_you_get: z.array(z.string()),
+
       cover_image: image(),
       cover_alt: z.string(),
     }),
@@ -21,10 +21,17 @@ const projectsCollection = defineCollection({
     z.object({
       title: z.string(),
       subtitle: z.string(),
-      experpt: z.string(),
+      button_text: z.string(),
+      excerpt: z.string(),
       url: z.string(),
-      cover: image(),
-      coverAlt: z.string(),
+      cover_image: image(),
+      cover_alt: z.string(),
+      what_you_get: z
+        .object({
+          title: z.string(),
+          list_items: z.array(z.string()),
+        })
+        .optional(),
     }),
 });
 
@@ -34,7 +41,7 @@ const blogCollection = defineCollection({
     z.object({
       title: z.string(),
       subtitle: z.string(),
-      experpt: z.string(),
+      excerpt: z.string(),
       publish_date: z.string(),
       cover_image: image(),
       cover_alt: z.string(),
