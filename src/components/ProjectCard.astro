@@ -15,7 +15,7 @@ const { cardContent } = Astro.props;
         {cardContent.data.title}
       </div>
       <p class="text-gray-700 text-base">
-        {cardContent.data.experpt}{" "}
+        {cardContent.data.excerpt}{" "}
       </p>
     </div>
     <div class="px-6 pt-4 pb-2 text-right">
@@ -23,7 +23,7 @@ const { cardContent } = Astro.props;
         href={`/projects/${cardContent.slug}`}
         class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
       >
-        {cardContent.slug}
+        {cardContent.data.button_text}
       </a>
     </div>
   </div>
