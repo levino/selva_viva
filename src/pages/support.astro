@@ -1,7 +1,9 @@
 ---
 import SupportPageLayout from "../pageLayouts/SupportPageLayout.astro";
 import { getCollection } from "astro:content";
-const projectsInGeneral = await getCollection("projects");
+const projectsInGeneral = await getCollection("projects", ({ slug }) => {
+  return slug !== "plant-a-tree";
+});
 const plantATreeProjects = await getCollection("plantATree");
 
 import * as suportIndexContent from "../non_collection_content/de/support.md";
