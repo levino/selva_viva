@@ -1,10 +1,12 @@
 ---
 title: "vivero"
-subtitle: "apadrina un árbol"
-experpt: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil."
+page_title: vivero
+subtitle: "las semillas de un futuro mas verde"
+button_text: "pflanzen & schützen"
+excerpt: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil."
 url: "/projects/plant-a-tree"
-cover: "../../assets/tropical_tree_3.jpg"
-coverAlt: "sisas"
+cover_image: "../../assets/tropical_tree_3.jpg"
+cover_alt: "sisas"
 ---
 
 ## Die Baumschule...

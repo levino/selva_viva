@@ -1,6 +1,5 @@
 ---
-page_title: Kontaktsdsd
-
+page_title: Kontakt
 paragraph: sdsdsd
-email: selvaviva@gmail.comsdsdsd
+email: vivalaselvatropical@gmail.com
 ---
