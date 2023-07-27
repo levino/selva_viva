@@ -1,13 +1,18 @@
 ---
 const { content, bgImg } = Astro.props;
+import { getImage } from "astro:assets";
 
 import { getLangFromUrl } from "../i18n/utils";
 import { pickLangPath } from "../utils/utils";
-
 const lang = getLangFromUrl(Astro.url);
+
+const optimizedBackground = await getImage({ src: content.hero_bg_image });
 ---
 
-<section class="bg-green-800 hero relative text-gray-400">
+<section
+  class="bg-green-800 hero relative text-gray-400"
+  style={`background-image: url(${optimizedBackground.src});`}
+>
   <div class="container mx-auto px-4 py-48">
     <div>
       <div class="px-4 w-full lg:w-6/12">
@@ -28,7 +33,6 @@ const lang = getLangFromUrl(Astro.url);
 
 <style>
   .hero {
-    background-image: url("../assets/plant-a-tree.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
