@@ -6,10 +6,20 @@ const plantATreeCollection = defineCollection({
   schema: ({ image }) =>
     z.object({
       title: z.string(),
+      page_title: z.string(),
+      bg_image: image(),
+      bg_alt: z.string(),
       subtitle: z.string(),
       excerpt: z.string(),
-      what_you_get: z.array(z.string()),
-
+      description_title: z.string(),
+      description: z.string(),
+      what_you_get: z.object({
+        title: z.string(),
+        list_items: z.array(z.string()),
+        image: image(),
+      }),
+      button_text: z.string(),
+      back_button_text: z.string(),
       cover_image: image(),
       cover_alt: z.string(),
     }),
@@ -20,6 +30,7 @@ const projectsCollection = defineCollection({
   schema: ({ image }) =>
     z.object({
       title: z.string(),
+      page_title: z.string(),
       subtitle: z.string(),
       button_text: z.string(),
       excerpt: z.string(),
