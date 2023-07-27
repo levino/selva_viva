@@ -1,0 +1,97 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { Image } from "astro:assets";
+import PageTitle from "../components/PageTitle.astro";
+import { image } from "astro:content";
+import { micromark } from "micromark";
+
+const { frontmatter } = Astro.props;
+console.log("image: ", frontmatter.bg_image.src);
+---
+
+<Layout title={frontmatter.title}>
+  <section
+    class="plant-a-tree-hero relative text-gray-500"
+    style={`background-image: url(${frontmatter.bg_image.src});`}
+  >
+    <div class="container mx-auto px-4 py-48">
+      <div
+        class="bg-brown-900 bg-opacity-40 flex flex-wrap mx-auto py-10 lg:w-8/12"
+      >
+        <div class="mx-auto px-4 text-center w-full lg:w-8/12">
+          <h1 class="font-extrabold mb-4 text-6xl text-brown-100 uppercase">
+            {frontmatter.page_title}
+          </h1>
+          <p
+            class="drop-shadow-lg font-bold mb-2 text-2xl text-brown-50 uppercase"
+          >
+            {frontmatter.subtitle}
+          </p>
+          <p
+            class="drop-shadow-lg font-light leading-relaxed mb-6 text-2xl text-green-100"
+          >
+            {frontmatter.excerpt}
+          </p>
+          <a
+            href="#"
+            class="bg-yellow_leave-500 font-light hover:bg-yellow_leave-500 inline-block px-5 py-2 rounded-sm text-white uppercase"
+            >{frontmatter.button_text}</a
+          >
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-white py-10">
+    <h3 class="font-bold mb-5 text-3xl text-center text-yellow_leave-600">
+      {frontmatter.description_title}
+    </h3>
+    <div
+      set:html={micromark(frontmatter.description)}
+      class="font-all px-10 text-green_dark-300 text-xl tracking-wider lg:px-20 lg:text-2xl"
+    />
+  </section>
+  <section class="container mx-auto px-20 py-10">
+    <div class="flex flex-wrap -mx-4 justify-center">
+      <div
+        class="flex flex-col items-center justify-center p-5 shadow-lg w-full md:w-1/2"
+      >
+        <h3 class="font-bold text-center text-xl text-yellow_leave-600">
+          {frontmatter.what_you_get.title}
+        </h3>
+        <ul class="font-bold list-disc p-5 text-green_dark-400">
+          {
+            frontmatter.what_you_get.list_items.map((item) => (
+              <li class="mb-2">{item}</li>
+            ))
+          }
+        </ul>
+        <div class="mb-5 text-center">
+          <a
+            href="#"
+            class="bg-yellow_leave-500 font-light hover:bg-yellow_leave-500 inline-block mt-5 px-5 py-2 rounded-sm text-white uppercase"
+            >{frontmatter.button_text}</a
+          >
+        </div>
+      </div>
+      <div class="px-4 w-full md:flex md:items-center md:w-1/2">
+        <Image src={frontmatter.what_you_get.image} alt="a tree" />
+      </div>
+    </div>
+  </section>
+  <div class="mb-10 text-center">
+    <a
+      href="#"
+      class="bg-yellow_leave-500 font-light hover:bg-yellow_leave-500 inline-block mt-5 px-5 py-2 rounded-sm shadow-lg text-white uppercase"
+      >zUruck zu projekte</a
+    >
+  </div>
+</Layout>
+
+<style define:vars={{ bg_image: frontmatter.bg_image.src }}>
+  .plant-a-tree-hero {
+    background-image: url(bg_image);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+</style>
