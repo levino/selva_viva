@@ -27,7 +27,7 @@ const { content } = Astro.props;
                 ></path>
               </svg>
               <a
-                href="mailto:info@company.com"
+                href={`mailto:${content.email}}`}
                 class="hover:text-blue-600 text-center">{content.email}</a
               >
             </li>
