@@ -14,7 +14,11 @@ const lang = getLangFromUrl(Astro.url);
       projects.map((project) => (
         <div class="mb-4 gap-2 px-4 relative w-full md:w-1/2 xl:w-1/4">
           <a
-            href={`${pickLangPath(lang)}projects/plant-a-tree/${project.slug}`}
+            href={`${pickLangPath(lang)}projects/${
+              project.slug === "tree-nursery"
+                ? project.slug
+                : "plant-a-tree/" + project.slug
+            }`}
             class="block"
           >
             <Image
@@ -35,7 +39,7 @@ const lang = getLangFromUrl(Astro.url);
             <div class="absolute bottom-0 left-0 overflow-hidden px-4 rounded-b-lg w-full">
               <div class="bg-green-500 rounded-b-lg" data-pg-collapsed>
                 <p class="font-bold font-sans py-2 text-center text-xl text-yellow_leave-600">
-                  {project.data.title}
+                  {project.data.page_title}
                 </p>
               </div>
             </div>
