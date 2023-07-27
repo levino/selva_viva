@@ -8,10 +8,10 @@ const lang = getLangFromUrl(Astro.url);
 ---
 
 <div class="container mx-auto px-4" data-pg-collapsed>
-  <div class="flex flex-wrap -mx-4 my-9">
+  <div class="flex flex-wrap mx-auto my-9 w-9/12">
     {
       projects.map((project) => (
-        <div class="gap-2 px-4 relative w-full md:w-1/2 xl:w-1/4">
+        <div class="gap-2 px-4 relative w-full md:w-1/2 xl:w-1/3 mb-4">
           <a
             href={`${pickLangPath(lang)}projects/plant-a-tree/${project.slug}`}
             class="block"
@@ -25,20 +25,20 @@ const lang = getLangFromUrl(Astro.url);
 
             <div class="absolute group h-full left-0 px-4 text-white top-0 w-full">
               <div
-                class="flex flex-col group-hover:visible h-full hover:bg-green-500 hover:bg-opacity-50 hover:cursor-pointer invisible items-center justify-center left-0 px-4 top-0 w-full"
+                class="flex flex-col group-hover:visible h-full hover:bg-green-500 hover:bg-opacity-50 hover:cursor-pointer invisible items-center lg:justify-start xl:justify-center justify-center md:justify-start left-0 px-4 sm:p-2 lg:p-6 top-0 w-full"
                 data-pg-collapsed
               >
-                <ul class="list-disc font-bold p-5">
-                  {project.data.what_you_get.map((item) => (
-                    <li>{item}</li>
+                <ul class="list-disc font-bold p-5 md:p-2">
+                  {project.data.what_you_get.list_items.map((item) => (
+                    <li class="md:text-sm">{item}</li>
                   ))}
                 </ul>
               </div>
             </div>
             <div class="absolute bottom-0 left-0 overflow-hidden px-4 rounded-b-lg w-full">
               <div class="bg-green-500 rounded-b-lg" data-pg-collapsed>
-                <p class="font-bold font-sans py-2 text-center text-xl text-yellow_leave-600">
-                  {project.data.title}
+                <p class="font-bold font-sans py-4 text-center text-xl text-yellow_leave-600">
+                  {project.data.page_title}
                 </p>
               </div>
             </div>
