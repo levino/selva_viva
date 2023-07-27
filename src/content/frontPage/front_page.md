@@ -53,7 +53,7 @@ solution:
         Baum wird - wo unsere Arbeit gelingt, da gelingt das Wunder des Lebens in
         einer bezaubernden Fülle, die all den Aufwand wert ist. Und schließlich sind
         wir mit all dem ja nicht allein - oder? ;-)
-  button: Baumschule
+  button: Baumschule!
   button_2: Pflanze einen Baum!
   image: /src/assets/gran_tronco_1.19.1.jpg
   image_alt: manos plantando un árbol
