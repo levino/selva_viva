@@ -11,6 +11,7 @@ const frontPageSchema = defineCollection({
         title: z.string(),
         msg: z.string(),
         hero_bg_image: image(),
+        button: z.string(),
       }),
       situation: z.object({
         title: z.string(),
