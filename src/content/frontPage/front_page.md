@@ -21,7 +21,7 @@ situation:
   image_alt: árboles talados
   button: PROJEKTE
 problem:
-  title: "\"Wie kommt's? \""
+  title: "Wie kommt's? "
   paragraph: >-
     Das begehrteste Holz liefern Urwaldriesen und ähnliche große
         Baumarten. Diese sind viel mehr als nur CO2-Speicher. Sie sind
