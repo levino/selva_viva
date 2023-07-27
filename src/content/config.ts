@@ -1,6 +1,51 @@
 import { string } from "astro/zod";
 import { defineCollection, z } from "astro:content";
 
+const frontPageSchema = defineCollection({
+  type: "content",
+  schema: ({ image }) =>
+    z.object({
+      pageMetaTitle: z.string(),
+      hero: z.object({
+        greeting: z.string(),
+        title: z.string(),
+        msg: z.string(),
+        hero_bg_image: image(),
+      }),
+      situation: z.object({
+        title: z.string(),
+        paragraph: z.string(),
+        image: image(),
+        image_alt: z.string(),
+        button: z.string(),
+      }),
+      problem: z.object({
+        title: z.string(),
+        paragraph: z.string(),
+        image: image(),
+        image_alt: z.string(),
+        button: z.string(),
+      }),
+      solution: z.object({
+        title: z.string(),
+        paragraph: z.string(),
+        image: image(),
+        image_alt: z.string(),
+        button: z.string(),
+        button_2: z.string(),
+      }),
+      donors: z.object({
+        title: z.string(),
+        paragraph: z.string(),
+        image: image(),
+        image_alt: z.string(),
+        button: z.string(),
+        button_2: z.string(),
+        button_3: z.string(),
+      }),
+    }),
+});
+
 const plantATreeCollection = defineCollection({
   type: "content",
   schema: ({ image }) =>
@@ -98,4 +143,5 @@ export const collections = {
   trees: treesCollection,
   blog: blogCollection,
   plantATree: plantATreeCollection,
+  frontPage: frontPageSchema,
 };
