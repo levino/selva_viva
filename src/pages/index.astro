@@ -1,7 +1,7 @@
 ---
 import FrontPage from "../pageLayouts/FrontPage.astro";
-
-import * as deutschContent from "../non_collection_content/de/front_page.md";
+import { getCollection } from "astro:content";
+const [deutschContent] = await getCollection("frontPage");
 ---
 
 <FrontPage content={deutschContent} />
