@@ -3,8 +3,8 @@ name: Cedro
 other_names:
   - Westindische Zedrele
 galleryImages:
-  - /src/assets/trees/cedro2.jpg
-  - /src/assets/trees/cedro1.jpg
+  - /src/assets/cedro1.jpg
+  - /src/assets/cedro6.jpg
 scientific_name: cedrela odorata (Linné 1753
 scientific_synonyms:
   - asdfasdf

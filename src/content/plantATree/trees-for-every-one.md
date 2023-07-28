@@ -1,7 +1,7 @@
 ---
 title: trees for every one
 page_title: Bäume für alle
-bg_image: /src/assets/plant_a_tree/tropical_tree_3.jpg
+bg_image: /src/assets/dsc01028-copy.jpeg
 bg_alt: adsfdf
 subtitle: Aussöhnung zwischen Mensch und Baum
 excerpt: Hilf den Bewohner*inne*n des Darien ihr Leben mit dem Kreislauf der
@@ -27,9 +27,9 @@ what_you_get:
     - Foto der neuen Baumbesitzer
     - Berichte vom Viva-la-Selva-Projekt
   title: "Für 5€ bekommst du:"
-  image: /src/assets/plant_a_tree/tropical_tree_3.jpg
+  image: /src/assets/dsc01122-copy-3.jpeg
 button_text: spenden
 back_button_text: zuruck
-cover_image: /src/assets/plant_a_tree/tropical_tree_3.jpg
+cover_image: /src/assets/dsc01122-copy-4.jpeg
 cover_alt: arbol de mentiras
 ---

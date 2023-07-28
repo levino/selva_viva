@@ -1,12 +1,12 @@
 ---
-title: "vivero"
-page_title: vivero
-subtitle: "las semillas de un futuro mas verde"
+title: "Die Baumschule"
+page_title: Die Baumschule
+subtitle: "Das Herz von Viva la Selva."
 button_text: "pflanzen & schützen"
-excerpt: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil."
+excerpt: "ist das Herz von Selva Viva. Hier bekommen Samen und junge Triebe die Pflege und Aufmerksamkeit, die sie brauchen, um überlebensfähig zu werden."
 url: "/projects/plant-a-tree"
-cover_image: "../../assets/tropical_tree_3.jpg"
-cover_alt: "sisas"
+cover_image: "../../assets/dsc00904-copy-2.jpeg"
+cover_alt: "Baumschule"
 ---
 
 ## Die Baumschule...

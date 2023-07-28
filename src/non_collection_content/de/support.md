@@ -1,4 +1,4 @@
 ---
-title: "con tu apoyo podemos lograr un cambio real"
-subtitle: "conoce y apoya nuestros proyectos"
+title: "Hier schlägt deine Spende Wurzeln"
+subtitle: "Unterstütze unsere Projekte für eine grünere Zukunft."
 ---

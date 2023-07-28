@@ -1,7 +1,7 @@
 ---
 title: adopt a tree
 page_title: Werde Baumpate/in
-bg_image: /src/assets/plant_a_tree/tropical_forest_2.png
+bg_image: /src/assets/dsc01079-copy.jpeg
 bg_alt: adopt a tree
 subtitle: Schütze gefährdete Tropenbäume
 excerpt: Dein Baum wächst in einem neuen biodiversen Umfeld aus hier heimischen
@@ -27,9 +27,9 @@ what_you_get:
     - GPS-Daten vom Reservat der Aufforstung
     - mind. 20 Jahre Baum-Schutz
     - Berichte vom Viva-la-Selva-Projekt
-  image: /src/assets/plant_a_tree/tropical_forest.png
+  image: /src/assets/dsc01088-copy.jpeg
 button_text: spende
 back_button_text: ZURUCK ZU PROJEKTE
-cover_image: /src/assets/plant_a_tree/tropical_tree_3.jpg
+cover_image: /src/assets/dsc00964-copy.jpeg
 cover_alt: a tree photo
 ---
