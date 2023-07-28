@@ -18,8 +18,8 @@ export default defineConfig({
           branch: "main",
         },
         // Configure where our media assets are stored & served from
-        media_folder: "src/assets/",
-        public_folder: "/src/assets/",
+        media_folder: "public/assets",
+        public_folder: "/assets",
         // Configure the content collections
         collections: [
           pages_schemas,
