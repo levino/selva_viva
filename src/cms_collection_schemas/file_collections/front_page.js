@@ -33,7 +33,7 @@ export const frontPageSchema = {
       summary: "{{fields.name}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
-        { label: "Paragraph", name: "paragraph", widget: "text" },
+        { label: "Paragraph", name: "paragraph", widget: "markdown" },
         {
           label: "Image",
           name: "image",
@@ -53,7 +53,7 @@ export const frontPageSchema = {
       summary: "{{fields.name}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
-        { label: "Paragraph", name: "paragraph", widget: "text" },
+        { label: "Paragraph", name: "paragraph", widget: "markdown" },
         { label: "Image", name: "image", widget: "image", choose_url: true },
         { label: "Image Alt", name: "image_alt", widget: "string" },
         { label: "Button", name: "button", widget: "string" },
@@ -66,7 +66,7 @@ export const frontPageSchema = {
       summary: "{{fields.name}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
-        { label: "Paragraph", name: "paragraph", widget: "text" },
+        { label: "Paragraph", name: "paragraph", widget: "markdown" },
         { label: "Image", name: "image", widget: "image", choose_url: true },
         { label: "Image Alt", name: "image_alt", widget: "string" },
         { label: "Button", name: "button", widget: "string" },
@@ -80,7 +80,7 @@ export const frontPageSchema = {
       summary: "{{fields.name}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
-        { label: "Paragraph", name: "paragraph", widget: "text" },
+        { label: "Paragraph", name: "paragraph", widget: "markdown" },
         { label: "Image", name: "image", widget: "image", choose_url: true },
         { label: "Image Alt", name: "image_alt", widget: "string" },
         { label: "Button", name: "button", widget: "string" },
