@@ -18,7 +18,7 @@ const { blogCollection } = Astro.props;
           blogCollection.map((blog) => (
             <div class="p-4 w-full md:w-4/12 lg:w-4/12">
               <div class="bg-white flex flex-col shadow-lg">
-                <a href={`./blog/${blog.slug}`} class="block hover:opacity-75">
+                <a href={`./${blog.slug}`} class="block hover:opacity-75">
                   <Image
                     src={blog.data.cover_image}
                     alt={blog.data.cover_alt}
@@ -30,7 +30,7 @@ const { blogCollection } = Astro.props;
                 <div class="flex  justify-around flex-col p-4 text-left">
                   <div>
                     <a
-                      href={`blog/${blog.slug}`}
+                      href={`./${blog.slug}`}
                       class="block hover:text-blue-600 mb-2 text-gray-800"
                     />
                     <h4 class="font-semibold leading-tight mb-2 text-gray-600 text-xs">
@@ -40,7 +40,7 @@ const { blogCollection } = Astro.props;
                   </div>
                   <div class="self-end text-right">
                     <a
-                      href={`./blog/${blog.slug}`}
+                      href={`./${blog.slug}`}
                       class="bg-yellow_leave-500 font-light hover:bg-yellow_leave-500 inline-block px-2 py-1 rounded-sm text-right text-sm text-white uppercase"
                     >
                       LEER MAS...
