@@ -68,7 +68,12 @@ const { images } = Astro.props;
         <div class="numbertext text-white font-bold text-sm absolute top-0 p-5">
           {index + 1} / {images.length}
         </div>
-        <Image src={img} alt="tree Image" class="object-contain h-80 m-0" />
+        <Image
+          src={img}
+          alt="tree Image"
+          class="object-contain h-80 m-0"
+          width="500"
+        />
       </div>
     ))
   }
