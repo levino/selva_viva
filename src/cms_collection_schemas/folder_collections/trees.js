@@ -28,7 +28,6 @@ export const treesSchema = {
         label: "Image",
         name: "image",
         widget: "image",
-        media_folder: "/src/assets/trees/{{field.name}}",
       },
     },
     { label: "Scientific Name", name: "scientific_name", widget: "string" },

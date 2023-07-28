@@ -19,7 +19,6 @@ export const postsSchema = {
       name: "cover_image",
       widget: "image",
       label: "Cover Image",
-      media_folder: "/src/assets/blog/{{field.name}}",
     },
     {
       name: "cover_alt",

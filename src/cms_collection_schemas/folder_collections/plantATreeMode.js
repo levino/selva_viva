@@ -17,7 +17,6 @@ export const plantAtreeModesSchema = {
       name: "bg_image",
       widget: "image",
       label: "Bg Image",
-      media_folder: "/src/assets/plant_a_tree/{{field.name}}",
     },
     {
       name: "bg_alt",
