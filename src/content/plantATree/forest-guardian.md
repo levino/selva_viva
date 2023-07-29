@@ -1,7 +1,7 @@
 ---
 title: forest guardian
 page_title: Waldwächter
-bg_image: /src/assets/dsc01148-copy.jpeg
+bg_image: /src/assets/dsc01148-copy_smaller.jpeg
 bg_alt: Beschütze mit uns unseren Tropenwald.
 subtitle: Beschütze mit uns unseren Tropenwald.
 excerpt: Als Waldwächter unterstützt du den Erhalt unseres Reservats, mit bis zu
@@ -26,7 +26,7 @@ what_you_get:
     - Zertifikat als Waldwächter*in* mit Fotos vom Wald
     - GPS-Daten vom Reservat
     - Berichte vom Viva-la-Selva-Projekt
-  image: /src/assets/dsc01052-copy.jpeg
+  image: /src/assets/dsc01052-copy_smaller.jpeg
   title: "Für 1€ pro Quadratmeter bekommst du:"
 button_text: spenden
 back_button_text: zuruck
