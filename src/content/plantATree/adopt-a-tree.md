@@ -1,7 +1,7 @@
 ---
 title: adopt a tree
 page_title: Werde Baumpate/in
-bg_image: /src/assets/dsc01079-copy_smaller.jpeg
+bg_image: /src/assets/dsc01079-copy_2000px.jpeg
 bg_alt: adopt a tree
 subtitle: Schütze gefährdete Tropenbäume
 excerpt: Dein Baum wächst in einem neuen biodiversen Umfeld aus hier heimischen
