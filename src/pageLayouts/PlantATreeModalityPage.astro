@@ -2,16 +2,19 @@
 import Layout from "../layouts/Layout.astro";
 import { Image } from "astro:assets";
 import PageTitle from "../components/PageTitle.astro";
-import { image } from "astro:content";
 import { micromark } from "micromark";
+import { getImage } from "astro:assets";
 
 const { frontmatter } = Astro.props;
+
+const heroImageOptimized = await getImage({ src: frontmatter.bg_image });
+console.log(heroImageOptimized);
 ---
 
 <Layout title={frontmatter.title}>
   <section
     class="plant-a-tree-hero relative text-gray-500"
-    style={`background-image: url(${frontmatter.bg_image.src});`}
+    style={`background-image: url(${heroImageOptimized.src});`}
   >
     <div class="container mx-auto px-4 py-48">
       <div
@@ -86,9 +89,8 @@ const { frontmatter } = Astro.props;
   </div>
 </Layout>
 
-<style define:vars={{ bg_image: frontmatter.bg_image.src }}>
+<style>
   .plant-a-tree-hero {
-    background-image: url(bg_image);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
