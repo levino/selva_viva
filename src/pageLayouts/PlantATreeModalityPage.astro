@@ -8,7 +8,6 @@ import { getImage } from "astro:assets";
 const { frontmatter } = Astro.props;
 
 const heroImageOptimized = await getImage({ src: frontmatter.bg_image });
-console.log(heroImageOptimized);
 ---
 
 <Layout title={frontmatter.title}>
