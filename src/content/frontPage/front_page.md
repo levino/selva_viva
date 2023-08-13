@@ -2,8 +2,8 @@
 pageMetaTitle: Viva la Selva
 hero:
   greeting: willkommen bei
-  title: "Viva la Selva"
-  msg: Wir pflanzen Bäume für eine biodiverse Welt.
+  title: Viva la Selva
+  msg: Wir pflanzen Tropenwald - biodivers. Artenvielfalt für Artenschutz.
   button: spenden
   hero_bg_image: /src/assets/plant-a-tree.png
 situation:
