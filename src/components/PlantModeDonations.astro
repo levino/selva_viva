@@ -1,0 +1,38 @@
+---
+const { frontmatter } = Astro.props;
+import { Image } from "astro:assets";
+---
+
+<section class="container mx-auto px-20 py-10">
+  <div class="flex flex-wrap -mx-4 justify-center">
+    <div
+      class="flex flex-col items-center justify-center p-5 shadow-lg w-full md:w-1/2"
+    >
+      <h3 class="font-bold text-center text-xl text-yellow_leave-600">
+        {frontmatter.what_you_get.title}
+      </h3>
+      <ul class="font-bold list-disc p-5 text-green_dark-400">
+        {
+          frontmatter.what_you_get.list_items.map((item) => (
+            <li class="mb-2">{item}</li>
+          ))
+        }
+      </ul>
+      <div class="mb-5 text-center">
+        <a
+          href="#"
+          class="bg-yellow_leave-500 font-light hover:bg-yellow_leave-500 inline-block mt-5 px-5 py-2 rounded-sm text-white uppercase"
+          >{frontmatter.button_text}</a
+        >
+      </div>
+    </div>
+    <div class="px-4 w-full md:flex md:items-center md:w-1/2">
+      <Image
+        src={frontmatter.what_you_get.image}
+        alt="a tree"
+        width="700"
+        quality="mid"
+      />
+    </div>
+  </div>
+</section>
