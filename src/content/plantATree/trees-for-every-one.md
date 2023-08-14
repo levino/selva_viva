@@ -4,10 +4,10 @@ page_title: Bäume für alle
 bg_image: /src/assets/dsc01028-copy.jpeg
 bg_alt: adsfdf
 subtitle: Aussöhnung zwischen Mensch und Baum
-excerpt: Hilf den Bewohner*inne*n des Darien ihr Leben mit dem Kreislauf der
-  Bäume zu vereinen, indem sie neue anpflanzen, welche wieder Samen für die
-  nächsten bereithalten, CO2 speichern, Früchte und Schatten und am Ende neues
-  Bauholz spenden.
+excerpt: Hilf den Bewohnern/innen des Darien ihr Leben mit dem Kreislauf der
+  Bäume zu vereinen und neue Bäume anzupflanzen, welche Samen für die nächsten
+  bereithalten, CO2 binden, Früchte und Schatten und am Ende auch neues Bauholz
+  spenden - auch Holzhäuser bleiben CO2-Speicher.
 description_title: falta titulo
 description: >-
   Hilf den Bewohner\*inne\*n des Darien bei ihrer Aussöhnung mit ihren Bäumen.
