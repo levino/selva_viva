@@ -3,16 +3,11 @@ title: adopt a tree
 page_title: Werde Baumpate/in
 bg_image: /src/assets/dsc01079-copy_2000px.jpeg
 bg_alt: adopt a tree
-subtitle: gefährdete Tropenbäume brauchen dich !
-excerpt: >-
-  Viva la Selva pflanzt Bäume verschiedener bedrohter Arten, um das regionale
-  Ökosystem zu erhalten, und Klima und Böden zu schützen. Wir tun dies in einem
-  möglichst natürlichen und biodiversen Umfeld - nicht in Monokulturen. Für die
-  Pflege der Bäumchen benötigen wir finanzielle Unterstützung. Als Baumpate/in
-  übernimmst du diese Kosten und sicherst so die Aufzucht und den Schutz eines
-  oder mehrerer Bäumchen. 
-
-  Mit jedem überlebenden Baum einer bedrohten Art wächst die Chance, dass seine Spezies dem Ökosystem erhalten bleibt, und sie sich wieder in der Region ausbreiten kann. So kann deine Patenschaft eine bedrohte Spezies retten.
+subtitle: Schütze gefährdete Tropenbäume
+excerpt: Dein Baum wächst in einem neuen biodiversen Umfeld aus hier heimischen
+  Spezies, die Klima und Böden schützen. Er gehört zu einer der bedrohten
+  Spezies hier und hilft seiner Art und vielen anderen Lebewesen dieses
+  Ökosystem zu erhalten.
 description_title: Wie geht das?
 description: Dein Patenbäumchen gehört zu einer hier in der Region rar
   gewordenen Spezies, viele unserer Baumarten sind auch international gefährdet.

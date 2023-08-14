@@ -1,5 +1,5 @@
 ---
 page_title: Kontakt
-paragraph: Über diese Email-Adresse sind wir für dich erreichbar.
+paragraph: sdsdsd
 email: vivalaselvatropical@gmail.com
 ---
