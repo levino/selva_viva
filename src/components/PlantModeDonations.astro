@@ -1,38 +1,74 @@
 ---
 const { frontmatter } = Astro.props;
 import { Image } from "astro:assets";
+import { getImage } from "astro:assets";
+const optimizedBgImage = await getImage({
+  src: frontmatter.what_you_get.image,
+});
+import { Icon } from "astro-icon";
+import paypalLogo from "../icons/paypal.svg";
 ---
 
-<section class="container mx-auto px-20 py-10">
-  <div class="flex flex-wrap -mx-4 justify-center">
+<!-- new style -->
+<section
+  class="container mx-auto payment_section px-20 py-10"
+  style={`background-image: url(${optimizedBgImage.src});`}
+>
+  <div
+    class="-mx-4 bg-brown_dark-900 bg-opacity-40 flex flex-wrap rounded-3xl shadow-xl"
+    data-pg-collapsed
+  >
     <div
-      class="flex flex-col items-center justify-center p-5 shadow-lg w-full md:w-1/2"
+      class="bg-transparent flex flex-col items-center justify-center mb-5 md:w-1/2 w-full"
     >
-      <h3 class="font-bold text-center text-xl text-yellow_leave-600">
+      <h3
+        class="font-extrabold text-3xl text-left text-yellow_leave-500 tracking-wide"
+      >
         {frontmatter.what_you_get.title}
       </h3>
-      <ul class="font-bold list-disc p-5 text-green_dark-400">
+      <ul
+        class="font-all font-medium list-disc p-5 text-green_dark-50 text-xl tracking-wider"
+      >
         {
           frontmatter.what_you_get.list_items.map((item) => (
             <li class="mb-2">{item}</li>
           ))
         }
       </ul>
-      <div class="mb-5 text-center">
+      <div
+        class="bg-opacity-25 bg-white flex items-center justify-center mt-2 p-8 rounded-2xl"
+      >
         <a
-          href="#"
-          class="bg-yellow_leave-500 font-light hover:bg-yellow_leave-500 inline-block mt-5 px-5 py-2 rounded-sm text-white uppercase"
+          href="https://www.paypal.com/donate?campaign_id=6JZ74SAUCNF84"
+          class="bg-yellow_leave-500 font-light hover:bg-yellow_leave-500 inline-block px-5 py-2 rounded-sm self-center shadow-lg text-white uppercase"
           >{frontmatter.button_text}</a
         >
+        <p class="font-all mr-3 p-4 text-brown-50">hier auch mit Kreditkarte</p>
       </div>
     </div>
-    <div class="px-4 w-full md:flex md:items-center md:w-1/2">
-      <Image
-        src={frontmatter.what_you_get.image}
-        alt="a tree"
-        width="700"
-        quality="mid"
-      />
+    <div
+      class="flex flex-shrink items-center justify-center px-4 self-center w-full md:flex md:items-center md:w-1/2"
+    >
+      <div class="bg-white shadow-2xl shadow-green_dark-700">
+        <script src="https://donorbox.org/widget.js" paypalExpress="true"
+        ></script>
+        <iframe
+          src="https://donorbox.org/embed/werde-baumpate-in"
+          name="donorbox"
+          allowpaymentrequest="allowpaymentrequest"
+          seamless="seamless"
+          frameborder="0"
+          scrolling="no"
+          height="900px"
+          width="100%"
+          style="max-width: 500px; min-width: 250px; max-height:none!important"
+        ></iframe>
+        <div class="flex items-center justify-center">
+          <Icon name="paypal" class="h-20 w-24" />
+        </div>
+        <!-- PayPal Logo -->
+        <!-- PayPal Logo -->
+      </div>
     </div>
   </div>
 </section>
