@@ -6,7 +6,7 @@ bg_alt: adopt a tree
 subtitle: gefährdete Tropenbäume brauchen dich !
 excerpt: Selten gewordene Baumarten nachpflanzen und großziehen ist aufwändig -
   alleine schaffen wir das nicht. Also lass es uns gemeinsam tun.
-description_title: Wie geht das?
+description_title: WIE GEHT DAS?
 description: >-
   Dein Patenbäumchen gehört zu einer regional - oft auch international - selten
   gewordenen Spezies. Wir pflanzen es zusammen mit anderen heimischen Baumarten
