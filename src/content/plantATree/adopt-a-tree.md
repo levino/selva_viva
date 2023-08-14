@@ -6,15 +6,14 @@ bg_alt: adopt a tree
 subtitle: gefährdete Tropenbäume brauchen dich !
 excerpt: Selten gewordene Baumarten nachpflanzen und großziehen ist aufwändig -
   alleine schaffen wir das nicht. Also lass es uns gemeinsam tun.
-description_title: WIE GEHT DAS?
+description_title: Wie geht das?
 description: >-
   Dein Patenbäumchen gehört zu einer regional - oft auch international - selten
   gewordenen Spezies. Wir pflanzen es zusammen mit anderen heimischen Baumarten
   in ein biodiverses Ökosystem, welches vielen Tieren und Pflanzen ein Zuhause
-  bietet. Dabei wird nicht nur mehr Kohlenstoff gespeichert als bei Pflanzungen
-  in Monokulturen, die Artenvielfalt verbessert auch die Lebensbedingungen der
-  jungen Bäume (Schatten, Luftfeuchte, Bodenqualität, Schädlingsresistenz
-  etc.). 
+  bietet. So wird nicht nur effizienter Kohlenstoff gespeichert als bei
+  Pflanzungen in Monokulturen, sondern die Bäume bekommen auch bessere
+  Lebensbedingungen (Bodenqualität, Schädlingsresistenz etc.). 
 
 
   Sollte dein Bäumchen dennoch nicht anwachsen, wird es von uns selbstverständlich nachgepflanzt. Wir schützen diese Bäume mindestens 20 Jahre lang. 
