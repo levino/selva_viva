@@ -34,7 +34,7 @@ const heroImageOptimized = await getImage({ src: frontmatter.bg_image });
             {frontmatter.excerpt}
           </p>
           <a
-            href="#"
+            href={frontmatter.button_link}
             class="bg-yellow_leave-500 font-light hover:bg-yellow_leave-500 inline-block px-5 py-2 rounded-sm text-white uppercase"
             >{frontmatter.button_text}</a
           >
@@ -68,7 +68,7 @@ const heroImageOptimized = await getImage({ src: frontmatter.bg_image });
         </ul>
         <div class="mb-5 text-center">
           <a
-            href="#"
+            href={frontmatter.button_link}
             class="bg-yellow_leave-500 font-light hover:bg-yellow_leave-500 inline-block mt-5 px-5 py-2 rounded-sm text-white uppercase"
             >{frontmatter.button_text}</a
           >

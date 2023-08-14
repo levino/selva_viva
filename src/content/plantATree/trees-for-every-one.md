@@ -29,6 +29,7 @@ what_you_get:
   title: "Für 5€ bekommst du:"
   image: /src/assets/dsc01122-copy-3.jpeg
 button_text: spenden
+button_link: viva.or
 back_button_text: zuruck
 cover_image: /src/assets/dsc01122-copy-4.jpeg
 cover_alt: arbol de mentiras

@@ -29,6 +29,7 @@ what_you_get:
     - Berichte vom Viva-la-Selva-Projekt
   image: /src/assets/dsc01088-copy_smaller.jpeg
 button_text: spende
+button_link: https://www.paypal.com/donate/?hosted_button_id=TEG7KV6QBZ9DQ
 back_button_text: ZURUCK ZU PROJEKTE
 cover_image: /src/assets/dsc00964-copy.jpeg
 cover_alt: a tree photo

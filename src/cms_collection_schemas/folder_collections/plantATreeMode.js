@@ -65,6 +65,11 @@ export const plantAtreeModesSchema = {
       label: "Button Text",
     },
     {
+      name: "button_link",
+      widget: "string",
+      label: "Button Link",
+    },
+    {
       name: "back_button_text",
       widget: "string",
       label: "Back Button Text",

@@ -65,6 +65,7 @@ const plantATreeCollection = defineCollection({
         image: image(),
       }),
       button_text: z.string(),
+      button_link: z.string(),
       back_button_text: z.string(),
       cover_image: image(),
       cover_alt: z.string(),
