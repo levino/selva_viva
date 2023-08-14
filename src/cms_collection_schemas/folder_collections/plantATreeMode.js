@@ -30,7 +30,7 @@ export const plantAtreeModesSchema = {
     },
     {
       name: "excerpt",
-      widget: "markdown",
+      widget: "text",
       label: "Excerpt",
     },
     { name: "description_title", widget: "string", label: "Description Title" },
