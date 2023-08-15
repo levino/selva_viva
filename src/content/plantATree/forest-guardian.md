@@ -1,6 +1,6 @@
 ---
 title: forest guardian
-page_title: Waldwächter/in
+page_title: Werde Waldwächter/in
 bg_image: /src/assets/dsc01148-copy_smaller.jpeg
 bg_alt: Beschütze mit uns unseren Tropenwald.
 subtitle: Beschütze mit uns unseren Tropenwald.
