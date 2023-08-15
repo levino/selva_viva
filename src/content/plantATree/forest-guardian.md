@@ -33,7 +33,7 @@ what_you_get:
   image: /src/assets/dsc01052-copy_smaller.jpeg
   title: "Für deine Spende bekommst du:"
 button_text: spenden
-button_link: vivalaselva.org
+button_link: https://www.paypal.com/donate/?hosted_button_id=8NWZPUPURM7MY
 back_button_text: zuruck
 cover_image: /src/assets/dsc01052-copy2.jpeg
 cover_alt: photo
