@@ -4,18 +4,18 @@ import SupportCard from "../components/SupportCard.astro";
 import PageTitle from "../components/PageTitle.astro";
 import SupportHero from "../components/SupportHero.astro";
 
-const { projects, indexContent } = Astro.props;
+const { projects, indexContent, supportPageData } = Astro.props;
 ---
 
 <Layout title="selva viva projects page">
-  <SupportHero />
+  <SupportHero supportPageData={supportPageData} />
   <h4
     class="font-bold font-sans text-2xl text-center text-yellow_leave-600 mt-20"
   >
-    HIER SCHLÄGT DEINE SPENDE WURZELN
+    {supportPageData.data.projects_section_title}
   </h4>
   <p class="text-brown-600 text-center font-all tracking-wider text-lg mt-2">
-    {indexContent.frontmatter.subtitle}
+    {supportPageData.data.projects_section_subtitle}
   </p>
   <SupportCard projects={projects} />
   <div class="mb-10 text-center">
