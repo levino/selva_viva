@@ -2,14 +2,27 @@
 import Layout from "../layouts/Layout.astro";
 import SupportCard from "../components/SupportCard.astro";
 import PageTitle from "../components/PageTitle.astro";
+import SupportHero from "../components/SupportHero.astro";
 
 const { projects, indexContent } = Astro.props;
 ---
 
 <Layout title="selva viva projects page">
-  <PageTitle>{indexContent.frontmatter.title}</PageTitle>
-  <p class="text-gray-900 text-center font-bold text-lg">
+  <SupportHero />
+  <h4
+    class="font-bold font-sans text-2xl text-center text-yellow_leave-600 mt-20"
+  >
+    HIER SCHLÄGT DEINE SPENDE WURZELN
+  </h4>
+  <p class="text-brown-600 text-center font-all tracking-wider text-lg mt-2">
     {indexContent.frontmatter.subtitle}
   </p>
   <SupportCard projects={projects} />
+  <div class="mb-10 text-center">
+    <a
+      href="/projects"
+      class="bg-yellow_leave-500 font-light hover:bg-yellow_leave-500 inline-block mt-5 px-5 py-2 rounded-sm shadow-lg text-white uppercase"
+      >zUruck zu projekte</a
+    >
+  </div>
 </Layout>
