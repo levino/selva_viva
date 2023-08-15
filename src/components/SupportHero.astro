@@ -1,3 +1,7 @@
+---
+const { supportPageData } = Astro.props;
+---
+
 <div class="container mt-9 mx-auto px-4">
   <div class="flex flex-wrap -mx-4">
     <div
@@ -7,28 +11,27 @@
       <h1
         class="font-bold font-sans mb-0 text-3xl text-center text-yellow_leave-600 md:text-right"
       >
-        HIER SCHLÄGT DEINE SPENDE WURZELN
+        {supportPageData.data.title}
       </h1>
       <p
         class="font-all mb-3 text-brown-600 text-center text-lg tracking-wider md:text-right"
       >
-        Unterstütze unsere Projekte für eine grünere Zukunft.
+        {supportPageData.data.subtitle}
       </p>
       <p
         class="font-all text-brown_dark-900 text-center text-xl tracking-wider md:text-right"
       >
-        Reforestation is one of the best ways to restore ecosystems that have
-        been degraded and deforested. Plant trees to support restoration work in
-        the locations where it is needed most. Learn more
+        {supportPageData.data.excerpt}
       </p>
       <div class="w-11/12">
         <ul
           class="flex flex-wrap font-all font-normal gap-2 justify-center mt-5 pb-3 text-brown_dark-900 tracking-wide md:block md:text-right"
         >
-          <li>collect seeds</li>
-          <li>protect our forest</li>
-          <li>plant trees</li>
-          <li>gift to the people</li>
+          {
+            supportPageData.data.list_how_we_use_money.map((item) => (
+              <li>{item}</li>
+            ))
+          }
         </ul>
       </div>
     </div>
