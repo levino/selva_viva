@@ -140,10 +140,25 @@ const treesCollection = defineCollection({
     }),
 });
 
+const supportPageSchema = defineCollection({
+  type: "content",
+  schema: ({ image }) =>
+    z.object({
+      page_meta_title: z.string(),
+      title: z.string(),
+      subtitle: z.string(),
+      excerpt: z.string(),
+      list_how_we_use_money: z.array(z.string()),
+      projects_section_title: z.string(),
+      projects_section_subtitle: z.string(),
+    }),
+});
+
 export const collections = {
   projects: projectsCollection,
   trees: treesCollection,
   blog: blogCollection,
   plantATree: plantATreeCollection,
   frontPage: frontPageSchema,
+  supportPage: supportPageSchema,
 };
