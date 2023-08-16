@@ -1,0 +1,17 @@
+---
+import PlantATreeModalityPage from "../../pageLayouts/PlantATreeModalityPage.astro";
+import { getCollection } from "astro:content";
+// 1. Generate a new path for every collection entry
+export async function getStaticPaths() {
+  const treeEntries = await getCollection("plantATree");
+
+  return treeEntries.map((entry) => ({
+    params: { mode: entry.slug },
+    props: { entry },
+  }));
+}
+// 2. When it's time to render, you can get the entry directly from the prop
+const { entry } = Astro.props;
+---
+
+<PlantATreeModalityPage frontmatter={entry.data} />
