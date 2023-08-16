@@ -14,10 +14,10 @@ const lang = getLangFromUrl(Astro.url);
       projects.map((project) => (
         <div class="mb-4 gap-2 px-4 relative w-full md:w-1/2 xl:w-1/4">
           <a
-            href={`${pickLangPath(lang)}projects/${
+            href={`${pickLangPath(lang)}${
               project.slug === "tree-nursery"
-                ? project.slug
-                : "plant-a-tree/" + project.slug
+                ? "projects/" + project.slug
+                : "plant-and-protect/" + project.slug
             }`}
             class="block"
           >
