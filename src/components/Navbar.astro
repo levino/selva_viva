@@ -72,6 +72,25 @@ const t = useTranslations(lang);
             </li>
           </ul>
         </div>
+        <div class="dropdown-group lg:flex items-start lg:relative">
+          <a
+            href={`${pickLangPath(lang)}plant-and-protect`}
+            class="font-all font-medium hover:text-yellow_leave-400 px-0 py-2 uppercase z-50 lg:px-4"
+            >{t("nav.plantAndProtect")}</a
+          >
+          <ul
+            class="dropdown-menu h-min lg:ml-4 pt-2 lg:pt-14 w-max lg:absolute lg:bg-green-400 lg:hidden lg:z-30"
+          >
+            <li class="font-all font-medium pb-4 px-4"></li>
+            <li class="font-all font-medium pb-4 px-4">
+              <a
+                href={`${pickLangPath(lang)}projects/plant-a-tree`}
+                class="hover:text-yellow_leave-600"
+                >{t("nav.projects.plant-a-tree")}</a
+              >
+            </li>
+          </ul>
+        </div>
         <!-- <a
           href={`${pickLangPath(lang)}trees`}
           class="font-all font-medium hover:text-yellow_leave-400 px-0 py-2 uppercase lg:px-4 lg:z-50"
