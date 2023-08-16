@@ -1,0 +1,14 @@
+---
+import { getCollection } from "astro:content";
+import * as pageContent from "../../content/_projects_index.md";
+import PlantAndProtectPage from "../../pageLayouts/PlantAndProtectPage.astro";
+const plantATreeProjects = await getCollection("plantATree");
+
+const allProjects = await getCollection("projects");
+---
+
+<PlantAndProtectPage
+  projects={allProjects}
+  frontmatter={pageContent.frontmatter}
+  plantATreeProjects={plantATreeProjects}
+/>
