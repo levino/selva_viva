@@ -78,7 +78,7 @@ solution:
 
     wir mit all dem ja nicht allein - oder? ;-)
   button: Baumschule
-  button_2: Pflanze einen Baum
+  button_2: Planze Und Schutze
   image: /src/assets/dsc01007-copy.jpeg
   image_alt: manos plantando un árbol
 donors:
@@ -90,6 +90,6 @@ donors:
   image: /src/assets/dsc01052-copy.jpeg
   image_alt: manos sembrando
   button: " Baumschule"
-  button_2: Pflanze einen Baum
+  button_2: Planze Und Schutze
   button_3: Spenden
 ---
