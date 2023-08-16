@@ -63,13 +63,6 @@ const t = useTranslations(lang);
                 >{t("nav.projects.tree-nursery")}</a
               >
             </li>
-            <li class="font-all font-medium pb-4 px-4">
-              <a
-                href={`${pickLangPath(lang)}projects/plant-a-tree`}
-                class="hover:text-yellow_leave-600"
-                >{t("nav.projects.plant-a-tree")}</a
-              >
-            </li>
           </ul>
         </div>
         <div class="dropdown-group lg:flex items-start lg:relative">
@@ -81,12 +74,18 @@ const t = useTranslations(lang);
           <ul
             class="dropdown-menu h-min lg:ml-4 pt-2 lg:pt-14 w-max lg:absolute lg:bg-green-400 lg:hidden lg:z-30"
           >
-            <li class="font-all font-medium pb-4 px-4"></li>
             <li class="font-all font-medium pb-4 px-4">
               <a
-                href={`${pickLangPath(lang)}projects/plant-a-tree`}
+                href={`${pickLangPath(lang)}plant-and-protect/adopt-a-tree`}
                 class="hover:text-yellow_leave-600"
-                >{t("nav.projects.plant-a-tree")}</a
+                >{t("nav.plantAndProtect.adoptATree")}</a
+              >
+            </li>
+            <li class="font-all font-medium pb-4 px-4">
+              <a
+                href={`${pickLangPath(lang)}plant-and-protect/forest-guardian`}
+                class="hover:text-yellow_leave-600"
+                >{t("nav.plantAndProtect.forestGuardian")}</a
               >
             </li>
           </ul>
