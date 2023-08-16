@@ -1,0 +1,18 @@
+---
+import Layout from "../layouts/Layout.astro";
+import PageTitle from "../components/PageTitle.astro";
+import PlantATreeCard from "../components/PlantATreeCard.astro";
+
+const { frontmatter, plantATreeProjects } = Astro.props;
+---
+
+<Layout title={frontmatter.title}>
+  <PageTitle>{frontmatter.title}</PageTitle>
+  <p class="text-gray-900 text-center font-bold text-2xl">
+    {frontmatter.subtitle}
+  </p>
+
+  <div class="mx-auto mt-9">
+    <PlantATreeCard plantATreeProjects={plantATreeProjects} />
+  </div>
+</Layout>
