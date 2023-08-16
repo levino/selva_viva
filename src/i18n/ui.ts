@@ -10,6 +10,7 @@ export const ui = {
   de: {
     "nav.home": "Willkomen",
     "nav.projects": "Projekte",
+    "nav.plantAndProtect": "Planz und schutz",
     "nav.projects.tree-nursery": "Baumschule",
     "nav.projects.plant-a-tree": "Pflanz' einen Baum!",
     "nav.projects.mucuna": "Mucuna",
@@ -23,6 +24,7 @@ export const ui = {
   es: {
     "nav.home": "Inicio",
     "nav.projects": "Proyectos",
+    "nav.plantAndProtect": "Planz und schutz",
     "nav.projects.tree-nursery": "Vivero",
     "nav.projects.plant-a-tree": "Planta un árbol",
     "nav.projects.mucuna": "Mucuna",
@@ -36,5 +38,6 @@ export const ui = {
   en: {
     "nav.home": "home",
     "nav.projects": "Projects",
+    "nav.plantAndProtect": "Planz und schutz",
   },
 } as const;
