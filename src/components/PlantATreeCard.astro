@@ -24,13 +24,10 @@ const lang = getLangFromUrl(Astro.url);
             />
 
             <div class="absolute group h-full left-0 px-4 text-white top-0 w-full">
-              <div
-                class="flex flex-col group-hover:visible h-full hover:bg-green-500 hover:bg-opacity-50 hover:cursor-pointer invisible items-center lg:justify-start xl:justify-center justify-center md:justify-start left-0 px-4 sm:p-2 lg:p-6 top-0 w-full"
-                data-pg-collapsed
-              >
+              <div class="flex flex-col group-hover:visible h-full hover:bg-green-500 hover:bg-opacity-50 hover:cursor-pointer invisible items-center lg:justify-start xl:justify-center justify-center md:justify-start left-0 px-4 sm:p-2 lg:p-6 top-0 w-full">
                 <ul class="list-disc font-bold p-5 md:p-2">
                   {project.data.what_you_get.list_items.map((item) => (
-                    <li class="md:text-sm">{item}</li>
+                    <li class="text-sm">{item}</li>
                   ))}
                 </ul>
               </div>
