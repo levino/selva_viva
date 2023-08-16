@@ -3,29 +3,31 @@ import { Image } from "astro:assets";
 const { cardContent } = Astro.props;
 ---
 
-<div class="md:w-1/2 px-4 w-full xl:w-1/4">
-  <div class="overflow-hidden p-4 rounded shadow-lg">
-    <Image
-      src={cardContent.data.cover_image}
-      alt={cardContent.data.cover_alt}
-      class="w-full"
-      width="300"
-    />
-    <div class="px-6 py-4">
-      <div class="font-bold text-xl mb-2">
-        {cardContent.data.title}
+<a href={`/projects/${cardContent.slug}`}>
+  <div class="md:w-1/2 px-4 w-full xl:w-1/4">
+    <div class="overflow-hidden p-4 rounded shadow-lg">
+      <Image
+        src={cardContent.data.cover_image}
+        alt={cardContent.data.cover_alt}
+        class="w-full"
+        width="300"
+      />
+      <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">
+          {cardContent.data.title}
+        </div>
+        <p class="text-gray-700 text-base">
+          {cardContent.data.excerpt}{" "}
+        </p>
       </div>
-      <p class="text-gray-700 text-base">
-        {cardContent.data.excerpt}{" "}
-      </p>
-    </div>
-    <div class="px-6 pt-4 pb-2 text-right">
-      <a
-        href={`/projects/${cardContent.slug}`}
-        class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
-      >
-        {cardContent.data.button_text}
-      </a>
+      <div class="px-6 pt-4 pb-2 text-right">
+        <a
+          href={`/projects/${cardContent.slug}`}
+          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+        >
+          {cardContent.data.button_text}
+        </a>
+      </div>
     </div>
   </div>
-</div>
+</a>
