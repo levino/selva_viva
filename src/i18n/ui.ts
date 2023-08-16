@@ -10,7 +10,7 @@ export const ui = {
   de: {
     "nav.home": "Willkomen",
     "nav.projects": "Projekte",
-    "nav.plantAndProtect": "Planz und schutz",
+    "nav.plantAndProtect": "Pflanze und Schütze",
     "nav.plantAndProtect.adoptATree": "Werde Baumpate/in",
     "nav.plantAndProtect.forestGuardian": "Werde Waldwächter/in",
     "nav.projects.tree-nursery": "Baumschule",
