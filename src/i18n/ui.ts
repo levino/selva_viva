@@ -8,7 +8,7 @@ export const defaultLang = "de";
 
 export const ui = {
   de: {
-    "nav.home": "Willkomen",
+    "nav.home": "Willkommen",
     "nav.projects": "Projekte",
     "nav.plantAndProtect": "Pflanze und Schütze",
     "nav.plantAndProtect.adoptATree": "Werde Baumpate/in",
