@@ -23,6 +23,7 @@ export const aboutUsPageSchema = {
       name: "excerpt",
       widget: "text",
     },
+    { label: "Hero Image", name: "hero_image", widget: "image" },
     {
       label: "Hero Button",
       name: "hero_button",
@@ -48,18 +49,18 @@ export const aboutUsPageSchema = {
       widget: "object",
       fields: [
         {
-          name: "Title",
-          label: "title",
+          label: "Title",
+          name: "title",
           widget: "string",
         },
         {
-          name: "Subtitle",
-          label: "subtitle",
+          label: "Subtitle",
+          name: "subtitle",
           widget: "string",
         },
         {
-          name: "Description",
-          label: "description",
+          label: "Description",
+          name: "description",
           widget: "markdown",
         },
         {
@@ -81,18 +82,18 @@ export const aboutUsPageSchema = {
       widget: "object",
       fields: [
         {
-          name: "Title",
-          label: "title",
+          label: "Title",
+          name: "title",
           widget: "string",
         },
         {
-          name: "Subtitle",
-          label: "subtitle",
+          label: "Subtitle",
+          name: "subtitle",
           widget: "string",
         },
         {
-          name: "Description",
-          label: "description",
+          label: "Description",
+          name: "description",
           widget: "markdown",
         },
         {
@@ -107,7 +108,7 @@ export const aboutUsPageSchema = {
         },
       ],
     },
-    { name: "button", name: "button", widget: "string" },
+    { label: "Button", name: "button", widget: "string" },
     { label: "Button Link", name: "button_link", widget: "string" },
   ],
 };

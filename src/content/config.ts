@@ -162,6 +162,7 @@ const aboutUsPageSchema = defineCollection({
       title: z.string(),
       subtitle: z.string(),
       excerpt: z.string(),
+      hero_image: image(),
       hero_button: z.object({
         hero_button_text: z.string(),
         hero_button_link: z.string(),
@@ -192,4 +193,5 @@ export const collections = {
   plantATree: plantATreeCollection,
   frontPage: frontPageSchema,
   supportPage: supportPageSchema,
+  aboutUsPage: aboutUsPageSchema,
 };
