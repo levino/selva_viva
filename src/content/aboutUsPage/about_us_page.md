@@ -4,7 +4,7 @@ title: VIVA LA SELVA
 subtitle: Wir pflanzen Wald - biodivers.
 excerpt: Unsere Hände pflanzen und pflegen die Bäume und Wälder, die du als Pate
   adoptierst und beschützt.
-hero_image: /src/assets/dsc01083-copy.jpeg
+hero_image: /src/assets/dsc01083-copy_smaller.jpeg
 hero_button:
   hero_button_text: adoptieren & beschützen
   hero_button_link: plant-and-protect
@@ -13,7 +13,7 @@ vision:
   subtitle: GEMEINSAM FÜR MEHR BIODIVERSITÄT
   description: Wir bieten allen Menschen eine einfache Möglichkeit bedrohte
     Baumarten und Wälder voll Artenvielfalt zu pflanzen und zu beschützen.
-  image: /src/assets/dsc00904-copy.jpeg
+  image: /src/assets/dsc00904-copy_small.jpeg
   image_alt: Baumschule
 how_all_started:
   title: WIE ALLES BEGANN
