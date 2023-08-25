@@ -154,6 +154,37 @@ const supportPageSchema = defineCollection({
     }),
 });
 
+const aboutUsPageSchema = defineCollection({
+  type: "content",
+  schema: ({ image }) =>
+    z.object({
+      page_meta_title: z.string(),
+      title: z.string(),
+      subtitle: z.string(),
+      excerpt: z.string(),
+      hero_button: z.object({
+        hero_button_text: z.string(),
+        hero_button_link: z.string(),
+      }),
+      vision: z.object({
+        title: z.string(),
+        subtitle: z.string(),
+        description: z.string(),
+        image: image(),
+        image_alt: z.string(),
+      }),
+      how_all_started: z.object({
+        title: z.string(),
+        subtitle: z.string(),
+        description: z.string(),
+        image: image(),
+        image_alt: z.string(),
+      }),
+      button: z.string(),
+      button_link: z.string(),
+    }),
+});
+
 export const collections = {
   projects: projectsCollection,
   trees: treesCollection,
