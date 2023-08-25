@@ -1,7 +1,0 @@
----
-import AboutUsPage from "../pageLayouts/AboutUsPage.astro";
-import { getCollection } from "astro:content";
-const [pageContent] = await getCollection("aboutUsPage");
----
-
-<AboutUsPage content={pageContent} />
