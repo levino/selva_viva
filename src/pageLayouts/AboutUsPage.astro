@@ -6,7 +6,6 @@ import { Image } from "astro:assets";
 const {
   content: { data },
 } = Astro.props;
-console.log(data);
 
 const heroImage = await getImage({ src: data.hero_image });
 ---
