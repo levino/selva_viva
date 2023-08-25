@@ -101,6 +101,11 @@ const t = useTranslations(lang);
           >{t("nav.blog")}</a
         >
         <a
+          href={`${pickLangPath(lang)}about`}
+          class="font-all font-medium hover:text-yellow_leave-400 px-0 py-2 uppercase lg:px-4 lg:z-50"
+          >{t("nav.about")}</a
+        >
+        <a
           href={`${pickLangPath(lang)}contact`}
           class="font-all font-medium hover:text-yellow_leave-400 px-0 py-2 uppercase lg:px-4 lg:z-50"
           >{t("nav.contact")}</a
