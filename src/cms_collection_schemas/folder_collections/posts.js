@@ -34,7 +34,7 @@ export const postsSchema = {
       name: "excerpt",
       widget: "text",
       label: "Excerpt",
-      required: false,
+      
     },
     { name: "body", widget: "markdown", label: "Post Body" },
   ],
