@@ -1,0 +1,23 @@
+---
+const { content } = Astro.props;
+import { Image } from "astro:assets";
+---
+
+<div class="relative">
+  <Image
+    src={content.image}
+    alt={content.image_alt}
+    width="700"
+    quality="mid"
+    class="w-full"
+  />
+  <div class="absolute bottom-2 right-4">
+    <span class="text-white"
+      ><p
+        class="drop-shadow-lg bg-slate-900 px-2 bg-opacity-70 font-all font-light italic text-right text-sm tracking-wide md:text-base"
+      >
+        {content.image_alt}
+      </p></span
+    >
+  </div>
+</div>
