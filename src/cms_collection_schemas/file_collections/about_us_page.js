@@ -24,6 +24,7 @@ export const aboutUsPageSchema = {
       widget: "text",
     },
     { label: "Hero Image", name: "hero_image", widget: "image" },
+    { label: "Hero Alt", name: "hero_alt", widget: "string" },
     {
       label: "Hero Button",
       name: "hero_button",
