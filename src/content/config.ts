@@ -63,6 +63,7 @@ const plantATreeCollection = defineCollection({
         title: z.string(),
         list_items: z.array(z.string()),
         image: image(),
+        image_alt: z.string(),
       }),
       button_text: z.string(),
       button_link: z.string(),
@@ -163,6 +164,7 @@ const aboutUsPageSchema = defineCollection({
       subtitle: z.string(),
       excerpt: z.string(),
       hero_image: image(),
+      hero_alt: z.string(),
       hero_button: z.object({
         hero_button_text: z.string(),
         hero_button_link: z.string(),
