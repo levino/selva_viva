@@ -32,6 +32,7 @@ what_you_get:
     - Neuigkeiten vom Viva-la-Selva-Projekt (etwa einmal im Monat)
   image: /src/assets/dsc01052-copy_smaller.jpeg
   title: "Für deine Spende bekommst du:"
+  image_alt: gigante de la reserva
 button_text: spenden
 button_link: https://www.paypal.com/donate/?hosted_button_id=8NWZPUPURM7MY
 back_button_text: zuruck
