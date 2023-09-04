@@ -53,9 +53,14 @@ export const plantAtreeModesSchema = {
           field: { label: "Item", name: "item", widget: "string" },
         },
         {
-          name: "image",
           label: "Image",
+          name: "image",
           widget: "image",
+        },
+        {
+          label: "Image Alt",
+          name: "image_alt",
+          widget: "string",
         },
       ],
     },
