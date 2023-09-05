@@ -3,6 +3,15 @@ import Layout from "../layouts/Layout.astro";
 import { Image } from "astro:assets";
 
 const { blogCollection } = Astro.props;
+
+const sortedBlogCollection = blogCollection
+  .map((post) => {
+    return {
+      ...post,
+      data: { ...post.data, publish_date: new Date(post.data.publish_date) },
+    };
+  })
+  .sort((a, b) => b.data.publish_date - a.data.publish_date);
 ---
 
 <Layout title="Blog">
@@ -15,7 +24,7 @@ const { blogCollection } = Astro.props;
     <div class="container mx-auto relative w-10/12">
       <div class="flex flex-wrap -mx-4">
         {
-          blogCollection.map((blog) => (
+          sortedBlogCollection.map((blog) => (
             <div class="p-4 w-full md:w-4/12 lg:w-3/12">
               <div class="bg-white flex flex-col shadow-lg">
                 <a href={`/blog/${blog.slug}`} class="block hover:opacity-75">
