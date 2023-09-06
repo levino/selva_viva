@@ -33,12 +33,12 @@ what_you_get:
     - Neuigkeiten vom Viva-la-Selva-Projekt (etwa einmal im Monat)
   image: /src/assets/dsc01052-copy_smaller.jpeg
   title: "Für deine Spende bekommst du:"
-  image_alt: ein knapp 40 Jahre alter Higuerón in unserem Reservat, einer der
-    ersten aufstrebenden Riesen in jungen Wäldern
+  image_alt: ein Caracolí in unserem Reservat, einer der ersten aufstrebenden
+    Riesen in jungen Wäldern
 button_text: spenden
 button_link: https://www.paypal.com/donate/?hosted_button_id=8NWZPUPURM7MY
-back_button_text: zuruck
+back_button_text: zurück
 cover_image: /src/assets/dsc01052-copy2.jpeg
-cover_alt: ein knapp 40 Jahre alter Higuerón in unserem Reservat, einer der
-  ersten aufstrebenden Riesen in jungen Wäldern
+cover_alt: ein Caracolí in unserem Reservat, einer der ersten aufstrebenden
+  Riesen in jungen Wäldern
 ---

@@ -2,7 +2,7 @@
 title: adopt a tree
 page_title: Werde Baumpate/in
 bg_image: /src/assets/dsc01079-copy_2000px.jpeg
-bg_alt: Zwei knapp 40 Jahre alte Higuerón-Bäume im Reservat von Viva la Selva
+bg_alt: Zwei Higuerón-Bäume im Reservat von Viva la Selva
 subtitle: gefährdete Tropenbäume brauchen dich !
 excerpt: Selten gewordene Baumarten nachpflanzen und großziehen ist aufwändig -
   alleine schaffen wir das nicht. Also lass es uns gemeinsam tun.
@@ -33,5 +33,5 @@ button_text: spende
 button_link: https://www.paypal.com/donate/?hosted_button_id=TEG7KV6QBZ9DQ
 back_button_text: ZURUCK ZU PROJEKTE
 cover_image: /src/assets/dsc00964-copy.jpeg
-cover_alt: a tree photo
+cover_alt: Sämling in unserer Baumschule
 ---
