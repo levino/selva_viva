@@ -2,7 +2,8 @@
 title: forest guardian
 page_title: Werde Waldwächter/in
 bg_image: /src/assets/dsc01148-copy_smaller.jpeg
-bg_alt: Beschütze mit uns unseren Tropenwald.
+bg_alt: Der "Memeto" in unserem Reservat. Während der Trockenzeit führt er nur
+  hier noch Wasser, in den Weiden trocknet er aus.
 subtitle: Beschütze mit uns unseren Tropenwald.
 excerpt: Als Waldwächter unterstützt du den Erhalt unseres Reservats, mit bis zu
   40 Jahre alten Bäumen. Es ist das einzige Waldstück im Umkreis von mehreren
@@ -32,10 +33,12 @@ what_you_get:
     - Neuigkeiten vom Viva-la-Selva-Projekt (etwa einmal im Monat)
   image: /src/assets/dsc01052-copy_smaller.jpeg
   title: "Für deine Spende bekommst du:"
-  image_alt: gigante de la reserva
+  image_alt: ein knapp 40 Jahre alter Higuerón in unserem Reservat, einer der
+    ersten aufstrebenden Riesen in jungen Wäldern
 button_text: spenden
 button_link: https://www.paypal.com/donate/?hosted_button_id=8NWZPUPURM7MY
 back_button_text: zuruck
 cover_image: /src/assets/dsc01052-copy2.jpeg
-cover_alt: photo
+cover_alt: ein knapp 40 Jahre alter Higuerón in unserem Reservat, einer der
+  ersten aufstrebenden Riesen in jungen Wäldern
 ---

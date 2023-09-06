@@ -14,7 +14,7 @@ situation:
     Baumarten sind auch in dieser Region so selten geworden, dass die Suche nach
     ihren Samen immer schwieriger wird. Das Ökosystem beginnt sich zu zersetzen.
   image: /src/assets/balsamos-cortados_1.17.1.jpg
-  image_alt: árboles talados
+  image_alt: Reste gefällter Bäume im Regenwald des Darien
   button: PROJEKTE
 problem:
   title: Durch Rodungen aus dem Gleichgewicht
@@ -27,7 +27,7 @@ problem:
     neue Triebe und den Erhalt der Arten - aller Arten. Fehlende Bäume
     bedeuten auch Futtermangel für Bienenschwärme und andere Wildtiere.
   image: /src/assets/dsc01083-copy.jpeg
-  image_alt: bosque
+  image_alt: Zwei knapp 40 Jahre alte Higuerón-Bäume im Reservat von Viva la Selva
   button: Die Bäume
 solution:
   title: Wir finden, pflanzen und schützen
@@ -48,7 +48,7 @@ solution:
   button: Baumschule
   button_2: Pflanze und schütze
   image: /src/assets/dsc01007-copy.jpeg
-  image_alt: manos plantando un árbol
+  image_alt: Sämlinge in unserer Baumschule, v.a. Bálsamo-Bäumchen
 donors:
   title: "Und du? "
   paragraph: |-
@@ -56,7 +56,8 @@ donors:
     natürliche CO2-Speicherung unterstützen und die Artenvielfalt der Region
     bewahren - für eine grünere Welt.
   image: /src/assets/dsc01052-copy.jpeg
-  image_alt: manos sembrando
+  image_alt: ein knapp 40 Jahre alter Higuerón in unserem Reservat, einer der
+    ersten aufstrebenden Riesen in jungen Wäldern
   button: " Baumschule"
   button_2: Pflanze und schütze
   button_3: Spenden

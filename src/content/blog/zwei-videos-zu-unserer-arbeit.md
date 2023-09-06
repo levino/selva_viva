@@ -7,14 +7,18 @@ subtitle: endlich online zum Anschauen
 excerpt: "Ein kleiner Eindruck von unserer Arbeit für die Baumschule und unserer
   Suche nach Almendro-Samen im Dschungel. "
 ---
+Von uns gesammelte Canime-, Bálsamo- un Ébanosamen
+
 Endlich präsentieren wir euch stolz unseren Youtube-Kanal mit den ersten zwei Videos.
 
 [Eins von unserer Suche nach Alemndro-Samen](https://www.youtube.com/watch?v=YWeSeqBkIfg)
 
 und
 
-Eins von der Arbeit für der Baumschule
+[Eins von der Arbeit für der Baumschule](https://www.youtube.com/watch?v=PDNY5j61ZtM)
 
-Klicken, ansehen, abonnieren -> dann kannst du sofort die nächsten sehen ;-)
+Einfach klicken, ansehen & [unseren Kanal](https://www.youtube.com/@VivalaSelva) abonnieren ;-)
 
 Danke, dass ihr dabei seid!
+
+<https://www.youtube.com/@VivalaSelva>

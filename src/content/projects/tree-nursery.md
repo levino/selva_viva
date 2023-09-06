@@ -1,9 +1,9 @@
 ---
 title: "Die Baumschule"
 page_title: Die Baumschule
-subtitle: "Das Herz von Viva la Selva."
+subtitle: "wo unsere Arbeit beginnt"
 button_text: "pflanzen & schützen"
-excerpt: "ist das Herz von Selva Viva. Hier bekommen Samen und junge Triebe die Pflege und Aufmerksamkeit, die sie brauchen, um überlebensfähig zu werden."
+excerpt: "Hier bekommen Samen und junge Triebe die Pflege und Aufmerksamkeit, die sie brauchen, um überlebensfähig zu werden."
 url: "/projects/plant-a-tree"
 cover_image: "../../assets/dsc00904-copy-2.jpeg"
 cover_alt: "Baumschule"
@@ -11,15 +11,15 @@ cover_alt: "Baumschule"
 
 ## Die Baumschule...
 
-ist das Herz von Selva Viva. Hier bekommen Samen und junge Triebe die Pflege und Aufmerksamkeit, die sie brauchen, um überlebensfähig zu werden.
+ist der Ort, an dem die Arbeit von Viva la Selva häufig beginnt. Hier bekommen Samen und junge Triebe die Pflege und Aufmerksamkeit, die sie brauchen, um überlebensfähig zu werden.
 
 Die Baumschule widmet sich DREI TYPEN VON BÄUMEN:
 
 I) In erster Linie: bedrohte Arten, die in der Wildnis kaum noch von selbst nachwachsen
 
-II) außerdem: gezielt solche Arten, die insbesondere den (Bau-)Holzbedarf für Häuser und Zäune der Region als sinnvolle, aber weniger bedrohte Alternative decken können
+II) außerdem, aber in Zukunft weniger in der Baumschule selbst: Baum-Arten, die insbesondere den (Bau-)Holzbedarf für Häuser und Zäune der Region als sinnvolle, aber weniger bedrohte Alternative decken können
 
-III) zusätzlich: junge Obstbäumchen, da diese in den letzten Jahrzehnten in der Region zunehmend unter Plagen oder Abholzung gelitten haben
+III) zusätzlich, aber auch das in Zukunft weniger in der Baumschule selbst: junge Obstbäumchen, da diese in den letzten Jahrzehnten in der Region zunehmend unter Plagen oder Abholzung gelitten haben
 
 (Details siehe weiter unten)
 
@@ -43,7 +43,7 @@ Die abgelegene Region des Darien lebt von der Viehwirtschaft. Das ist die einzig
 
 III) Obstbäume für eine „Auffruchtung“ der Region
 
-Der Obstbaumbestand der Region wurde in den letzten drei Jahrzehnten zunehmend durch Plagen reduziert. Das allgemein akzeptierte Recht, unterwegs Früchte für den kleinen Hunger mitgehen lassen zu dürfen, führte zur Abholzung auf den zahlreichen Weiden, um zu verhindern, dass die Zäune unter dem Laufpublikum leiden. Aber Mensch und Tier leben von Limonen, Avocados, Mangos, Guaven uvam. Ihnen soll wieder eine natürliche Nahrungsgrundlage zurückgegeben werden, die viele vermissen, ohne gezielt etwas dagegen zu tun.
+Der Obstbaumbestand der Region wurde in den letzten drei Jahrzehnten zunehmend durch Plagen und Abholzung reduziert. Das allgemein akzeptierte Recht, unterwegs Früchte für den kleinen Hunger mitgehen lassen zu dürfen, wurde zunehmend unterbunden, indem die Bäume abgeholzt wurden, angeblich um zu verhindern, dass die Zäune unter dem Laufpublikum litten. Aber Mensch und Tier leben von Limonen, Avocados, Mangos, Guaven uvam. Ihnen soll wieder eine natürliche Nahrungsgrundlage zurückgegeben werden, die viele vermissen, ohne gezielt etwas dagegen zu tun.
 
 DIE ANFÄNGE der Baumschule:
 
