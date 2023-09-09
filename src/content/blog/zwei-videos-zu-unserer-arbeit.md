@@ -4,8 +4,8 @@ publish_date: 24 Aug 2023
 cover_image: /src/assets/aimg_20230504_124843-copy.jpeg
 cover_alt: Canime-, Bálsamo- un Ébanosamen
 subtitle: endlich online zum Anschauen
-excerpt: "Ein kleiner Eindruck von unserer Arbeit für die Baumschule und unserer
-  Suche nach Almendro-Samen im Dschungel. "
+excerpt: "Unsere Arbeit für die Baumschule & unserer Suche nach Almendro-Samen
+  im Dschungel "
 ---
 Von uns gesammelte Canime-, Bálsamo- un Ébanosamen
 

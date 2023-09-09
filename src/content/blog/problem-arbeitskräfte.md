@@ -4,8 +4,8 @@ publish_date: 15 Jul 2023
 cover_image: /src/assets/img_20230712_103854-copy.jpeg
 cover_alt: Stockende Arbeiten an der Vergrößerung der Baumschule
 subtitle: Es geht nicht so schnell voran, wie wir möchten
-excerpt: Fehlende Arbeitskräfte behindern unser Vorankommen mit den Arbeiten an
-  der neuen Baumschule und an den Zäunen
+excerpt: Fehlende Arbeitskräfte behindern die Arbeiten an der neuen Baumschule
+  und den Zäunen
 ---
 Wir stehen unverhofft vor einem sozialen Problem, das regional anhält: Es herrscht ein extremer Mangel an Arbeitskräften, und uns fehlen helfende Hände. Es stellte sich heraus, dass sich viele Landarbeiter illegalen Tätigkeiten zuwenden, oder solchen, die sich in gesetzlichen Grauzonen bewegen. Diese werden ein Vielfaches über dem ortsüblichen Lohn bezahlt. In der Folge sind nicht nur die vorhandenen Arbeiter mehr gefragt, auch auch Freunde, die mit uns arbeiten wollen, finden schwerer Mitarbeiter für ihre Felder und müssen uns aus Zeitnot absagen.
 
