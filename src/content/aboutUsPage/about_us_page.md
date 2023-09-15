@@ -30,7 +30,7 @@ how_all_started:
 button: mitmachen
 button_link: support
 team:
-  team_members:
-    - arbol
   title: Unser Team
+  team_members:
+    - lolo
 ---
