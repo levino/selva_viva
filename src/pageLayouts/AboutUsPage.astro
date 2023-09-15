@@ -1,10 +1,9 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import { getImage } from "astro:assets";
-import { Image } from "astro:assets";
 import HeroCaption from "../components/HeroCaption.astro";
 import ImageWithCaption from "../components/ImageWithCaption.astro";
-
+import TeamSection from "../components/TeamSection.astro";
 const {
   content: { data },
 } = Astro.props;
@@ -115,6 +114,7 @@ const heroImage = await getImage({ src: data.hero_image });
       >{data.button}</a
     >
   </div>
+  <TeamSection data={data} />
 </Layout>
 
 <style>

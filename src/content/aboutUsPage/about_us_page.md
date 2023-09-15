@@ -29,4 +29,8 @@ how_all_started:
     Riesen in jungen Wäldern
 button: mitmachen
 button_link: support
+team:
+  team_members:
+    - arbol
+  title: Unser Team
 ---

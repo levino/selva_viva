@@ -1,0 +1,24 @@
+---
+import { getCollection, getEntries } from "astro:content";
+import TeamMemberCard from "./TeamMemberCard.astro";
+
+const { data } = Astro.props;
+const teamMembers = await getEntries(data.team.team_members);
+---
+
+<section class="mb-10">
+  <div class="flex flex-no-wrap items-center mb-10 mx-auto py-4 w-4/5">
+    <div class="bg-gray-500 flex-grow h-px max-w-full"></div>
+    <div class="px-10 w-auto">
+      <h2
+        class="font-all font-semibold text-4xl text-yellow_leave-600 uppercase"
+      >
+        {data.team.title}
+      </h2>
+    </div>
+    <div class="bg-gray-500 flex-grow h-px max-w-full"></div>
+  </div>
+  <div class="gap-14 grid mx-auto w-9/12 md:grid-cols-3">
+    {teamMembers.map(({ data }) => <TeamMemberCard data={data} />)}
+  </div>
+</section>

@@ -1,0 +1,22 @@
+---
+import { Image } from "astro:assets";
+const { title, profile_image, profile_image_alt, name, role, description } =
+  Astro.props.data;
+---
+
+<div>
+  <div>
+    <Image src={profile_image} alt={profile_image_alt} class="rounded" />
+  </div>
+  <div class="mb-4">
+    <h4 class="font-all font-medium mb-1 mt-4 text-2xl uppercase">
+      {name}
+    </h4>
+    <h5 class="font-all text-slate-500 text-xs uppercase">{role}</h5>
+  </div>
+  <div>
+    <p class="font-sans my-2 text-left tracking-normal">
+      {description}
+    </p>
+  </div>
+</div>

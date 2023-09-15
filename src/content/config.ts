@@ -1,5 +1,5 @@
 import { string } from "astro/zod";
-import { defineCollection, z } from "astro:content";
+import { reference, defineCollection, z } from "astro:content";
 
 const frontPageSchema = defineCollection({
   type: "content",
@@ -185,6 +185,23 @@ const aboutUsPageSchema = defineCollection({
       }),
       button: z.string(),
       button_link: z.string(),
+      team: z.object({
+        title: z.string(),
+        team_members: z.array(reference("team")),
+      }),
+    }),
+});
+
+const teamMembersCollection = defineCollection({
+  type: "content",
+  schema: ({ image }) =>
+    z.object({
+      title: z.string(),
+      profile_image: image(),
+      profile_image_alt: z.string(),
+      name: z.string(),
+      role: z.string(),
+      description: z.string(),
     }),
 });
 
@@ -192,6 +209,7 @@ export const collections = {
   projects: projectsCollection,
   trees: treesCollection,
   blog: blogCollection,
+  team: teamMembersCollection,
   plantATree: plantATreeCollection,
   frontPage: frontPageSchema,
   supportPage: supportPageSchema,

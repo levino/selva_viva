@@ -111,5 +111,29 @@ export const aboutUsPageSchema = {
     },
     { label: "Button", name: "button", widget: "string" },
     { label: "Button Link", name: "button_link", widget: "string" },
+    {
+      label: "Team",
+      name: "team",
+      widget: "object",
+      summary: "{{fields.name}}",
+      fields: [
+        { label: "Title", name: "title", widget: "string" },
+        {
+          label: "Team Members",
+          name: "team_members",
+          widget: "list",
+          summary: "{{field.name}}",
+          field: {
+            label: "Team Member",
+            name: "team_member",
+            widget: "relation",
+            collection: "team_members",
+            search_fields: ["name"],
+            value_field: "*",
+            display_fields: ["name"],
+          },
+        },
+      ],
+    },
   ],
 };
