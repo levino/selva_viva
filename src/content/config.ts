@@ -185,10 +185,12 @@ const aboutUsPageSchema = defineCollection({
       }),
       button: z.string(),
       button_link: z.string(),
-      team: z.object({
-        title: z.string(),
-        team_members: z.array(reference("team")),
-      }),
+      team: z
+        .object({
+          title: z.string(),
+          team_members: z.array(reference("team")),
+        })
+        .optional(),
     }),
 });
 
