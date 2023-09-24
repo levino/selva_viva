@@ -6,7 +6,13 @@ const { title, profile_image, profile_image_alt, name, role, description } =
 
 <div>
   <div>
-    <Image src={profile_image} alt={profile_image_alt} class="rounded" />
+    <Image
+      src={profile_image}
+      alt={profile_image_alt}
+      class="rounded object-cover"
+      width="500"
+      height="500"
+    />
   </div>
   <div class="mb-4">
     <h4 class="font-all font-medium mb-1 mt-4 text-2xl uppercase">
