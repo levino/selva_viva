@@ -10,7 +10,7 @@ description: Juan Guillermo ist ein erfahrener Land-Tierarzt und hat einen
   seines Lebens dem Studium tropischer Ökosysteme und Praktiken der ökologischen
   und nachhaltigen Landwirtschaft, einschließlich Methoden der Bodenerholung. Er
   ist eine unerschöpfliche Informationsquelle für Beispiele, Erfahrungen und
-  Ratschläge, die uns die Arbeit erleichtern. In seiner Freizeit heilt er
-  Tieren, liest und züchtet literweise Mikroorganismen aus den fruchtbaren
-  oberen Bodenschichten wilder Wälder als biologischen Dünger.
+  Ratschläge, die uns die Arbeit erleichtern. In seiner Freizeit heilt er Tiere,
+  liest und züchtet literweise Mikroorganismen aus den fruchtbaren oberen
+  Bodenschichten wilder Wälder als biologischen Dünger.
 ---
