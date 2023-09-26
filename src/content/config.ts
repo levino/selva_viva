@@ -1,5 +1,6 @@
-import { string } from "astro/zod";
+import { ZodUndefined, string } from "astro/zod";
 import { reference, defineCollection, z } from "astro:content";
+import { natureReserveSchema } from "../contentSchemas/natureReserve";
 
 const frontPageSchema = defineCollection({
   type: "content",
@@ -205,6 +206,11 @@ const teamMembersCollection = defineCollection({
       role: z.string(),
       description: z.string(),
     }),
+});
+
+const natureReserve = defineCollection({
+  type: "content",
+  schema: natureReserveSchema,
 });
 
 export const collections = {
