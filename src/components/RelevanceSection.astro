@@ -29,7 +29,7 @@ const { relevance } = Astro.props;
         <p class="font-bold mb-4 mt-4 px-4 text-brown-800 text-xl uppercase">
           {relevance.subtitle}
         </p>
-        <ul data-pg-collapsed>
+        <ul>
           {
             relevance.relevance_list.map((item) => (
               <li class="border-b-2 drop-shadow-lg font-light leading-relaxed mb-2 px-4 text-brown-800 text-left text-xl">
