@@ -1,4 +1,38 @@
 ---
 import { getCollection } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+
+import { Image } from "astro:assets";
+import ReserveHero from "../../components/ReserveHero.astro";
+import OurTreesSection from "../../components/OurTreesSection.astro";
+import RelevanceSection from "../../components/RelevanceSection.astro";
+import CTACenter from "../../components/CTACenter.astro";
+import LocationSection from "../../components/LocationSection.astro";
+import ReserveStorySection from "../../components/ReserveStorySection.astro";
+import CTABottom from "../../components/CTABottom.astro";
+
 const [content] = await getCollection("natureReserve");
+const {
+  data,
+  data: {
+    hero,
+    our_trees,
+    relevance,
+    cta_center,
+    location,
+    reserve_story,
+    cta_bottom,
+  },
+} = content;
+console.log(our_trees);
 ---
+
+<Layout title={data.page_meta_title}>
+  <ReserveHero hero={hero} />
+  <OurTreesSection our_trees={our_trees} />
+  <RelevanceSection relevance={relevance} />
+  <CTACenter cta_center={cta_center} />
+  <LocationSection location={location} />
+  <ReserveStorySection reserve_story={reserve_story} />
+  <CTABottom cta_bottom={cta_bottom} />
+</Layout>

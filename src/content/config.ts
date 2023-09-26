@@ -222,4 +222,5 @@ export const collections = {
   frontPage: frontPageSchema,
   supportPage: supportPageSchema,
   aboutUsPage: aboutUsPageSchema,
+  natureReserve: natureReserve,
 };

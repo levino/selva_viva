@@ -1,0 +1,51 @@
+---
+const { location } = Astro.props;
+---
+
+<div class="flex flex-no-wrap items-center mx-auto py-10 w-4/5">
+  <div class="bg-gray-500 flex-grow h-px max-w-full"></div>
+  <div class="px-10 w-auto">
+    <h2
+      class="font-all font-semibold text-4xl text-center text-yellow_leave-600 uppercase"
+    >
+      {location.title}
+    </h2>
+  </div>
+  <div class="bg-gray-500 flex-grow h-px max-w-full"></div>
+</div><div class="bg-my_gray-200 flex flex-col py-10">
+  <div class="md:flex">
+    <div
+      class="flex flex-col text-lg md:flex md:items-center md:justify-center md:w-1/2"
+    >
+      <p
+        class="font-bold mb-2 mt-4 px-8 text-brown-800 text-center text-lg uppercase"
+      >
+        {location.subtitle_1}
+      </p>
+      <p
+        class="drop-shadow-lg font-light leading-relaxed mb-6 px-8 text-brown-800 text-xl"
+      >
+        {location.paragraph_1}
+      </p>
+      <p
+        class="font-bold mb-2 mt-4 px-8 text-brown-800 text-center text-lg uppercase"
+      >
+        {location.subtitle_2}
+      </p>
+      <p
+        class="drop-shadow-lg font-light leading-relaxed mb-6 px-8 text-brown-800 text-xl"
+      >
+        {location.paragraph_2}
+      </p>
+    </div>
+    <div class="p-10 md:flex md:items-start md:justify-center md:w-1/2">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2563842.907707226!2d-77.86985418589497!3d7.684356237168941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOMKwMTEnNDguNyJOIDc3wrAwNCcwOC42Ilc!5e1!3m2!1sen!2sco!4v1694725452788!5m2!1sen!2sco"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        class="w-full sm:h-52 lg:h-80"></iframe>
+    </div>
+  </div>
+</div>

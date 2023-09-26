@@ -1,0 +1,114 @@
+---
+import { Image } from "astro:assets";
+const { hero } = Astro.props;
+---
+
+<section>
+  <div class="grid md:grid-cols-2">
+    <div class="relative md:h-96">
+      <div class="absolute flex h-full items-center justify-center w-full">
+        <div
+          class="bg-brown_dark-900 bg-opacity-40 flex h-3/6 items-center justify-center"
+        >
+          <div class="p-2 parent relative">
+            <div
+              class="child after:border after:border-solid after:border-white after:border-t-0 before:border before:border-solid before:border-white before:border-b-0"
+            >
+              <h1
+                class="before:bg-transparent font-all font-extralight shadow-xl text-6xl text-white tracking-tight z-10"
+              >
+                {hero.main_title}
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <Image
+        src={hero.main_title_image}
+        alt={hero.main_title_image_alt}
+        class="object-cover md:h-full md:w-full"
+        width="800"
+      />
+    </div>
+    <div>
+      <ul class="md:h-96">
+        <li class="relative md:h-1/3">
+          <div
+            class="absolute flex h-full items-center justify-center text-white top-0 w-full"
+          >
+            <h2
+              class="bg-brown_dark-900 bg-opacity-40 font-all font-light p-4 text-3xl"
+            >
+              {hero.h2_title}
+            </h2>
+          </div>
+          <Image
+            src={hero.h2_title_image}
+            alt={hero.h2_title_image_alt}
+            class="md:h-full md:w-full object-cover"
+            width="800"
+          />
+        </li>
+        <li class="relative md:h-1/3">
+          <div
+            class="absolute flex h-full items-center justify-center text-white top-0 w-full"
+          >
+            <h3
+              class="bg-brown_dark-900 bg-opacity-40 font-all font-light p-4 text-3xl"
+            >
+              {hero.h2_title_image_alt}
+            </h3>
+          </div>
+          <Image
+            src={hero.h3_title_image}
+            alt={hero.h3_title_image_alt}
+            class="md:h-full md:w-full object-cover"
+            width="800"
+          />
+        </li>
+        <li class="relative md:h-1/3">
+          <div
+            class="absolute flex h-full items-center justify-center text-white top-0 w-full"
+          >
+            <h4
+              class="bg-brown_dark-900 bg-opacity-40 font-all font-light p-4 text-3xl"
+            >
+              {hero.h4_title}
+            </h4>
+          </div>
+          <Image
+            src={hero.h4_title_image}
+            alt={hero.h4_title_image_alt}
+            class="md:h-full md:w-full object-cover"
+            width="800"
+          />
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
++
+<style>
+  .child::before {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 20px;
+    border-bottom: 0;
+    top: -5px;
+    left: 50%;
+    transform: translate(-50%, -120%);
+  }
+
+  .child::after {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 25px;
+    border-top: 0;
+    bottom: -5px;
+    left: 50%;
+    transform: translate(-50%, 120%);
+  }
+</style>
