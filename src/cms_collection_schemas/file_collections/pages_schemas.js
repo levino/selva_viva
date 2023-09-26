@@ -2,6 +2,7 @@ import { frontPageSchema } from "./front_page";
 import { contactPageSchema } from "./contact";
 import { supportPageSchema } from "./support_page";
 import { aboutUsPageSchema } from "./about_us_page";
+import { natureReserveSchema } from "./nature_reserve";
 
 const pagesCmsSchemas = {
   label: "Pages",
@@ -11,6 +12,7 @@ const pagesCmsSchemas = {
     contactPageSchema,
     supportPageSchema,
     aboutUsPageSchema,
+    natureReserveSchema,
   ],
 };
 
