@@ -126,6 +126,8 @@ export const natureReserveSchema = {
           widget: "list",
           field: { label: "item", name: "item", widget: "string" },
         },
+        { label: "Read More Text", name: "read_more_text", widget: "string" },
+        { label: "Read More link", name: "read_more_link", widget: "string" },
         {
           label: "Image",
           name: "image",
