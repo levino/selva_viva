@@ -30,8 +30,8 @@ const { our_trees } = Astro.props;
         <ul class="flex flex-wrap">
           {
             our_trees.trees_list.map((tree) => (
-              <li class="border-b-2 drop-shadow-lg font-light leading-relaxed ml-2 px-2 text-brown-800 text-xl">
-                Cedros
+              <li class="border-b-2 drop-shadow-lg font-light leading-relaxed ml-2 px-2 text-brown-800 text-xl capitalize">
+                {tree}
               </li>
             ))
           }
