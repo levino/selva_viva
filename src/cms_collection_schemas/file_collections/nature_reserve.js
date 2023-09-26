@@ -26,8 +26,28 @@ export const natureReserveSchema = {
           widget: "string",
         },
         {
+          label: "Main Title Image",
+          name: "main_title_image",
+          widget: "image",
+        },
+        {
+          label: "Main Title Image Alt",
+          name: "main_title_image_alt",
+          widget: "string",
+        },
+        {
           label: "h2 Title",
           name: "h2_title",
+          widget: "string",
+        },
+        {
+          label: "h2 Title Image",
+          name: "h2_title_image",
+          widget: "image",
+        },
+        {
+          label: "h2 Title Image Alt",
+          name: "h2_title_image_alt",
           widget: "string",
         },
         {
@@ -36,12 +56,30 @@ export const natureReserveSchema = {
           widget: "string",
         },
         {
+          label: "h3 Title Image",
+          name: "h3_title_image",
+          widget: "image",
+        },
+        {
+          label: "h3 Title Image Alt",
+          name: "h3_title_image_alt",
+          widget: "string",
+        },
+        {
           label: "h4 Title",
           name: "h4_title",
           widget: "string",
         },
-        { label: "Hero Image", name: "hero_image", widget: "image" },
-        { label: "Hero Image Alt", name: "hero_image_alt", widget: "string" },
+        {
+          label: "h4 Title Image",
+          name: "h4_title_image",
+          widget: "image",
+        },
+        {
+          label: "h4 Title Image Alt",
+          name: "h4_title_image_alt",
+          widget: "string",
+        },
       ],
     },
     {
@@ -110,13 +148,13 @@ export const natureReserveSchema = {
       summary: "CTA Center Content",
       fields: [
         {
-          label: "CTA Button Text",
-          name: "cta_button_text",
+          label: "Button Text",
+          name: "button_text",
           widget: "string",
         },
         {
-          label: "CTA Button Link",
-          name: "cta_button_link",
+          label: "Button Link",
+          name: "button_link",
           widget: "string",
         },
       ],
@@ -129,29 +167,28 @@ export const natureReserveSchema = {
       summary: "Location Content",
       fields: [
         { label: "Title", name: "title", widget: "string" },
-        { label: "subtitle_1", name: "subtitle_1", widget: "string" },
-        { label: "paragraph_1", name: "paragraph_1", widget: "markdown" },
-        { label: "subtitle_2", name: "subtitle_2", widget: "string" },
-        { label: "paragraph_2", name: "paragraph_2", widget: "markdown" },
+        { label: "Subtitle 1", name: "subtitle_1", widget: "string" },
+        { label: "Paragraph 1", name: "paragraph_1", widget: "markdown" },
+        { label: "Subtitle 2", name: "subtitle_2", widget: "string" },
+        { label: "Paragraph 2", name: "paragraph_2", widget: "markdown" },
       ],
     },
     {
       label: "Reserve Story",
-      name: "reserve story",
+      name: "reserve_story",
       widget: "object",
       collapsed: true,
       summary: "Reserve Story Content",
       fields: [
         { label: "Title", name: "title", widget: "string" },
-        { label: "subtitle_1", name: "subtitle_1", widget: "string" },
-        { label: "paragraph_1", name: "paragraph_1", widget: "markdown" },
-        { label: "subtitle_2", name: "subtitle_2", widget: "string" },
-        { label: "paragraph_2", name: "paragraph_2", widget: "markdown" },
+        { label: "Subtitle 1", name: "subtitle_1", widget: "string" },
+        { label: "Paragraph 1", name: "paragraph_1", widget: "markdown" },
+        { label: "Subtitle 2", name: "subtitle_2", widget: "string" },
+        { label: "Paragraph 2", name: "paragraph_2", widget: "markdown" },
         { label: "Image", name: "image", widget: "image" },
         { label: "Image Alt", name: "image_alt", widget: "string" },
       ],
     },
-
     {
       label: "CTA Bottom",
       name: "cta_bottom",
@@ -160,23 +197,23 @@ export const natureReserveSchema = {
       summary: "CTA Bottom Content",
       fields: [
         {
-          label: "CTA Button 1 Text",
-          name: "cta_butto_1_text",
+          label: "Button 1 Text",
+          name: "button_1_text",
           widget: "string",
         },
         {
-          label: "CTA Button 1 Link",
-          name: "cta_button_1_link",
+          label: "Button 1 Link",
+          name: "button_1_link",
           widget: "string",
         },
         {
-          label: "CTA Button 2 Text",
-          name: "cta_butto_2_text",
+          label: "Button 2 Text",
+          name: "button_2_text",
           widget: "string",
         },
         {
-          label: "CTA Button 2 Link",
-          name: "cta_button_2_link",
+          label: "Button 2 Link",
+          name: "button_2_link",
           widget: "string",
         },
       ],
