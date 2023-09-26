@@ -160,13 +160,23 @@ export const natureReserveSchema = {
       summary: "CTA Bottom Content",
       fields: [
         {
-          label: "CTA Button Text",
-          name: "cta_button_text",
+          label: "CTA Button 1 Text",
+          name: "cta_butto_1_text",
           widget: "string",
         },
         {
-          label: "CTA Button Link",
-          name: "cta_button_link",
+          label: "CTA Button 1 Link",
+          name: "cta_button_1_link",
+          widget: "string",
+        },
+        {
+          label: "CTA Button 2 Text",
+          name: "cta_butto_2_text",
+          widget: "string",
+        },
+        {
+          label: "CTA Button 2 Link",
+          name: "cta_button_2_link",
           widget: "string",
         },
       ],
