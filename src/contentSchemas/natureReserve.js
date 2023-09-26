@@ -32,6 +32,8 @@ export const natureReserveSchema = ({ image }) =>
       title: z.string(),
       subtitle: z.string(),
       relevance_list: z.array(z.string()),
+      read_more_text: z.string(),
+      read_more_link: z.string(),
       image: image(),
       image_alt: z.string(),
       button_text: z.string(),

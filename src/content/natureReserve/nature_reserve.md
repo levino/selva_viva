@@ -28,16 +28,19 @@ our_trees:
   button_text: WERDE BAUMPATE/IN
   button_link: plant-and-protect/adopt-a-tree
 relevance:
-  title: RELEVANZ
-  subtitle: JEDE BAUMART ZÄHLT
   relevance_list:
     - artenreichere Wälder wachsen schneller
     - biodiverse Wälder speichern mehr CO2
     - unser Reservat erhält genetischen Reichtum
-  image: /src/assets/dsc00904-copy_small.jpeg
   image_alt: vivero
-  button_text: WERDE WALDWÄCHTER/IN
   button_link: plant-and-protect/forest-guardian
+  read_more_text: Mehr lesen...
+  subtitle: JEDE BAUMART ZÄHLT
+  title: RELEVANZ
+  button_text: WERDE WALDWÄCHTER/IN
+  image: /src/assets/dsc00904-copy_small.jpeg
+  read_more_link: por-ahora
+  read_more: Mehr lesen...
 cta_center:
   button_text: VIVA LA SELVA UNTERSTÜTZEN
   button_link: support
