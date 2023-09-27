@@ -5,6 +5,11 @@ import * as pageContent from "../../content/_projects_index.md";
 
 import { getCollection } from "astro:content";
 const allProjects = await getCollection("projects");
+const [natureReserve] = await getCollection("natureReserve");
+const projects = {
+  projects: allProjects,
+  natureReserve,
+};
 ---
 
-<ProjectsPage projects={allProjects} pageContent={pageContent.frontmatter} />
+<ProjectsPage projects={projects} pageContent={pageContent.frontmatter} />
