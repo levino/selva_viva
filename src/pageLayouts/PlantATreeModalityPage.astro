@@ -17,12 +17,14 @@ const heroImageOptimized = await getImage({ src: frontmatter.bg_image });
     class="relative plant-a-tree-hero text-gray-500"
     style={`background-image: url(${heroImageOptimized.src});`}
   >
-    <div class="container mx-auto px-4 py-48">
+    <div class="container mx-auto px-4 py-5 md:py-5 lg:py-5 xl:py-20">
       <div
-        class="bg-brown-900 bg-opacity-40 flex flex-wrap mx-auto py-10 lg:w-8/12"
+        class="bg-brown-900 bg-opacity-40 flex flex-wrap mx-auto py-10 lg:w-10/12"
       >
         <div class="mx-auto px-4 text-center w-full lg:w-8/12">
-          <h1 class="font-extrabold mb-4 text-6xl text-brown-100 uppercase">
+          <h1
+            class="font-extrabold uppercase mb-4 text-4xl text-brown-100 sm:text-6xl"
+          >
             {frontmatter.page_title}
           </h1>
           <p
@@ -31,7 +33,7 @@ const heroImageOptimized = await getImage({ src: frontmatter.bg_image });
             {frontmatter.subtitle}
           </p>
           <p
-            class="drop-shadow-lg font-light leading-relaxed mb-6 text-2xl text-green-100"
+            class="drop-shadow-lg font-light leading-relaxed mb-6 text-2xl text-my_gray-300"
           >
             {frontmatter.excerpt}
           </p>
