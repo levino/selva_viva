@@ -24,7 +24,11 @@ const lang = getLangFromUrl(Astro.url);
   </head>
   <body>
     <Navbar />
-    <slot />
+    <div class="p-10">
+      <main class="prose mx-auto lg:prose-xl prose-stone">
+        <slot />
+      </main>
+    </div>
     <Footer />
   </body>
 </html>
