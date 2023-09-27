@@ -58,8 +58,8 @@ location:
   paragraph_2: Die gesamte Region Chocó-Darién gehört nicht nur zu den
     regenreichsten, sondern auch zu den artenreichsten Regionen der Erde und ist
     Teil des Biodiversitäts-Hotspots Tumbes-Chocó-Magdalena zwischen
-    Pazifikküste und Andenkordilleren von Süd-Panama bis Peru. [Mehr
-    lesen...](http://localhost:40000/reserva_new.html?pgedit=1&pgpvid=2)
+    Pazifikküste und Andenkordilleren von Süd-Panama bis Peru. [**Mehr
+    lesen...**](./full-text)
 reserve_story:
   title: DIE GESCHICHTE VON LA TRIBU
   subtitle_1: WIE WIR „ÖKO“ WURDEN
@@ -74,8 +74,8 @@ reserve_story:
   subtitle_2: DIE NATUR IN DEN JAHREN DER GEWALT
   paragraph_2: Leider erreichte fünf Jahre später, 1996, die Welle der Gewalt, die
     über ganz Kolumbien hereinbrach, auch den Chocó-Darién, in ihrem kompletten
-    Ausmaß. [Mehr
-    lesen...](http://localhost:40000/reserva_new.html?pgedit=1&pgpvid=2)
+    Ausmaß. **[Mehr
+    lesen...](http://localhost:40000/reserva_new.html?pgedit=1&pgpvid=2)**
   image: /src/assets/dsc01088-copy_smaller.jpeg
   image_alt: historia
 cta_bottom:
