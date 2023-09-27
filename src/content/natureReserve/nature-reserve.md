@@ -7,9 +7,11 @@ hero:
   h2_title: 5 ha WALD
   h3_title: 5 BÄCHE & QUELLEN
   h4_title: 11 ha SCHUTZGEBIET
-  h2_title_image_alt: tropisches Naturreservat Viva la Selva, dichter biodiverser
+  h2_title_image_alt:
+    tropisches Naturreservat Viva la Selva, dichter biodiverser
     Wald, hier mit großen Higuerón-Bäumen
-  h3_title_image_alt: tropisches Naturreservat Viva la Selva, dichter biodiverser
+  h3_title_image_alt:
+    tropisches Naturreservat Viva la Selva, dichter biodiverser
     Wald, hier um den Memeto-Bach
   h4_title_image_alt: tropisches Naturreservat Viva la Selva, dichter biodiverser Wald
   main_title_image: /src/assets/dsc01052-copy_smaller.jpeg
@@ -63,11 +65,14 @@ cta_center:
 location:
   title: LAGE
   subtitle_1: MITTEN IM DARIEN-CHOCÓ
-  paragraph_1: >-
-    Unser Reservat liegt in der Gemeinde Gilgal (Landkreis Unguía), in der
-    Tieflandebene des Flusses Cutí, im Departamento Chocó in Kolumbien. \
-
-    Die Region ist umgeben von Wasser und Bergen: im (Nord-)Westen die Bergkette des Darién (zugleich die Grenzlinie Kolumbien-Panamá, sowie Südamerika-Nordamerika), im Nordosten die Karibikküste und im Südosten der Atrato-Strom, der wasserreichste Fluss Kolumbiens, mit Zuflüssen aus einigen der regenreichsten Gebiete der Welt.
+  paragraph_1:
+    "Unser Reservat liegt in der Gemeinde Gilgal (Landkreis Unguía), in
+    der Tieflandebene des Flusses Cutí, im Departamento Chocó in Kolumbien. Die
+    Region ist umgeben von Wasser und Bergen: im (Nord-)Westen die Bergkette des
+    Darién (zugleich die Grenzlinie Kolumbien-Panamá, sowie
+    Südamerika-Nordamerika), im Nordosten die Karibikküste und im Südosten der
+    Atrato-Strom, der wasserreichste Fluss Kolumbiens, mit Zuflüssen aus einigen
+    der regenreichsten Gebiete der Welt."
   subtitle_2: GEO-ÖKOLOGISCHE BEDEUTUNG DES DARIÉN-CHOCÓ
   paragraph_2: Die gesamte Region Chocó-Darién gehört nicht nur zu den
     regenreichsten, sondern auch zu den artenreichsten Regionen der Erde und ist
@@ -86,7 +91,8 @@ reserve_story:
     (wie in dieser Region traditionell üblich) und trotz allem mit weniger
     Aufwand als unsere Nachbarn.
   subtitle_2: DIE NATUR IN DEN JAHREN DER GEWALT
-  paragraph_2: Leider erreichte fünf Jahre später, 1996, die Welle der Gewalt, die
+  paragraph_2:
+    Leider erreichte fünf Jahre später, 1996, die Welle der Gewalt, die
     über ganz Kolumbien hereinbrach, auch den Chocó-Darién, in ihrem kompletten
     Ausmaß. **[Mehr
     lesen...](http://localhost:40000/reserva_new.html?pgedit=1&pgpvid=2)**
