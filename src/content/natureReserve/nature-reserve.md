@@ -74,7 +74,7 @@ location:
     regenreichsten, sondern auch zu den artenreichsten Regionen der Erde und ist
     Teil des Biodiversitäts-Hotspots Tumbes-Chocó-Magdalena zwischen
     Pazifikküste und Andenkordilleren von Süd-Panama bis Peru. [**Mehr
-    lesen...**](./nature-reserve/full-text#region-bedeutung)
+    lesen...**](./full-text#region-bedeutung)
 reserve_story:
   title: DIE GESCHICHTE VON LA TRIBU
   subtitle_1: WIE WIR „ÖKO“ WURDEN
@@ -89,7 +89,7 @@ reserve_story:
   subtitle_2: DIE NATUR IN DEN JAHREN DER GEWALT
   paragraph_2: Leider erreichte fünf Jahre später, 1996, die Welle der Gewalt, die
     über ganz Kolumbien hereinbrach, auch den Chocó-Darién, in ihrem kompletten
-    Ausmaß. [**Mehr lesen...**](./nature-reserve/full-text#geschichte-2)
+    Ausmaß. [**Mehr lesen...**](./full-text#geschichte-2)
   image: /src/assets/dsc01088-copy_smaller.jpeg
   image_alt: historia
 cta_bottom:
