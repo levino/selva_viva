@@ -7,11 +7,9 @@ hero:
   h2_title: 5 ha WALD
   h3_title: 5 BÄCHE & QUELLEN
   h4_title: 11 ha SCHUTZGEBIET
-  h2_title_image_alt:
-    tropisches Naturreservat Viva la Selva, dichter biodiverser
+  h2_title_image_alt: tropisches Naturreservat Viva la Selva, dichter biodiverser
     Wald, hier mit großen Higuerón-Bäumen
-  h3_title_image_alt:
-    tropisches Naturreservat Viva la Selva, dichter biodiverser
+  h3_title_image_alt: tropisches Naturreservat Viva la Selva, dichter biodiverser
     Wald, hier um den Memeto-Bach
   h4_title_image_alt: tropisches Naturreservat Viva la Selva, dichter biodiverser Wald
   main_title_image: /src/assets/dsc01052-copy_smaller.jpeg
@@ -37,7 +35,7 @@ our_trees:
     - Tamboleros
     - Higuerones
     - Abarcos
-    - Campano
+    - Samán
     - Campano de bledo
     - Ceiba tolua
   image: /src/assets/dsc01083-copy_smaller.jpeg
@@ -51,34 +49,32 @@ relevance:
     - biodiverse Wälder speichern mehr CO2
     - unser Reservat erhält genetischen Reichtum
   image_alt: Bálsamo- und Almendro-Pflänzchen in der Baumschule von Viva la Selva
-  button_link: plant-and-protect/forest-guardian
+  button_link: /plant-and-protect/forest-guardian
   read_more_text: mehr lesen...
   subtitle: JEDE BAUMART ZÄHLT
   title: RELEVANZ
   button_text: WERDE WALDWÄCHTER/IN
   image: /src/assets/dsc00904-copy_small.jpeg
-  read_more_link: por-ahora
+  read_more_link: full-text
   read_more: Mehr lesen...
 cta_center:
   button_text: VIVA LA SELVA UNTERSTÜTZEN
-  button_link: support
+  button_link: /support
 location:
   title: LAGE
   subtitle_1: MITTEN IM DARIEN-CHOCÓ
-  paragraph_1:
-    "Unser Reservat liegt in der Gemeinde Gilgal (Landkreis Unguía), in
-    der Tieflandebene des Flusses Cutí, im Departamento Chocó in Kolumbien. Die
-    Region ist umgeben von Wasser und Bergen: im (Nord-)Westen die Bergkette des
-    Darién (zugleich die Grenzlinie Kolumbien-Panamá, sowie
-    Südamerika-Nordamerika), im Nordosten die Karibikküste und im Südosten der
-    Atrato-Strom, der wasserreichste Fluss Kolumbiens, mit Zuflüssen aus einigen
-    der regenreichsten Gebiete der Welt."
+  paragraph_1: >-
+    Unser Reservat liegt in der Gemeinde Gilgal (Landkreis Unguía), in der
+    Tieflandebene des Flusses Cutí, im Departamento Chocó in Kolumbien. 
+
+
+    Die Region ist umgeben von Wasser und Bergen: im (Nord-)Westen die Bergkette des Darién (zugleich die Grenzlinie Kolumbien-Panamá, sowie Südamerika-Nordamerika), im Nordosten die Karibikküste und im Südosten der Atrato-Strom, der wasserreichste Fluss Kolumbiens, mit Zuflüssen aus einigen der regenreichsten Gebiete der Welt.
   subtitle_2: GEO-ÖKOLOGISCHE BEDEUTUNG DES DARIÉN-CHOCÓ
   paragraph_2: Die gesamte Region Chocó-Darién gehört nicht nur zu den
     regenreichsten, sondern auch zu den artenreichsten Regionen der Erde und ist
     Teil des Biodiversitäts-Hotspots Tumbes-Chocó-Magdalena zwischen
     Pazifikküste und Andenkordilleren von Süd-Panama bis Peru. [**Mehr
-    lesen...**](./full-text)
+    lesen...**](./nature-reserve/full-text#region-bedeutung)
 reserve_story:
   title: DIE GESCHICHTE VON LA TRIBU
   subtitle_1: WIE WIR „ÖKO“ WURDEN
@@ -91,11 +87,9 @@ reserve_story:
     (wie in dieser Region traditionell üblich) und trotz allem mit weniger
     Aufwand als unsere Nachbarn.
   subtitle_2: DIE NATUR IN DEN JAHREN DER GEWALT
-  paragraph_2:
-    Leider erreichte fünf Jahre später, 1996, die Welle der Gewalt, die
+  paragraph_2: Leider erreichte fünf Jahre später, 1996, die Welle der Gewalt, die
     über ganz Kolumbien hereinbrach, auch den Chocó-Darién, in ihrem kompletten
-    Ausmaß. **[Mehr
-    lesen...](http://localhost:40000/reserva_new.html?pgedit=1&pgpvid=2)**
+    Ausmaß. [**Mehr lesen...**](./nature-reserve/full-text#geschichte-2)
   image: /src/assets/dsc01088-copy_smaller.jpeg
   image_alt: historia
 cta_bottom:
