@@ -1,7 +1,7 @@
 export const natureReserveSchema = {
   label: "Nature Reserve Page",
   name: "nature_reserve_page",
-  file: "src/content/natureReserve/nature_reserve.md",
+  file: "src/content/natureReserve/nature-reserve.md",
   fields: [
     {
       label: "Page Meta Title",
