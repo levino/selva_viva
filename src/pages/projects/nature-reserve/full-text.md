@@ -15,11 +15,11 @@ layout: ../../../layouts/LayoutMarkdown.astro
 
 - insgesamt 11 Hektar Schutzgebiet
 
-## Die Region:
+<h2 id="region">Die Region:</h2>
 
 Unser Naturreservat „La Tribu“ befindet sich in der Region Darién chocoano (international „Chocó-Darién“) im Nordzipfel des Departamento Chocó in Kolumbien. Der Darién chocoano ist umgeben von Wasser und Bergen: Im (Nord-)Westen die Bergkette des Darién (zugleich die Grenzlinie Kolumbien-Panamá, sowie Südamerika-Nordamerika), im Nordosten die Karibikküste und im Südosten der Atrato-Strom, der wasserreichste Fluss Kolumbiens, mit Zuflüssen aus einigen der regenreichsten Gebiete der Welt.
 
-## Geo-Ökologische Bedeutung des Darién-Chocó
+<h2 id="region_2">Geo-Ökologische Bedeutung des Darién-Chocó</h2>
 
 Die gesamte Region Chocó-Darién gehört nicht nur zu den regenreichsten, sondern auch zu den artenreichsten Regionen der Erde und ist Teil des Biodiversitäts-Hotspots Tumbes-Chocó-Magdalena zwischen Pazifikküste und Andenkordilleren von Süd-Panama bis Peru. Die Ökosysteme in dem langen Küstenstreifen weisen aufgrund ihrer geologisch eingeschlossenen Lage eine ungewöhnliche Fülle genuiner Spezies auf: etwa ein Viertel ihrer Flora und Fauna leben und wachsen nicht außerhalb dieser Gebiete. Allerdings ist das ökologische Gleichgewicht der Gebiete stark durch Jagd und Abholzung bedroht, auch im speziellen Fall des Chocó-Darien sind massive Rodungen für Holz- und Landwirtschaft, sowie die traditionelle Jagd bisher die größte Bedrohung durch den Menschen. Allerdings kommen politische und wirtschaftliche Absichten zur Vollendung der Panamericana durch den Regenwald im Darien-Gap noch hinzu.
 

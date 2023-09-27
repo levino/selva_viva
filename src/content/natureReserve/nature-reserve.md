@@ -59,7 +59,7 @@ location:
     regenreichsten, sondern auch zu den artenreichsten Regionen der Erde und ist
     Teil des Biodiversitäts-Hotspots Tumbes-Chocó-Magdalena zwischen
     Pazifikküste und Andenkordilleren von Süd-Panama bis Peru. [**Mehr
-    lesen...**](./full-text)
+    lesen...**](./nature-reserve/full-text#region_2)
 reserve_story:
   title: DIE GESCHICHTE VON LA TRIBU
   subtitle_1: WIE WIR „ÖKO“ WURDEN
