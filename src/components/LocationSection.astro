@@ -1,4 +1,5 @@
 ---
+import { micromark } from "micromark";
 const { location } = Astro.props;
 ---
 
@@ -12,31 +13,29 @@ const { location } = Astro.props;
     </h2>
   </div>
   <div class="bg-gray-500 flex-grow h-px max-w-full"></div>
-</div><div class="bg-my_gray-200 flex flex-col py-10">
-  <div class="md:flex">
+</div><div class="bg-my_gray-200 flex flex-col py-10 mx-auto">
+  <div class="md:flex mx-auto container">
     <div
-      class="flex flex-col text-lg md:flex md:items-center md:justify-center md:w-1/2"
+      class="px-4 flex flex-col text-lg md:flex md:items-center md:justify-center md:w-1/2"
     >
       <p
         class="font-bold mb-2 mt-4 px-8 text-brown-800 text-center text-lg uppercase"
       >
         {location.subtitle_1}
       </p>
-      <p
-        class="drop-shadow-lg font-light leading-relaxed mb-6 px-8 text-brown-800 text-xl"
-      >
-        {location.paragraph_1}
-      </p>
+      <div
+        set:html={micromark(location.paragraph_1)}
+        class="drop-shadow-lg font-light leading-relaxed lg:px-8 mb-6 px-4 text-brown-800 text-xl"
+      />
       <p
         class="font-bold mb-2 mt-4 px-8 text-brown-800 text-center text-lg uppercase"
       >
         {location.subtitle_2}
       </p>
-      <p
+      <div
+        set:html={micromark(location.paragraph_2)}
         class="drop-shadow-lg font-light leading-relaxed mb-6 px-8 text-brown-800 text-xl"
-      >
-        {location.paragraph_2}
-      </p>
+      />
     </div>
     <div class="p-10 md:flex md:items-start md:justify-center md:w-1/2">
       <iframe
