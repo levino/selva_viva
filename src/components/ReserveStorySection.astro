@@ -1,5 +1,6 @@
 ---
 import { Image } from "astro:assets";
+import { micromark } from "micromark";
 const { reserve_story } = Astro.props;
 ---
 
@@ -24,19 +25,17 @@ const { reserve_story } = Astro.props;
         <p class="font-bold mb-2 mt-4 text-brown-800 text-lg uppercase">
           {reserve_story.subtitle_1}
         </p>
-        <p
+        <div
+          set:html={micromark(reserve_story.paragraph_1)}
           class="drop-shadow-lg font-light leading-relaxed lg:px-8 mb-6 px-4 text-brown-800 text-xl"
-        >
-          {reserve_story.paragraph_1}
-        </p>
+        />
         <p class="font-bold mb-2 mt-4 text-brown-800 text-lg uppercase">
           {reserve_story.subtitle_2}
         </p>
-        <p
+        <div
+          set:html={micromark(reserve_story.paragraph_2)}
           class="drop-shadow-lg font-light leading-relaxed lg:px-8 mb-6 px-4 text-brown-800 text-xl"
-        >
-          {reserve_story.paragraph_2}
-        </p>
+        />
       </div>
       <div class="flex p-4 w-full md:w-7/12">
         <Image
