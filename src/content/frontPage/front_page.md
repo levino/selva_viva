@@ -13,6 +13,12 @@ participate:
       image: /src/assets/dsc00904-copy-2.jpeg
       image_alt: Baumschule
       link: /plant-and-protect/adopt-a-tree
+about_us:
+  title: QUIENES SOMOS
+  paragraph: "Somo un pequeño grupo en el Darien caribe colombiano dedicado a
+    rescatar especies de árboles en peligro o escases. "
+  link: /about
+  link_text: Leer mas...
 situation:
   title: Tropisches Ökosystem in Gefahr
   paragraph: Der Darién in der Karibikregion zwischen Kolumbien und Panama
