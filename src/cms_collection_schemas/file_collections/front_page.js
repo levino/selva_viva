@@ -27,6 +27,26 @@ export const frontPageSchema = {
       ],
     },
     {
+      label: "Participate",
+      name: "participate",
+      widget: "object",
+      summary: "Participate Content",
+      fields: [
+        { label: "Title", name: "title", widget: "string" },
+        {
+          label: "Cards",
+          name: "cards",
+          widget: "list",
+          fields: [
+            { label: "Title", name: "title", widget: "string" },
+            { label: "Link", name: "link", widget: "string" },
+            { label: "Image", name: "image", widget: "image" },
+            { label: "Image Alt", name: "image_alt", widget: "string" },
+          ],
+        },
+      ],
+    },
+    {
       label: "Situation",
       name: "situation",
       widget: "object",
