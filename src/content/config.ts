@@ -1,51 +1,11 @@
 import { ZodUndefined, string } from "astro/zod";
 import { reference, defineCollection, z } from "astro:content";
 import { natureReserveSchema } from "../contentSchemas/natureReserve";
+import { frontPageSchema } from "../contentSchemas/frontPage";
 
-const frontPageSchema = defineCollection({
+const frontPage = defineCollection({
   type: "content",
-  schema: ({ image }) =>
-    z.object({
-      pageMetaTitle: z.string(),
-      hero: z.object({
-        greeting: z.string(),
-        title: z.string(),
-        msg: z.string(),
-        hero_bg_image: image(),
-        button: z.string(),
-      }),
-      situation: z.object({
-        title: z.string(),
-        paragraph: z.string(),
-        image: image(),
-        image_alt: z.string(),
-        button: z.string(),
-      }),
-      problem: z.object({
-        title: z.string(),
-        paragraph: z.string(),
-        image: image(),
-        image_alt: z.string(),
-        button: z.string(),
-      }),
-      solution: z.object({
-        title: z.string(),
-        paragraph: z.string(),
-        image: image(),
-        image_alt: z.string(),
-        button: z.string(),
-        button_2: z.string(),
-      }),
-      donors: z.object({
-        title: z.string(),
-        paragraph: z.string(),
-        image: image(),
-        image_alt: z.string(),
-        button: z.string(),
-        button_2: z.string(),
-        button_3: z.string(),
-      }),
-    }),
+  schema: frontPageSchema,
 });
 
 const plantATreeCollection = defineCollection({
@@ -219,7 +179,7 @@ export const collections = {
   blog: blogCollection,
   team: teamMembersCollection,
   plantATree: plantATreeCollection,
-  frontPage: frontPageSchema,
+  frontPage: frontPage,
   supportPage: supportPageSchema,
   aboutUsPage: aboutUsPageSchema,
   natureReserve: natureReserve,
