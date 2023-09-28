@@ -6,6 +6,13 @@ hero:
   msg: Wir pflanzen Tropenwald - biodivers. Artenvielfalt für Artenschutz.
   button: spenden
   hero_bg_image: /src/assets/plant-a-tree.png
+participate:
+  title: Mit machen
+  cards:
+    - title: Werde Baumpate
+      image: /src/assets/dsc00904-copy-2.jpeg
+      image_alt: Baumschule
+      link: /plant-and-protect/adopt-a-tree
 situation:
   title: Tropisches Ökosystem in Gefahr
   paragraph: Der Darién in der Karibikregion zwischen Kolumbien und Panama
