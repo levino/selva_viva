@@ -6,16 +6,18 @@ import { pickLangPath } from "../utils/utils";
 const lang = getLangFromUrl(Astro.url);
 ---
 
-<section class="bg-green_dark-800 donors p-8">
-  <div class="container mx-auto px-4">
+<section class="bg-white donors">
+  <div class="container mx-auto px-4 py-10">
     <div class="-mx-4 flex flex-wrap">
-      <div class="px-4 w-full md:w-1/2">
+      <div class="md:w-1/2 px-4 w-full">
         <h3
-          class="font-bold font-sans mt-9 text-4xl text-center text-yellow_leave-600"
+          class="font-bold mb-2 mt-4 px-8 text-brown_dark-600 text-center text-lg uppercase"
         >
           {content.title}
         </h3>
-        <p class="font-light font-all p-8 text-2xl text-left text-white">
+        <p
+          class="drop-shadow-lg font-light leading-relaxed mb-6 pb-10 pt-5 px-8 text-brown-800 text-xl"
+        >
           {content.paragraph}
         </p>
       </div>
@@ -24,17 +26,17 @@ const lang = getLangFromUrl(Astro.url);
       >
         <a
           href={`${pickLangPath(lang)}projects/tree-nursery`}
-          class="bg-yellow_leave-700 font-light hover:bg-yellow_leave-600 inline-block mb-2 px-5 py-2 rounded-sm text-brown_dark-900 text-center text-xl uppercase w-2/4"
+          class="bg-yellow_leave-400 font-light hover:bg-green-400 inline-block mb-2 px-5 py-2 rounded-sm text-center text-white text-xl uppercase w-2/4"
           >{content.button}</a
         >
         <a
           href={`${pickLangPath(lang)}plant-and-protect`}
-          class="bg-yellow_leave-700 font-light hover:bg-yellow_leave-600 inline-block mb-2 px-5 py-2 rounded-sm text-brown_dark-900 text-center text-xl uppercase w-2/4"
+          class="bg-yellow_leave-400 font-light hover:bg-green-400 inline-block mb-2 px-5 py-2 rounded-sm text-center text-white text-xl uppercase w-2/4"
           >{content.button_2}</a
         >
         <a
           href={`${pickLangPath(lang)}support`}
-          class="bg-yellow_leave-700 font-light hover:bg-yellow_leave-600 inline-block mb-2 px-5 py-2 rounded-sm text-brown_dark-900 text-center text-xl uppercase w-2/4"
+          class="bg-yellow_leave-400 font-light hover:bg-green-400 inline-block mb-2 px-5 py-2 rounded-sm text-center text-white text-xl uppercase w-2/4"
           >{content.button_3}</a
         >
       </div>
