@@ -21,6 +21,12 @@ export const frontPageSchema = ({ image }) =>
         })
       ),
     }),
+    about_us: z.object({
+      title: z.string(),
+      paragraph: z.string(),
+      link: z.string(),
+      link_text: z.string(),
+    }),
     situation: z.object({
       title: z.string(),
       paragraph: z.string(),
