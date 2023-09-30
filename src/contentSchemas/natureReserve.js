@@ -1,4 +1,3 @@
-import { ZodLazy } from "astro/zod";
 import { z } from "astro:content";
 
 export const natureReserveSchema = ({ image }) =>

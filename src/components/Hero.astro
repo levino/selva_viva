@@ -13,17 +13,19 @@ const optimizedBackground = await getImage({ src: content.hero_bg_image });
   class="bg-green-800 hero relative text-gray-400"
   style={`background-image: url(${optimizedBackground.src});`}
 >
-  <div class="container mx-auto px-4 py-48">
+  <div class="container mx-auto px-4 py-40">
     <div>
       <div class="px-4 w-full lg:w-6/12">
-        <p class="font-medium mb-2 text-2xl text-yellow_leave-400 uppercase">
+        <p class="font-medium mb-2 text-2xl text-white uppercase">
           {content.greeting}
         </p>
         <h1 class="font-extrabold mb-4 text-8xl text-white">{content.title}</h1>
-        <p class="font-all font-light mb-6 text-2xl">{content.msg}</p>
+        <p class="font-all font-light mb-6 text-2xl">
+          {content.msg}
+        </p>
         <a
-          href={`${pickLangPath(lang)}support`}
-          class="bg-yellow_leave-700 font-light hover:bg-yellow_leave-600 inline-block px-5 py-2 rounded-sm text-2xl text-brown_dark-900 uppercase"
+          href="#"
+          class="bg-yellow_leave-500 font-light hover:bg-green-500 inline-block px-5 py-2 rounded-sm text-2xl text-white uppercase"
           >{content.button}</a
         >
       </div>

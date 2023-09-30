@@ -13,6 +13,7 @@ export const frontPageSchema = {
       name: "hero",
       widget: "object",
       summary: "{{fields.name}}",
+      collapsed: true,
       fields: [
         { label: "Greeting", name: "greeting", widget: "string" },
         { label: "Title", name: "title", widget: "string" },
@@ -27,10 +28,45 @@ export const frontPageSchema = {
       ],
     },
     {
+      label: "Participate",
+      name: "participate",
+      widget: "object",
+      summary: "Participate Content",
+      collapsed: true,
+      fields: [
+        { label: "Title", name: "title", widget: "string" },
+        {
+          label: "Cards",
+          name: "cards",
+          widget: "list",
+          fields: [
+            { label: "Title", name: "title", widget: "string" },
+            { label: "Link", name: "link", widget: "string" },
+            { label: "Image", name: "image", widget: "image" },
+            { label: "Image Alt", name: "image_alt", widget: "string" },
+          ],
+        },
+      ],
+    },
+    {
+      label: "About Us",
+      name: "about_us",
+      widget: "object",
+      summary: "About Us Content",
+      collapsed: true,
+      fields: [
+        { label: "Title", name: "title", widget: "string" },
+        { label: "Paragraph", name: "paragraph", widget: "markdown" },
+        { label: "Link", name: "link", widget: "string" },
+        { label: "Link Text", name: "link_text", widget: "string" },
+      ],
+    },
+    {
       label: "Situation",
       name: "situation",
       widget: "object",
       summary: "{{fields.name}}",
+      collapsed: true,
       fields: [
         { label: "Title", name: "title", widget: "string" },
         { label: "Paragraph", name: "paragraph", widget: "markdown" },
@@ -51,6 +87,7 @@ export const frontPageSchema = {
       name: "problem",
       widget: "object",
       summary: "{{fields.name}}",
+      collapsed: true,
       fields: [
         { label: "Title", name: "title", widget: "string" },
         { label: "Paragraph", name: "paragraph", widget: "markdown" },
@@ -64,6 +101,7 @@ export const frontPageSchema = {
       name: "solution",
       widget: "object",
       summary: "{{fields.name}}",
+      collapsed: true,
       fields: [
         { label: "Title", name: "title", widget: "string" },
         { label: "Paragraph", name: "paragraph", widget: "markdown" },
@@ -78,6 +116,7 @@ export const frontPageSchema = {
       name: "donors",
       widget: "object",
       summary: "{{fields.name}}",
+      collapsed: true,
       fields: [
         { label: "Title", name: "title", widget: "string" },
         { label: "Paragraph", name: "paragraph", widget: "markdown" },

@@ -7,31 +7,45 @@ import ImageWithCaption from "./ImageWithCaption.astro";
 const lang = getLangFromUrl(Astro.url);
 ---
 
-<section class="bg-green_dark-600">
+<section class="bg-my_gray-50 situation">
   <div class="container mx-auto px-4">
     <div class="-mx-4 flex flex-wrap">
       <div
-        class="p-4 md:flex md:items-center md:justify-center md:w-1/2 flex-col"
+        class="flex-col md:flex md:items-center md:justify-center md:w-7/12"
         style="border-left-color: #000000;"
       >
-        {/*TODO: add alt to images in data */}
-        <ImageWithCaption content={content} />
+        <div class="h-full relative w-full">
+          <Image
+            src={content.image}
+            alt={content.image_alt}
+            class="clip_photo_right_lower h-full object-cover w-full"
+          />
+          <div class="absolute bottom-2 right-1/4">
+            <span class="text-white"
+              ><p
+                class="drop-shadow-lg bg-slate-900 px-2 bg-opacity-70 font-all font-light italic text-right text-sm tracking-wide md:text-base"
+              >
+                {content.image_alt}
+              </p></span
+            >
+          </div>
+        </div>
       </div>
-      <div
-        class="flex flex-col items-center justify-center px-4 w-full md:w-1/2"
-      >
+      <div class="flex flex-col items-center justify-center md:w-5/12 px-4">
         <h3
-          class="font-bold font-sans mt-9 text-4xl text-center text-yellow_leave-600"
+          class="font-bold mb-2 mt-4 px-8 text-brown_dark-600 text-lg uppercase"
         >
           {content.title}
         </h3>
-        <p class="font-all p-8 text-2xl font-light text-left text-white">
+        <p
+          class="drop-shadow-lg font-light leading-relaxed mb-6 px-8 text-brown-800 text-xl"
+        >
           {content.paragraph}
         </p>
         <div class="flex justify-center mb-10">
           <a
             href={`${pickLangPath(lang)}projects`}
-            class="bg-yellow_leave-700 font-light hover:bg-yellow_leave-600 inline-block px-5 py-2 rounded-sm text-brown_dark-900 text-xl uppercase"
+            class="bg-yellow_leave-400 font-light hover:bg-green-400 inline-block px-5 py-2 rounded-sm text-white text-xl uppercase"
             >{content.button}</a
           >
         </div>
