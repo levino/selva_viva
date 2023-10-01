@@ -36,7 +36,7 @@ situation:
     ihren Samen immer schwieriger wird. Das Ökosystem beginnt sich zu zersetzen.
   image: /src/assets/balsamos-cortados_1.17.1.jpg
   image_alt: Reste gefällter Bäume im Regenwald des Darién
-  button: mehr zum Biodiversitäts-Hotspot im Darién
+  button: zu unseren Projekten
 problem:
   title: Durch Rodungen aus dem Gleichgewicht
   paragraph: >-
