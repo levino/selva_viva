@@ -14,6 +14,7 @@ export const ui = {
     "nav.plantAndProtect.adoptATree": "Werde Baumpate/in",
     "nav.plantAndProtect.forestGuardian": "Werde Waldwächter/in",
     "nav.projects.tree-nursery": "Baumschule",
+    "nav.projects.reserve": "Reservat",
     "nav.projects.mucuna": "Mucuna",
     "nav.projects.bamboo": "Bambus",
     "nav.trees": "Bäume",
