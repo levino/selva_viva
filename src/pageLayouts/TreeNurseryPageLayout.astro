@@ -1,7 +1,11 @@
 ---
+import { getCollection } from "astro:content";
 import Layout from "../layouts/Layout.astro";
 import OurTreesSection from "../components/OurTreesSection.astro";
 import FlexPanelsHero from "../components/FlexPanelsHero.astro";
+
+const pageContent = await getCollection("treeNursery");
+console.log(pageContent[0].data.hero);
 ---
 
 <Layout title="tree-nursery">
