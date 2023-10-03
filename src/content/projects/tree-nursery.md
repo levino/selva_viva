@@ -9,55 +9,74 @@ cover_image: "../../assets/dsc00904-copy-2.jpeg"
 cover_alt: "Baumschule"
 ---
 
-## Die Baumschule...
+## Zu unseren drei Zielen
 
-ist der Ort, an dem die Arbeit von Viva la Selva häufig beginnt. Hier bekommen Samen und junge Triebe die Pflege und Aufmerksamkeit, die sie brauchen, um überlebensfähig zu werden.
+### I) Wir pflanzen und pflegen BEDROHTE ARTEN 
 
-Die Baumschule widmet sich DREI TYPEN VON BÄUMEN:
+#### Denn selten gewordene Urwald-Bäume verbreiten sich nicht mehr genügend von allein.
 
-I) In erster Linie: bedrohte Arten, die in der Wildnis kaum noch von selbst nachwachsen
+Der Regenwald dieser Region (Darién-Chocó) gehört zu den artenreichsten Biotopen weltweit (mehr zum Biodiversitäts-Hotspot [hier]), allerdings ist gerade diese Region des Chocó sehr stark durch Abholzung bedroht.
+Die Nachkommen stärker ausgebeuteter Arten finden wir häufig an weiter abgelegenen und schwer zugänglichen Orten, an denen noch Mutterpflanzen stehen, die Samen spenden. Unter Mutterpflanzen überleben nur wenige Triebe und auch nur, wenn die Mutterpflanze rechtzeitig stirbt und einem jungen Baum Platz macht. Nur der stärkste setzt sich durch. Wir machen uns auf die Suche retten einen Teil der Samen und jungen Pflänzchen dieser bedrohten Baumarten. Manche Exemplare stehen auch auf Weiden – dort müssen die Triebe rechtzeitig vor dem Einsatz von Unkraut-vernichtungsmitteln gerettet werden, manchmal gelingt es uns, zur rechten Zeit am rechten Ort zu sein. 
+Bisher pflanzen wir die Samen oder Sämlinge danach (unter möglichst an die Bedürfnisse angepassten Bedingungen) bei uns in Aussaat-Tüten oder in Anzuchtbeete, wenn die Triebe Baumart eine spätere Auslese und Umsetzen erlauben. In Zukunft wird es für einige der Arten auch Bauminseln geben, mehr dazu in unseren [Newsletter zu Bauminseln](https://vivalaselva.substack.com/p/bauminseln).
 
-II) außerdem, aber in Zukunft weniger in der Baumschule selbst: Baum-Arten, die insbesondere den (Bau-)Holzbedarf für Häuser und Zäune der Region als sinnvolle, aber weniger bedrohte Alternative decken können
+Für unsere fertigen Setzlinge und unsere Bauminseln, suchen wir möglichst sichere Orte mit geeigneten Bodeneigenschaften, um zu wachsen und Blüten, Früchte und Samen zu tragen. Sie sollen Raum zum Leben haben und auch geben können.  
+        Mit Hilfe von Wind, Fledermäusen und Vögeln dürfen sich auch ihre Samen dann wieder weiter verteilen. Und mit noch ein wenig Glück, wächst nach und nach auch wieder der eine oder andere Baum von alleine an und der Kreislauf setzt sich in der Wildnis fort. Außerdem können unsere Schützlinge mit ihren Samen und Sämlingen genetisches Material für Aufforstungsprojekte bereithalten.
 
-III) zusätzlich, aber auch das in Zukunft weniger in der Baumschule selbst: junge Obstbäumchen, da diese in den letzten Jahrzehnten in der Region zunehmend unter Plagen oder Abholzung gelitten haben
+### II) Wir pflanzen ALTERNATIVE BAUHOLZ-ARTEN
 
-(Details siehe weiter unten)
+#### Denn wirksamer Schutz für bedrohte Arten muss den Menschen der Region sinnvolle Alternativen für ihre Häuser und Zäune bieten.
 
-DIE HÜRDEN
+Die Region Chocó-Darién liegt geografisch abgegrenzt durch die Karibik-Küste und den Golf von Urabá (im Nord-Osten), den Atrato-Strom und ein angrenzendes Regenwald-Gebiet (im Süden) und die Bergkette des Darién mit der Grenze zu Panama (im Westen) wie eine Insel „vor“ dem „kolumbianischen Festland“.
 
-In allen Fällen ist die Arbeit nicht leicht, meist müssen wir im Versuch herausfinden, welche Bedingungen der Samen braucht, um zu keimen, und welche der junge Trieb, um zu wachsen, und wo der junge Baum sich ansiedeln lässt und wo nicht, wer welchen Angreifer überwinden kann und wer welche Hilfe braucht.
+Das erklärt zum einen die - inzwischen bedrohte - Fülle endemischer Spezies,beeinträchtigt aber zugleich Arbeitsmöglichkeiten und Handel in der Region. Die einzige nennenswerte legale Einkommensquelle ist die Viehwirtschaft. Baumaterialien wie Beton und Stahl sind teuer und ihre Beschaffung logistisch anspruchsvoll,viele Häuser und die Zaunpfähle der Weiden werden nach wie vor aus Holz gebaut. Statt dafür regional oder weltweit bedrohte Arten zu fällen, sollen in der Region mehr solcher Spezies zur Verfügung stehen, welche ähnlich gut geeignet sind, aber leichter und schneller wieder nachwachsen.
+Darunter sind auch Baumarten, die als lebende Zäune herhalten, also den Zaundraht halten und zugleich den Tieren und Böden Schatten, Wurzelwerk und Futter bieten. Zu diesen Spezies gehören z.B. Fría und Mataratón, letzterer hat auch medizinische Verwendung (z.B. Moskito-Schutz).
 
-Viele Rückschläge warten auf uns, aber wo es gelingt, da gelingt das Wunder des Lebens in einer bezaubernden Fülle, für die sich all der Aufwand lohnt, denn wenn wir es nicht tun? - Wer tut es dann?
+### III) Wir pflanzen VIELE VERSCHIEDENE OBSTSORTEN
 
-IM DETAIL:
+#### Denn Obst und selbstgemachte Säfte sind gesünder für Mensch und Umwelt als bunte Limos aus herangeschifften Plastikflaschen. Außerdem bieten sie den Tierarten Nahrung, die wir als Bestäuber und Samenverbreiter für die bedrohten Baumarten dringend brauchen.
 
-I) bedrohte Arten retten
+Obstbäume haben kürzere Lebenszyklen. Sie sind außerdem immer wieder Plagen oder dem Platzbedarf auf Weiden und um Bebauungen zum Opfer gefallen,es gibt sie, aber weniger und weniger artenreich, es wurde nicht genug nachgepflanzt. Das früher allgemein anerkannte Recht, unterwegs Früchte für den kleinen Hunger mitgehen zu lassen, wurde zunehmend unterbunden, indem die Bäume auf den Weiden abgeholzt wurden, angeblich um zu verhindern, dass die Zäune unter dem Laufpublikum litten.
 
-Die Nachkommen der stärker ausgebeuteten Arten befinden sich häufig an weit abgelegenen und schwer zugänglichen Orten, an denen noch Mutterpflanzen stehen, die Samen spenden. Wir machen uns auf die Suche nach Samen und jungen Pflänzchen der bedrohten Baumarten, und pflanzen sie dann bei uns in Aussaat-Tüten (unter möglichst an die Bedürfnisse angepassten Bedingungen) ein.
+Aber Menschen und Tiere leben von Limetten, Mandarinen, Orangen, Avocados, Mangos, Guaven, Chilli, Bananen, Kokosnüssen, uvam. Ihr Verzehr beugt Krankheiten wie Denghe-Fieber und Malaria vor, bzw. hilft, sie gut zu überstehen. Die Einfuhr von Obst in die inselartig abgegrenzte Region (siehe oben) ist schwierig bei hohen Temperaturen, hoher Luftfeuchtigkeit, Wellengang und hohen Transportkosten quer über den Golf. Plastikflaschen voll überzuckerter bunt-gefärbter Getränke überstehen den Weg besser. Obstbäume vor Ort bieten eine billigere, gesündere,plastikfreie und CO2-negative Alternative und sind deshalb wichtig für die Gesundheit der Menschen und der Natur der Region.
+Und nicht zuletzt bieten Obstbäume all den Tieren eine Nahrungsgrundlage, die uns helfen können, auch die bedrohten Arten zu bestäuben und ihre Samen in alle Winde zu verteilen.
 
-Wenn die Triebe stark genug sind, um mit etwas Aufmerksamkeit in der Wildnis zu überleben, suchen wir ihnen möglichst sichere Orte mit guten Bodeneigenschaften, an denen sie wachsen und gedeihen, Blüten, Früchte und Samen tragen können. Sie sollen Raum zum Leben haben und auch geben können. Mit Hilfe von Wind, Fledermäusen und Vögeln dürfen sich auch ihre Samen dann wieder weiter verteilen. Und mit noch ein wenig Glück, wächst nach und nach auch wieder der eine oder andere Baum von alleine an und der Kreislauf setzt sich in der Wildnis fort...
+## Zu unserer Arbeit
 
-II) alternatives Baumaterial anbieten
+### Kleine Herausforderungen
 
-Die abgelegene Region des Darien lebt von der Viehwirtschaft. Das ist die einzige nennenswerte legale Einkommensquelle. Moderne Baumaterialien wie Beton und Stahl sind teuer und ihre Beschaffung logistisch anspruchsvoll. Statt weltweit bedrohte Arten für Zäune und Hausbau zu fällen, sollen in der Region solche Spezies ausreichend zur Verfügung stehen, welche ähnlich gut geeignet sind, aber leichter und schneller wieder nachwachsen, auch für unsere eigenen Zäune.
+#### Die Wachstumsbedingungen für wilde Urwald-Spezies finden
 
-III) Obstbäume für eine „Auffruchtung“ der Region
+- Bodenmischung
+- Feuchtigkeitsmenge allgemein
+- Resistenz gegen Staunässe
+- Lichtbedarf
+- Verträglichkeit für direkte Sonnenstrahlen
+- Verträglichkeit mit anderen Waldbewohnern (Parasiten, Fressfeinde, usw.)
 
-Der Obstbaumbestand der Region wurde in den letzten drei Jahrzehnten zunehmend durch Plagen und Abholzung reduziert. Das allgemein akzeptierte Recht, unterwegs Früchte für den kleinen Hunger mitgehen lassen zu dürfen, wurde zunehmend unterbunden, indem die Bäume abgeholzt wurden, angeblich um zu verhindern, dass die Zäune unter dem Laufpublikum litten. Aber Mensch und Tier leben von Limonen, Avocados, Mangos, Guaven uvam. Ihnen soll wieder eine natürliche Nahrungsgrundlage zurückgegeben werden, die viele vermissen, ohne gezielt etwas dagegen zu tun.
+### Kleine Gewissenssache
 
-DIE ANFÄNGE der Baumschule:
+#### Plastik in Baumschulen
 
-Seit März 2023 haben wir angefangen, das erste Plätzchen für ein paar Hundert Bäume herzurichten, über 200 Samen wurden damals gepflanzt und etwa ein Drittel davon ist aufgegangen.
+Um unnötiges Plastik durch Anzuchttüten und Plastikmaschengewebe als Schattenspender und Starkregen-Schutz zu vermeiden, säen wir (je nach Umfang des vorhandenen genetischen Materials) die Samen oder kleine Sämlinge in Anzuchtbeete, oder (nur bei sehr geringer Zahl und hohem Bedrohungsstatus der Spezies) zusätzlich in Anzuchttüten, welche wir außerdem versuchen zu recyclen. Bei größerem Umfang an Samenvorrat können bald auch verschiedene Arten gemeinsam in Bauminseln, also direkt am Bestimmungsort in die Erde gepflanzt werden. Lies hier mehr zum [Bauminsel-Konzept](https://vivalaselva.substack.com/p/bauminseln). Mehr zu Plastik in Baumschulen in unserem ausführlichen [Newsletter-Beitrag](https://vivalaselva.substack.com/p/uber-baumschulen-und-ihr-plastik).
 
-Unsere erste Spendenkampagne im Juni 2023 gab der Baumschule einen entscheidenden Schritt nach vorn. Ein größeres Gebiet für mehrere tausend Pflänzchen wurde schon hergerichtet, und nach und nach werden neue Anzuchtbeete angelegt.
+### Kleiner Rückblick
 
-UNSERE AUFGABEN zum Erhalt der Baumschule:
+#### Wie alles begann
 
-1. regelmäßig das Gelände der Baumschule und um sie herum von wucherndem Gestrüpp befreien. Nicht, weil wir Verfechter englischen Rasens wären, sondern weil wir hier in den Tropen auch ein wenig an unser Überleben denken und den Arbeitsplatz möglichst frei von Giftschlangen, Spinnen und Skorpionen halten wollen.
+Im März 2023 fingen wir an, das erste Plätzchen für ein paar Hundert Bäume herzurichten. Wir pflanzten über 200 Samen, etwa ein Drittel davon ist aufgegangen. Nebenbei gaben wir einigen Samen ein weiteres Plätzchen im Dorf, um unterschiedliche Wachstumsbedingungen auszuprobieren.
+Allerdings war unsere Baumschule zu klein. Unsere erste Spendenkampagne im Juni 2023 gab unserem Projekt dann einen entscheidenden Schritt nach vorn: Wir konnten eine größere Fläche für mehrere tausend Pflänzchen daneben herrichten.
 
-2. Dies getan, durchqueren wir zu Fuß unser stark bewachsenes Naturreservat, um von verschiedenen Orten verschiedene Sorten Erde und natürliche Dünger heranzuschaffen. Es ist harte Arbeit, zentnerweise Mutterboden und Ameisenkot durch unwegsames Terrain zu manövrieren. Aber an Motivation hierfür mangelt es uns nicht, schließlich handelt es sich um eine passende Kinderstube für unsere Schützlinge.
+So haben wir inzwischen insgesamt drei Baumschulen, eine sehr kleine mitten im Dorf, eine eher kleine auf der Finca und eine etwas größere daneben. Jede der drei bietet unterschiedlich viel Sonne und Bodenfeuchte, sodass wir besonders empfindliche Samen an allen drei Standorten ausprobieren können.
 
-3. Außerdem müssen wir Anzucht-Tüten kaufen und mit Erde befüllen und sie in der Baumschule platzieren und gegebenenfalls umsortieren.
+### Kleine Einblicke
+
+#### Unsere Aufgaben für und um die Bäumchen
+
+1. Das Gelände der Baumschule und um sie herum regelmäßig von wucherndem Gestrüpp befreien. Nicht, weil wir Verfechter englischen Rasens wären, sondern weil wir hier in den Tropen auch ein wenig an unser Überleben denken und den Arbeitsplatz möglichst frei von Giftschlangen, Spinnen und Skorpionen halten wollen.
+
+2. Von verschiedenen Orten der Finca schaffen wir verschiedene Sorten Erde und natürliche Dünger heran, dazu durchqueren wir zu Fuß unsere stark bewachsene Finca und das Naturreservat. Es ist harte Arbeit, zentnerweise Mutterboden und Ameisenkot durch unwegsames Terrain zu manövrieren. Aber an Motivation hierfür mangelt es uns nicht, schließlich handelt es sich um eine passende Kinderstube für unsere Schützlinge.
+
+3. Außerdem müssen wir Anzucht-Tüten kaufen und mit Erde befüllen und sie in der Baumschule platzieren und gegebenenfalls umsortieren, bzw. Anzuchtbeeten anlegen, in beiden Fällen müssen die Beete und Tüten gepflegt, größerer Wildwuchs herausgezupft und die Pflänzchen vor Fressfeinden beschützt werden.
 
 4. Parallel überprüfen wir so oft es geht unsere Grenzzäune, denn auch die Kühe von den Weiden ringsum wissen bereits, dass es bei uns mehr leckeres Grün und immer ausreichend frisches Wasser in den Bächen gibt. Wir verstehen die Kühe, aber den Pflanzen in unserem Reservat und insbesondere der Baumschule bringen sie leider große Schäden.
 
@@ -65,4 +84,4 @@ UNSERE AUFGABEN zum Erhalt der Baumschule:
 
 6. Die Pflege der Samen die Überprüfung ihrer Keimungsprozesse und die Suche nach Lösungen, wenn eine Art nicht so recht gedeihen will, erfordert Hingabe und Forschergeist, denn zur Aufzucht einiger Arten ist weder unter den Menschen hier, noch im Internet ernsthaft Hilfe zu finden.
 
-7. Den Trieben, die stark und zu groß für ihren Platz in der Baumschule werden, suchen wir einen Platz in einem Naturreservat oder an einer anderen Stelle, an der wir ihr Wachstum möglichst gesichert ein paar Jahre weiter begleiten können.
+7. Den Trieben, die der Baumschule entwachsen, suchen wir einen Platz in einem Naturreservat oder an einer anderen Stelle, an der wir ihr Wachstum möglichst gesichert ein paar Jahre weiter begleiten können.
