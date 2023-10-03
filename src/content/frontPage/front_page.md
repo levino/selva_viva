@@ -37,6 +37,7 @@ situation:
   image: /src/assets/balsamos-cortados_1.17.1.jpg
   image_alt: Reste gefällter Bäume im Regenwald des Darién
   button: mehr zum Biodiversitäts-Hotspots
+  button_link: projects/nature-reserve/full-text#region-bedeutung
 problem:
   title: Durch Rodungen aus dem Gleichgewicht
   paragraph: >-
