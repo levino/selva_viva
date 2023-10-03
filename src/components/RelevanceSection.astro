@@ -1,6 +1,6 @@
 ---
 import { Image } from "astro:assets";
-const { relevance } = Astro.props;
+const { content } = Astro.props;
 ---
 
 <div class="flex flex-no-wrap items-center mx-auto py-10 w-4/5">
@@ -9,7 +9,7 @@ const { relevance } = Astro.props;
     <h2
       class="font-all font-semibold text-4xl text-center text-yellow_leave-600 uppercase"
     >
-      {relevance.title}
+      {content.title}
     </h2>
   </div>
   <div class="bg-gray-500 flex-grow h-px max-w-full"></div>
@@ -18,8 +18,8 @@ const { relevance } = Astro.props;
     <div class="flex flex-wrap -mx-4">
       <div class="px-4 w-full md:w-7/12">
         <Image
-          src={relevance.image}
-          alt={relevance.image_alt}
+          src={content.image}
+          alt={content.image_alt}
           class="clip_photo_right_lower h-full object-cover w-full"
         />
       </div>
@@ -27,11 +27,11 @@ const { relevance } = Astro.props;
         class="flex flex-col items-start justify-center p-4 w-full md:w-5/12"
       >
         <p class="font-bold mb-4 mt-4 px-4 text-brown-800 text-xl uppercase">
-          {relevance.subtitle}
+          {content.subtitle}
         </p>
         <ul>
           {
-            relevance.relevance_list.map((item) => (
+            content.relevance_list.map((item) => (
               <li class="border-b-2 drop-shadow-lg font-light leading-relaxed mb-2 px-4 text-brown-800 text-left text-xl">
                 {item}
               </li>
@@ -41,14 +41,15 @@ const { relevance } = Astro.props;
         <p
           class="border-b-2 drop-shadow-lg font-light leading-relaxed mb-2 px-4 text-brown-800 text-left text-xl"
         >
-          <a href={`./${relevance.read_more_link}`} class="text-slate-500 font-normal"
-            >{relevance.read_more_text}</a
+          <a
+            href={`./${content.read_more_link}`}
+            class="text-slate-500 font-normal">{content.read_more_text}</a
           >
         </p>
         <a
-          href={relevance.button_link}
+          href={content.button_link}
           class="bg-yellow_leave-500 font-light hover:bg-green-400 inline-block mt-7 mx-4 px-5 py-2 rounded-sm shadow-lg text-white uppercase"
-          >{relevance.button_text}</a
+          >{content.button_text}</a
         >
       </div>
     </div>
