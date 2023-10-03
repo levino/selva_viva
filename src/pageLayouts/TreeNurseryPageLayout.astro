@@ -3,14 +3,17 @@ import Layout from "../layouts/Layout.astro";
 import OurTreesSection from "../components/OurTreesSection.astro";
 import ContentRightList from "../components/ContentRightList.astro";
 import FlexPanelsHero from "../components/FlexPanelsHero.astro";
+import CTACenter from "../components/CTACenter.astro";
 const { pageContent } = Astro.props;
 const {
   data,
-  data: { hero, our_trees },
+  data: { hero, our_trees, goals, cta_center },
 } = pageContent;
 ---
 
 <Layout title="tree-nursery">
   <FlexPanelsHero content={hero} />
   <OurTreesSection trees={our_trees} />
+  <ContentRightList content={goals} />
+  <CTACenter cta_center={cta_center} />
 </Layout>
