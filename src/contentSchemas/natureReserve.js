@@ -30,7 +30,7 @@ export const natureReserveSchema = ({ image }) =>
     relevance: z.object({
       title: z.string(),
       subtitle: z.string(),
-      relevance_list: z.array(z.string()),
+      list: z.array(z.string()),
       read_more_text: z.string(),
       read_more_link: z.string(),
       image: image(),
