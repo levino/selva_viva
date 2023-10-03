@@ -1,9 +1,11 @@
 ---
+import { getCollection } from "astro:content";
 import TreeNurseryPage from "../../pageLayouts/TreeNurseryPageLayout.astro";
 import * as treeNurseryContent from "../../content/projects/tree-nursery.md";
 import { Content } from "../../content/projects/tree-nursery.md";
+const [pageContent] = await getCollection("treeNursery");
 ---
 
-<TreeNurseryPage>
+<TreeNurseryPage pageContent={pageContent}>
   <Content />
 </TreeNurseryPage>
