@@ -1,6 +1,6 @@
 ---
 import { Image } from "astro:assets";
-const { our_trees } = Astro.props;
+const { trees } = Astro.props;
 ---
 
 <section class="bg-white" data-pg-collapsed>
@@ -11,7 +11,7 @@ const { our_trees } = Astro.props;
         <h2
           class="font-all font-semibold text-4xl text-center text-yellow_leave-600 uppercase"
         >
-          {our_trees.title}
+          {trees.title}
         </h2>
       </div>
       <div class="bg-gray-500 flex-grow h-px max-w-full"></div>
@@ -24,12 +24,12 @@ const { our_trees } = Astro.props;
       >
         <div class="mx-auto">
           <p class="font-bold mb-4 mt-4 text-brown-800 text-xl uppercase">
-            {our_trees.subtitle}
+            {trees.subtitle}
           </p>
         </div>
         <ul class="flex flex-wrap">
           {
-            our_trees.trees_list.map((tree) => (
+            trees.trees_list.map((tree) => (
               <li class="border-b-2 drop-shadow-lg font-light leading-relaxed ml-2 px-2 text-brown-800 text-xl capitalize">
                 {tree}
               </li>
@@ -37,15 +37,15 @@ const { our_trees } = Astro.props;
           }
         </ul>
         <a
-          href={`/${our_trees.button_link}`}
+          href={`/${trees.button_link}`}
           class="bg-yellow_leave-500 font-light hover:bg-green-400 inline-block mt-7 mx-auto px-5 py-2 rounded-sm shadow-lg text-white uppercase"
-          >{our_trees.button_text}</a
+          >{trees.button_text}</a
         >
       </div>
       <div class="flex p-4 w-full md:w-7/12">
         <Image
-          src={our_trees.image}
-          alt={our_trees.image_alt}
+          src={trees.image}
+          alt={trees.image_alt}
           class="clip_photo_left_upper h-full object-cover w-full"
         />
       </div>
