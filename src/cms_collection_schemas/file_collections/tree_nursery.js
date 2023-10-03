@@ -51,5 +51,55 @@ export const treeNurseryPageSchema = {
         { label: "Button link", name: "button_link", widget: "string" },
       ],
     },
+    {
+      label: "Goals",
+      name: "goals",
+      widget: "object",
+      summary: "Goals Content",
+      collapsed: true,
+      fields: [
+        { label: "Title", name: "title", widget: "string" },
+        { label: "Subtitle", name: "subtitle", widget: "string" },
+        {
+          label: "Goals List",
+          name: "list",
+          widget: "list",
+          field: { label: "item", name: "item", widget: "string" },
+        },
+        { label: "Read More Text", name: "read_more_text", widget: "string" },
+        { label: "Read More link", name: "read_more_link", widget: "string" },
+        {
+          label: "Image",
+          name: "image",
+          widget: "image",
+        },
+        {
+          label: "Image Alt",
+          name: "image_alt",
+          widget: "string",
+        },
+        { label: "Button Text", name: "button_text", widget: "string" },
+        { label: "Button link", name: "button_link", widget: "string" },
+      ],
+    },
+    {
+      label: "CTA Center",
+      name: "cta_center",
+      widget: "object",
+      collapsed: true,
+      summary: "CTA Center Content",
+      fields: [
+        {
+          label: "Button Text",
+          name: "button_text",
+          widget: "string",
+        },
+        {
+          label: "Button Link",
+          name: "button_link",
+          widget: "string",
+        },
+      ],
+    },
   ],
 };
