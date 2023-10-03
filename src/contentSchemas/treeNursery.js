@@ -1,6 +1,6 @@
 import { z } from "astro:content";
 
-export const natureReserveSchema = ({ image }) =>
+export const treeNurserySchema = ({ image }) =>
   z.object({
     page_meta_title: z.string(),
     hero: z.array(
@@ -12,4 +12,13 @@ export const natureReserveSchema = ({ image }) =>
         image_alt: z.string(),
       })
     ),
+    our_trees: z.object({
+      title: z.string(),
+      subtitle: z.string(),
+      trees_list: z.array(z.string()),
+      image: image(),
+      image_alt: z.string(),
+      button_text: z.string(),
+      button_link: z.string(),
+    }),
   });

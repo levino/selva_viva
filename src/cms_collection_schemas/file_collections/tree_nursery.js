@@ -22,5 +22,34 @@ export const treeNurseryPageSchema = {
         { label: "Image Alt", name: "image_alt", widget: "string" },
       ],
     },
+    {
+      label: "Our Trees",
+      name: "our_trees",
+      widget: "object",
+      summary: "Our Trees Content",
+      collapsed: true,
+      fields: [
+        { label: "Title", name: "title", widget: "string" },
+        { label: "Subtitle", name: "subtitle", widget: "string" },
+        {
+          label: "Trees List",
+          name: "trees_list",
+          widget: "list",
+          field: { label: "Tree", name: "tree", widget: "string" },
+        },
+        {
+          label: "Image",
+          name: "image",
+          widget: "image",
+        },
+        {
+          label: "Image Alt",
+          name: "image_alt",
+          widget: "string",
+        },
+        { label: "Button Text", name: "button_text", widget: "string" },
+        { label: "Button link", name: "button_link", widget: "string" },
+      ],
+    },
   ],
 };

@@ -1,10 +1,16 @@
 import { reference, defineCollection, z } from "astro:content";
 import { natureReserveSchema } from "../contentSchemas/natureReserve";
 import { frontPageSchema } from "../contentSchemas/frontPage";
+import { treeNurserySchema } from "../contentSchemas/treeNursery";
 
 const frontPage = defineCollection({
   type: "content",
   schema: frontPageSchema,
+});
+
+const treeNursery = defineCollection({
+  type: "content",
+  schema: treeNurserySchema,
 });
 
 const plantATreeCollection = defineCollection({
@@ -182,4 +188,5 @@ export const collections = {
   supportPage: supportPageSchema,
   aboutUsPage: aboutUsPageSchema,
   natureReserve: natureReserve,
+  treeNursery,
 };
