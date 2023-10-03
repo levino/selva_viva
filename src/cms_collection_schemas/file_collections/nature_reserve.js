@@ -122,7 +122,7 @@ export const natureReserveSchema = {
         { label: "Subtitle", name: "subtitle", widget: "string" },
         {
           label: "Relevance List",
-          name: "relevance_list",
+          name: "list",
           widget: "list",
           field: { label: "item", name: "item", widget: "string" },
         },
