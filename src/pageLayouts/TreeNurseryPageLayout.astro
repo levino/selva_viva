@@ -16,4 +16,9 @@ const {
   <OurTreesSection trees={our_trees} />
   <ContentRightList content={goals} />
   <CTACenter cta_center={cta_center} />
+  <section class="py-10">
+    <div class="prose mx-auto lg:prose-xl prose-stone">
+      <slot />
+    </div>
+  </section>
 </Layout>
