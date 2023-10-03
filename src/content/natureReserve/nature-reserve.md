@@ -7,9 +7,11 @@ hero:
   h2_title: 5 ha WALD
   h3_title: 5 BÄCHE & QUELLEN
   h4_title: 11 ha SCHUTZGEBIET
-  h2_title_image_alt: tropisches Naturreservat Viva la Selva, dichter biodiverser
+  h2_title_image_alt:
+    tropisches Naturreservat Viva la Selva, dichter biodiverser
     Wald, hier mit großen Higuerón-Bäumen
-  h3_title_image_alt: tropisches Naturreservat Viva la Selva, dichter biodiverser
+  h3_title_image_alt:
+    tropisches Naturreservat Viva la Selva, dichter biodiverser
     Wald, hier um den Memeto-Bach
   h4_title_image_alt: tropisches Naturreservat Viva la Selva, dichter biodiverser Wald
   main_title_image: /src/assets/dsc01052-copy_smaller.jpeg
@@ -44,7 +46,7 @@ our_trees:
   button_text: WERDE BAUMPATE/IN
   button_link: plant-and-protect/adopt-a-tree
 relevance:
-  relevance_list:
+  list:
     - artenreichere Wälder wachsen schneller
     - biodiverse Wälder speichern mehr CO2
     - unser Reservat erhält genetischen Reichtum
@@ -87,7 +89,8 @@ reserve_story:
     (wie in dieser Region traditionell üblich) und trotz allem mit weniger
     Aufwand als unsere Nachbarn.
   subtitle_2: DIE NATUR IN DEN JAHREN DER GEWALT
-  paragraph_2: Leider erreichte fünf Jahre später, 1996, die Welle der Gewalt, die
+  paragraph_2:
+    Leider erreichte fünf Jahre später, 1996, die Welle der Gewalt, die
     über ganz Kolumbien hereinbrach, auch den Chocó-Darién, in ihrem kompletten
     Ausmaß. [**Mehr lesen...**](./full-text#geschichte-2)
   image: /src/assets/dsc01088-copy_smaller.jpeg
