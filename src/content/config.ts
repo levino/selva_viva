@@ -1,4 +1,3 @@
-import { ZodUndefined, string } from "astro/zod";
 import { reference, defineCollection, z } from "astro:content";
 import { natureReserveSchema } from "../contentSchemas/natureReserve";
 import { frontPageSchema } from "../contentSchemas/frontPage";
