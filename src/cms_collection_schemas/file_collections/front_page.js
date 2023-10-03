@@ -80,6 +80,7 @@ export const frontPageSchema = {
         { label: "Image Alt", name: "image_alt", widget: "string" },
 
         { label: "Button", name: "button", widget: "string" },
+        { label: "Button link", name: "button_link", widget: "string" },
       ],
     },
     {

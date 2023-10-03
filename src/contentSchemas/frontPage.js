@@ -33,6 +33,7 @@ export const frontPageSchema = ({ image }) =>
       image: image(),
       image_alt: z.string(),
       button: z.string(),
+      button_link: z.string(),
     }),
     problem: z.object({
       title: z.string(),
