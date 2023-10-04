@@ -93,5 +93,12 @@ const backgroundImg = await getImage({ src: panel.image });
     .panel p {
       font-size: 1em;
     }
+
+    .panel > *:last-child {
+      opacity: 0;
+    }
+    .panel > *:first-child {
+      opacity: 0;
+    }
   }
 </style>
