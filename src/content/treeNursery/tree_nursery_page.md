@@ -22,7 +22,7 @@ our_trees:
     - Frias
   image: /src/assets/dsc00904-copy_small.jpeg
   image_alt: Baumschzule
-  button_text: Werder Baumpate/in
+  button_text: Werde Baumpate/in
   button_link: plant-and-protect/adopt-a-tree
 goals:
   image_alt: kleines Obstbäumchen ("Wasser-Birne")
