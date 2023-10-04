@@ -95,6 +95,7 @@ export const natureReserveSchema = {
           label: "Trees List",
           name: "trees_list",
           widget: "list",
+          summary: "{{fields.tree}}",
           field: { label: "Tree", name: "tree", widget: "string" },
         },
         {
