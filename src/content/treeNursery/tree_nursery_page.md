@@ -15,11 +15,23 @@ our_trees:
   subtitle: Wir haben
   title: Die Baumschule
   trees_list:
-    - Balsamos
-    - Almendros
-    - Canimes
-    - Orejeros
-    - Frias
+    - Bálsamo
+    - Almendro
+    - Canime
+    - Orejero
+    - Fría
+    - Ébano caribeño
+    - Samán
+    - Campano de bledo
+    - Algarroba
+    - "verschiedene Mango-Arten "
+    - verschiedene Avocado-Arten
+    - verschiedene Cocospalmen-Arten
+    - Cashew
+    - verschiedene Limonen- / Limetten-Arten
+    - Perra de agua ("Wasserbirne")
+    - Anón
+    - Guanábano
   image: /src/assets/dsc00904-copy_small.jpeg
   image_alt: Baumschzule
   button_text: Werde Baumpate/in
