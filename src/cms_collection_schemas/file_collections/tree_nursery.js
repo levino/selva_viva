@@ -35,6 +35,7 @@ export const treeNurseryPageSchema = {
           label: "Trees List",
           name: "trees_list",
           widget: "list",
+          summary: "{{fields.tree}}",
           field: { label: "Tree", name: "tree", widget: "string" },
         },
         {
@@ -64,7 +65,7 @@ export const treeNurseryPageSchema = {
           label: "Goals List",
           name: "list",
           widget: "list",
-          field: { label: "item", name: "item", widget: "string" },
+          field: { label: "Item", name: "item", widget: "string" },
         },
         { label: "Read More Text", name: "read_more_text", widget: "string" },
         { label: "Read More link", name: "read_more_link", widget: "string" },
