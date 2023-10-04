@@ -32,7 +32,7 @@ goals:
   title: Ziele
   button_text: unterstützen
   image: /src/assets/DSC00971 copy.jpeg
-  read_more_link: tree-nursery#nursery
+  read_more_link: "#nursery"
   list:
     - ...regional und weltweit bedrohte Arten
     - ...alternative, schneller wachsende Bauholz-Arten
