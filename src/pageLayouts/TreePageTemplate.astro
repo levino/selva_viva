@@ -17,7 +17,7 @@ const {
 <Layout title={tree.name}>
   <PageTitle>{tree.name}</PageTitle>
   <div class="prose mx-auto md:max-w-none w-8/12 mb-9">
-    <div class="flex flex-col-reverse md:flex-row">
+    <div class="flex flex-col-reverse md:flex-row bg-beige-200 p-10 rounded-xl">
       <div class="w-full md:w-2/4">
         <h2>{titles.scientific_name[lang]}</h2>s
         <p class="font-bold">{tree.scientific_name}</p>
@@ -93,22 +93,36 @@ const {
       </table>
     </div>
     <h4>Ecological Importance</h4>
-    <div set:html={micromark(tree.ecological_importance)} />
+    <div
+      class="bg-beige-200 p-10 rounded-xl"
+      set:html={micromark(tree.ecological_importance)}
+    />
     <h4>Nutricional Uses</h4>
-    <div set:html={micromark(tree.nutritional_uses)} />
+    <div
+      class="bg-green-200 p-10 rounded-xl text-white"
+      set:html={micromark(tree.nutritional_uses)}
+    />
     <h4>Medicinal Uses</h4>
-    <div set:html={micromark(tree.medicinal_uses)} />
+    <div
+      class="bg-beige-200 p-10 rounded-xl"
+      set:html={micromark(tree.medicinal_uses)}
+    />
     <h4>{titles.uses[lang]}</h4>
-    <div set:html={micromark(tree.uses)} />
+    <div class="bg-green-200 p-10 rounded-xl" set:html={micromark(tree.uses)} />
     <h4>{titles.agroforestry[lang]}</h4>
-    <div set:html={micromark(tree.agroforestry)} />
-    <p>{tree.agroforestry}</p>
+    <div
+      class="bg-beige-200 p-10 rounded-xl"
+      set:html={micromark(tree.agroforestry)}
+    />
     <h4>{titles.wood[lang]}</h4>
-    <div set:html={micromark(tree.wood)} />
+    <div class="bg-green-200 p-10 rounded-xl" set:html={micromark(tree.wood)} />
     <h4>More Information</h4>
     {
       tree.more_info.map((info) => (
-        <div class="w-full break-words" set:html={micromark(info)} />
+        <div
+          class="break-words bg-beige-200 p-10 rounded-xl"
+          set:html={micromark(info)}
+        />
       ))
     }
   </div>
