@@ -35,10 +35,10 @@ our_trees:
   image: /src/assets/dsc00904-copy_small.jpeg
   image_alt: Baumschzule
   button_text: Werde Baumpate/in
-  button_link: plant-and-protect/adopt-a-tree
+  button_link: pflanze-und-schütze/baumpatenschaft
 goals:
   image_alt: kleines Obstbäumchen ("Wasser-Birne")
-  button_link: /support
+  button_link: /mitmachen
   read_more_text: mehr lesen...
   subtitle: Wir pflanzen..
   title: Ziele
@@ -51,5 +51,5 @@ goals:
     - ...Obstbäume in allen Varianten
 cta_center:
   button_text: Werde waldwächter/in
-  button_link: /plant-and-protect/forest-guardian
+  button_link: /pflanze-und-schütze/waldwächter
 ---

@@ -8,7 +8,7 @@ hero_image: /src/assets/dsc01083-copy_smaller.jpeg
 hero_alt: zwei Tachuleos und ein Bálsamo-Baum im Reservat von Viva la Selva
 hero_button:
   hero_button_text: adoptieren & beschützen
-  hero_button_link: plant-and-protect
+  hero_button_link: pflanze-und-schütze
 vision:
   title: VISION
   subtitle: GEMEINSAM FÜR MEHR BIODIVERSITÄT
@@ -28,7 +28,7 @@ how_all_started:
   image_alt: ein Caracolí in unserem Reservat, einer der ersten aufstrebenden
     Riesen in jungen Wäldern
 button: mitmachen
-button_link: support
+button_link: mitmachen
 team:
   title: Unser Team
   team_members:

@@ -15,7 +15,7 @@ cover_alt: "Baumschule"
 
 #### Denn selten gewordene Urwald-Bäume verbreiten sich nicht mehr genügend von allein.
 
-Der Regenwald dieser Region (Darién-Chocó) gehört zu den artenreichsten Biotopen weltweit (mehr zum [Biodiversitäts-Hotspot](./nature-reserve/full-text#region-bedeutung)). Allerdings ist gerade diese Region des Chocó sehr stark durch Abholzung bedroht.
+Der Regenwald dieser Region (Darién-Chocó) gehört zu den artenreichsten Biotopen weltweit (mehr zum [Biodiversitäts-Hotspot](./naturreservat/kompletter-text#region-bedeutung)). Allerdings ist gerade diese Region des Chocó sehr stark durch Abholzung bedroht.
 Die Nachkommen stärker ausgebeuteter Arten finden wir häufig an weiter abgelegenen und schwer zugänglichen Orten, an denen noch Mutterpflanzen stehen, die Samen spenden. Unter Mutterpflanzen überleben nur wenige Triebe und auch nur, wenn die Mutterpflanze rechtzeitig stirbt und einem jungen Baum Platz macht. Nur der Stärkste setzt sich durch. <br>
 Wir machen uns auf die Suche und retten einen Teil der Samen und jungen Pflänzchen dieser bedrohten Baumarten. Manche Exemplare stehen auch auf Weiden – dort müssen die Triebe rechtzeitig vor dem Einsatz von Unkrautvernichtungsmitteln gerettet werden. Manchmal gelingt es uns, zur rechten Zeit am rechten Ort zu sein.<br>
 Bisher säen bzw. pflanzen wir die Samen oder Sämlinge danach (unter möglichst an die Bedürfnisse angepassten Bedingungen) bei uns in Aussaat-Tüten oder in Anzuchtbeete, wenn die Triebe eine spätere Auslese und ein Umsetzen erlauben. In Zukunft wird es für einige der Arten auch Bauminseln geben, mehr dazu in unseren [Newsletter zu Bauminseln](https://vivalaselva.substack.com/p/bauminseln).

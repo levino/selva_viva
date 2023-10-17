@@ -3,7 +3,7 @@ import { Image } from "astro:assets";
 const { cardContent } = Astro.props;
 ---
 
-<a href={`/projects/${cardContent.slug}`}>
+<a href={`/projekte/${cardContent.slug}`}>
   <div class="md:w-1/2 px-4 w-full xl:w-1/4">
     <div class="overflow-hidden p-4 rounded shadow-lg">
       <Image
@@ -22,7 +22,7 @@ const { cardContent } = Astro.props;
       </div>
       <div class="px-6 pt-4 pb-2 text-right">
         <a
-          href={`/projects/${cardContent.slug}`}
+          href={`/projekte/${cardContent.slug}`}
           class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
         >
           {cardContent.data.button_text}

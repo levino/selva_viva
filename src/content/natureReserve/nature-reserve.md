@@ -7,11 +7,9 @@ hero:
   h2_title: 5 ha WALD
   h3_title: 5 BÄCHE & QUELLEN
   h4_title: 11 ha SCHUTZGEBIET
-  h2_title_image_alt:
-    tropisches Naturreservat Viva la Selva, dichter biodiverser
+  h2_title_image_alt: tropisches Naturreservat Viva la Selva, dichter biodiverser
     Wald, hier mit großen Higuerón-Bäumen
-  h3_title_image_alt:
-    tropisches Naturreservat Viva la Selva, dichter biodiverser
+  h3_title_image_alt: tropisches Naturreservat Viva la Selva, dichter biodiverser
     Wald, hier um den Memeto-Bach
   h4_title_image_alt: tropisches Naturreservat Viva la Selva, dichter biodiverser Wald
   main_title_image: /src/assets/dsc01052-copy_smaller.jpeg
@@ -44,24 +42,24 @@ our_trees:
   image_alt: tropisches Naturreservat Viva la Selva, dichter biodiverser Wald,
     hier mit großen Tachuelo-Bäumen
   button_text: WERDE BAUMPATE/IN
-  button_link: plant-and-protect/adopt-a-tree
+  button_link: pflanze-und-schütze/baumpatenschaft
 relevance:
-  list:
-    - artenreichere Wälder wachsen schneller
-    - biodiverse Wälder speichern mehr CO2
-    - unser Reservat erhält genetischen Reichtum
   image_alt: Bálsamo- und Almendro-Pflänzchen in der Baumschule von Viva la Selva
-  button_link: /plant-and-protect/forest-guardian
+  button_link: /pflanze-und-schütze/waldwächter
   read_more_text: mehr lesen...
   subtitle: JEDE BAUMART ZÄHLT
   title: RELEVANZ
   button_text: WERDE WALDWÄCHTER/IN
   image: /src/assets/dsc00904-copy_small.jpeg
-  read_more_link: full-text
+  read_more_link: kompletter-text
   read_more: Mehr lesen...
+  list:
+    - artenreichere Wälder wachsen schneller
+    - biodiverse Wälder speichern mehr CO2
+    - unser Reservat erhält genetischen Reichtum
 cta_center:
   button_text: VIVA LA SELVA UNTERSTÜTZEN
-  button_link: /support
+  button_link: /mitmachen
 location:
   title: LAGE
   subtitle_1: MITTEN IM DARIEN-CHOCÓ
@@ -76,7 +74,7 @@ location:
     regenreichsten, sondern auch zu den artenreichsten Regionen der Erde und ist
     Teil des Biodiversitäts-Hotspots Tumbes-Chocó-Magdalena zwischen
     Pazifikküste und Andenkordilleren von Süd-Panama bis Peru. [**Mehr
-    lesen...**](./full-text#region-bedeutung)
+    lesen...**](./kompletter-text#region-bedeutung)
 reserve_story:
   title: DIE GESCHICHTE VON LA TRIBU
   subtitle_1: WIE WIR „ÖKO“ WURDEN
@@ -89,15 +87,14 @@ reserve_story:
     (wie in dieser Region traditionell üblich) und trotz allem mit weniger
     Aufwand als unsere Nachbarn.
   subtitle_2: DIE NATUR IN DEN JAHREN DER GEWALT
-  paragraph_2:
-    Leider erreichte fünf Jahre später, 1996, die Welle der Gewalt, die
+  paragraph_2: Leider erreichte fünf Jahre später, 1996, die Welle der Gewalt, die
     über ganz Kolumbien hereinbrach, auch den Chocó-Darién, in ihrem kompletten
-    Ausmaß. [**Mehr lesen...**](./full-text#geschichte-2)
+    Ausmaß. [**Mehr lesen...**](./kompletter-text#geschichte-2)
   image: /src/assets/dsc01088-copy_smaller.jpeg
   image_alt: historia
 cta_bottom:
   button_1_text: SPENDEN
-  button_1_link: support
+  button_1_link: mitmachen
   button_2_text: kontakt
-  button_2_link: contact
+  button_2_link: kontakt
 ---
