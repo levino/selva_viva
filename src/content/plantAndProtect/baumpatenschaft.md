@@ -1,5 +1,5 @@
 ---
-title: adopt a tree
+title: baumpatenschaft
 page_title: Werde Baumpate/in
 bg_image: /src/assets/dsc01079-copy_2000px.jpeg
 bg_alt: Zwei Higuerón-Bäume im Reservat von Viva la Selva

@@ -1,5 +1,5 @@
 ---
-title: forest guardian
+title: Waldwächter
 page_title: Werde Waldwächter/in
 bg_image: /src/assets/dsc01148-copy_smaller.jpeg
 bg_alt: Der "Memeto" in unserem Reservat. Während der Trockenzeit führt er nur
