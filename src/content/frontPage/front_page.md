@@ -12,20 +12,20 @@ participate:
     - title: Werde Baumpate/in
       image: /src/assets/dsc00904-copy-2.jpeg
       image_alt: Baumschule von Viva la Selva mit Bálsamos und Almendros
-      link: /plant-and-protect/adopt-a-tree
+      link: /pflanze-und-schütze/baumpatenschaft
     - title: Werde Waldächter/in
-      link: /plant-and-protect/forest-guardian
+      link: /pflanze-und-schütze/waldwächter
       image: /src/assets/dsc01052-copy2.jpeg
       image_alt: Reservat von Viva la Selva mit Caracolí
     - title: Einfach unterstützen
-      link: /support
+      link: /mitmachen
       image: /src/assets/DSC00971 copy.jpeg
       image_alt: Kleines Bäumchen in der Baumschule von Viva la Selva
 about_us:
   title: Wir sind...
   paragraph: ...ein kleines Team mit dem Ziel, gefährdete oder selten gewordene
     Baumarten im Darién (Nord-Chocó, Kolumbien) zu bewahren.
-  link: /about
+  link: /über-uns
   link_text: zum Team
 situation:
   title: Tropisches Ökosystem in Gefahr
@@ -37,7 +37,7 @@ situation:
   image: /src/assets/balsamos-cortados_1.17.1.jpg
   image_alt: Reste gefällter Bäume im Regenwald des Darién
   button: mehr zum Biodiversitäts-Hotspots
-  button_link: projects/nature-reserve/full-text#region-bedeutung
+  button_link: projekte/naturreservat/kompletter-text#region-bedeutung
 problem:
   title: Durch Rodungen aus dem Gleichgewicht
   paragraph: >-
