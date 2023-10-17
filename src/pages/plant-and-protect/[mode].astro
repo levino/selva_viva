@@ -1,9 +1,9 @@
 ---
-import PlantATreeModalityPage from "../../pageLayouts/PlantATreeModalityPage.astro";
+import PlantAndProtectModalityPage from "../../pageLayouts/PlantAndProtectModality.astro";
 import { getCollection } from "astro:content";
 // 1. Generate a new path for every collection entry
 export async function getStaticPaths() {
-  const treeEntries = await getCollection("plantATree");
+  const treeEntries = await getCollection("plantAndProtect");
 
   return treeEntries.map((entry) => ({
     params: { mode: entry.slug },
@@ -14,4 +14,4 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 ---
 
-<PlantATreeModalityPage frontmatter={entry.data} />
+<PlantAndProtectModalityPage frontmatter={entry.data} />

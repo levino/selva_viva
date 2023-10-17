@@ -1,8 +1,8 @@
 export const plantAtreeModesSchema = {
-  name: "plant_a_tree_modalities",
-  label: "Plant a tree modalities",
+  name: "plant_and_protect",
+  label: "Plant and protect",
   label_singular: "Modality",
-  folder: "src/content/plantATree/",
+  folder: "src/content/plantAndProtect/",
   identifier_field: "name",
   create: true,
   delete: true,

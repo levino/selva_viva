@@ -13,7 +13,7 @@ const treeNursery = defineCollection({
   schema: treeNurserySchema,
 });
 
-const plantATreeCollection = defineCollection({
+const plantAndProtectCollection = defineCollection({
   type: "content",
   schema: ({ image }) =>
     z.object({
@@ -183,7 +183,7 @@ export const collections = {
   trees: treesCollection,
   blog: blogCollection,
   team: teamMembersCollection,
-  plantATree: plantATreeCollection,
+  plantAndProtect: plantAndProtectCollection,
   frontPage: frontPage,
   supportPage: supportPageSchema,
   aboutUsPage: aboutUsPageSchema,

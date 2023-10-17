@@ -1,14 +1,14 @@
 ---
 import { getCollection } from "astro:content";
 import * as pageContent from "../../content/_plant_and_protect_index.md";
-import PlantAndProtectPage from "../../pageLayouts/PlantAndProtectPage.astro";
-const plantATreeProjects = await getCollection("plantATree");
+import PlantAndProtectIndex from "../../pageLayouts/PlantAndProtectIndex.astro";
+const plantAndProtect = await getCollection("plantAndProtect");
 
 const allProjects = await getCollection("projects");
 ---
 
-<PlantAndProtectPage
+<PlantAndProtectIndex
   projects={allProjects}
   frontmatter={pageContent.frontmatter}
-  plantATreeProjects={plantATreeProjects}
+  plantAndProtect={plantAndProtect}
 />

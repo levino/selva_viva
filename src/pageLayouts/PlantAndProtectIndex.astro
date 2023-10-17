@@ -1,9 +1,10 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import PageTitle from "../components/PageTitle.astro";
-import PlantATreeCard from "../components/PlantATreeCard.astro";
 
-const { frontmatter, plantATreeProjects } = Astro.props;
+import PlantAndProtectCard from "../components/PlantAndProtectCard.astro";
+
+const { frontmatter, plantAndProtect } = Astro.props;
 ---
 
 <Layout title={frontmatter.title}>
@@ -13,6 +14,6 @@ const { frontmatter, plantATreeProjects } = Astro.props;
   </p>
 
   <div class="mx-auto mt-9">
-    <PlantATreeCard plantATreeProjects={plantATreeProjects} />
+    <PlantAndProtectCard plantAndProtect={plantAndProtect} />
   </div>
 </Layout>
