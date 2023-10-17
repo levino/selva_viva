@@ -92,17 +92,17 @@ const {
         </tbody>
       </table>
     </div>
-    <h4>Ecological Importance</h4>
+    <h4>{titles.ecological_importance[lang]}</h4>
     <div
       class="bg-beige-200 p-10 rounded-xl"
       set:html={micromark(tree.ecological_importance)}
     />
-    <h4>Nutricional Uses</h4>
+    <h4>{titles.nutritional_uses[lang]}</h4>
     <div
       class="bg-green-200 p-10 rounded-xl text-white"
       set:html={micromark(tree.nutritional_uses)}
     />
-    <h4>Medicinal Uses</h4>
+    <h4>{titles.medical_uses[lang]}</h4>
     <div
       class="bg-beige-200 p-10 rounded-xl"
       set:html={micromark(tree.medicinal_uses)}
@@ -116,7 +116,7 @@ const {
     />
     <h4>{titles.wood[lang]}</h4>
     <div class="bg-green-200 p-10 rounded-xl" set:html={micromark(tree.wood)} />
-    <h4>More Information</h4>
+    <h4>{titles.more_info[lang]}</h4>
     {
       tree.more_info.map((info) => (
         <div

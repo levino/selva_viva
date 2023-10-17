@@ -68,7 +68,18 @@ properties:
     de: Status der Kultivierung
     es: Estado de cultivo
     en: Cultivation status
-
+ecological_importance:
+  de: Ökologische Bedeutung
+  es: Importacia ecológica
+  en: Ecological importance
+nutritional_uses:
+  de: Ernährungsphysiologische Verwendung
+  es: Usos nutricionales
+  en: Nutritional uses
+medical_uses:
+  de: Medizinische Anwendungen
+  es: Usos medicinales
+  en: Medicinal uses
 uses:
   de: Benutzungen
   es: Usos
@@ -81,4 +92,8 @@ wood:
   de: Holtz
   es: Madera
   en: Wood
+more_info:
+  de: Mehr
+  es: Mas información
+  en: More information
 ---
