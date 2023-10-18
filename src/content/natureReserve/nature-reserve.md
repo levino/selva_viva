@@ -84,7 +84,8 @@ reserve_story:
     (wie in dieser Region traditionell üblich) und trotz allem mit weniger
     Aufwand als unsere Nachbarn.
   subtitle_2: DIE NATUR IN DEN JAHREN DER GEWALT
-  paragraph_2: Leider erreichte fünf Jahre später, 1996, die Welle der Gewalt, die
+  paragraph_2:
+    Leider erreichte fünf Jahre später, 1996, die Welle der Gewalt, die
     über ganz Kolumbien hereinbrach, auch den Chocó-Darién, in ihrem kompletten
     Ausmaß. [**Mehr lesen...**](./kompletter-text#geschichte-2)
   image: /src/assets/dsc01088-copy_smaller.jpeg
