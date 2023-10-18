@@ -13,10 +13,6 @@ participate:
       image: /src/assets/dsc00904-copy-2.jpeg
       image_alt: Baumschule von Viva la Selva mit Bálsamos und Almendros
       link: /pflanze-und-schütze/baumpatenschaft
-    - title: Werde Waldächter/in
-      link: /pflanze-und-schütze/waldwächter
-      image: /src/assets/dsc01052-copy2.jpeg
-      image_alt: Finca von Viva la Selva mit Caracolí
     - title: Einfach unterstützen
       link: /mitmachen
       image: /src/assets/DSC00971 copy.jpeg

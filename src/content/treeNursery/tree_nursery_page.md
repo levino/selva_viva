@@ -42,7 +42,7 @@ goals:
   read_more_text: mehr lesen...
   subtitle: Wir pflanzen..
   title: Ziele
-  button_text: unterstützen
+  button_text: mitmachen
   image: /src/assets/DSC00971 copy.jpeg
   read_more_link: "#nursery"
   list:
@@ -50,6 +50,6 @@ goals:
     - ...alternative, schneller wachsende Bauholz-Arten
     - ...Obstbäume in allen Varianten
 cta_center:
-  button_text: Werde waldwächter/in
-  button_link: /pflanze-und-schütze/waldwächter
+  button_text: Viva la Selva unterstützen
+  button_link: /mitmachen
 ---
