@@ -5,7 +5,7 @@ subtitle: Wir pflanzen Wald - biodivers.
 excerpt: Unsere Hände pflanzen und pflegen die Bäume und Wälder, die du als Pate
   adoptierst und beschützt.
 hero_image: /src/assets/dsc01083-copy_smaller.jpeg
-hero_alt: zwei Tachuleos und ein Bálsamo-Baum im Reservat von Viva la Selva
+hero_alt: zwei Tachuleos und ein Bálsamo-Baum auf der Finca von Viva la Selva
 hero_button:
   hero_button_text: adoptieren & beschützen
   hero_button_link: pflanze-und-schütze
@@ -25,7 +25,7 @@ how_all_started:
     führte uns zu der Entscheidung, unser Projekt und unsere Ziele mit dem Rest
     der Welt zu teilen.
   image: /src/assets/dsc01052-copy_smaller.jpeg
-  image_alt: ein Caracolí in unserem Reservat, einer der ersten aufstrebenden
+  image_alt: ein Caracolí auf unserer Finca, einer der ersten aufstrebenden
     Riesen in jungen Wäldern
 button: mitmachen
 button_link: mitmachen

@@ -74,14 +74,14 @@ So haben wir inzwischen insgesamt drei Baumschulen, eine sehr kleine mitten im D
 
 1. Das Gelände der Baumschule und um sie herum regelmäßig von wucherndem Gestrüpp befreien. Nicht, weil wir Verfechter englischen Rasens wären, sondern weil wir hier in den Tropen auch ein wenig an unser Überleben denken und den Arbeitsplatz möglichst frei von Giftschlangen, Spinnen und Skorpionen halten wollen.
 
-2. Von verschiedenen Orten der Finca schaffen wir verschiedene Sorten Erde und natürliche Dünger heran, dazu durchqueren wir zu Fuß unsere stark bewachsene Finca und das Naturreservat. Es ist harte Arbeit, zentnerweise Mutterboden und Ameisenkot durch unwegsames Terrain zu manövrieren. Aber an Motivation hierfür mangelt es uns nicht, schließlich handelt es sich um eine passende Kinderstube für unsere Schützlinge.
+2. Von verschiedenen Orten der Finca schaffen wir verschiedene Sorten Erde und natürliche Dünger heran, dazu durchqueren wir zu Fuß unsere stark bewachsene Finca. Es ist harte Arbeit, zentnerweise Mutterboden und Ameisenkot durch unwegsames Terrain zu manövrieren. Aber an Motivation hierfür mangelt es uns nicht, schließlich handelt es sich um eine passende Kinderstube für unsere Schützlinge.
 
 3. Außerdem müssen wir Anzucht-Tüten kaufen und mit Erde befüllen und sie in der Baumschule platzieren und gegebenenfalls umsortieren, bzw. Anzuchtbeete anlegen. In beiden Fällen müssen die Beete und Tüten gepflegt, größerer Wildwuchs herausgezupft und die Pflänzchen vor Fressfeinden beschützt werden.
 
-4. Parallel überprüfen wir so oft es geht unsere Grenzzäune, denn auch die Kühe von den Weiden ringsum wissen bereits, dass es bei uns mehr leckeres Grün und immer ausreichend frisches Wasser in den Bächen gibt. Wir verstehen die Kühe, aber den Pflanzen in unserem Reservat und insbesondere der Baumschule bringen sie leider große Schäden.
+4. Parallel überprüfen wir so oft es geht unsere Grenzzäune, denn auch die Kühe von den Weiden ringsum wissen bereits, dass es bei uns mehr leckeres Grün und immer ausreichend frisches Wasser in den Bächen gibt. Wir verstehen die Kühe, aber den Bäumchen auf unserer Finca und insbesondere der Baumschule bringen sie leider große Schäden.
 
 5. Wenn all diese Arbeiten getan sind bzw. laufen, dann können wir den erfüllendsten Schritt tun: Wir können uns auf die Suche nach weiteren Samen und Trieben machen, diese zur Baumschule bringen und einpflanzen. Hierbei sind wir immer wieder auch auf lokale Guides angewiesen, die uns zu den letzten Vertretern einer Spezies führen können.
 
 6. Die Pflege der Samen, die Überprüfung ihrer Keimungsprozesse und die Suche nach Lösungen, wenn eine Art nicht so recht gedeihen will, erfordert Hingabe und Forschergeist. Denn zur Aufzucht einiger Arten ist weder unter den Menschen hier, noch im Internet ernsthaft Hilfe zu erwarten.
 
-7. Den Trieben, die der Baumschule entwachsen, suchen wir einen Platz in einem Naturreservat oder an einer anderen Stelle, an der wir ihr Wachstum möglichst gesichert ein paar Jahre weiter begleiten können.
+7. Den Trieben, die der Baumschule entwachsen, suchen wir einen geschützten Platz auf unserer Finca oder an einem anderen möglichst gesicherten Ort.

@@ -16,7 +16,7 @@ participate:
     - title: Werde Waldächter/in
       link: /pflanze-und-schütze/waldwächter
       image: /src/assets/dsc01052-copy2.jpeg
-      image_alt: Reservat von Viva la Selva mit Caracolí
+      image_alt: Finca von Viva la Selva mit Caracolí
     - title: Einfach unterstützen
       link: /mitmachen
       image: /src/assets/DSC00971 copy.jpeg
@@ -51,7 +51,7 @@ problem:
 
     neue Triebe und damit auch für den Erhalt der Arten - aller Arten.
   image: /src/assets/dsc01083-copy.jpeg
-  image_alt: zwei Tachuleos und ein Bálsamo-Baum im Reservat von Viva la Selva
+  image_alt: zwei Tachuleos und ein Bálsamo-Baum auf der Finca von Viva la Selva
   button: Die Bäume
 solution:
   title: Wir finden, pflanzen und schützen
@@ -73,7 +73,7 @@ donors:
     Ökosystem und förderst dabei natürliche CO2-Speicherung - für eine grünere
     und biodiverse Welt.
   image: /src/assets/dsc01052-copy.jpeg
-  image_alt: ein Caracolí-Baum in unserem Reservat, einer der ersten aufstrebenden
+  image_alt: ein Caracolí-Baum in unserem Finca, einer der ersten aufstrebenden
     Riesen in jungen Wäldern
   button: " Baumschule"
   button_2: Pflanze und schütze

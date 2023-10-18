@@ -1,21 +1,18 @@
 ---
-page_meta_title: das-reservat
-title: DAS RESERVAT
+page_meta_title: die-finca
+title: DIE FINCA
 hero:
   h3_title_image: /src/assets/dsc01148-copy_smaller.jpeg
   h4_title_image: /src/assets/dsc01088-copy_smaller.jpeg
-  h2_title: 5 ha WALD
+  h2_title: ARTENVIELFALT
   h3_title: 5 BÄCHE & QUELLEN
-  h4_title: 11 ha SCHUTZGEBIET
-  h2_title_image_alt: tropisches Naturreservat Viva la Selva, dichter biodiverser
-    Wald, hier mit großen Higuerón-Bäumen
-  h3_title_image_alt: tropisches Naturreservat Viva la Selva, dichter biodiverser
-    Wald, hier um den Memeto-Bach
-  h4_title_image_alt: tropisches Naturreservat Viva la Selva, dichter biodiverser Wald
+  h4_title: VIELE GESCHÜTZTE BAUMARTEN
+  h2_title_image_alt: Finca von Viva la Selva, große Higuerón-Bäume
+  h3_title_image_alt: Finca von Viva la Selva, Bewaldung um den Memeto-Bach
+  h4_title_image_alt: Finca von Viva la Selva
   main_title_image: /src/assets/dsc01052-copy_smaller.jpeg
-  main_title: DAS RESERVAT
-  main_title_image_alt: tropisches Naturreservat Viva la Selva, dichter
-    biodiverser Wald, hier mit großem Caracolí-Baum
+  main_title: UNSERE FINCA
+  main_title_image_alt: biodiverse Finca von Viva la Selva, großer Caracolí-Baum
   h2_title_image: /src/assets/dsc01079-copy_smaller.jpeg
 our_trees:
   title: UNSERE BAUMARTEN
@@ -39,7 +36,7 @@ our_trees:
     - Campano de bledo
     - Ceiba tolua
   image: /src/assets/dsc01083-copy_smaller.jpeg
-  image_alt: tropisches Naturreservat Viva la Selva, dichter biodiverser Wald,
+  image_alt: Finca von Viva la Selva, dichter biodiverser Wald,
     hier mit großen Tachuelo-Bäumen
   button_text: WERDE BAUMPATE/IN
   button_link: pflanze-und-schütze/baumpatenschaft
@@ -56,7 +53,7 @@ relevance:
   list:
     - artenreichere Wälder wachsen schneller
     - biodiverse Wälder speichern mehr CO2
-    - unser Reservat erhält genetischen Reichtum
+    - Viva la Selva fördert und erhält genetischen Reichtum
 cta_center:
   button_text: VIVA LA SELVA UNTERSTÜTZEN
   button_link: /mitmachen
@@ -64,7 +61,7 @@ location:
   title: LAGE
   subtitle_1: MITTEN IM DARIEN-CHOCÓ
   paragraph_1: >-
-    Unser Reservat liegt in der Gemeinde Gilgal (Landkreis Unguía), in der
+    Unsere Finca liegt in der Gemeinde Gilgal (Landkreis Unguía), in der
     Tieflandebene des Flusses Cutí, im Departamento Chocó in Kolumbien. 
 
 

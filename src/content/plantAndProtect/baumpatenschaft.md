@@ -2,7 +2,7 @@
 title: baumpatenschaft
 page_title: Werde Baumpate/in
 bg_image: /src/assets/dsc01079-copy_2000px.jpeg
-bg_alt: Zwei Higuerón-Bäume im Reservat von Viva la Selva
+bg_alt: Zwei Higuerón-Bäume auf der Finca von Viva la Selva
 subtitle: gefährdete Tropenbäume brauchen dich !
 excerpt: Selten gewordene Baumarten nachpflanzen und großziehen ist aufwändig -
   alleine schaffen wir das nicht. Also lass es uns gemeinsam tun.
@@ -24,11 +24,11 @@ what_you_get:
   title: "Für 30€ bekommst du:"
   list_items:
     - "Pflanz-Zertifikat als PDF (personalisiert & mit Baum-Foto) "
-    - GPS-Daten vom Reservat der Aufforstung
+    - GPS-Daten vom Ort der Aufforstung
     - mind. 20 Jahre Baum-Schutz
     - Berichte vom Viva-la-Selva-Projekt
   image: /src/assets/dsc01088-copy_smaller.jpeg
-  image_alt: in unserem seit etwa 20 Jahren geschützten Wald-Reservat
+  image_alt: in unserem seit etwa 20 Jahren wachsenden Wald
 button_text: spende
 button_link: https://www.paypal.com/donate/?hosted_button_id=TEG7KV6QBZ9DQ
 back_button_text: ZURUCK ZU PROJEKTE
