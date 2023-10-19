@@ -5,10 +5,10 @@ import * as pageContent from "../../content/_projects_index.md";
 
 import { getCollection } from "astro:content";
 const allProjects = await getCollection("projects");
-const [natureReserve] = await getCollection("natureReserve");
+const [theFinca] = await getCollection("theFinca");
 const projects = {
   projects: allProjects,
-  natureReserve,
+  theFinca,
 };
 ---
 

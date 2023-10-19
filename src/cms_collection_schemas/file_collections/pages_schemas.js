@@ -2,7 +2,7 @@ import { frontPageSchema } from "./front_page";
 import { contactPageSchema } from "./contact";
 import { supportPageSchema } from "./support_page";
 import { aboutUsPageSchema } from "./about_us_page";
-import { natureReserveSchema } from "./nature_reserve";
+import { theFincaSchema } from "./the_finca";
 import { treeNurseryPageSchema } from "./tree_nursery";
 
 const pagesCmsSchemas = {
@@ -13,7 +13,7 @@ const pagesCmsSchemas = {
     contactPageSchema,
     supportPageSchema,
     aboutUsPageSchema,
-    natureReserveSchema,
+    theFincaSchema,
     treeNurseryPageSchema,
   ],
 };

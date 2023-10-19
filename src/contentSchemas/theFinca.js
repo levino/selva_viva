@@ -1,6 +1,6 @@
 import { z } from "astro:content";
 
-export const natureReserveSchema = ({ image }) =>
+export const theFincaSchema = ({ image }) =>
   z.object({
     page_meta_title: z.string(),
     title: z.string(),
@@ -49,7 +49,7 @@ export const natureReserveSchema = ({ image }) =>
       subtitle_2: z.string(),
       paragraph_2: z.string(),
     }),
-    reserve_story: z.object({
+    the_finca_story: z.object({
       title: z.string(),
       subtitle_1: z.string(),
       paragraph_1: z.string(),

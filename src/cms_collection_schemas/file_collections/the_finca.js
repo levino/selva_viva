@@ -1,7 +1,7 @@
-export const natureReserveSchema = {
-  label: "Nature Reserve Page",
-  name: "nature_reserve_page",
-  file: "src/content/natureReserve/nature-reserve.md",
+export const theFincaSchema = {
+  label: "The Finca Page",
+  name: "the_finca_page",
+  file: "src/content/theFinca/die-finca.md",
   fields: [
     {
       label: "Page Meta Title",
@@ -177,11 +177,11 @@ export const natureReserveSchema = {
       ],
     },
     {
-      label: "Reserve Story",
-      name: "reserve_story",
+      label: "The Finca Story",
+      name: "the_finca_story",
       widget: "object",
       collapsed: true,
-      summary: "Reserve Story Content",
+      summary: "The Finca Story Content",
       fields: [
         { label: "Title", name: "title", widget: "string" },
         { label: "Subtitle 1", name: "subtitle_1", widget: "string" },

@@ -72,7 +72,7 @@ location:
     Teil des Biodiversitäts-Hotspots Tumbes-Chocó-Magdalena zwischen
     Pazifikküste und Andenkordilleren von Süd-Panama bis Peru. [**Mehr
     lesen...**](./kompletter-text#region-bedeutung)
-reserve_story:
+the_finca_story:
   title: DIE GESCHICHTE VON LA TRIBU
   subtitle_1: WIE WIR „ÖKO“ WURDEN
   paragraph_1: Auf unserer Finca „La Tribu“ entdeckten wir im Jahr 1991 die

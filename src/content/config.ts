@@ -1,5 +1,5 @@
 import { reference, defineCollection, z } from "astro:content";
-import { natureReserveSchema } from "../contentSchemas/natureReserve";
+import { theFincaSchema } from "../contentSchemas/theFinca";
 import { frontPageSchema } from "../contentSchemas/frontPage";
 import { treeNurserySchema } from "../contentSchemas/treeNursery";
 
@@ -173,9 +173,9 @@ const teamMembersCollection = defineCollection({
     }),
 });
 
-const natureReserve = defineCollection({
+const theFinca = defineCollection({
   type: "content",
-  schema: natureReserveSchema,
+  schema: theFincaSchema,
 });
 
 export const collections = {
@@ -187,6 +187,6 @@ export const collections = {
   frontPage: frontPage,
   supportPage: supportPageSchema,
   aboutUsPage: aboutUsPageSchema,
-  natureReserve: natureReserve,
+  theFinca,
   treeNursery,
 };

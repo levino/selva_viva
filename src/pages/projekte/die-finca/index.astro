@@ -3,15 +3,15 @@ import { getCollection } from "astro:content";
 import Layout from "../../../layouts/Layout.astro";
 
 import { Image } from "astro:assets";
-import ReserveHero from "../../../components/ReserveHero.astro";
+import TheFincaHero from "../../../components/TheFincaHero.astro";
 import OurTreesSection from "../../../components/OurTreesSection.astro";
 import RelevanceSection from "../../../components/ContentRightList.astro";
 import CTACenter from "../../../components/CTACenter.astro";
 import LocationSection from "../../../components/LocationSection.astro";
-import ReserveStorySection from "../../../components/ReserveStorySection.astro";
+import TheFincaStorySection from "../../../components/TheFincaStorySection.astro";
 import CTABottom from "../../../components/CTABottom.astro";
 
-const [content] = await getCollection("natureReserve");
+const [content] = await getCollection("theFinca");
 const {
   data,
   data: {
@@ -20,18 +20,18 @@ const {
     relevance,
     cta_center,
     location,
-    reserve_story,
+    the_finca_story,
     cta_bottom,
   },
 } = content;
 ---
 
 <Layout title={data.page_meta_title}>
-  <ReserveHero hero={hero} />
+  <TheFincaHero hero={hero} />
   <OurTreesSection trees={our_trees} />
   <RelevanceSection content={relevance} />
   <CTACenter cta_center={cta_center} />
   <LocationSection location={location} />
-  <ReserveStorySection reserve_story={reserve_story} />
+  <TheFincaStorySection the_finca_story={the_finca_story} />
   <CTABottom cta_bottom={cta_bottom} />
 </Layout>
