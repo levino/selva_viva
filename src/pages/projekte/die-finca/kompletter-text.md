@@ -54,3 +54,7 @@ Auf unserer Finca „La Tribu“ entdeckten wir im Jahr 1991 die ökologische La
 <h3 id="geschichte-2">Die Natur in den Jahren der Gewalt</h3>
 
 Leider erreichte fünf Jahre später, 1996, die Welle der Gewalt, die über ganz Kolumbien hereinbrach, auch den Chocó-Darién, in ihrem kompletten Ausmaß. Wir mussten aus der Region fliehen und unsere Finca für mehrere Jahre verlassen. Die kommenden Jahre gaben der Natur Zeit, auf unseren erholten Böden einen Erneuerungsprozess der wilden Flora ohnegleichen anzustoßen.
+
+<h3>Unser Beitritt zum Netzwerk der Naturreservate</h3>
+
+Zur selben Zeit breitete sich eine Bewegung im Land und in der Region aus, die es sich zu ihrem Ziel machte, private Naturreservate zu schaffen, um regionale Ökosysteme zu schützen und biologische Korridore zu erhalten. Noch im Jahr 2000 traten wir mit unserem Artenschutzprojekt ins **Netzwerk der zivilen Naturreservate Kolumbiens** (Red Colombiana de Reservas Naturales de la Sociedad Civil – **RESNATUR**) und in deren **regionale Teilgruppe**, das Netzwerk der zivilen Naturreservate des karibisch-kolumbianischen Dairén (Red de Reservas Naturales de la Sociedad Civil Del Darién Caribe Colombiano - **UNGANDÍ**) ein.
