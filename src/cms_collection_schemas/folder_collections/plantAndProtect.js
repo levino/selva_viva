@@ -1,4 +1,4 @@
-export const plantAtreeModesSchema = {
+export const plantAndProtectSchema = {
   name: "plant_and_protect",
   label: "Plant and protect",
   label_singular: "Modality",

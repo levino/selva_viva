@@ -4,7 +4,7 @@ import { treesSchema } from "./src/cms_collection_schemas/folder_collections/tre
 import pages_schemas from "./src/cms_collection_schemas/file_collections/pages_schemas";
 import { postsSchema } from "./src/cms_collection_schemas/folder_collections/posts";
 import tailwind from "@astrojs/tailwind";
-import { plantAtreeModesSchema } from "./src/cms_collection_schemas/folder_collections/plantATreeMode";
+import { plantAndProtectSchema } from "./src/cms_collection_schemas/folder_collections/plantAndProtect";
 import { teamMembersSchema } from "./src/cms_collection_schemas/folder_collections/teamMembers";
 
 // https://astro.build/config
@@ -26,7 +26,7 @@ export default defineConfig({
           pages_schemas,
           treesSchema,
           postsSchema,
-          plantAtreeModesSchema,
+          plantAndProtectSchema,
           teamMembersSchema,
         ],
       },
