@@ -4,7 +4,6 @@ import { getCollection } from "astro:content";
 const [spanishContent] = await getCollection("frontPage", ({ slug }) => {
   return slug === "es";
 });
-console.log(spanishContent);
 ---
 
 <FrontPage content={spanishContent} />
