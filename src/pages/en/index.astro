@@ -1,0 +1,9 @@
+---
+import FrontPage from "../../pageLayouts/FrontPage.astro";
+import { getCollection } from "astro:content";
+const [englishContent] = await getCollection("frontPage", ({ slug }) => {
+  return slug === "en";
+});
+---
+
+<FrontPage content={englishContent} />
