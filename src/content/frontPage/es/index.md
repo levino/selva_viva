@@ -51,7 +51,8 @@ problem:
   button_link: arboles
 solution:
   title: Encontramos, plantamos y protegemos
-  paragraph: Las especies nativas en peligro encuentran espacio para sobrevivir en
+  paragraph:
+    Las especies nativas en peligro encuentran espacio para sobrevivir en
     Viva la Selva. Buscamos y rescatamos semillas y plántulas de las especies en
     declive y las plantamos en un entorno protegido y diverso para mantenerlas
     en el ecosistema local. No todas las semillas plantadas se convierten en
@@ -74,7 +75,7 @@ donors:
     biodiversidad en un ecosistema en peligro y fomentando el almacenamiento
     natural de CO2, para un mundo más verde y diverso.
   button: " Vivero de Árboles"
-  button_3_Link: participa
+  button_3_link: participa
   button_2_link: planta-y-protege
   title: ¿Y tú?
   image: /src/assets/dsc01052-copy.jpeg

@@ -127,7 +127,7 @@ export const frontPageSchemaFields = [
       { label: "Button_2", name: "button_2", widget: "string" },
       { label: "Button_2 Link", name: "button_2_link", widget: "string" },
       { label: "Button_3", name: "button_3", widget: "string" },
-      { label: "Button_3 Link", name: "button_3_Link", widget: "string" },
+      { label: "Button_3 Link", name: "button_3_link", widget: "string" },
     ],
   },
 ];

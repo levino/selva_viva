@@ -76,7 +76,7 @@ donors:
     Ökosystem und förderst dabei natürliche CO2-Speicherung - für eine grünere
     und biodiverse Welt.
   button: " Baumschule"
-  button_3_Link: mitmachen
+  button_3_link: mitmachen
   button_2_link: pflanze-und-schütze
   title: "Und du? "
   image: /src/assets/dsc01052-copy.jpeg

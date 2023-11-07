@@ -25,7 +25,8 @@ about_us:
   link_text: meet the team
 situation:
   title: Tropical Ecosystem in Danger
-  paragraph: The Darien in the Caribbean region between Colombia and Panama is in
+  paragraph:
+    The Darien in the Caribbean region between Colombia and Panama is in
     an ecological crisis. Deforestation in the former jungle region is
     progressing uncontrollably. Internationally endangered tree species have
     become so rare in this region that the search for their seeds is becoming
@@ -48,7 +49,8 @@ problem:
   button_link: trees
 solution:
   title: We Find, Plant, and Protect
-  paragraph: Endangered native species find space to survive at Viva la Selva. We
+  paragraph:
+    Endangered native species find space to survive at Viva la Selva. We
     search for and rescue seeds and seedlings of dwindling species and plant
     them in a protected, diverse environment to maintain them in the local
     ecosystem. Not every planted seed becomes a tree. But where our work
@@ -68,8 +70,8 @@ donors:
     threatened tree species, supporting the preservation of biodiversity in an
     endangered ecosystem, and promoting natural CO2 storage for a greener and
     more diverse world.
-  button: " Tree Nursery"
-  button_3_Link: support
+  button: "Tree Nursery"
+  button_3_link: support
   button_2_link: plant-and-protect
   title: And You?
   image: /src/assets/dsc01052-copy.jpeg
