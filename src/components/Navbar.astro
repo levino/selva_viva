@@ -3,6 +3,7 @@ import { getLangFromUrl, useTranslations } from "../i18n/utils";
 import LanguagePicker from "./LanguagePicker.astro";
 import VivaLaSelvaLogo from "./VivaLaSelvaLogo.astro";
 import { pickLangPath } from "../utils/utils";
+import { Icon } from "astro-icon";
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
@@ -28,101 +29,7 @@ const t = useTranslations(lang);
   <LanguagePicker />
   <nav class="bg-green-400 flex flex-wrap items-center px-4 py-5">
     <div class="w-10 mr-1">
-      <!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
-      <svg
-        width="100%"
-        height="100%"
-        viewBox="0 0 32 32"
-        version="1.1"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-        xml:space="preserve"
-        xmlns:serif="http://www.serif.com/"
-        style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"
-        ><g id="palm-leaves" serif:id="palm leaves"
-          ><path
-            d="M10.564,14.988c0,0 -0.324,0.45 -0.485,0.824c-0.161,0.375 -0.137,1.114 -0.001,1.447"
-            style="fill:none;stroke:#000;stroke-width:0.42px;"></path><path
-            d="M18.617,9.306c0,-0 1.281,-0.646 3.459,0.038"
-            style="fill:none;stroke:#000;stroke-width:0.42px;"></path><path
-            d="M17.749,10.09c-0,0 2.815,-0.843 4.677,-0.204"
-            style="fill:none;stroke:#000;stroke-width:0.42px;"></path><path
-            d="M11.647,14.029c-0.02,0.001 -0.61,0.708 -0.457,1.499c0.152,0.792 0.286,1.031 0.39,1.199"
-            style="fill:none;stroke:#000;stroke-width:0.42px;"></path><path
-            d="M14.089,12.835c0,-0 -0.917,0.732 -1.107,1.062c-0.509,0.883 -0.196,1.917 -0.198,1.947c-0.299,-0.107 -0.153,-1.894 -0.047,-2.458"
-            style="fill:none;stroke:#000;stroke-width:0.42px;"></path><path
-            d="M14.035,14.483c-0,0 0.431,-1.388 0.386,-1.662"
-            style="fill:none;stroke:#000;stroke-width:0.42px;"></path><path
-            d="M20.649,13.127c0,0 0.183,0.239 0.185,0.593c0.002,0.355 -0.088,1.043 -0.041,1.483c0.047,0.44 0.002,1.055 0.076,1.708"
-            style="fill:none;stroke:#000;stroke-width:0.42px;"></path><path
-            d="M18.298,11.878c0,-0 0.396,0.406 0.543,1.368c0.069,0.45 0.359,0.951 0.535,1.197c-0.004,-0.931 0.106,-1.275 0.037,-2.602c0.536,-0.032 0.604,2.592 0.966,3.387"
-            style="fill:none;stroke:#000;stroke-width:0.42px;"></path><path
-            d="M17.394,11.9c0,-0 0.912,2.261 1.066,2.438"
-            style="fill:none;stroke:#000;stroke-width:0.42px;"></path><path
-            d="M12.83,11.164l0.988,-0.032c0,0 -1.768,1.413 -2.296,1.599c-0.528,0.186 2.138,-0.868 2.894,-1.339c0.172,-0.108 -0.179,0.597 -0.467,0.731"
-            style="fill:none;stroke:#000;stroke-width:0.42px;"></path><path
-            d="M11.481,11.255c-0,0 1.038,-0.584 1.068,-0.592c0.031,-0.009 -1.891,2.563 -2.165,2.66"
-            style="fill:none;stroke:#000;stroke-width:0.42px;"></path><path
-            d="M9.449,13.287c0,-0 -0.01,-0.871 2.046,-2.536"
-            style="fill:none;stroke:#000;stroke-width:0.42px;"></path><path
-            d="M10.824,10.395c-0,-0 -1.899,0.183 -3.127,3.046c-0.17,0.397 0.145,0.139 0.145,0.139c-0,-0 1.149,-2.124 2.394,-2.204"
-            style="fill:none;stroke:#000;stroke-width:0.42px;"></path><path
-            d="M15.724,11.423c-0.185,-0.688 -2.595,-1.488 -3.94,-1.469c-0.523,0.007 -1.029,0.06 -1.315,0.287"
-            style="fill:none;stroke:#000;stroke-width:0.42px;"></path><path
-            d="M15.932,11.44c-0,-0 -0.802,-0.916 0.14,-3.721"
-            style="fill:none;stroke:#000;stroke-width:0.42px;"></path><path
-            d="M17.017,10.598c-0,0 2.203,-0.264 2.935,-0.12c0.844,0.165 1.059,0.454 1.702,0.631"
-            style="fill:none;stroke:#000;stroke-width:0.42px;"></path><path
-            d="M21.217,8.363c-0,-0 1.718,0.072 2.423,1.404"
-            style="fill:none;stroke:#000;stroke-width:0.42px;"></path><path
-            d="M16.077,11.697c-0,-0 -0.327,-1.211 2.134,-2.794c1.371,-0.882 4.692,-0.701 6.461,0.527"
-            style="fill:none;stroke:#000;stroke-width:0.42px;"></path><path
-            d="M15.753,12.274c-0.943,-0.642 -5.786,1.03 -7.035,5.145"
-            style="fill:none;stroke:#000;stroke-width:0.42px;"></path><path
-            d="M16.639,11.845c-0,0 3.347,-1.907 5.159,1.73c0.563,2.141 -0.317,4.144 -0.323,4.176"
-            style="fill:none;stroke:#000;stroke-width:0.42px;"></path></g
-        ><path
-          id="vine"
-          d="M16.202,23.433c-0,-0 0.958,-0.578 0.22,-1.442c-0.338,-0.396 -0.729,-0.312 -0.777,-0.979c-0.048,-0.66 0.965,-1.295 0.986,-2.347c-0.065,-0.766 -1.075,-0.96 -1.058,-1.636c0.017,-0.669 0.428,-0.993 0.428,-0.993"
-          style="fill:none;stroke:#000;stroke-width:0.25px;"></path><g
-          id="vine-leaves"
-          serif:id="vine leaves"
-          ><path
-            d="M15.464,16.466c0,-0 0.02,-0.648 -0.606,-0.907c-0.103,0.416 0.204,0.671 0.206,0.672c0.291,0.197 0.395,0.14 0.395,0.14"
-            style="fill:none;stroke:#000;stroke-width:0.25px;"></path><path
-            d="M15.368,16.49c-0,-0 -0.077,0.045 -0.128,0.266c-0.051,0.222 -0.198,0.374 -0.358,0.396c-0.16,0.021 -0.371,-0.04 -0.462,-0.104c0.057,-0.17 0.573,-0.599 0.82,-0.292"
-            style="fill:none;stroke:#000;stroke-width:0.25px;"></path><path
-            d="M17.529,18.382c0,-0 0.408,-0.522 0.829,-0.21c-0.022,0.243 -0.541,0.592 -0.829,0.21Z"
-            style="fill:none;stroke:#000;stroke-width:0.25px;"></path><path
-            d="M17.079,18.595c0,0 -0.144,0.161 -0.119,0.36c0.025,0.198 0.225,0.346 0.374,0.424c0.15,0.077 0.049,0.188 0.049,0.188c-0,-0 0.335,-0.405 -0.222,-1.026"
-            style="fill:none;stroke:#000;stroke-width:0.25px;"></path><path
-            d="M16.947,18.219c0,-0 -0.157,-0.516 0.604,-0.713c0,0.314 -0.192,0.835 -0.604,0.713Z"
-            style="fill:none;stroke:#000;stroke-width:0.25px;"></path><path
-            d="M16.895,22.242c0,0 0.07,0.575 0.64,0.585"
-            style="fill:none;stroke:#000;stroke-width:0.25px;"></path><path
-            d="M16.944,22.132c0,-0 0.798,0.295 0.625,0.837"
-            style="fill:none;stroke:#000;stroke-width:0.25px;"></path></g
-        ><path
-          id="palm-trunk"
-          serif:id="palm trunk"
-          d="M16.152,12.166c-0,-0 -0.328,0.431 -0.337,0.837c-0.033,0.276 0.132,0.767 0.146,1.442c0.059,0.579 0.23,14.325 0.23,14.325"
-          style="fill:none;stroke:#000;stroke-width:0.37px;"></path><g
-          id="shrub-leaves"
-          serif:id="shrub leaves"
-          ><path
-            d="M16.214,27.661c0,0 0.666,-1.275 0.987,-1.49c0.355,-0.312 1.203,-0.975 1.808,-0.984c-0.182,0.163 -0.605,0.739 -0.685,1.165c-0.245,0.293 -0.856,0.764 -0.856,0.764c0,-0 -0.363,0.298 -0.575,0.458c-0.212,0.16 -0.678,0.395 -0.678,0.395"
-            style="fill:none;stroke:#000;stroke-width:0.27px;"></path><path
-            d="M14.815,23.562c-0,0 0.347,1.281 0.497,1.525c0.151,0.244 0.406,0.645 0.552,0.817c0.145,0.172 0.31,0.507 0.313,0.626c0.003,0.12 0.325,-0.672 0.034,-1.508c-0.047,-0.138 -0.604,-0.828 -1.396,-1.46Z"
-            style="fill:none;stroke:#000;stroke-width:0.26px;"></path><path
-            d="M13.258,25.711c-0,-0 0.967,1.059 1.139,1.189c0.173,0.13 1.409,0.858 1.698,1.49c0.085,0.187 -0.05,-0.99 -0.725,-1.898c-0.875,-0.864 -2.045,-0.828 -2.068,-0.826l-0.044,0.045Z"
-            style="fill:none;stroke:#000;stroke-width:0.26px;"></path></g
-        ><ellipse
-          cx="16.454"
-          cy="16.263"
-          rx="12.506"
-          ry="12.506"
-          style="fill:none;stroke:#000;stroke-width:1.25px;"></ellipse></svg
-      >
+      <Icon name="logo" />
     </div>
     <a
       href={pickLangPath(lang)}
