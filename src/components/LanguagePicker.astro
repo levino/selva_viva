@@ -4,6 +4,8 @@ import { pickLangPath } from "../utils/utils";
 import { useTranslatedPath } from "../i18n/utils";
 import { getLangFromUrl } from "../i18n/utils";
 import { Icon } from "astro-icon";
+import { getRouteFromUrl } from "../i18n/utils";
+const route = getRouteFromUrl(Astro.url);
 
 const lang = getLangFromUrl(Astro.url);
 const translatePath = useTranslatedPath(lang);
@@ -14,7 +16,10 @@ const translatePath = useTranslatedPath(lang);
     {
       Object.entries(languages).map(([lang, label]) => (
         <li class="p-1">
-          <a href={translatePath("/", lang)} class="flex items-center">
+          <a
+            href={translatePath(`/${route ? route : ""}`, lang)}
+            class="flex items-center"
+          >
             <Icon name={lang} />
             <span class="inline-block ml-2 uppercase text-xs font-semibold font-all">
               {label}
