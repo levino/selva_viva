@@ -91,6 +91,7 @@ export const frontPageSchemaFields = [
       { label: "Image", name: "image", widget: "image", choose_url: true },
       { label: "Image Alt", name: "image_alt", widget: "string" },
       { label: "Button", name: "button", widget: "string" },
+      { label: "Button Link", name: "button_link", widget: "string" },
     ],
   },
   {
@@ -105,7 +106,8 @@ export const frontPageSchemaFields = [
       { label: "Image", name: "image", widget: "image", choose_url: true },
       { label: "Image Alt", name: "image_alt", widget: "string" },
       { label: "Button", name: "button", widget: "string" },
-      { label: "Button_2", name: "button_2", widget: "string" },
+      { label: "Button Link", name: "button_link", widget: "string" },
+      { label: "Button_2 Link", name: "button_2_link", widget: "string" },
     ],
   },
   {
@@ -120,8 +122,9 @@ export const frontPageSchemaFields = [
       { label: "Image", name: "image", widget: "image", choose_url: true },
       { label: "Image Alt", name: "image_alt", widget: "string" },
       { label: "Button", name: "button", widget: "string" },
-      { label: "Button_2", name: "button_2", widget: "string" },
-      { label: "Button_3", name: "button_3", widget: "string" },
+      { label: "Button Link", name: "button_link", widget: "string" },
+      { label: "Button_2 Link", name: "button_2_link", widget: "string" },
+      { label: "Button_3 Link", name: "button_3_Link", widget: "string" },
     ],
   },
 ];
