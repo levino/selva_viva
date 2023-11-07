@@ -1,4 +1,4 @@
-import { frontPageSchemaFields } from "./schema";
+import { frontPageSchemaFields } from "./front_page_schema";
 
 export const frontPageSchemaEs = {
   label: "Front Page Es",
