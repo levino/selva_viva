@@ -41,6 +41,7 @@ export const frontPageSchema = ({ image }) =>
       image: image(),
       image_alt: z.string(),
       button: z.string(),
+      button_link: z.string(),
     }),
     solution: z.object({
       title: z.string(),
@@ -48,7 +49,9 @@ export const frontPageSchema = ({ image }) =>
       image: image(),
       image_alt: z.string(),
       button: z.string(),
+      button_link: z.string(),
       button_2: z.string(),
+      button_2_link: z.string(),
     }),
     donors: z.object({
       title: z.string(),
@@ -56,7 +59,10 @@ export const frontPageSchema = ({ image }) =>
       image: image(),
       image_alt: z.string(),
       button: z.string(),
+      button_link: z.string(),
       button_2: z.string(),
+      button_2_link: z.string(),
       button_3: z.string(),
+      button_3_link: z.string(),
     }),
   });
