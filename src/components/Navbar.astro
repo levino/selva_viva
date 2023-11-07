@@ -4,9 +4,11 @@ import LanguagePicker from "./LanguagePicker.astro";
 import VivaLaSelvaLogo from "./VivaLaSelvaLogo.astro";
 import { pickLangPath } from "../utils/utils";
 import { Icon } from "astro-icon";
+import { useTranslatedPath } from "../i18n/utils";
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
+const translatePath = useTranslatedPath(lang);
 ---
 
 <script>
@@ -32,7 +34,7 @@ const t = useTranslations(lang);
       <Icon name="logo" />
     </div>
     <a
-      href={pickLangPath(lang)}
+      href={translatePath("/")}
       class="font-medium hover:text-yellow_leave-300 mr-auto text-xl text-yellow_leave-400 uppercase"
       >Viva la selva</a
     >
@@ -48,13 +50,13 @@ const t = useTranslations(lang);
     >
       <div class="flex flex-col lg:flex-row">
         <a
-          href={pickLangPath(lang)}
+          href={translatePath("/")}
           class="font-all font-medium hover:text-yellow_leave-400 px-0 py-2 uppercase lg:px-4"
           >{t("nav.home")}</a
         >
         <div class="dropdown-group lg:flex items-start lg:relative">
           <a
-            href={`${pickLangPath(lang)}projekte`}
+            href={translatePath("/projekte/")}
             class="font-all font-medium hover:text-yellow_leave-400 px-0 py-2 uppercase z-50 lg:px-4"
             >{t("nav.projects")}</a
           >
@@ -63,7 +65,7 @@ const t = useTranslations(lang);
           >
             <li class="font-all font-medium pb-4 px-4">
               <a
-                href={`${pickLangPath(lang)}projekte/baumschule`}
+                href={translatePath("/projekte/baumschule")}
                 class="hover:text-yellow_leave-600"
                 >{t("nav.projects.tree-nursery")}</a
               >
