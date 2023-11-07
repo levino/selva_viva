@@ -8,10 +8,10 @@ import { Icon } from "astro-icon";
   <ul class="flex justify-end gap-2 mx-auto w-10/12">
     {
       Object.entries(languages).map(([lang, label]) => (
-        <li class="p-2">
-          <a href={pickLangPath(lang)} class="flex">
+        <li class="p-1">
+          <a href={pickLangPath(lang)} class="flex items-center">
             <Icon name={lang} />
-            <span class="inline-block ml-2 uppercase text-sm font-semibold">
+            <span class="inline-block ml-2 uppercase text-xs font-semibold font-all">
               {label}
             </span>
           </a>
