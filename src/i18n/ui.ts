@@ -5,6 +5,7 @@ export const languages = {
 };
 
 export const defaultLang = "de";
+export const showDefaultLang = false;
 
 export const ui = {
   de: {
