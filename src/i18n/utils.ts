@@ -12,6 +12,12 @@ export function useTranslations(lang: keyof typeof ui) {
   };
 }
 
+export function useTranslationsForLinks(lang: keyof typeof routes) {
+  return function links(key: keyof (typeof routes)[typeof defaultLang]) {
+    return routes[lang][key] || routes[defaultLang][key];
+  };
+}
+
 export function getRouteFromUrl(url: URL): string | undefined {
   const pathname = new URL(url).pathname;
 
@@ -35,15 +41,16 @@ export function getRouteFromUrl(url: URL): string | undefined {
     obj: Record<string, string>,
     value: string
   ): string | undefined => {
-    if (obj === undefined) {
-      return undefined;
-    }
+    const route = Object.keys(obj).find((key) => obj[key] === value);
+
     return Object.keys(obj).find((key) => obj[key] === value);
   };
 
   const reversedKey = getKeyByValue(routes[currentLang], path);
 
   if (reversedKey !== undefined) {
+    console.log("reversedKey exist: ", reversedKey);
+
     return reversedKey;
   }
 
@@ -53,11 +60,13 @@ export function getRouteFromUrl(url: URL): string | undefined {
 export function useTranslatedPath(lang: keyof typeof ui) {
   return function translatePath(path: string, l: string = lang) {
     const pathName = path.replaceAll("/", "");
+
     const hasTranslation =
       defaultLang !== l &&
       routes[l] !== undefined &&
       routes[l][pathName] !== undefined;
-    const translatedPath = hasTranslation ? "/" + routes[l][pathName] : path;
+
+    const translatedPath = hasTranslation ? "/" + routes[l][pathName] : "/";
 
     return !showDefaultLang && l === defaultLang
       ? translatedPath
