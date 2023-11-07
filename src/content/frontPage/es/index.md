@@ -62,14 +62,14 @@ solution:
   button_2: Planta y Protege
   image: /src/assets/dsc01007-copy.jpeg
   image_alt: Plántulas en nuestro vivero, especialmente árboles Bálsamo
-  button_link: vivero
+  button_link: proyectos/vivero
   button_2_link: planta-y-protege
 donors:
   image_alt: Un árbol Caracolí en nuestra Finca, uno de los primeros gigantes
     emergentes en bosques jóvenes
   button_2: Planta y Protege
   button_3: participa
-  button_link: vivero
+  button_link: proyectos/vivero
   paragraph: Con tu donación, también estás protegiendo especies de árboles
     amenazadas a nivel mundial y regional, apoyando la preservación de la
     biodiversidad en un ecosistema en peligro y fomentando el almacenamiento

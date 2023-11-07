@@ -63,19 +63,19 @@ solution:
   button_2: Pflanze und schütze
   image: /src/assets/dsc01007-copy.jpeg
   image_alt: Sämlinge in unserer Baumschule, v.a. Bálsamo-Bäumchen
-  button_link: baumschule
+  button_link: projekte/baumschule
   button_2_link: pflanze-und-schütze
 donors:
   image_alt: ein Caracolí-Baum in unserem Finca, einer der ersten aufstrebenden
     Riesen in jungen Wäldern
   button_2: Pflanze und schütze
   button_3: Spenden
-  button_link: baumschule
+  button_link: projekte/baumschule
   paragraph: Mit deiner Spende schützt auch du weltweit und regional bedrohte
     Baumarten, unterstützt so den Erhalt der Artenvielfalt in einem bedrohten
     Ökosystem und förderst dabei natürliche CO2-Speicherung - für eine grünere
     und biodiverse Welt.
-  button: " Baumschule"
+  button: "Baumschule"
   button_3_link: mitmachen
   button_2_link: pflanze-und-schütze
   title: "Und du? "

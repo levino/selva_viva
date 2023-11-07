@@ -25,17 +25,17 @@ const lang = getLangFromUrl(Astro.url);
         class="flex flex-col items-center justify-center px-4 py-5 w-full md:w-1/2"
       >
         <a
-          href={`${pickLangPath(lang)}projekte/baumschule`}
+          href={`${pickLangPath(lang)}${content.button_link}`}
           class="bg-yellow_leave-400 font-light hover:bg-green-400 inline-block mb-2 px-5 py-2 rounded-sm text-center text-white text-xl uppercase w-2/4"
           >{content.button}</a
         >
         <a
-          href={`${pickLangPath(lang)}pflanze-und-schütze`}
+          href={`${pickLangPath(lang)}${content.button_2_link}`}
           class="bg-yellow_leave-400 font-light hover:bg-green-400 inline-block mb-2 px-5 py-2 rounded-sm text-center text-white text-xl uppercase w-2/4"
           >{content.button_2}</a
         >
         <a
-          href={`${pickLangPath(lang)}mitmachen`}
+          href={`${pickLangPath(lang)}${content.button_3_link}`}
           class="bg-yellow_leave-400 font-light hover:bg-green-400 inline-block mb-2 px-5 py-2 rounded-sm text-center text-white text-xl uppercase w-2/4"
           >{content.button_3}</a
         >
