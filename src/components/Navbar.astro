@@ -67,14 +67,14 @@ const translatePath = useTranslatedPath(lang);
           >
             <li class="font-all font-medium pb-4 px-4">
               <a
-                href={translatePath("/projekte/baumschule")}
+                href={`${pickLangPath(lang)}${links("projects.tree-nursery")}`}
                 class="hover:text-yellow_leave-600"
                 >{t("nav.projects.tree-nursery")}</a
               >
             </li>
             <li class="font-all font-medium pb-4 px-4">
               <a
-                href={`${pickLangPath(lang)}projekte/die-finca`}
+                href={`${pickLangPath(lang)}${links("projects.theFinca")}`}
                 class="hover:text-yellow_leave-600"
                 >{t("nav.projects.theFinca")}</a
               >
@@ -83,7 +83,7 @@ const translatePath = useTranslatedPath(lang);
         </div>
         <div class="dropdown-group lg:flex items-start lg:relative">
           <a
-            href={`${pickLangPath(lang)}pflanze-und-schütze`}
+            href={`${pickLangPath(lang)}${links("plantAndProtect")}`}
             class="font-all font-medium hover:text-yellow_leave-400 px-0 py-2 uppercase z-50 lg:px-4"
             >{t("nav.plantAndProtect")}</a
           >
@@ -92,9 +92,9 @@ const translatePath = useTranslatedPath(lang);
           >
             <li class="font-all font-medium pb-4 px-4">
               <a
-                href={`${pickLangPath(
-                  lang
-                )}pflanze-und-schütze/baumpatenschaft`}
+                href={`${pickLangPath(lang)}${links(
+                  "plantAndProtect.adoptATree"
+                )}`}
                 class="hover:text-yellow_leave-600"
                 >{t("nav.plantAndProtect.adoptATree")}</a
               >
@@ -114,23 +114,23 @@ const translatePath = useTranslatedPath(lang);
           >{t("nav.trees")}</a
         > -->
         <a
-          href={`${pickLangPath(lang)}blog`}
+          href={`${pickLangPath(lang)}${links("blog")}`}
           class="font-all font-medium hover:text-yellow_leave-400 px-0 py-2 uppercase lg:px-4 lg:z-50"
           >{t("nav.blog")}</a
         >
         <a
-          href={`${pickLangPath(lang)}über-uns`}
+          href={`${pickLangPath(lang)}${links("about")}`}
           class="font-all font-medium hover:text-yellow_leave-400 px-0 py-2 uppercase lg:px-4 lg:z-50"
           >{t("nav.about")}</a
         >
         <a
-          href={`${pickLangPath(lang)}kontakt`}
+          href={`${pickLangPath(lang)}${links("contact")}`}
           class="font-all font-medium hover:text-yellow_leave-400 px-0 py-2 uppercase lg:px-4 lg:z-50"
           >{t("nav.contact")}</a
         >
       </div>
       <a
-        href={`${pickLangPath(lang)}mitmachen`}
+        href={`${pickLangPath(lang)}${links("support")}`}
         class="place-self-start bg-yellow_leave-500 font-light hover:bg-yellow_leave-800 hover:text-white inline-block px-5 py-2 rounded text-black uppercase"
         >{t("nav.support")}</a
       >
