@@ -5,9 +5,11 @@ import VivaLaSelvaLogo from "./VivaLaSelvaLogo.astro";
 import { pickLangPath } from "../utils/utils";
 import { Icon } from "astro-icon";
 import { useTranslatedPath } from "../i18n/utils";
+import { useTranslationsForLinks } from "../i18n/utils";
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
+const links = useTranslationsForLinks(lang);
 const translatePath = useTranslatedPath(lang);
 ---
 
@@ -34,7 +36,7 @@ const translatePath = useTranslatedPath(lang);
       <Icon name="logo" />
     </div>
     <a
-      href={translatePath("/")}
+      href={pickLangPath(lang)}
       class="font-medium hover:text-yellow_leave-300 mr-auto text-xl text-yellow_leave-400 uppercase"
       >Viva la selva</a
     >
@@ -50,13 +52,13 @@ const translatePath = useTranslatedPath(lang);
     >
       <div class="flex flex-col lg:flex-row">
         <a
-          href={translatePath("/")}
+          href={pickLangPath(lang)}
           class="font-all font-medium hover:text-yellow_leave-400 px-0 py-2 uppercase lg:px-4"
           >{t("nav.home")}</a
         >
         <div class="dropdown-group lg:flex items-start lg:relative">
           <a
-            href={translatePath("/projekte/")}
+            href={`${pickLangPath(lang)}${links("projects")}`}
             class="font-all font-medium hover:text-yellow_leave-400 px-0 py-2 uppercase z-50 lg:px-4"
             >{t("nav.projects")}</a
           >
