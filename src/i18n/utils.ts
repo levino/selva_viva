@@ -66,7 +66,7 @@ export function useTranslatedPath(lang: keyof typeof ui) {
       routes[l] !== undefined &&
       routes[l][pathName] !== undefined;
 
-    const translatedPath = hasTranslation ? "/" + routes[l][pathName] : "/";
+    const translatedPath = hasTranslation ? "/" + routes[l][pathName] : path;
 
     return !showDefaultLang && l === defaultLang
       ? translatedPath
