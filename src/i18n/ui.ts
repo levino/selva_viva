@@ -96,7 +96,7 @@ export const routes = {
     home: "",
     projects: "projects",
     "projects.tree-nursery": "projects/tree-nursery",
-    "projects.theFinca": "projects/the-finca",
+    "projects.theFinca": "projects/the-farm",
     "projects.bamboo": "projects/bamboo",
     "projects.mucuna": "projects/mucuna",
     plantAndProtect: "plant-and-protect",
