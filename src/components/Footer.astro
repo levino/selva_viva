@@ -1,9 +1,11 @@
 ---
 import { getLangFromUrl, useTranslations } from "../i18n/utils";
 import { pickLangPath } from "../utils/utils";
+import { useTranslationsForLinks } from "../i18n/utils";
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
+const links = useTranslationsForLinks(lang);
 ---
 
 <footer class="bg-green_dark-900 font-light pt-12 text-gray-300">
@@ -11,7 +13,7 @@ const t = useTranslations(lang);
     <div class="flex flex-wrap -mx-4">
       <div class="w-full p-4 xl:mr-auto xl:w-4/12">
         <a
-          href={pickLangPath(lang)}
+          href={`${pickLangPath(lang)}${links("home")}`}
           class="font-medium hover:text-yellow_leave-500 inline-block mb-6 mr-auto text-3xl text-white uppercase"
           >Viva la Selva</a
         >
@@ -20,19 +22,20 @@ const t = useTranslations(lang);
       <div class="p-4 w-full sm:w-4/12 md:text-center xl:w-2/12">
         <a
           class="hover:text-yellow_leave-500 font-bold mb-8 text-lg uppercase"
-          href={pickLangPath(lang)}>{t("nav.home")}</a
+          href={`${pickLangPath(lang)}${links("home")}`}>{t("nav.home")}</a
         >
       </div>
       <div class="p-4 w-full sm:w-4/12 md:text-center xl:w-2/12">
         <a
           class="font-bold mb-8 text-lg uppercase hover:text-yellow_leave-500"
-          href={`${pickLangPath(lang)}über-uns`}>{t("nav.about")}</a
+          href={`${pickLangPath(lang)}${links("about")}`}>{t("nav.about")}</a
         >
       </div>
       <div class="p-4 w-full sm:w-4/12 md:text-center xl:w-2/12">
         <a
           class="hover:text-yellow_leave-500 font-bold mb-8 text-lg uppercase"
-          href={`${pickLangPath(lang)}kontakt`}>{t("nav.contact")}</a
+          href={`${pickLangPath(lang)}${links("contact")}`}
+          >{t("nav.contact")}</a
         >
       </div>
     </div>
