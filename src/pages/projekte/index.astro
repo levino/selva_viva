@@ -4,7 +4,12 @@ import * as pageContent from "../../content/_projects_index.md";
 import { getCollection } from "astro:content";
 const [treeNursery] = await getCollection("treeNursery");
 const [theFinca] = await getCollection("theFinca");
+const [pageContentDe] = await getCollection("projectsPage", ({ slug }) => {
+  return slug === "de";
+});
+console.log(pageContentDe);
+
 const projects = [treeNursery, theFinca];
 ---
 
-<ProjectsPage projects={projects} pageContent={pageContent.frontmatter} />
+<ProjectsPage projects={projects} pageContent={pageContentDe} />
