@@ -1,3 +1,5 @@
+import { pageCard } from "../common_fields/page_card";
+
 export const treeNurseryPageSchema = {
   label: "Tree Nursery Page",
   name: "tree_nursery_page",
@@ -8,21 +10,7 @@ export const treeNurseryPageSchema = {
       name: "page_meta_title",
       widget: "string",
     },
-    {
-      label: "Page Card",
-      name: "page_card",
-      summary: "{{fields.title}}",
-      collapsed: true,
-      widget: "object",
-      fields: [
-        { labe: "Title", name: "title", widget: "string" },
-        { labe: "Excerpt", name: "excerpt", widget: "markdown" },
-        { labe: "Link", name: "link", widget: "string" },
-        { labe: "Link Text", name: "link_text", widget: "string" },
-        { labe: "Cover Image", name: "cover_image", widget: "image" },
-        { labe: "Cover Image Alt", name: "cover_image_alt", widget: "string" },
-      ],
-    },
+    pageCard,
     {
       label: "Hero",
       name: "hero",
