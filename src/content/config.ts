@@ -2,10 +2,16 @@ import { reference, defineCollection, z } from "astro:content";
 import { theFincaSchema } from "../contentSchemas/theFinca";
 import { frontPageSchema } from "../contentSchemas/frontPage";
 import { treeNurserySchema } from "../contentSchemas/treeNursery";
+import { projectsPageSchema } from "../contentSchemas/projectsPage";
 
 const frontPage = defineCollection({
   type: "content",
   schema: frontPageSchema,
+});
+
+const projectsPage = defineCollection({
+  type: "content",
+  schema: projectsPageSchema,
 });
 
 const treeNursery = defineCollection({
@@ -167,4 +173,5 @@ export const collections = {
   aboutUsPage: aboutUsPageSchema,
   theFinca,
   treeNursery,
+  projectsPage,
 };
