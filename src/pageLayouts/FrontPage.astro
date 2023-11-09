@@ -7,6 +7,7 @@ import CenterContentVideoBg from "../components/CenterContentVideoBg.astro";
 import bgImg from "../assets/plant-a-tree.png";
 import ContentLeftThreeButtonsRight from "../components/ContentLeftThreeButtonsRight.astro";
 import ParticipateSection from "../components/ParticipateSection.astro";
+import AboutUsSection from "../components/AboutUsSection.astro";
 
 const {
   content: { data },
@@ -16,27 +17,7 @@ const {
 <Layout title={data.pageMetaTitle}>
   <Hero content={data.hero} bgImg={bgImg} />
   <ParticipateSection data={data} />
-
-  <!-- about us -->
-  <section class="bg-white py-12 relative">
-    <div class="mx-auto px-4 text-center w-full">
-      <h1
-        class="drop-shadow-2xl font-all font-extrabold mb-4 text-6xl text-brown_dark-600"
-      >
-        {data.about_us.title}
-      </h1>
-      <p
-        class="drop-shadow-lg font-light leading-relaxed mb-6 px-5 text-2xl text-my_gray-950"
-      >
-        {data.about_us.paragraph}
-      </p>
-      <a
-        href={data.about_us.link}
-        class="bg-yellow_leave-400 font-light hover:bg-green-400 inline-block px-5 py-2 rounded-sm text-white uppercase"
-        >{data.about_us.link_text}</a
-      >
-    </div>
-  </section>
+  <AboutUsSection data={data} />
   <RightSideContent content={data.situation} />
   <LeftSideContent content={data.problem} />
   <CenterContentVideoBg content={data.solution} />
