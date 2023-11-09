@@ -6,7 +6,6 @@ const [theFinca] = await getCollection("theFinca");
 const [pageContentDe] = await getCollection("projectsPage", ({ slug }) => {
   return slug === "de";
 });
-console.log(pageContentDe);
 
 const projects = [treeNursery, theFinca];
 ---
