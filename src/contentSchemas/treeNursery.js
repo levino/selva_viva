@@ -1,16 +1,10 @@
 import { z } from "astro:content";
+import { pageCard } from "./commonFields/pageCard";
 
 export const treeNurserySchema = ({ image }) =>
   z.object({
     page_meta_title: z.string(),
-    page_card: z.object({
-      title: z.string(),
-      excerpt: z.string(),
-      link: z.string(),
-      link_text: z.string(),
-      cover_image: image(),
-      cover_image_alt: z.string(),
-    }),
+    page_card: pageCard(z, image),
     hero: z.array(
       z.object({
         top: z.string(),

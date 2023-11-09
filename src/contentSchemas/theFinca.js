@@ -1,9 +1,11 @@
 import { z } from "astro:content";
+import { pageCard } from "./commonFields/pageCard";
 
 export const theFincaSchema = ({ image }) =>
   z.object({
     page_meta_title: z.string(),
     title: z.string(),
+    page_card: pageCard(z, image),
     hero: z.object({
       main_title: z.string(),
       main_title_image: image(),

@@ -1,3 +1,5 @@
+import { pageCard } from "../common_fields/page_card";
+
 export const theFincaSchema = {
   label: "The Finca Page",
   name: "the_finca_page",
@@ -13,6 +15,7 @@ export const theFincaSchema = {
       name: "title",
       widget: "string",
     },
+    pageCard,
     {
       label: "Hero",
       name: "hero",
