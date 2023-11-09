@@ -7,6 +7,8 @@ import { aboutUsSchemaDe } from "./about_us/about_us_de";
 import { theFincaSchema } from "./the_finca";
 import { treeNurseryPageSchema } from "./tree_nursery";
 import { projectsPageSchemaDe } from "./projects_page/de";
+import { projectsPageSchemaEn } from "./projects_page/en";
+import { projectsPageSchemaEs } from "./projects_page/es";
 const pagesCmsSchemas = {
   label: "Pages",
   name: "pages",
@@ -15,6 +17,8 @@ const pagesCmsSchemas = {
     frontPageSchemaDe,
     frontPageSchemaEs,
     projectsPageSchemaDe,
+    projectsPageSchemaEn,
+    projectsPageSchemaEs,
     aboutUsSchemaDe,
     contactPageSchema,
     supportPageSchema,
