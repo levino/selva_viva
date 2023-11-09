@@ -12,9 +12,9 @@ participate:
     - title: Werde Baumpate/in
       image: /src/assets/dsc00904-copy-2.jpeg
       image_alt: Baumschule von Viva la Selva mit Bálsamos und Almendros
-      link: /pflanze-und-schütze/baumpatenschaft
+      link: pflanze-und-schütze/baumpatenschaft
     - title: Einfach unterstützen
-      link: /mitmachen
+      link: mitmachen
       image: /src/assets/DSC00971 copy.jpeg
       image_alt: Kleines Bäumchen in der Baumschule von Viva la Selva
 about_us:
@@ -75,7 +75,7 @@ donors:
     Baumarten, unterstützt so den Erhalt der Artenvielfalt in einem bedrohten
     Ökosystem und förderst dabei natürliche CO2-Speicherung - für eine grünere
     und biodiverse Welt.
-  button: "Baumschule"
+  button: Baumschule
   button_3_link: mitmachen
   button_2_link: pflanze-und-schütze
   title: "Und du? "
