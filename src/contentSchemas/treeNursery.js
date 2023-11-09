@@ -3,6 +3,14 @@ import { z } from "astro:content";
 export const treeNurserySchema = ({ image }) =>
   z.object({
     page_meta_title: z.string(),
+    page_card: z.object({
+      title: z.string(),
+      excerpt: z.string(),
+      link: z.string(),
+      link_text: z.string(),
+      cover_image: image(),
+      cover_image_alt: z.string(),
+    }),
     hero: z.array(
       z.object({
         top: z.string(),
