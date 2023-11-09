@@ -21,7 +21,7 @@ about_us:
   title: Wir sind...
   paragraph: ...ein kleines Team mit dem Ziel, gefährdete oder selten gewordene
     Baumarten im Darién (Nord-Chocó, Kolumbien) zu bewahren.
-  link: /über-uns
+  link: über-uns
   link_text: zum Team
 situation:
   title: Tropisches Ökosystem in Gefahr
