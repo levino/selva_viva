@@ -4,8 +4,12 @@ import * as pageContent from "../../content/_projects_index.md";
 
 import { getCollection } from "astro:content";
 const allProjects = await getCollection("projects");
+const [treeNursery] = await getCollection("treeNursery");
 const [theFinca] = await getCollection("theFinca");
-const projects = {
+const projects = [treeNursery, theFinca];
+console.log(projects[0].data.page_card);
+
+const projectsOld = {
   projects: allProjects,
   theFinca,
 };
