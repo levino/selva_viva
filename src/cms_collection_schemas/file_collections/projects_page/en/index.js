@@ -1,4 +1,4 @@
-import { projectsPageFields } from "../projects_page_fields";
+import { projectsPageFields } from "../fields";
 
 export const projectsPageSchemaEn = {
   label: "Projects Page En",
