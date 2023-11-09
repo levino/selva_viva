@@ -39,27 +39,6 @@ const plantAndProtectCollection = defineCollection({
     }),
 });
 
-const projectsCollection = defineCollection({
-  type: "content",
-  schema: ({ image }) =>
-    z.object({
-      title: z.string(),
-      page_title: z.string(),
-      subtitle: z.string(),
-      button_text: z.string(),
-      excerpt: z.string(),
-      url: z.string(),
-      cover_image: image(),
-      cover_alt: z.string(),
-      what_you_get: z
-        .object({
-          title: z.string(),
-          list_items: z.array(z.string()),
-        })
-        .optional(),
-    }),
-});
-
 const blogCollection = defineCollection({
   type: "content",
   schema: ({ image }) =>
@@ -179,7 +158,6 @@ const theFinca = defineCollection({
 });
 
 export const collections = {
-  projects: projectsCollection,
   trees: treesCollection,
   blog: blogCollection,
   team: teamMembersCollection,
