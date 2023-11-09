@@ -1,5 +1,4 @@
 ---
-import { Image } from "astro:assets";
 import Layout from "../layouts/Layout.astro";
 import Hero from "../components/Hero.astro";
 import RightSideContent from "../components/RightSideContent.astro";
@@ -7,6 +6,8 @@ import LeftSideContent from "../components/LeftSideContent.astro";
 import CenterContentVideoBg from "../components/CenterContentVideoBg.astro";
 import bgImg from "../assets/plant-a-tree.png";
 import ContentLeftThreeButtonsRight from "../components/ContentLeftThreeButtonsRight.astro";
+import ParticipateSection from "../components/ParticipateSection.astro";
+
 const {
   content: { data },
 } = Astro.props;
@@ -14,40 +15,7 @@ const {
 
 <Layout title={data.pageMetaTitle}>
   <Hero content={data.hero} bgImg={bgImg} />
-  <section class="bg-my_gray-100 pb-20 pt-5 px-10">
-    <div class="container mx-auto px-4 lg:w-9/12">
-      <div>
-        <div class="flex flex-no-wrap items-center mx-auto py-10 w-4/5">
-          <div class="bg-gray-500 flex-grow h-px max-w-full"></div>
-          <div class="px-10 w-auto">
-            <h2
-              class="font-all font-light text-4xl text-yellow_leave-600 uppercase"
-            >
-              {data.participate.title}
-            </h2>
-          </div>
-          <div class="bg-gray-500 flex-grow h-px max-w-full"></div>
-        </div>
-      </div>
-      <div class="-mx-4 flex flex-wrap">
-        {
-          data.participate.cards.map((card) => (
-            <div class="flex flex-col items-center justify-center mb-5 px-4 w-full sm:w-1/2 md:w-1/4">
-              <div class="mx-auto relative">
-                <a
-                  href={card.link}
-                  class="absolute flex font-all font-medium h-full items-center justify-center text-center text-white text-xl uppercase w-full md:text-base xl:text-xl"
-                >
-                  {card.title}
-                </a>
-                <Image src={card.image} alt={card.image_alt} class="w-full" />
-              </div>
-            </div>
-          ))
-        }
-      </div>
-    </div>
-  </section>
+  <ParticipateSection data={data} />
 
   <!-- about us -->
   <section class="bg-white py-12 relative">
