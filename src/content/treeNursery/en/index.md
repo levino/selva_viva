@@ -1,44 +1,63 @@
 ---
-page_meta_title: Tree Nursery
+page_meta_title: Nursery
 page_card:
-title: The Tree Nursery
-excerpt:
-Here, seeds and young shoots receive the care and attention they need to thrive.
-link: projects/tree-nursery
-link_text: Read More...
-cover_image: /src/assets/dsc00904-copy-2.jpeg
-cover_image_alt: Tree nursery photo
+  title: The Nursery
+  excerpt: Here seeds and young shoots receive the care and attention
+    they need to become viable.
+  link: projects/nursery
+  link_text: Read more...
+  cover_image: /src/assets/dsc00904-copy-2.jpeg
+  cover_image_alt: nursery photo
 hero:
-
-- top: Where
-  center: our
-  bottom: dreams begin.
-  image: /src/assets/aimg_20230504_124843-copy.jpeg
-  image_alt: seeds
-- top: A small
-  center: tree nursery
-  bottom: with a big vision.
-  image: /src/assets/dsc00904-copy.jpeg
-  image_alt: tree nursery
-  our_trees:
+  - top: Here begins
+    center: our
+    bottom: Dreams.
+    image: /src/assets/aimg_20230504_124843-copy.jpeg
+    image_alt: seeds
+  - top: A small
+    center: Nursery
+    bottom: with a big vision.
+    image: /src/assets/dsc00904-copy.jpeg
+    image_alt: nursery
+our_trees:
   subtitle: We have
-  title: The Tree Nursery
-  trees_list: - Bálsamo - Almendro - Canime - Orejero - Fría - Caribbean Ebony - Samán - Campano de bledo - Algarroba - Various mango species - Various avocado species - Various coconut palm species - Cashew - Various lime/lemon species - Perra de agua ("Water pear") - Anón - Guanábano
+  title: The Nursery
+  trees_list:
+    - Bálsamo
+    - Almendro
+    - Canime
+    - Orejero
+    - Fría
+    - Caribbean Ebony
+    - Samán
+    - Campano de bledo
+    - Algarrobo
+    - "various types of Mango"
+    - various types of Avocado
+    - various types of Coconut palms
+    - Cashew
+    - various types of Lemon/Lime
+    - Perra de agua ("Water pear")
+    - Anón
+    - Guanábana
   image: /src/assets/dsc00904-copy_small.jpeg
-  image_alt: Tree nursery
-  button_text: Adopt a Tree
-  button_link: plant-and-protect/tree-adoption
-  goals:
-  image_alt: Small fruit tree ("Water Pear")
+  image_alt: Nursery
+  button_text: Become a Tree Sponsor
+  button_link: plant-and-protect/tree-sponsorship
+goals:
+  image_alt: small fruit tree ("Water-Pear")
   button_link: /get-involved
-  read_more_text: Read More...
-  subtitle: We plant..
+  read_more_text: read more...
+  subtitle: We plant...
   title: Goals
-  button_text: Get Involved
+  button_text: get involved
   image: /src/assets/DSC00971 copy.jpeg
   read_more_link: "#nursery"
-  list: - ...regionally and globally threatened species - ...alternative, fast-growing timber species - ...fruit trees of all varieties
-  cta_center:
+  list:
+    - ...regionally and worldwide endangered species
+    - ...alternative, fast-growing timber species
+    - ...fruit trees in all variations
+cta_center:
   button_text: Support Viva la Selva
   button_link: /get-involved
 ---
