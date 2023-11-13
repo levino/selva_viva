@@ -4,6 +4,8 @@ import { frontPageSchemaEn } from "./front_page/front_page_en";
 import { contactPageSchema } from "./contact";
 import { supportPageSchema } from "./support_page";
 import { aboutUsSchemaDe } from "./about_us_page/de/index";
+import { aboutUsSchemaEn } from "./about_us_page/en/index";
+import { aboutUsSchemaEs } from "./about_us_page/es/index";
 import { theFincaSchemaDe } from "./the_finca_page/de/index";
 import { treeNurseryPageSchema } from "./tree_nursery";
 import { projectsPageSchemaDe } from "./projects_page/de";
@@ -21,6 +23,8 @@ const pagesCmsSchemas = {
     projectsPageSchemaEs,
     theFincaSchemaDe,
     aboutUsSchemaDe,
+    aboutUsSchemaEn,
+    aboutUsSchemaEs,
     contactPageSchema,
     supportPageSchema,
     treeNurseryPageSchema,
