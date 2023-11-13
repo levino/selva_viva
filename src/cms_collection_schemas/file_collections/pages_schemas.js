@@ -6,8 +6,10 @@ import { supportPageSchema } from "./support_page";
 import { aboutUsSchemaDe } from "./about_us_page/de/index";
 import { aboutUsSchemaEn } from "./about_us_page/en/index";
 import { aboutUsSchemaEs } from "./about_us_page/es/index";
-import { theFincaSchemaDe } from "./the_finca_page/de/index";
-import { treeNurseryPageSchema } from "./tree_nursery";
+import { theFincaSchemaDe } from "./the_finca_page/de";
+import { theFincaSchemaEn } from "./the_finca_page/en";
+import { theFincaSchemaEs } from "./the_finca_page/es";
+import { treeNurserySchemaDe } from "./tree_nursery_page/de";
 import { projectsPageSchemaDe } from "./projects_page/de";
 import { projectsPageSchemaEn } from "./projects_page/en";
 import { projectsPageSchemaEs } from "./projects_page/es";
@@ -21,13 +23,15 @@ const pagesCmsSchemas = {
     projectsPageSchemaDe,
     projectsPageSchemaEn,
     projectsPageSchemaEs,
+    treeNurserySchemaDe,
     theFincaSchemaDe,
+    theFincaSchemaEn,
+    theFincaSchemaEs,
     aboutUsSchemaDe,
     aboutUsSchemaEn,
     aboutUsSchemaEs,
     contactPageSchema,
     supportPageSchema,
-    treeNurseryPageSchema,
   ],
 };
 
