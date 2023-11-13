@@ -4,7 +4,9 @@ import { frontPageSchemaEn } from "./front_page/en";
 import { contactPageSchemaDe } from "./contact_page/de";
 import { contactPageSchemaEn } from "./contact_page/en";
 import { contactPageSchemaEs } from "./contact_page/es";
-import { supportPageSchema } from "./support_page";
+import { supportPageSchemaDe } from "./support_page/de";
+import { supportPageSchemaEn } from "./support_page/en";
+import { supportPageSchemaEs } from "./support_page/es";
 import { aboutUsSchemaDe } from "./about_us_page/de/index";
 import { aboutUsSchemaEn } from "./about_us_page/en/index";
 import { aboutUsSchemaEs } from "./about_us_page/es/index";
@@ -39,7 +41,9 @@ const pagesCmsSchemas = {
     contactPageSchemaDe,
     contactPageSchemaEn,
     contactPageSchemaEs,
-    supportPageSchema,
+    supportPageSchemaDe,
+    supportPageSchemaEn,
+    supportPageSchemaEs,
   ],
 };
 
