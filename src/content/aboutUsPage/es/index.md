@@ -24,7 +24,7 @@ button: únete
 button_link: unete
 team:
   title: Nuestro Equipo
-  tteam_members:
+  team_members:
     - alejandro
     - esra
     - rude
