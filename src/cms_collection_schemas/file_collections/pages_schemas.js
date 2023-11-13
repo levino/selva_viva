@@ -10,6 +10,8 @@ import { theFincaSchemaDe } from "./the_finca_page/de";
 import { theFincaSchemaEn } from "./the_finca_page/en";
 import { theFincaSchemaEs } from "./the_finca_page/es";
 import { treeNurserySchemaDe } from "./tree_nursery_page/de";
+import { treeNurserySchemaEn } from "./tree_nursery_page/en";
+import { treeNurserySchemaEs } from "./tree_nursery_page/es";
 import { projectsPageSchemaDe } from "./projects_page/de";
 import { projectsPageSchemaEn } from "./projects_page/en";
 import { projectsPageSchemaEs } from "./projects_page/es";
@@ -24,6 +26,8 @@ const pagesCmsSchemas = {
     projectsPageSchemaEn,
     projectsPageSchemaEs,
     treeNurserySchemaDe,
+    treeNurserySchemaEn,
+    treeNurserySchemaEs,
     theFincaSchemaDe,
     theFincaSchemaEn,
     theFincaSchemaEs,
