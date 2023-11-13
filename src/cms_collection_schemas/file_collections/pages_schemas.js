@@ -1,7 +1,9 @@
-import { frontPageSchemaDe } from "./front_page/front_page_de";
-import { frontPageSchemaEs } from "./front_page/front_page_es";
-import { frontPageSchemaEn } from "./front_page/front_page_en";
-import { contactPageSchema } from "./contact";
+import { frontPageSchemaDe } from "./front_page/de";
+import { frontPageSchemaEs } from "./front_page/es";
+import { frontPageSchemaEn } from "./front_page/en";
+import { contactPageSchemaDe } from "./contact_page/de";
+import { contactPageSchemaEn } from "./contact_page/en";
+import { contactPageSchemaEs } from "./contact_page/es";
 import { supportPageSchema } from "./support_page";
 import { aboutUsSchemaDe } from "./about_us_page/de/index";
 import { aboutUsSchemaEn } from "./about_us_page/en/index";
@@ -34,7 +36,9 @@ const pagesCmsSchemas = {
     aboutUsSchemaDe,
     aboutUsSchemaEn,
     aboutUsSchemaEs,
-    contactPageSchema,
+    contactPageSchemaDe,
+    contactPageSchemaEn,
+    contactPageSchemaEs,
     supportPageSchema,
   ],
 };
