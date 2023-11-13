@@ -1,7 +1,7 @@
 import { supportPageFields } from "../fields";
 export const supportPageSchemaDe = {
-  label: "Support Page DE",
-  name: "support_page_en",
+  label: "Support Page De",
+  name: "support_page_de",
   file: "src/content/supportPage/de/index.md",
   fields: supportPageFields,
 };

@@ -1,5 +1,4 @@
 import { supportPageFields } from "../fields";
-
 export const supportPageSchemaEn = {
   label: "Support Page En",
   name: "support_page_en",
