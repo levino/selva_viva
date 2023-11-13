@@ -19,6 +19,14 @@ const treeNursery = defineCollection({
   schema: treeNurserySchema,
 });
 
+const contactPage = defineCollection({
+  type: "content",
+  schema: z.object({
+    page_title: z.string(),
+    paragraph: z.string(),
+    email: z.string().email(),
+  }),
+});
 const plantAndProtectCollection = defineCollection({
   type: "content",
   schema: ({ image }) =>
