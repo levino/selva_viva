@@ -1,4 +1,4 @@
-import { aboutUsPageSchemaFields } from "./fields";
+import { aboutUsPageSchemaFields } from "../fields";
 
 export const aboutUsSchemaEn = {
   label: "About Us En",
