@@ -4,10 +4,10 @@ import Contact from "../components/Contact.astro";
 import PageTitle from "../components/PageTitle.astro";
 
 const {
-  content: { frontmatter },
+  content: { data },
 } = Astro.props;
 ---
 
-<Layout title={frontmatter.page_title}>
-  <Contact content={frontmatter} />
+<Layout title={data.page_title}>
+  <Contact content={data} />
 </Layout>
