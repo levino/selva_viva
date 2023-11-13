@@ -3,80 +3,69 @@ pageMetaTitle: Viva la Selva
 hero:
   greeting: bienvenido/a a
   title: Viva la Selva
-  msg: Estamos plantando bosques tropicales - diversidad de especies para la
-    conservación.
+  msg: Plantamos bosques tropicales - biodiversidad para la conservación de especies.
   button: donar
   hero_bg_image: /src/assets/plant-a-tree.png
 participate:
-  title: Únete
+  title: Participa
   cards:
     - title: Conviértete en Padrino/Madrina de un Árbol
       image: /src/assets/dsc00904-copy-2.jpeg
       image_alt: Vivero de Viva la Selva con Bálsamos y Almendros
-      link: /planta-y-protege/padrinazgo-de-arboles
-    - title: Apoya de forma sencilla
-      link: /unete
+      link: planta-y-protege/apadrinamiento-de-arboles
+    - title: Apoya Fácilmente
+      link: participa
       image: /src/assets/DSC00971 copy.jpeg
-      image_alt: Pequeño árbol en el vivero de Viva la Selva
+      image_alt: Pequeño plantón en el vivero de Viva la Selva
 about_us:
-  title: Quiénes somos...
-  paragraph: ...un equipo pequeño con el propósito de preservar especies de
-    árboles en peligro o raras en el Darién (Norte del Chocó, Colombia).
-  link: /acerca-de-nosotros
-  link_text: conocer al equipo
+  title: Quiénes Somos...
+  paragraph: ...un pequeño equipo con el objetivo de preservar especies de árboles en peligro de extinción o raras en el Darién (Norte de Chocó, Colombia).
+  link: sobre-nosotros
+  link_text: Conoce al Equipo
 situation:
-  title: Ecosistema tropical en peligro
-  paragraph: El Darién en la región del Caribe entre Colombia y Panamá se
-    encuentra en una situación ecológica crítica. La deforestación en la antigua
-    región selvática avanza sin control. Las especies de árboles en peligro a
-    nivel internacional son tan raras en esta región que la búsqueda de sus
-    semillas se vuelve cada vez más difícil. El ecosistema comienza a
-    desmoronarse.
+  title: Ecosistema Tropical en Peligro
+  paragraph: El Darién, en la región del Caribe entre Colombia y Panamá, se encuentra en una crisis ecológica. La deforestación en la antigua región de selva tropical avanza de manera incontrolada. Las especies de árboles amenazados a nivel internacional se han vuelto tan raras en esta región que encontrar sus semillas es cada vez más difícil. El ecosistema está comenzando a deteriorarse.
   image: /src/assets/balsamos-cortados_1.17.1.jpg
-  image_alt: Restos de árboles talados en el bosque del Darién
-  button: más sobre los puntos críticos de biodiversidad
-  button_link: proyectos/la-finca/texto-completo#region-importancia
+  image_alt: Restos de árboles talados en el bosque lluvioso del Darién
+  button: Más información sobre los Puntos Críticos de Biodiversidad
+  button_link: proyectos/la-finca/texto-completo#region-significado
 problem:
-  title: Desequilibrio causado por la deforestación
-  paragraph: "Los gigantes de la selva y otras especies arbóreas grandes
-    suministran la madera más codiciada, y son mucho más que almacenes de CO2.
-    Brindan hábitat para todo un ecosistema, algunos para más de 1000 especies
-    adicionales. Su sombra y sus raíces profundas protegen fuentes y el flujo
-    natural de los ríos, temperaturas de la superficie terrestre y capas
-    fértiles del suelo: la base para nuevos brotes y, por lo tanto, para la
-    preservación de todas las especies."
+  title: Desequilibrio Debido a la Deforestación
+  paragraph: >-
+    La madera más codiciada proviene de los gigantes de la selva tropical y otras especies de árboles grandes
+
+    que son mucho más que simples almacenes de carbono. Proporcionan
+
+    hábitat para todo un ecosistema, algunos para más de 1000 otras especies. Su sombra y sus raíces profundas protegen manantiales y el flujo natural de los ríos,
+
+    las temperaturas de la superficie y las capas de suelo fértiles: la base para
+
+    el crecimiento nuevo y, por lo tanto, la preservación de las especies - de todas las especies.
   image: /src/assets/dsc01083-copy.jpeg
-  image_alt: Dos Tachuleos y un árbol Bálsamo en la Finca de Viva la Selva
+  image_alt: Dos Tachuleos y un árbol de Bálsamo en la finca de Viva la Selva
   button: Los Árboles
   button_link: arboles
 solution:
-  title: Encontramos, plantamos y protegemos
-  paragraph:
-    Las especies nativas en peligro encuentran espacio para sobrevivir en
-    Viva la Selva. Buscamos y rescatamos semillas y plántulas de las especies en
-    declive y las plantamos en un entorno protegido y diverso para mantenerlas
-    en el ecosistema local. No todas las semillas plantadas se convierten en
-    árboles. ¡Pero donde nuestro trabajo tiene éxito, ocurre un milagro de la
-    vida en abundancia inimaginable!
-  button: Vivero de Árboles
+  title: Encontramos, Plantamos y Protegemos
+  paragraph: >-
+    Las especies nativas en peligro de extinción encuentran espacio para sobrevivir en Viva la Selva. Buscamos y rescatamos semillas y plántulas de especies en declive y las plantamos en un entorno protegido y biodiverso para preservarlas para el ecosistema nativo.
+
+    No todas las semillas plantadas se convierten en árboles. ¡Pero donde nuestro trabajo tiene éxito, florece un milagro de vida en una abundancia inimaginable!
+  button: Vivero
   button_2: Planta y Protege
   image: /src/assets/dsc01007-copy.jpeg
-  image_alt: Plántulas en nuestro vivero, especialmente árboles Bálsamo
+  image_alt: Plántulas en nuestro vivero, especialmente plantones de Bálsamo
   button_link: proyectos/vivero
   button_2_link: planta-y-protege
 donors:
-  image_alt: Un árbol Caracolí en nuestra Finca, uno de los primeros gigantes
-    emergentes en bosques jóvenes
+  image_alt: Un árbol Caracolí en nuestra finca, uno de los primeros gigantes emergentes en bosques jóvenes
   button_2: Planta y Protege
-  button_3: participa
+  button_3: Donar
   button_link: proyectos/vivero
-  paragraph: Con tu donación, también estás protegiendo especies de árboles
-    amenazadas a nivel mundial y regional, apoyando la preservación de la
-    biodiversidad en un ecosistema en peligro y fomentando el almacenamiento
-    natural de CO2, para un mundo más verde y diverso.
-  button: " Vivero de Árboles"
+  paragraph: Con tu donación, también proteges especies de árboles amenazadas a nivel mundial y local, apoyas la preservación de la biodiversidad en un ecosistema en peligro y fomentas el almacenamiento natural de CO2, ¡para un mundo más verde y biodiverso!
+  button: Vivero
   button_3_link: participa
   button_2_link: planta-y-protege
-  title: ¿Y tú?
+  title: "¿Y tú? "
   image: /src/assets/dsc01052-copy.jpeg
 ---
