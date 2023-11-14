@@ -3,6 +3,7 @@ import { theFincaSchema } from "../contentSchemas/theFinca";
 import { frontPageSchema } from "../contentSchemas/frontPage";
 import { treeNurserySchema } from "../contentSchemas/treeNursery";
 import { projectsPageSchema } from "../contentSchemas/projectsPage";
+import { plantAndProtectSchema } from "../contentSchemas/plantAndProtect";
 
 const frontPage = defineCollection({
   type: "content",
@@ -29,28 +30,7 @@ const contactPage = defineCollection({
 });
 const plantAndProtectCollection = defineCollection({
   type: "content",
-  schema: ({ image }) =>
-    z.object({
-      title: z.string(),
-      page_title: z.string(),
-      bg_image: image(),
-      bg_alt: z.string(),
-      subtitle: z.string(),
-      excerpt: z.string(),
-      description_title: z.string(),
-      description: z.string(),
-      what_you_get: z.object({
-        title: z.string(),
-        list_items: z.array(z.string()),
-        image: image(),
-        image_alt: z.string(),
-      }),
-      button_text: z.string(),
-      button_link: z.string(),
-      back_button_text: z.string(),
-      cover_image: image(),
-      cover_alt: z.string(),
-    }),
+  schema: plantAndProtectSchema,
 });
 
 const blogCollection = defineCollection({
@@ -182,4 +162,5 @@ export const collections = {
   theFinca,
   treeNursery,
   projectsPage,
+  contactPage,
 };
