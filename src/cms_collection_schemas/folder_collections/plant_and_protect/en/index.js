@@ -1,10 +1,10 @@
 import { plantAndProtectFields } from "../fields";
 
-export const plantAndProtectSchemaDe = {
-  label: "Plant and Protect De",
+export const plantAndProtectSchemaEn = {
+  label: "Plant and Protect En",
   label_singular: "Modality",
-  name: "plant_and_protect_de",
-  folder: "src/content/plantAndProtect/de/",
+  name: "plant_and_protect_en",
+  folder: "src/content/plantAndProtect/en/",
   identifier_field: "name",
   create: true,
   delete: true,
