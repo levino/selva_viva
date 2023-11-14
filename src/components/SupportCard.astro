@@ -1,29 +1,26 @@
 ---
 const { projects } = Astro.props;
+import {  getRelativeLocaleUrlList } from 'astro:i18n';
 
-import { getLangFromUrl } from "../i18n/utils";
 import { Image } from "astro:assets";
-import { pickLangPath } from "../utils/utils";
-
-const lang = getLangFromUrl(Astro.url);
+projects.forEach(project => {
+  console.log(project.data.page_card.link);
+  
+});
 ---
 
-<div class="container mx-auto px-4" data-pg-collapsed>
+<div class="container mx-auto px-4" >
   <div class="flex flex-wrap mx-auto w-9/12 my-9">
     {
       projects.map((project) => (
         <div class="mb-4 gap-2 px-4 relative w-full md:w-1/2 xl:w-1/4">
           <a
-            href={`${pickLangPath(lang)}${
-              project.slug === "baumschule"
-                ? "projekte/" + project.slug
-                : "pflanze-und-schütze/" + project.slug
-            }`}
+            href={project.data.page_card.link}
             class="block"
           >
             <Image
-              src={project.data.cover_image}
-              alt={project.data.cover_alt}
+              src={project.data.page_card.cover_image}
+              alt={project.data.page_card.cover_image_alt}
               width="300"
               class="object-cover rounded-lg w-full"
             />
@@ -31,15 +28,15 @@ const lang = getLangFromUrl(Astro.url);
             <div class="absolute group h-full left-0 px-4 text-white top-0 w-full">
               <div
                 class="flex flex-col group-hover:visible h-full hover:bg-green-500 hover:bg-opacity-50 hover:cursor-pointer invisible items-center justify-center left-0 px-4 top-0 w-full"
-                data-pg-collapsed
+                
               >
-                <p class="text-center">{project.data.subtitle}</p>
+                <p class="text-center">{project.data.page_card.title}</p>
               </div>
             </div>
             <div class="absolute bottom-0 left-0 overflow-hidden px-4 rounded-b-lg w-full">
-              <div class="bg-green-500 rounded-b-lg" data-pg-collapsed>
+              <div class="bg-green-500 rounded-b-lg">
                 <p class="font-bold font-sans py-2 text-center text-xl text-yellow_leave-600">
-                  {project.data.page_title}
+                  {project.data.page_card.title}
                 </p>
               </div>
             </div>

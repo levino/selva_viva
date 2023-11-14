@@ -12,6 +12,9 @@ const sortedBlogCollection = blogCollection
     };
   })
   .sort((a, b) => b.data.publish_date - a.data.publish_date);
+
+  console.log(sortedBlogCollection[0].slug.split("/").pop());
+  
 ---
 
 <Layout title="Blog">
@@ -27,7 +30,7 @@ const sortedBlogCollection = blogCollection
           sortedBlogCollection.map((blog) => (
             <div class="p-4 w-full md:w-4/12 lg:w-3/12">
               <div class="bg-white flex flex-col shadow-lg">
-                <a href={`/blog/${blog.slug}`} class="block hover:opacity-75">
+                <a href={`blog/${blog.slug.split("/").pop()}`} class="block hover:opacity-75">
                   <Image
                     src={blog.data.cover_image}
                     alt={blog.data.cover_alt}

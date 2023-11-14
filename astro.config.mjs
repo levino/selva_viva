@@ -19,6 +19,9 @@ export default defineConfig({
     i18n: {
       defaultLocale: "en",
       locales: ["de", "es", "en"],
+      fallback: {
+        es: "de",
+      },
     },
   },
   integrations: [tailwind()],

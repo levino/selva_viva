@@ -6,8 +6,8 @@ page_card:
   excerpt:
     Selten gewordene Baumarten nachpflanzen und großziehen ist aufwändig -
     alleine schaffen wir das nicht. Also lass es uns gemeinsam tun.
-  link: Mehr lesen...
-  link_text: pflanze-und-schütze/baumpatenschaft/
+  link: pflanze-und-schütze/baumpatenschaft/
+  link_text: Mehr lesen...
   cover_image: /src/assets/aimg_20230712_102052-copy.jpeg
   cover_image_alt: Selten gewordene Baumarten
 bg_image: /src/assets/dsc01079-copy_2000px.jpeg
