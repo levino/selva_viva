@@ -1,5 +1,5 @@
 export function pickLangPath(lang) {
-  return lang === "de" ? `/` : `/${lang}/`;
+  return lang === "en" ? `/` : `/${lang}/`;
 }
 
 // const saveThisLink = `${pickLangPath(lang)}projects/${

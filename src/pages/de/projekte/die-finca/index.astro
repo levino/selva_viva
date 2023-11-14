@@ -1,15 +1,15 @@
 ---
 import { getEntry } from "astro:content";
-import Layout from "../../../layouts/Layout.astro";
+import Layout from "../../../../layouts/Layout.astro";
 
 import { Image } from "astro:assets";
-import TheFincaHero from "../../../components/TheFincaHero.astro";
-import OurTreesSection from "../../../components/OurTreesSection.astro";
-import RelevanceSection from "../../../components/ContentRightList.astro";
-import CTACenter from "../../../components/CTACenter.astro";
-import LocationSection from "../../../components/LocationSection.astro";
-import TheFincaStorySection from "../../../components/TheFincaStorySection.astro";
-import CTABottom from "../../../components/CTABottom.astro";
+import TheFincaHero from "../../../../components/TheFincaHero.astro";
+import OurTreesSection from "../../../../components/OurTreesSection.astro";
+import RelevanceSection from "../../../../components/ContentRightList.astro";
+import CTACenter from "../../../../components/CTACenter.astro";
+import LocationSection from "../../../../components/LocationSection.astro";
+import TheFincaStorySection from "../../../../components/TheFincaStorySection.astro";
+import CTABottom from "../../../../components/CTABottom.astro";
 
 const content = await getEntry("theFinca", "de");
 

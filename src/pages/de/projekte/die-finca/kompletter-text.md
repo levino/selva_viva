@@ -1,5 +1,5 @@
 ---
-layout: ../../../layouts/LayoutMarkdown.astro
+layout: ../../../../layouts/LayoutMarkdown.astro
 ---
 
 # Unsere Finca (2023)

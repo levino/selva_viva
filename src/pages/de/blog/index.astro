@@ -1,7 +1,9 @@
 ---
-import BlogMainPage from "../../pageLayouts/BlogMainPage.astro";
+import BlogMainPage from "../../../pageLayouts/BlogMainPage.astro";
 import { getCollection } from "astro:content";
 const blogCollection = await getCollection("blog");
+console.log(blogCollection);
+
 ---
 
 <BlogMainPage blogCollection={blogCollection} />
