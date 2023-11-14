@@ -1,10 +1,8 @@
 ---
 import { getLangFromUrl, useTranslations } from "../i18n/utils";
+import { getRelativeLocaleUrl } from "astro:i18n";
 import LanguagePicker from "./LanguagePicker.astro";
-import VivaLaSelvaLogo from "./VivaLaSelvaLogo.astro";
-import { pickLangPath } from "../utils/utils";
 import { Icon } from "astro-icon";
-import { useTranslatedPath } from "../i18n/utils";
 import { useTranslationsForLinks } from "../i18n/utils";
 
 const lang = getLangFromUrl(Astro.url);
@@ -35,7 +33,7 @@ const links = useTranslationsForLinks(lang);
       <Icon name="logo" />
     </div>
     <a
-      href={pickLangPath(lang)}
+      href={getRelativeLocaleUrl(lang)}
       class="font-medium hover:text-yellow_leave-300 mr-auto text-xl text-yellow_leave-400 uppercase"
       >Viva la selva</a
     >
@@ -51,13 +49,13 @@ const links = useTranslationsForLinks(lang);
     >
       <div class="flex flex-col lg:flex-row">
         <a
-          href={pickLangPath(lang)}
+          href={getRelativeLocaleUrl(lang)}
           class="font-all font-medium hover:text-yellow_leave-400 px-0 py-2 uppercase lg:px-4"
           >{t("nav.home")}</a
         >
         <div class="dropdown-group lg:flex items-start lg:relative">
           <a
-            href={`${pickLangPath(lang)}${links("projects")}`}
+            href={`${getRelativeLocaleUrl(lang)}${links("projects")}`}
             class="font-all font-medium hover:text-yellow_leave-400 px-0 py-2 uppercase z-50 lg:px-4"
             >{t("nav.projects")}</a
           >
@@ -66,14 +64,14 @@ const links = useTranslationsForLinks(lang);
           >
             <li class="font-all font-medium pb-4 px-4">
               <a
-                href={`${pickLangPath(lang)}${links("projects.tree-nursery")}`}
+                href={`${getRelativeLocaleUrl(lang)}${links("projects.tree-nursery")}`}
                 class="hover:text-yellow_leave-600"
                 >{t("nav.projects.tree-nursery")}</a
               >
             </li>
             <li class="font-all font-medium pb-4 px-4">
               <a
-                href={`${pickLangPath(lang)}${links("projects.theFinca")}`}
+                href={`${getRelativeLocaleUrl(lang)}${links("projects.theFinca")}`}
                 class="hover:text-yellow_leave-600"
                 >{t("nav.projects.theFinca")}</a
               >
@@ -82,7 +80,7 @@ const links = useTranslationsForLinks(lang);
         </div>
         <div class="dropdown-group lg:flex items-start lg:relative">
           <a
-            href={`${pickLangPath(lang)}${links("plantAndProtect")}`}
+            href={`${getRelativeLocaleUrl(lang)}${links("plantAndProtect")}`}
             class="font-all font-medium hover:text-yellow_leave-400 px-0 py-2 uppercase z-50 lg:px-4"
             >{t("nav.plantAndProtect")}</a
           >
@@ -91,7 +89,7 @@ const links = useTranslationsForLinks(lang);
           >
             <li class="font-all font-medium pb-4 px-4">
               <a
-                href={`${pickLangPath(lang)}${links(
+                href={`${getRelativeLocaleUrl(lang)}${links(
                   "plantAndProtect.adoptATree"
                 )}`}
                 class="hover:text-yellow_leave-600"
@@ -113,23 +111,23 @@ const links = useTranslationsForLinks(lang);
           >{t("nav.trees")}</a
         > -->
         <a
-          href={`${pickLangPath(lang)}${links("blog")}`}
+          href={`${getRelativeLocaleUrl(lang)}${links("blog")}`}
           class="font-all font-medium hover:text-yellow_leave-400 px-0 py-2 uppercase lg:px-4 lg:z-50"
           >{t("nav.blog")}</a
         >
         <a
-          href={`${pickLangPath(lang)}${links("about")}`}
+          href={`${getRelativeLocaleUrl(lang)}${links("about")}`}
           class="font-all font-medium hover:text-yellow_leave-400 px-0 py-2 uppercase lg:px-4 lg:z-50"
           >{t("nav.about")}</a
         >
         <a
-          href={`${pickLangPath(lang)}${links("contact")}`}
+          href={`${getRelativeLocaleUrl(lang)}${links("contact")}`}
           class="font-all font-medium hover:text-yellow_leave-400 px-0 py-2 uppercase lg:px-4 lg:z-50"
           >{t("nav.contact")}</a
         >
       </div>
       <a
-        href={`${pickLangPath(lang)}${links("support")}`}
+        href={`${getRelativeLocaleUrl(lang)}${links("support")}`}
         class="place-self-start bg-yellow_leave-500 font-light hover:bg-yellow_leave-800 hover:text-white inline-block px-5 py-2 rounded text-black uppercase"
         >{t("nav.support")}</a
       >
