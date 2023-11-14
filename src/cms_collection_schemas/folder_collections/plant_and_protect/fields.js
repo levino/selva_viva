@@ -1,3 +1,4 @@
+import { pageCard } from "../../common_fields/page_card";
 export const plantAndProtectFields = [
   { name: "title", widget: "string", label: "Title" },
   {
@@ -5,6 +6,7 @@ export const plantAndProtectFields = [
     widget: "string",
     label: "Page Title",
   },
+  pageCard,
   {
     name: "bg_image",
     widget: "image",
