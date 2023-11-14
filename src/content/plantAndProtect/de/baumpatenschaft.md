@@ -1,6 +1,15 @@
 ---
 title: baumpatenschaft
 page_title: Werde Baumpate/in
+page_card:
+  title: Werde Baumpate/in
+  excerpt:
+    Selten gewordene Baumarten nachpflanzen und großziehen ist aufwändig -
+    alleine schaffen wir das nicht. Also lass es uns gemeinsam tun.
+  link: Mehr lesen...
+  link_text: pflanze-und-schütze/baumpatenschaft/
+  cover_image: /src/assets/aimg_20230712_102052-copy.jpeg
+  cover_image_alt: Selten gewordene Baumarten
 bg_image: /src/assets/dsc01079-copy_2000px.jpeg
 bg_alt: Zwei Higuerón-Bäume auf der Finca von Viva la Selva
 subtitle: gefährdete Tropenbäume brauchen dich !
