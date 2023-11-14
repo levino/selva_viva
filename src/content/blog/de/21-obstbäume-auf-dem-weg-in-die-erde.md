@@ -6,6 +6,7 @@ cover_alt: Schubkarre mit jungen Obstbäumchen
 subtitle: "Die Aussöhnung zwischen Mensch und Baum: Obstbäume"
 excerpt: "Wir pflanzen Obstbäume im Dorf: Schatten und Nahrung für Mensch und Tier"
 ---
+
 Unsere Schubkarre voll mit jungen Obstbäumchen
 
 1 Cashew-, 1 Mango-, 2 Limetten-, 3 Wasserbirnen- (nur von der Form her unseren ähnlich), 4 Guánabano-, 7 Avokado-Bäumchen und 3 Cocospalmen haben gestern ihren Weg in die Erde gefunden. Sie säumen nun kleine Äcker oder wachsen als Schattenspender am Weg.
