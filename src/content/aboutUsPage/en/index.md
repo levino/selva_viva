@@ -25,9 +25,9 @@ button_link: get-involved
 team:
   title: Our Team
   team_members:
-    - alejandro
-    - esra
-    - rude
-    - juan-guillermo
-    - jimmy
+    - en/alejandro
+    - en/esra
+    - en/rude
+    - en/juan-guillermo
+    - en/jimmy
 ---

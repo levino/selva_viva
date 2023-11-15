@@ -25,9 +25,9 @@ button_link: unete
 team:
   title: Nuestro Equipo
   team_members:
-    - alejandro
-    - esra
-    - rude
-    - juan-guillermo
-    - jimmy
+    - es/alejandro
+    - es/esra
+    - es/rude
+    - es/juan-guillermo
+    - es/jimmy
 ---

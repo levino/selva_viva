@@ -32,9 +32,9 @@ button_link: mitmachen
 team:
   title: Unser Team
   team_members:
-    - alejandro
-    - esra
-    - rude
-    - juan-guillermo
-    - jimmy
+    - en/alejandro
+    - en/esra
+    - en/rude
+    - en/juan-guillermo
+    - en/jimmy
 ---
