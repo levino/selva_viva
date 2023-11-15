@@ -2,11 +2,11 @@
 import SupportPageLayout from "../../pageLayouts/SupportPageLayout.astro";
 import { getCollection, getEntry } from "astro:content";
 
-const theFinca = await getEntry("theFinca", "de");
-const treeNursery = await getEntry("treeNursery", "de");
+const theFinca = await getEntry("theFinca", "es");
+const treeNursery = await getEntry("treeNursery", "es");
 
 const [projectsInGeneral] = await getCollection("plantAndProtect", ({id})=> {
-  return id.startsWith("de/")
+  return id.startsWith("es/")
 });
 
 

@@ -1,8 +1,7 @@
 ---
 import { getEntry } from "astro:content";
 import ContactPageLayout from "../../pageLayouts/ContactPageLayout.astro";
-const pageContentDE = await getEntry("contactPage", "de");
-import * as contactPageInfo from "../non_collection_content/de/contact.md";
+const pageContentDE = await getEntry("contactPage", "es");
 ---
 
 <ContactPageLayout content={pageContentDE} />
