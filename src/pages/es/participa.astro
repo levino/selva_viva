@@ -5,19 +5,13 @@ import { getCollection, getEntry } from "astro:content";
 const theFinca = await getEntry("theFinca", "es");
 const treeNursery = await getEntry("treeNursery", "es");
 
-const [projectsInGeneral] = await getCollection("plantAndProtect", ({id})=> {
-  return id.startsWith("es/")
+const [projectsInGeneral] = await getCollection("plantAndProtect", ({ id }) => {
+  return id.startsWith("es/");
 });
-
 
 const allProjects = [projectsInGeneral, theFinca, treeNursery];
 
-
-const [supportPageData] = await getCollection("supportPage");
+const supportPageData = await getEntry("supportPage", "es");
 ---
 
-<SupportPageLayout
-  supportPageData={supportPageData}
-  projects={allProjects}
-  
-/>
+<SupportPageLayout supportPageData={supportPageData} projects={allProjects} />

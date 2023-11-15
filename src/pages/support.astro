@@ -11,7 +11,7 @@ const [projectsInGeneral] = await getCollection("plantAndProtect", ({ id }) => {
 
 const allProjects = [projectsInGeneral, theFinca, treeNursery];
 
-const [supportPageData] = await getCollection("supportPage");
+const supportPageData = await getEntry("supportPage", "en");
 ---
 
 <SupportPageLayout supportPageData={supportPageData} projects={allProjects} />
