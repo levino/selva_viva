@@ -1,4 +1,4 @@
 ---
 title: PLANT, PROTECT & Gift trees
-subtitle: Biodiversity for the future.
+subtitle: Biodiversity for a better future.
 ---
