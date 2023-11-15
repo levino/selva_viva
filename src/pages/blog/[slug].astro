@@ -1,10 +1,12 @@
 ---
-import BlogPostTemplate from "../../../pageLayouts/BlogPostTemplate.astro";
+import BlogPostTemplate from "../../pageLayouts/BlogPostTemplate.astro";
 import { getCollection } from "astro:content";
 // 1. Generate a new path for every collection entry
 export async function getStaticPaths() {
-  const blogEntries = await getCollection("blog");
-  
+  const blogEntries = await getCollection("blog", ({ id }) => {
+    return id.startsWith("en/");
+  });
+
   return blogEntries.map((entry) => ({
     params: { slug: entry.slug.split("/").pop() },
     props: { entry },

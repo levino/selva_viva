@@ -1,7 +1,7 @@
 ---
 import { getEntry } from "astro:content";
-import TreeNurseryPage from "../../../pageLayouts/TreeNurseryPageLayout.astro";
-const pageContent = await getEntry("treeNursery", "de");
+import TreeNurseryPage from "../../pageLayouts/TreeNurseryPageLayout.astro";
+const pageContent = await getEntry("treeNursery", "en");
 const { Content } = await pageContent.render();
 ---
 

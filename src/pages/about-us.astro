@@ -1,8 +1,8 @@
 ---
-import AboutUsPage from "../../pageLayouts/AboutUsPage.astro";
+import AboutUsPage from "../pageLayouts/AboutUsPage.astro";
 import { getCollection } from "astro:content";
 const [pageContent] = await getCollection("aboutUsPage", ({ slug }) => {
-  return slug === "de";
+  return slug === "en";
 });
 ---
 
