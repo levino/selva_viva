@@ -1,12 +1,13 @@
 ---
 import BlogMainPage from "../../../pageLayouts/BlogMainPage.astro";
-import { getCollection } from "astro:content";
+import { getCollection, getEntry } from "astro:content";
+const blogIndexPageContent = await getEntry("blogIndexPage", "de");
 const blogCollection = await getCollection("blog");
 
-
-
 // 2. When it's time to render, you can get the entry directly from the prop
-
 ---
 
-<BlogMainPage blogCollection={blogCollection} />
+<BlogMainPage
+  blogCollection={blogCollection}
+  indexPageContent={blogIndexPageContent}
+/>
