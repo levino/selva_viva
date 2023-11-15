@@ -7,8 +7,6 @@ const plantAndProtectIndexContent = await getEntry(
   "en"
 );
 
-console.log(plantAndProtectIndexContent);
-
 const plantAndProtect = await getCollection("plantAndProtect", ({ id }) => {
   return id.startsWith("en/");
 });

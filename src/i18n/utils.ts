@@ -49,8 +49,6 @@ export function getRouteFromUrl(url: URL): string | undefined {
   const reversedKey = getKeyByValue(routes[currentLang], path);
 
   if (reversedKey !== undefined) {
-    console.log("reversedKey exist: ", reversedKey);
-
     return reversedKey;
   }
 
