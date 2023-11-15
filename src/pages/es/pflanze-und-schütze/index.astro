@@ -1,0 +1,11 @@
+---
+import { getCollection } from "astro:content";
+import * as pageContent from "../../../content/_plant_and_protect_index.md";
+import PlantAndProtectIndex from "../../../pageLayouts/PlantAndProtectIndex.astro";
+const plantAndProtect = await getCollection("plantAndProtect");
+---
+
+<PlantAndProtectIndex
+  frontmatter={pageContent.frontmatter}
+  plantAndProtect={plantAndProtect}
+/>
