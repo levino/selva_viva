@@ -1,0 +1,10 @@
+---
+import { getEntry } from "astro:content";
+import TreeNurseryPage from "../../../pageLayouts/TreeNurseryPageLayout.astro";
+const pageContent = await getEntry("treeNursery", "de");
+const { Content } = await pageContent.render();
+---
+
+<TreeNurseryPage pageContent={pageContent}>
+  <Content />
+</TreeNurseryPage>

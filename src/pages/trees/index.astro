@@ -2,9 +2,7 @@
 import TreesPage from "../../pageLayouts/TreesPage.astro";
 import { getCollection } from "astro:content";
 
-const treesCollection = await getCollection("trees", ({id}) => {
-    return id.startsWith("es/");
-});
+const treesCollection = await getCollection("trees");
 ---
 
 <TreesPage treesCollection={treesCollection} />
