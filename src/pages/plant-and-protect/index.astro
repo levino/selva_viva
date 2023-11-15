@@ -1,13 +1,20 @@
 ---
-import { getCollection } from "astro:content";
-import * as pageContent from "../../content/_plant_and_protect_index.md";
+import { getCollection, getEntry } from "astro:content";
 import PlantAndProtectIndex from "../../pageLayouts/PlantAndProtectIndex.astro";
+
+const plantAndProtectIndexContent = await getEntry(
+  "plantAndProtectIndexPage",
+  "en"
+);
+
+console.log(plantAndProtectIndexContent);
+
 const plantAndProtect = await getCollection("plantAndProtect", ({ id }) => {
   return id.startsWith("en/");
 });
 ---
 
 <PlantAndProtectIndex
-  frontmatter={pageContent.frontmatter}
+  indexContent={plantAndProtectIndexContent.data}
   plantAndProtect={plantAndProtect}
 />
