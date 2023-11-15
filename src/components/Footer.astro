@@ -1,6 +1,6 @@
 ---
+import { getRelativeLocaleUrl } from "astro:i18n";
 import { getLangFromUrl, useTranslations } from "../i18n/utils";
-import { pickLangPath } from "../utils/utils";
 import { useTranslationsForLinks } from "../i18n/utils";
 
 const lang = getLangFromUrl(Astro.url);
@@ -13,7 +13,7 @@ const links = useTranslationsForLinks(lang);
     <div class="flex flex-wrap -mx-4">
       <div class="w-full p-4 xl:mr-auto xl:w-4/12">
         <a
-          href={`${pickLangPath(lang)}${links("home")}`}
+          href={`${getRelativeLocaleUrl(lang)}${links("home")}`}
           class="font-medium hover:text-yellow_leave-500 inline-block mb-6 mr-auto text-3xl text-white uppercase"
           >Viva la Selva</a
         >
@@ -22,26 +22,26 @@ const links = useTranslationsForLinks(lang);
       <div class="p-4 w-full sm:w-4/12 md:text-center xl:w-2/12">
         <a
           class="hover:text-yellow_leave-500 font-bold mb-8 text-lg uppercase"
-          href={`${pickLangPath(lang)}${links("home")}`}>{t("nav.home")}</a
+          href={`${getRelativeLocaleUrl(lang)}${links("home")}`}>{t("nav.home")}</a
         >
       </div>
       <div class="p-4 w-full sm:w-4/12 md:text-center xl:w-2/12">
         <a
           class="font-bold mb-8 text-lg uppercase hover:text-yellow_leave-500"
-          href={`${pickLangPath(lang)}${links("about")}`}>{t("nav.about")}</a
+          href={`${getRelativeLocaleUrl(lang)}${links("about")}`}>{t("nav.about")}</a
         >
       </div>
       <div class="p-4 w-full sm:w-4/12 md:text-center xl:w-2/12">
         <a
           class="hover:text-yellow_leave-500 font-bold mb-8 text-lg uppercase"
-          href={`${pickLangPath(lang)}${links("contact")}`}
+          href={`${getRelativeLocaleUrl(lang)}${links("contact")}`}
           >{t("nav.contact")}</a
         >
       </div>
     </div>
     <div class="py-4 text-center">
       <hr class="mb-4 opacity-25" />
-      <p class="text-sm">Copyright &copy; 2023 Viva la Selva</p>
+      <p class="text-sm">Copyright & copy; 2023 Viva la Selva</p>
     </div>
   </div>
 </footer>
