@@ -20,6 +20,14 @@ const treeNursery = defineCollection({
   schema: treeNurserySchema,
 });
 
+const plantAndProtectIndexPage = defineCollection({
+  type: "content",
+  schema: z.object({
+    title: z.string(),
+    subtitle: z.string(),
+  }),
+});
+
 const blogIndexPage = defineCollection({
   type: "content",
   schema: z.object({
@@ -172,4 +180,5 @@ export const collections = {
   projectsPage,
   contactPage,
   blogIndexPage,
+  plantAndProtectIndexPage,
 };
