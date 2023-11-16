@@ -1,3 +1,4 @@
+import { getRelativeLocaleUrl } from "astro:i18n";
 import { ui, defaultLang, showDefaultLang, routes } from "./ui";
 
 export function getLangFromUrl(url: URL) {
@@ -71,3 +72,8 @@ export function useTranslatedPath(lang: keyof typeof ui) {
       : `/${l}${translatedPath}`;
   };
 }
+
+export const getRoute = (lang, route) => {
+  const r = useTranslationsForLinks(lang);
+  return `${getRelativeLocaleUrl(lang)}${r(route)}`;
+};
