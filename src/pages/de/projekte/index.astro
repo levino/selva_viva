@@ -1,12 +1,9 @@
 ---
 import ProjectsPage from "../../../pageLayouts/ProjectsPage.astro";
-import { getCollection } from "astro:content";
-const [treeNursery] = await getCollection("treeNursery");
-const [theFinca] = await getCollection("theFinca");
-const [pageContentDe] = await getCollection("projectsPage", ({ slug }) => {
-  return slug === "de";
-});
-
+import { getEntry } from "astro:content";
+const treeNursery = await getEntry("treeNursery", "de");
+const theFinca = await getEntry("theFinca", "de");
+const pageContentDe = await getEntry("projectsPage", "de");
 const projects = [treeNursery, theFinca];
 ---
 

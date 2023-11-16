@@ -4,7 +4,7 @@ page_card:
   title: The Nursery
   excerpt: Here seeds and young shoots receive the care and attention
     they need to become viable.
-  link: projects/nursery
+  link: projects/tree-nursery
   link_text: Read more...
   cover_image: /src/assets/dsc00904-copy-2.jpeg
   cover_image_alt: nursery photo

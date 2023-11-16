@@ -1,21 +1,18 @@
 ---
 const { plantAndProtect: projects } = Astro.props;
-import { getLangFromUrl } from "../i18n/utils";
+import { getLangFromUrl, useTranslationsForLinks } from "../i18n/utils";
 import { Image } from "astro:assets";
-import { pickLangPath } from "../utils/utils";
 
 const lang = getLangFromUrl(Astro.url);
+const route = useTranslationsForLinks(lang);
 ---
 
-<div class="container mx-auto px-4" data-pg-collapsed>
+<div class="container mx-auto px-4">
   <div class="flex flex-wrap mx-auto my-9 w-9/12">
     {
       projects.map((project) => (
         <div class="gap-2 px-4 relative w-full md:w-1/2 xl:w-1/3 mb-4">
-          <a
-            href={`pflanze-und-schütze/${project.slug.split("/").pop()}`}
-            class="block"
-          >
+          <a href={project.data.page_card.link} class="block">
             <Image
               src={project.data.cover_image}
               alt={project.data.cover_alt}
@@ -33,7 +30,7 @@ const lang = getLangFromUrl(Astro.url);
               </div>
             </div>
             <div class="absolute bottom-0 left-0 overflow-hidden px-4 rounded-b-lg w-full">
-              <div class="bg-green-500 rounded-b-lg" data-pg-collapsed>
+              <div class="bg-green-500 rounded-b-lg">
                 <p class="font-bold font-sans py-4 text-center text-xl text-yellow_leave-600">
                   {project.data.page_title}
                 </p>

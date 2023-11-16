@@ -4,7 +4,7 @@ page_title: Conviértete en Padrino/Madrina de un Árbol
 page_card:
   title: Conviértete en Padrino/Madrina de un Árbol
   excerpt: Replantar y cuidar especies de árboles raras es una tarea exigente, no podemos hacerlo solos. Así que hagámoslo juntos.
-  link: planta-y-protege/adopcion-de-arboles/
+  link: planta-y-protege/adopta-un-arbol/
   link_text: Leer más...
   cover_image: /src/assets/aimg_20230712_102052-copy.jpeg
   cover_image_alt: Especies Raras de Árboles
