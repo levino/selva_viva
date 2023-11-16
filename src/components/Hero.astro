@@ -1,12 +1,11 @@
 ---
-const { content } = Astro.props;
 import { getImage } from "astro:assets";
 import { getRelativeLocaleUrl } from "astro:i18n";
-import { getLangFromUrl } from "../i18n/utils";
-import { useTranslationsForLinks } from "../i18n/utils";
+import { getLangFromUrl, useTranslationsForLinks } from "../i18n/utils";
+
 const lang = getLangFromUrl(Astro.url);
 const links = useTranslationsForLinks(lang);
-
+const { content } = Astro.props;
 
 const optimizedBackground = await getImage({ src: content.hero_bg_image });
 ---
