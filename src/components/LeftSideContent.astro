@@ -2,7 +2,6 @@
 import { Image } from "astro:assets";
 import { getRelativeLocaleUrl } from "astro:i18n";
 import { getLangFromUrl, useTranslationsForLinks } from "../i18n/utils";
-import { pickLangPath } from "../utils/utils";
 
 const lang = getLangFromUrl(Astro.url);
 const routes = useTranslationsForLinks(lang);
