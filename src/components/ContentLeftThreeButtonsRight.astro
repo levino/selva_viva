@@ -1,9 +1,10 @@
 ---
-const { content } = Astro.props;
-import { getLangFromUrl } from "../i18n/utils";
-import { pickLangPath } from "../utils/utils";
+import { getRelativeLocaleUrl } from "astro:i18n";
+import { getLangFromUrl, useTranslationsForLinks } from "../i18n/utils";
 
 const lang = getLangFromUrl(Astro.url);
+const routes = useTranslationsForLinks(lang);
+const { content } = Astro.props;
 ---
 
 <section class="bg-white donors">
@@ -25,17 +26,19 @@ const lang = getLangFromUrl(Astro.url);
         class="flex flex-col items-center justify-center px-4 py-5 w-full md:w-1/2"
       >
         <a
-          href={`${pickLangPath(lang)}${content.button_link}`}
+          href={`${getRelativeLocaleUrl(lang)}${routes(
+            "projects.tree-nursery"
+          )}`}
           class="bg-yellow_leave-400 font-light hover:bg-green-400 inline-block mb-2 px-5 py-2 rounded-sm text-center text-white text-xl uppercase w-2/4"
           >{content.button}</a
         >
         <a
-          href={`${pickLangPath(lang)}${content.button_2_link}`}
+          href={`${getRelativeLocaleUrl(lang)}${routes("plantAndProtect")}`}
           class="bg-yellow_leave-400 font-light hover:bg-green-400 inline-block mb-2 px-5 py-2 rounded-sm text-center text-white text-xl uppercase w-2/4"
           >{content.button_2}</a
         >
         <a
-          href={`${pickLangPath(lang)}${content.button_3_link}`}
+          href={`${getRelativeLocaleUrl(lang)}${routes("support")}`}
           class="bg-yellow_leave-400 font-light hover:bg-green-400 inline-block mb-2 px-5 py-2 rounded-sm text-center text-white text-xl uppercase w-2/4"
           >{content.button_3}</a
         >

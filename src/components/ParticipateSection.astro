@@ -1,12 +1,12 @@
 ---
 import { Image } from "astro:assets";
 import { getRelativeLocaleUrl } from "astro:i18n";
-import { pickLangPath } from "../utils/utils";
 import { getLangFromUrl } from "../i18n/utils";
 const lang = getLangFromUrl(Astro.url);
 const { data } = Astro.props;
 ---
 
+<!-- TODO: improve the routing for this session's links -->
 <section class="bg-my_gray-100 pb-20 pt-5 px-10">
   <div class="container mx-auto px-4 lg:w-9/12">
     <div>

@@ -1,9 +1,10 @@
 ---
-const { content } = Astro.props;
-import { getLangFromUrl } from "../i18n/utils";
-import { pickLangPath } from "../utils/utils";
+import { getRelativeLocaleUrl } from "astro:i18n";
+import { getLangFromUrl, useTranslationsForLinks } from "../i18n/utils";
 
 const lang = getLangFromUrl(Astro.url);
+const routes = useTranslationsForLinks(lang);
+const { content } = Astro.props;
 ---
 
 <section class="bg-my_gray-200 solution">
@@ -23,12 +24,14 @@ const lang = getLangFromUrl(Astro.url);
       </p>
       <div class="flex flex-col gap-2 justify-evenly mb-10 w-full sm:flex-row">
         <a
-          href={`${pickLangPath(lang)}${content.button_link}`}
+          href={`${getRelativeLocaleUrl(lang)}${routes(
+            "projects.tree-nursery"
+          )}`}
           class="bg-yellow_leave-400 font-light hover:bg-green-400 inline-block px-5 py-2 rounded-sm text-white text-xl uppercase"
           >{content.button}</a
         >
         <a
-          href={`${pickLangPath(lang)}${content.button_2_link}`}
+          href={`${getRelativeLocaleUrl(lang)}${routes("plantAndProtect")}`}
           class="bg-yellow_leave-400 font-light hover:bg-green-400 inline-block px-5 py-2 rounded-sm text-white text-xl uppercase"
           >{content.button_2}</a
         >

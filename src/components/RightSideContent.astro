@@ -1,11 +1,14 @@
 ---
-const { content } = Astro.props;
+import { useTranslationsForLinks } from "../i18n/utils";
 import { getLangFromUrl } from "../i18n/utils";
 import { pickLangPath } from "../utils/utils";
 import { Image } from "astro:assets";
 const lang = getLangFromUrl(Astro.url);
+const routes = useTranslationsForLinks(lang);
+const { content } = Astro.props;
 ---
 
+<!-- TODO improve this routing for this section -->
 <section class="bg-my_gray-50 situation">
   <div class="container mx-auto px-4">
     <div class="-mx-4 flex flex-wrap">
