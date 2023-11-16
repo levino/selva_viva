@@ -2,10 +2,13 @@
 import { getRelativeLocaleUrl } from "astro:i18n";
 import { getLangFromUrl, useTranslations } from "../i18n/utils";
 import { useTranslationsForLinks } from "../i18n/utils";
+import { getEntries, getEntry } from "astro:content";
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 const links = useTranslationsForLinks(lang);
+
+const frontPageContent = await getEntry("frontPage", lang);
 ---
 
 <footer class="bg-green_dark-900 font-light pt-12 text-gray-300">
@@ -17,18 +20,20 @@ const links = useTranslationsForLinks(lang);
           class="font-medium hover:text-yellow_leave-500 inline-block mb-6 mr-auto text-3xl text-white uppercase"
           >Viva la Selva</a
         >
-        <p class="mb-4 text-sm">Wir pflanzen Bäume für eine biodiverse Welt.</p>
+        <p class="mb-4 text-sm">{frontPageContent.data.hero.msg}</p>
       </div>
       <div class="p-4 w-full sm:w-4/12 md:text-center xl:w-2/12">
         <a
           class="hover:text-yellow_leave-500 font-bold mb-8 text-lg uppercase"
-          href={`${getRelativeLocaleUrl(lang)}${links("home")}`}>{t("nav.home")}</a
+          href={`${getRelativeLocaleUrl(lang)}${links("home")}`}
+          >{t("nav.home")}</a
         >
       </div>
       <div class="p-4 w-full sm:w-4/12 md:text-center xl:w-2/12">
         <a
           class="font-bold mb-8 text-lg uppercase hover:text-yellow_leave-500"
-          href={`${getRelativeLocaleUrl(lang)}${links("about")}`}>{t("nav.about")}</a
+          href={`${getRelativeLocaleUrl(lang)}${links("about")}`}
+          >{t("nav.about")}</a
         >
       </div>
       <div class="p-4 w-full sm:w-4/12 md:text-center xl:w-2/12">
