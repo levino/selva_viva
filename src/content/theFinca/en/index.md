@@ -45,10 +45,10 @@ our_trees:
   image: /src/assets/dsc01083-copy_smaller.jpeg
   image_alt: Viva la Selva's Farm, biodiverse forest with tall Tachuelo Trees
   button_text: Adopt a Tree
-  button_link: plant-and-protect/tree-sponsorship
+  button_link: plant-and-protect/adopt-a-tree
 relevance:
   image_alt: Young Balsam and Almond Plants at Viva la Selva's Nursery
-  button_link: /participate
+  button_link: support
   read_more_text: Read More
   subtitle: Every Tree Species Matters
   title: Relevance
@@ -62,7 +62,7 @@ relevance:
     - Viva la Selva promotes and preserves genetic richness
 cta_center:
   button_text: Support Viva la Selva
-  button_link: /participate
+  button_link: support
 location:
   title: Location
   subtitle_1: In the Heart of Darién-CHOCÓ
@@ -83,7 +83,7 @@ the_finca_story:
   image_alt: History
 cta_bottom:
   button_1_text: Donate
-  button_1_link: participate
+  button_1_link: support
   button_2_text: Contact
   button_2_link: contact
 ---

@@ -40,7 +40,8 @@ what_you_get:
   image_alt: in unserem seit etwa 20 Jahren wachsenden Wald
 button_text: spende
 button_link: https://www.paypal.com/donate/?hosted_button_id=TEG7KV6QBZ9DQ
-back_button_text: ZURUCK ZU PROJEKTE
+back_button_text: Zurück zu pflanze und schütze
+back_button_link: pflanze-und-schütze
 cover_image: /src/assets/dsc00964-copy.jpeg
 cover_alt: Sämling in unserer Baumschule
 ---

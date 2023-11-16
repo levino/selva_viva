@@ -32,7 +32,8 @@ what_you_get:
   image_alt: En nuestro bosque que ha crecido durante aproximadamente 20 años
 button_text: Donar
 button_link: https://www.paypal.com/donate/?hosted_button_id=TEG7KV6QBZ9DQ
-back_button_text: REGRESAR A PROYECTOS
+back_button_text: Regresa a planta y protege
+back_button_link: planta-y-protege
 cover_image: /src/assets/dsc00964-copy.jpeg
 cover_alt: Plántula en nuestro vivero de árboles
 ---

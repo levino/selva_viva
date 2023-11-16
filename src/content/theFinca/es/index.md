@@ -45,10 +45,10 @@ our_trees:
   image: /src/assets/dsc01083-copy_smaller.jpeg
   image_alt: Finca de Viva la Selva con Árboles Diversos
   button_text: Adopta un Árbol
-  button_link: planta-y-protege/patrocinio-de-árboles
+  button_link: planta-y-protege/adopta-un-arbol
 relevance:
   image_alt: Plantas jóvenes de Bálsamo y Almendro en el Vivero de Viva la Selva
-  button_link: /participa
+  button_link: participa
   read_more_text: Leer Más...
   subtitle: Cada Especie de Árbol Importa
   title: Relevancia
@@ -62,7 +62,7 @@ relevance:
     - Viva la Selva promueve y preserva la diversidad genética
 cta_center:
   button_text: Apoya a Viva la Selva
-  button_link: /participa
+  button_link: participa
 location:
   title: Ubicación
   subtitle_1: En Chocó, Colombia
@@ -79,7 +79,7 @@ the_finca_story:
   image: /src/assets/dsc01088-copy_smaller.jpeg
   image_alt: Historia
 cta_bottom:
-  button_1_text: Dona
+  button_1_text: Apoyanos
   button_1_link: participa
   button_2_text: Contacto
   button_2_link: contacto

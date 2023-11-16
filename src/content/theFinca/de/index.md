@@ -51,7 +51,7 @@ our_trees:
   button_link: pflanze-und-schütze/baumpatenschaft
 relevance:
   image_alt: Bálsamo- und Almendro-Pflänzchen in der Baumschule von Viva la Selva
-  button_link: /mitmachen
+  button_link: mitmachen
   read_more_text: mehr lesen...
   subtitle: JEDE BAUMART ZÄHLT
   title: RELEVANZ
@@ -65,7 +65,7 @@ relevance:
     - Viva la Selva fördert und erhält genetischen Reichtum
 cta_center:
   button_text: VIVA LA SELVA UNTERSTÜTZEN
-  button_link: /mitmachen
+  button_link: mitmachen
 location:
   title: LAGE
   subtitle_1: MITTEN IM DARIEN-CHOCÓ

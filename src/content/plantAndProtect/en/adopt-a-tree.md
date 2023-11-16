@@ -32,7 +32,8 @@ what_you_get:
   image_alt: In our forest growing for about 20 years
 button_text: Donate
 button_link: https://www.paypal.com/donate/?hosted_button_id=TEG7KV6QBZ9DQ
-back_button_text: BACK TO PROJECTS
+back_button_text: Back to plant and protect
+back_button_link: plant-and-protect
 cover_image: /src/assets/dsc00964-copy.jpeg
 cover_alt: Seedling in our tree nursery
 ---
