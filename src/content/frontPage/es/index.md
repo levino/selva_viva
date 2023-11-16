@@ -12,7 +12,7 @@ participate:
     - title: Adopta un Árbol
       image: /src/assets/dsc00904-copy-2.jpeg
       image_alt: Vivero de Viva la Selva con Bálsamos y Almendros
-      link: planta-y-protege/adopta-arboles
+      link: planta-y-protege/adopta-un-arbol
     - title: Apoyo Sencillo
       link: participa
       image: /src/assets/DSC00971 copy.jpeg

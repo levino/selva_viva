@@ -12,9 +12,9 @@ participate:
     - title: Adopt a Tree
       image: /src/assets/dsc00904-copy-2.jpeg
       image_alt: Viva la Selva's Nursery with Bálsamos and Almendros
-      link: plant-and-protect/tree-adoption
+      link: plant-and-protect/adopt-a-tree
     - title: Support Our Cause
-      link: participate
+      link: support
       image: /src/assets/DSC00971 copy.jpeg
       image_alt: Young tree in Viva la Selva's Nursery
 about_us:
