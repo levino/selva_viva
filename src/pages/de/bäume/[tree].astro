@@ -1,7 +1,7 @@
 ---
 import TreePageTemplate from "../../../pageLayouts/TreePageTemplate.astro";
 import { getCollection } from "astro:content";
-import * as treeProfileTitles from "../../content/_treeProfileTitles.md";
+import * as treeProfileTitles from "../../../content/_treeProfileTitles.md";
 // 1. Generate a new path for every collection entry
 export async function getStaticPaths() {
   const treeEntries = await getCollection("trees");
