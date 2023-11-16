@@ -9,7 +9,7 @@ page_card:
   cover_image_alt: Foto del vivero
 hero:
   - top: Donde comienzan
-    center: nuestros
+    center: nuestro
     bottom: sueños.
     image: /src/assets/aimg_20230504_124843-copy.jpeg
     image_alt: Semillas
@@ -42,26 +42,26 @@ our_trees:
   image: /src/assets/dsc00904-copy_small.jpeg
   image_alt: Vivero
   button_text: Adopta un árbol
-  button_link: pflanze-und-schütze/baumpatenschaft
+  button_link: planta-y-protege/adopta-un-arbol
 goals:
   image_alt: Pequeño árbol frutal ("Pera de agua")
-  button_link: /mitmachen
+  button_link: /participa
   read_more_text: Leer más...
   subtitle: Estamos plantando...
   title: Objetivos
   button_text: Únete
   image: /src/assets/DSC00971 copy.jpeg
-  read_more_link: "#nursery"
+  read_more_link: "#vivero"
   list:
     - ...especies en peligro tanto a nivel regional como mundial
     - ...alternativas de madera de crecimiento rápido
     - ...árboles frutales de todas las variedades
 cta_center:
   button_text: Apoya a Viva la Selva
-  button_link: /mitmachen
+  button_link: /participa
 ---
 
-<h2 id="nursery">Nuestros tres objetivos</h2>
+<h2 id="vivero">Nuestros tres objetivos</h2>
 
 ### I) Plantamos y cuidamos ESPECIES EN PELIGRO
 
