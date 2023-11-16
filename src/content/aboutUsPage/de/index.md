@@ -29,6 +29,10 @@ how_all_started:
     Riesen in jungen Wäldern
 button: mitmachen
 button_link: mitmachen
+bottom_link_1_text: kontakt
+bottom_link_1: kontakt
+bottom_link_2_text: spende
+bottom_link_2: mitmachen
 team:
   title: Unser Team
   team_members:

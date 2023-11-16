@@ -14,4 +14,6 @@ list_how_we_use_money:
   - ... Viva la Selva wachsen lassen.
 projects_section_title: ...oder unterstütze ein bestimmtes Projekt
 projects_section_subtitle: "und hilf uns gezielt beim Schützen, Pflanzen oder Großziehen:"
+bottom_link: kontakt
+bottom_link_text: Kontakt
 ---

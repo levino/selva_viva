@@ -107,6 +107,8 @@ const supportPageSchema = defineCollection({
       list_how_we_use_money: z.array(z.string()),
       projects_section_title: z.string(),
       projects_section_subtitle: z.string(),
+      bottom_link: z.string(),
+      bottom_link_text: z.string(),
     }),
 });
 
@@ -140,6 +142,10 @@ const aboutUsPageSchema = defineCollection({
       }),
       button: z.string(),
       button_link: z.string(),
+      bottom_link_1: z.string(),
+      bottom_link_1_text: z.string(),
+      bottom_link_2: z.string(),
+      bottom_link_2_text: z.string(),
       team: z
         .object({
           title: z.string(),

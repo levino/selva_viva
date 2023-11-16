@@ -5,8 +5,6 @@ import PageTitle from "../components/PageTitle.astro";
 import SupportHero from "../components/SupportHero.astro";
 
 const { projects, supportPageData } = Astro.props;
-
-
 ---
 
 <Layout title="selva viva projects page">
@@ -22,9 +20,9 @@ const { projects, supportPageData } = Astro.props;
   <SupportCard projects={projects} />
   <div class="mb-10 text-center">
     <a
-      href="/kontakt"
+      href={supportPageData.data.bottom_link}
       class="bg-yellow_leave-500 font-light hover:bg-yellow_leave-500 inline-block mt-5 px-5 py-2 rounded-sm shadow-lg text-white uppercase"
-      >Kontakt</a
+      >{supportPageData.data.bottom_link_text}</a
     >
   </div>
 </Layout>

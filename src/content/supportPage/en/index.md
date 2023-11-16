@@ -11,4 +11,6 @@ list_how_we_use_money:
   - ... the continued growth of Viva la Selva.
 projects_section_title: ...or support a specific project
 projects_section_subtitle: "and assist us directly with protection, planting, or nurturing:"
+bottom_link: contact
+bottom_link_text: Contact
 ---

@@ -22,6 +22,10 @@ how_all_started:
   image_alt: Un Caracolí en nuestra finca, uno de los primeros gigantes emergentes en bosques jóvenes
 button: únete
 button_link: unete
+bottom_link_1_text: contacto
+bottom_link_1: contacto
+bottom_link_2_text: apoyanos
+bottom_link_2: participa
 team:
   title: Nuestro Equipo
   team_members:

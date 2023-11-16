@@ -1,8 +1,8 @@
 ---
 title: Tree Adoption
-page_title: Become a Tree Patron
+page_title: Adopt a tree
 page_card:
-  title: Become a Tree Patron
+  title: Adopt A Tree
   excerpt: Replanting and nurturing rare tree species is a demanding task - we can't do it alone. So let's do it together.
   link: plant-and-protect/adopt-a-tree/
   link_text: Read more...

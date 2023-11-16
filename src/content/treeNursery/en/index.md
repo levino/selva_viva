@@ -42,7 +42,7 @@ our_trees:
     - Guanábana
   image: /src/assets/dsc00904-copy_small.jpeg
   image_alt: Nursery
-  button_text: Become a Tree Sponsor
+  button_text: Adopt A Tree
   button_link: plant-and-protect/adopt-a-tree
 goals:
   image_alt: small fruit tree ("Water-Pear")

@@ -21,7 +21,11 @@ how_all_started:
   image: /src/assets/dsc01052-copy_smaller.jpeg
   image_alt: A Caracolí on our farm, one of the first emerging giants in young forests
 button: get involved
-button_link: get-involved
+button_link: support
+bottom_link_1_text: contact
+bottom_link_1: contact
+bottom_link_2_text: support
+bottom_link_2: support
 team:
   title: Our Team
   team_members:
