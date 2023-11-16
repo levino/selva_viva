@@ -1,10 +1,13 @@
 ---
+import { getRelativeLocaleUrl } from "astro:i18n";
+import { getLangFromUrl } from "../i18n/utils";
+const lang = getLangFromUrl(Astro.url);
 const { cta_center } = Astro.props;
 ---
 
 <div class="py-10 text-center">
   <a
-    href={cta_center.button_link}
+    href={`${getRelativeLocaleUrl(lang)}${cta_center.button_link}`}
     class="bg-yellow_leave-500 font-light hover:bg-green-400 inline-block px-5 py-2 rounded-sm shadow-lg text-white uppercase"
     >{cta_center.button_text}</a
   >

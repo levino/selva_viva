@@ -1,5 +1,8 @@
 ---
 import { Image } from "astro:assets";
+import { getRelativeLocaleUrl } from "astro:i18n";
+import { getLangFromUrl } from "../i18n/utils";
+const lang = getLangFromUrl(Astro.url);
 const { content } = Astro.props;
 ---
 
@@ -42,12 +45,12 @@ const { content } = Astro.props;
           class="border-b-2 drop-shadow-lg font-light leading-relaxed mb-2 px-4 text-brown-800 text-left text-xl"
         >
           <a
-            href={`./${content.read_more_link}`}
+            href={`$./${content.read_more_link}`}
             class="text-slate-500 font-normal">{content.read_more_text}</a
           >
         </p>
         <a
-          href={content.button_link}
+          href={`${getRelativeLocaleUrl(lang)}${content.button_link}`}
           class="bg-yellow_leave-500 font-light hover:bg-green-400 inline-block mt-7 mx-4 px-5 py-2 rounded-sm shadow-lg text-white uppercase"
           >{content.button_text}</a
         >

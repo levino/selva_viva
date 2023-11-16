@@ -46,7 +46,7 @@ our_trees:
   button_link: plant-and-protect/adopt-a-tree
 goals:
   image_alt: small fruit tree ("Water-Pear")
-  button_link: /support
+  button_link: support
   read_more_text: read more...
   subtitle: We plant...
   title: Goals
@@ -59,7 +59,7 @@ goals:
     - ...fruit trees in all variations
 cta_center:
   button_text: Support Viva la Selva
-  button_link: /support
+  button_link: support
 ---
 
 <h2 id="nursery">About Our Three Goals</h2>

@@ -47,7 +47,7 @@ our_trees:
   button_link: pflanze-und-schütze/baumpatenschaft
 goals:
   image_alt: kleines Obstbäumchen ("Wasser-Birne")
-  button_link: /mitmachen
+  button_link: mitmachen
   read_more_text: mehr lesen...
   subtitle: Wir pflanzen..
   title: Ziele
@@ -60,7 +60,7 @@ goals:
     - ...Obstbäume in allen Varianten
 cta_center:
   button_text: Viva la Selva unterstützen
-  button_link: /mitmachen
+  button_link: mitmachen
 ---
 
 <h2 id="nursery">Zu unseren drei Zielen</h2>

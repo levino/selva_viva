@@ -45,7 +45,7 @@ our_trees:
   button_link: planta-y-protege/adopta-un-arbol
 goals:
   image_alt: Pequeño árbol frutal ("Pera de agua")
-  button_link: /participa
+  button_link: participa
   read_more_text: Leer más...
   subtitle: Estamos plantando...
   title: Objetivos
@@ -58,7 +58,7 @@ goals:
     - ...árboles frutales de todas las variedades
 cta_center:
   button_text: Apoya a Viva la Selva
-  button_link: /participa
+  button_link: participa
 ---
 
 <h2 id="vivero">Nuestros tres objetivos</h2>
