@@ -43,10 +43,10 @@ our_trees:
   image: /src/assets/dsc00904-copy_small.jpeg
   image_alt: Nursery
   button_text: Become a Tree Sponsor
-  button_link: plant-and-protect/tree-sponsorship
+  button_link: plant-and-protect/adopt-a-tree
 goals:
   image_alt: small fruit tree ("Water-Pear")
-  button_link: /get-involved
+  button_link: /support
   read_more_text: read more...
   subtitle: We plant...
   title: Goals
@@ -59,7 +59,7 @@ goals:
     - ...fruit trees in all variations
 cta_center:
   button_text: Support Viva la Selva
-  button_link: /get-involved
+  button_link: /support
 ---
 
 <h2 id="nursery">About Our Three Goals</h2>
