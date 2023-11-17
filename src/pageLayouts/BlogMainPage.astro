@@ -53,7 +53,9 @@ const sortedBlogCollection = blogCollection
                 <div class="flex  justify-around flex-col p-4 text-left">
                   <div>
                     <a
-                      href={`${getRelativeLocaleUrl(lang)}${blog.slug}`}
+                      href={`${getRelativeLocaleUrl(lang)}${blog.slug
+                        .split("/")
+                        .pop()}`}
                       class="block hover:text-blue-600 mb-2 text-gray-800"
                     />
                     <h4 class="font-semibold leading-tight mb-2 text-gray-600 text-bs">

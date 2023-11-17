@@ -21,7 +21,7 @@ how_all_started:
   image: /src/assets/dsc01052-copy_smaller.jpeg
   image_alt: Un Caracolí en nuestra finca, uno de los primeros gigantes emergentes en bosques jóvenes
 button: únete
-button_link: unete
+button_link: participa
 bottom_link_1_text: contacto
 bottom_link_1: contacto
 bottom_link_2_text: apoyanos
