@@ -1,23 +1,9 @@
 ---
-import { getRelativeLocaleUrl } from "astro:i18n";
-import { getLangFromUrl } from "../i18n/utils";
 import Layout from "../layouts/Layout.astro";
-const lang = getLangFromUrl(Astro.url);
-const msg404 = {
-  es: {
-    msg: "404 esta página no existe",
-  },
-  en: {
-    msg: "404 no page found",
-  },
-  de: {
-    msg: "404 Seite nicht gefunden",
-  },
-};
 ---
 
 <Layout title="404">
   <div class="bg-slate-300 h-96 flex items-center justify-center">
-    <h1 class="text-green-500 text-3xl">{msg404[lang].msg}</h1>
+    <h1 class="text-green-500 text-3xl">404 no page found</h1>
   </div>
 </Layout>
