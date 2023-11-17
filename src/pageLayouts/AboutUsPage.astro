@@ -1,9 +1,14 @@
 ---
+import { getRelativeLocaleUrl } from "astro:i18n";
+import { getLangFromUrl } from "../i18n/utils";
 import Layout from "../layouts/Layout.astro";
 import { getImage } from "astro:assets";
 import HeroCaption from "../components/HeroCaption.astro";
 import ImageWithCaption from "../components/ImageWithCaption.astro";
 import TeamSection from "../components/TeamSection.astro";
+
+const lang = getLangFromUrl(Astro.url);
+
 const {
   content: { data },
 } = Astro.props;
@@ -35,7 +40,9 @@ const heroImage = await getImage({ src: data.hero_image });
             {data.excerpt}
           </p>
           <a
-            href={data.hero_button.hero_button_link}
+            href={`${getRelativeLocaleUrl(lang)}${
+              data.hero_button.hero_button_link
+            }`}
             class="bg-yellow_leave-500 font-light hover:bg-yellow_leave-500 inline-block px-5 py-2 rounded-sm text-white uppercase"
             >{data.hero_button.hero_button_text}</a
           >
@@ -109,7 +116,7 @@ const heroImage = await getImage({ src: data.hero_image });
     </div>
   </div><div class="mb-10 text-center">
     <a
-      href={data.button_link}
+      href={`${getRelativeLocaleUrl(lang)}${data.button_link}`}
       class="bg-yellow_leave-500 font-light hover:bg-yellow_leave-500 inline-block mt-5 px-5 py-2 rounded-sm shadow-lg text-white uppercase"
       >{data.button}</a
     >
@@ -118,12 +125,12 @@ const heroImage = await getImage({ src: data.hero_image });
   <div class="mb-10">
     <div class="flex justify-evenly mx-auto w-4/12">
       <a
-        href={data.bottom_link_1}
+        href={`${getRelativeLocaleUrl(lang)}${data.bottom_link_1}`}
         class="bg-yellow_leave-500 font-light hover:bg-yellow_leave-500 inline-block mt-5 px-5 py-2 rounded-sm shadow-lg text-white uppercase"
         >{data.bottom_link_1_text}</a
       >
       <a
-        href={data.bottom_link_2}
+        href={`${getRelativeLocaleUrl(lang)}${data.bottom_link_2}`}
         class="bg-green-300 font-light hover:bg-green-600 inline-block mt-5 px-5 py-2 rounded-sm shadow-lg text-white uppercase"
         >{data.bottom_link_2_text}</a
       >
