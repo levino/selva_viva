@@ -3,8 +3,8 @@ pageMetaTitle: Viva la Selva
 hero:
   greeting: Welcome to
   title: Viva la Selva
-  msg: We cultivate and safeguard endangered tropical trees, fostering a greener future with thriving rainforests.
-  button: Donate Now
+  msg: We plant and protect trees that are rare or at risk.
+  button: Support Our Cause
   hero_bg_image: /src/assets/plant-a-tree.png
 participate:
   title: Get Involved
@@ -18,33 +18,33 @@ participate:
       image: /src/assets/DSC00971 copy.jpeg
       image_alt: Young tree in Viva la Selva's Nursery
 about_us:
-  title: Who We Are
-  paragraph: We're a dedicated team with a mission to preserve endangered or rare tree species in Darién, located in North Chocó, Colombia.
+  title: About Us
+  paragraph: We are a small but passionate team focused on protecting rare and endangered tree species in the Darién region, located in North Chocó, Colombia.
   link: about-us
   link_text: Meet the Team
 situation:
-  title: Critical State of Tropical Ecosystem
+  title: Tropical Ecosystems Under Threat
   paragraph: Darién, situated in the Caribbean region between Colombia and Panama, faces an ecological crisis. Uncontrolled deforestation is rapidly depleting the once-lush rainforests. Internationally endangered tree species have become exceedingly scarce, making seed collection a daunting task. The ecosystem is on the brink of collapse.
   image: /src/assets/balsamos-cortados_1.17.1.jpg
-  image_alt: Remnants of felled trees in the Darién rainforest
-  button: Learn More about Biodiversity Hotspots
+  image_alt: Tree stumps left behind after logging in the Darién rainforest.
+  button: More about Biodiversity Hotspots
   button_link: projects/the-farm/full-text#region-significance
 problem:
   title: Impact of Deforestation
   paragraph: >-
-    The most sought-after wood comes from rainforest giants and other large tree species, which are much more than CO2 storages. They provide habitat for an entire biotope, some for over 1000 other species. Their shade and deep roots protect springs and the natural flow of rivers, surface temperatures, and fertile soil layers: the basis for new shoots and thus also for the preservation of species - all species.
+    Highly prized woods are often harvested from the biggest trees in the rainforest. These trees do a lot more than just store carbon dioxide. They are homes to thousands of other living species. Their leaves provide shade that helps keep forest springs and rivers cool and flowing properly. The roots go deep, keeping the soil healthy and ready for new plants to grow. This helps all kinds of plant and animal species to survive and thrive.
   image: /src/assets/dsc01083-copy.jpeg
   image_alt: Two Tachuleos and a Bálsamo tree at Viva la Selva's farm
-  button: Explore Our Trees
+  button: Get to Know Our Trees
   button_link: trees
 solution:
-  title: "Our Approach: Discover, Plant, and Protect"
+  title: "We Scout, Plant, and Protect"
   paragraph: >-
     At Viva la Selva, endangered native species find sanctuary. We search for and rescue seeds and seedlings of declining species, planting them in a protected, biodiverse environment to ensure their survival in the native ecosystem.
 
     While not every planted seed becomes a tree, our successes yield a remarkable explosion of life and abundance!
   button: Visit Our Nursery
-  button_2: Plant and Preserve
+  button_2: Plant and Protect
   image: /src/assets/dsc01007-copy.jpeg
   image_alt: Seedlings in our nursery, including Bálsamo saplings
   button_link: projects/nursery
