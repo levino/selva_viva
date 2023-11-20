@@ -67,16 +67,16 @@ location:
   title: Location
   subtitle_1: In the Heart of Darién-CHOCÓ
   paragraph_1: >-
-    Our farm is situated in Gilgal community, Unguía district, along the Cutí River, Chocó Department, Colombia.
+    Our farm is in the Gilgal community, Unguía district, along the Cutí River, Chocó Department, Colombia.
 
 
     The region is surrounded by water and mountains: to the northwest, the Darién mountain range (Colombia-Panama border), to the northeast, the Caribbean coast, and to the southeast, the Atrato River, Colombia's richest river.
   subtitle_2: Ecological Significance of Darién-CHOCÓ
-  paragraph_2: The Chocó-Darién region is one of the rainiest and most biodiverse regions on Earth. It's part of the biodiversity hotspot Tumbes-Chocó-Magdalena, stretching from the Pacific coast to the Andes, from Panama to Peru. [**Read More**](./complete-text#region-significance)
+  paragraph_2: The Chocó-Darién region is one of Earth's rainiest and most biodiverse regions. It's part of the biodiversity hotspot Tumbes-Chocó-Magdalena, stretching from the Pacific coast to the Andes, from Panama to Peru. [**Read More**](./complete-text#region-significance)
 the_finca_story:
   title: The Story of La Tribu
   subtitle_1: How We Became "Eco"
-  paragraph_1: In 1991, on our "La Tribu" farm, we discovered ecological agriculture and started regenerating its soils. This allowed us to produce most of our food without chemicals, without large-scale field burning, and with less effort.
+  paragraph_1: 1991 on our "La Tribu" farm, we discovered ecological agriculture and started regenerating its soils. This allowed us to produce most of our food without chemicals, field burning, and less effort.
   subtitle_2: Nature During the Years of Violence
   paragraph_2: Unfortunately, in 1996, violence reached Chocó-Darién in full magnitude. [**Read More**](./complete-text#history-2)
   image: /src/assets/dsc01088-copy_smaller.jpeg
