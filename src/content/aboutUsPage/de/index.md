@@ -36,9 +36,9 @@ bottom_link_2: mitmachen
 team:
   title: Unser Team
   team_members:
-    - en/alejandro
-    - en/esra
-    - en/rude
-    - en/juan-guillermo
-    - en/jimmy
+    - de/alejandro
+    - de/esra
+    - de/rude
+    - de/juan-guillermo
+    - de/jimmy
 ---
