@@ -1,9 +1,9 @@
 ---
-title: Adopción de Árboles
-page_title: Conviértete en Padrino/Madrina de un Árbol
+title: Adopta un árbol
+page_title: Adopta un árbol
 page_card:
-  title: Conviértete en Padrino/Madrina de un Árbol
-  excerpt: Replantar y cuidar especies de árboles raras es una tarea exigente, no podemos hacerlo solos. Así que hagámoslo juntos.
+  title: Adopta un árbol
+  excerpt: La conservación y protección de especies en peligro es una tarea dificil. Tu apoyo hace la diferencia.
   link: planta-y-protege/adopta-un-arbol/
   link_text: Leer más...
   cover_image: /src/assets/aimg_20230712_102052-copy.jpeg
@@ -11,13 +11,13 @@ page_card:
 bg_image: /src/assets/dsc01079-copy_2000px.jpeg
 bg_alt: Dos árboles de Higuerón en la finca de Viva la Selva
 subtitle: ¡Los Árboles Tropicales en Peligro Necesitan Tu Ayuda!
-excerpt: Replantar y cuidar especies de árboles raras es una tarea exigente, no podemos hacerlo solos. Así que hagámoslo juntos.
+excerpt: La conservación y protección de especies en peligro es una tarea dificil. Tu apoyo hace la diferencia.
 description_title: ¿CÓMO FUNCIONA?
 description: >-
-  Tu arbolito ahijado pertenece a una especie rara a nivel regional, a menudo también internacionalmente. Lo plantamos junto con otras especies de árboles nativos en un ecosistema biodiverso, que brinda un hogar a muchos animales y plantas. Esto no solo almacena carbono de manera más eficiente que las plantaciones monocultivo, sino que también proporciona mejores condiciones de vida para los árboles (calidad del suelo, resistencia a las plagas, etc.).
+  Tu arbolito ahijado pertenece a una especie amenazada a nivel regional y a menudo también internacionalmente. Lo plantamos junto con otras especies de árboles nativos en un ecosistema biodiverso, que brinda un hogar a muchos animales y plantas. Esto no solo almacena carbono de manera más eficiente que los monocultivo, sino que también proporciona mejores condiciones de vida para los árboles (calidad del suelo, resistencia a las plagas, etc.).
 
 
-  Si tu árbol no crece, lo replantaremos, por supuesto. Protegemos estos árboles durante al menos 20 años.
+  Si tu árbol muere, lo replantaremos, por supuesto. Protegemos estos árboles durante al menos 20 años.
 
 
   Cada ejemplar vivo de una especie en peligro puede ayudar a preservar su especie para la región y su ecosistema tropical.
