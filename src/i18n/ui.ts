@@ -1,6 +1,6 @@
 export const languages = {
   de: "De",
-  es: "Es",
+  //es: "Es",
   en: "En",
 };
 
