@@ -104,6 +104,7 @@ const supportPageSchema = defineCollection({
       title: z.string(),
       subtitle: z.string(),
       excerpt: z.string(),
+      donation_form: z.string().optional(),
       list_how_we_use_money: z.array(z.string()),
       projects_section_title: z.string(),
       projects_section_subtitle: z.string(),
