@@ -13,7 +13,7 @@ hero:
   h4_title_image: /src/assets/dsc01088-copy_smaller.jpeg
   h2_title: Biodiversidad
   h3_title: 5 Arroyos y Manantiales
-  h4_title: Especies de Árboles Protegidas
+  h4_title: Cientos de Árboles Protegidos
   h2_title_image_alt: Finca de Viva la Selva con Árboles
   h3_title_image_alt: Finca de Viva la Selva y Arroyo Memeto
   h4_title_image_alt: Finca de Viva la Selva
@@ -69,11 +69,11 @@ location:
   paragraph_1: >-
     Nuestra finca se encuentra en la comunidad de Gilgal, en el Departamento de Chocó, Colombia. Está rodeada de agua y montañas, con la cadena montañosa del Darién al oeste, la costa caribeña al noreste y el río Atrato al sureste.
   subtitle_2: Significado Ecológico
-  paragraph_2: La región Chocó-Darién es una de las áreas más biodiversas del mundo, parte del punto caliente de biodiversidad Tumbes-Chocó-Magdalena, que se extiende desde Panamá hasta Perú. [**Leer Más...**](./texto-completo#region-significado)
+  paragraph_2: La región Chocó-Darién es una de las áreas más biodiversas del mundo, parte del punto crucial de biodiversidad Tumbes-Chocó-Magdalena, que se extiende desde Panamá hasta Perú. [**Leer Más...**](./texto-completo#region-significado)
 the_finca_story:
   title: La Historia de La Tribu
   subtitle_1: Transición a la Agricultura Ecológica
-  paragraph_1: En 1991, en nuestra finca "La Tribu", adoptamos la agricultura ecológica, regenerando el suelo y produciendo la mayor parte de nuestra comida sin químicos, haciendo que la agricultura sea más sencilla que los métodos tradicionales.
+  paragraph_1: En 1991, en nuestra finca "La Tribu", adoptamos la agricultura ecológica, regenerando el suelo y produciendo la mayor parte de nuestra comida sin químicos.
   subtitle_2: Naturaleza en Medio de la Violencia
   paragraph_2: Lamentablemente, en 1996, la violencia se extendió por Chocó-Darién, afectando nuestra finca. [**Leer Más...**](./texto-completo#historia-2)
   image: /src/assets/dsc01088-copy_smaller.jpeg
