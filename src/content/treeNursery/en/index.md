@@ -68,9 +68,11 @@ cta_center:
 
 #### Because rare rainforest trees no longer spread on their own.
 
-The rainforest of this region (Darién-Chocó) is one of the most biodiverse habitats worldwide (more about the biodiversity hotspot). However, the harsh reality of deforestation poses a severe threat to this region's ecosystems. The offspring of more heavily exploited species are often found in remote and hard-to-reach places where mother trees still exist and provide seeds. Only a few shoots survive under mother trees, and only if the mother tree dies in time and makes room for a young one. Only the strongest survive.
+The rainforest of this region (Darién-Chocó) is one of the most biodiverse habitats worldwide (more about the [biodiversity hotspot](./the-farm/full-text#region-bedeutung)). However, the harsh reality of deforestation poses a severe threat to this region's ecosystems. The offspring of more heavily exploited species are often found in remote and hard-to-reach places where mother trees still exist and provide seeds. Only a few shoots survive under mother trees, and only if the mother tree dies in time and makes room for a young one. Only the strongest survive.
+
 We search for and rescue some of these endangered tree species' seeds and young seedlings. Some specimens also grow on pastures. There, herbicides represent the most significant threat. Therefore, we must act promptly. Sometimes, we succeed in being in the right place at the right time.
-So far, we sow or plant the seeds or seedlings (under conditions adapted to their needs) in our sowing bags or nursery beds if the shoots allow for later selection and transplanting. There will also be tree islands for some species in the future; more on this in our Tree Island newsletter.
+
+So far, we sow or plant the seeds or seedlings (under conditions adapted to their needs) in our sowing bags or nursery beds if the shoots allow for later selection and transplanting. There will also be tree islands for some species in the future; more on this in our [Tree Island newsletter](https://vivalaselva.substack.com/p/bauminseln).
 
 We look for safe places with suitable soil properties for our mature seedlings and tree islands to grow and produce flowers, fruits, and seeds. With the help of wind, water currents, bats, and birds, their seeds can spread again. With some luck, trees may grow and mature over time, and the cycle will continue. Additionally, our protégés, with their seeds and seedlings, can provide genetic material for reforestation projects.
 
@@ -105,7 +107,7 @@ However, people and animals live on limes, mandarins, oranges, avocados, mangoes
 
 #### Plastic in Tree Nurseries
 
-We plant seeds or small seedlings straight into nursery beds to cut down on plastic bags for seedlings. We only use seedling bags for a few highly endangered species and recycle them. To avoid using plastic mesh covers for direct sunlight and rainfall protection, we can plant different species together directly in the soil, where they will grow and protect each other, creating 'tree islands.' In our detailed newsletter article, you can learn more about this tree island method and our efforts to reduce plastic.
+We plant seeds or small seedlings straight into nursery beds to cut down on plastic bags for seedlings. We only use seedling bags for a few highly endangered species and recycle them. To avoid using plastic mesh covers for direct sunlight and rainfall protection, we can plant different species together directly in the soil, where they will grow and protect each other, creating 'tree islands.' In our detailed newsletter article, you can learn more about this [tree island](https://vivalaselva.substack.com/p/bauminseln) method and our efforts to reduce plastic.
 
 ### A Brief Retrospective
 
