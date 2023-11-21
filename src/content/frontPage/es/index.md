@@ -32,7 +32,7 @@ situation:
 problem:
   title: Desequilibrio Causado por la Deforestación
   paragraph: >-
-    Las maderas altamente valoradas a menudo se cosechan de los árboles más grandes de la selva tropical. Estos árboles hacen mucho más que solo almacenar dióxido de carbono. Son hogares para miles de otras especies vivientes. Su sombra y sus raíces profundas protegen manantiales y mantienen el flujo natural de los ríos. Sus raíces, manteniendo el suelo sano y fértil. Esto ayuda a todo tipo de especies de plantas y animales a sobrevivir y prosperar.
+    Las maderas altamente valoradas a menudo se cosechan de los árboles más grandes de la selva tropical. Estos árboles hacen mucho más que solo almacenar CO2. Son hogares para miles de otros sere vivos. Su sombra y sus raíces profundas protegen manantiales y mantienen el flujo natural de los ríos. Sus raíces, manteniendo el suelo sano y fértil. Esto ayuda a todo tipo de especies de plantas y animales a sobrevivir y prosperar.
   image: /src/assets/dsc01083-copy.jpeg
   image_alt: Dos Tachuleos y un árbol de Bálsamo en la finca de Viva la Selva
   button: Conoce más sobre los Árboles
