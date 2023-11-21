@@ -1,5 +1,6 @@
 ---
 const { supportPageData } = Astro.props;
+import { micromark } from "micromark";
 ---
 
 <div class="container mt-9 mx-auto px-4">
@@ -35,21 +36,9 @@ const { supportPageData } = Astro.props;
         </ul>
       </div>
     </div>
-    <div class="md:w-1/2 px-4 w-full">
-      <script
-        is:inline
-        src="https://donorbox.org/widget.js"
-        paypalExpress="true"></script><iframe
-        src="https://donorbox.org/embed/unterstutze-viva-la-selva"
-        name="donorbox"
-        allowpaymentrequest="allowpaymentrequest"
-        seamless="seamless"
-        frameborder="0"
-        scrolling="no"
-        height="900px"
-        width="100%"
-        style="max-width: 500px; min-width: 250px; max-height:none!important"
-      ></iframe>
-    </div>
+    <div
+      class="md:w-1/2 px-4 w-full"
+      set:html={supportPageData.data.donation_form}
+    />
   </div>
 </div>
