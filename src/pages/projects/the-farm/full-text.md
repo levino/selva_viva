@@ -2,59 +2,35 @@
 layout: ../../../layouts/LayoutMarkdown.astro
 ---
 
-# Unsere Finca (2023)
+Our Finca (2023)
 
-<h2 id="region">Geografische Lage</h2>
+<h2 id="region">Geographical Location</h2>
+Our Finca "La Tribu" is situated in the Darién Chocoano region (internationally known as "Chocó-Darién"), in the northernmost part of the Chocó Department in Colombia. The Darién Chocoano is surrounded by water and mountains: to the north-west lies the Darién mountain range (which also forms the border between Colombia and Panama, as well as between South and North America), to the north-east is the Caribbean coast, and to the southeast flows the Atrato River, Colombia's most voluminous river, with tributaries from some of the world's most important wetland areas.
+<h2 id="region-bedeutung">Geo-Ecological Significance of the Chocó-Darién</h2>
+The entire Chocó-Darién region is not only one of the wettest but also among the richest in species on the planet and is part of the biodiversity hotspot Tumbes-Chocó-Magdalena, stretching from the Pacific coast to the Andean mountain ranges from southern Panama to Peru. Due to their geologically isolated location, the ecosystems in this long coastal strip exhibit an unusual abundance of native species: about a quarter of their flora and fauna live and grow nowhere else. However, hunting and deforestation severely threaten the areas' ecological balance. In the specific case of Chocó-Darien, massive clearings for timber, agriculture, and traditional hunting remain the most significant human threats. Moreover, political and economic intentions to complete the Pan-American Highway through the rainforest in the Darien Gap add to these challenges.
+<h2 id="ideale-finca-1">Reforestation on Our Finca</h2>
+Safe Haven for Endangered Tree Species
+Our Finca makes a special ecological contribution amid this biodiversity hotspot, as we aim to halt the extinction of endangered endemic species by providing a refuge for regional or globally rare, endangered, or threatened species to grow and survive. Thus, their genetic material can multiply naturally in the region and be preserved for future reforestation projects.
+<h3 id="ideale-finca-2">Concrete Examples</h3>
+In one part of the Finca grows a regional palm species, Palma Amarga (Sabal mauritiiformis), from whose leaves traditional palm roofs are made. Mature palms can still be seen in the landscape, but young shoots are scarce. Since they are not used as animal feed, they are killed on grazing lands with herbicides. On our Finca, young Palmas Amargas have settled, and as long as we can provide them with sufficient light and space, they and their offspring can survive.
+The same happens with young Polvillos (Handroanthus serratifolius), an internationally highly endangered tree species. They regrow naturally on our Finca, but they currently lack sufficient light and space and thus do not survive. We want to change this.
 
-Unsere Finca „La Tribu“ befindet sich in der Region Darién chocoano (international „Chocó-Darién“) im Nordzipfel des Departamento Chocó in Kolumbien. Der Darién chocoano ist umgeben von Wasser und Bergen: Im (Nord-)Westen die Bergkette des Darién (zugleich die Grenzlinie Kolumbien-Panamá, sowie Südamerika-Nordamerika), im Nordosten die Karibikküste und im Südosten der Atrato-Strom, der wasserreichste Fluss Kolumbiens, mit Zuflüssen aus einigen der regenreichsten Gebiete der Welt.
+Please support us in preserving our endangered species on the Finca by adopting a tree!
 
-<h2 id="region-bedeutung">Geo-ökologische Bedeutung des Darién-Chocó</h2>
-
-Die gesamte Region Chocó-Darién gehört nicht nur zu den **regenreichsten**, sondern auch zu den **artenreichsten** Regionen der Erde und ist Teil des **Biodiversitäts-Hotspots** <a href="https://de.wikipedia.org/wiki/Tumbes-Choc%C3%B3-Magdalena" target="_blank">Tumbes-Chocó-Magdalena</a> zwischen Pazifikküste und Andenkordilleren von Süd-Panama bis Peru. Die Ökosysteme in dem langen Küstenstreifen weisen aufgrund ihrer geologisch eingeschlossenen Lage eine **ungewöhnliche Fülle genuiner Spezies** auf: etwa ein Viertel ihrer Flora und Fauna leben und wachsen nicht außerhalb dieser Gebiete. Allerdings ist das ökologische Gleichgewicht der Gebiete **stark durch Jagd und Abholzung bedroht**, auch im speziellen Fall des Chocó-Darien sind massive Rodungen für Holz- und Landwirtschaft, sowie die traditionelle Jagd bisher die größte Bedrohung durch den Menschen. Allerdings kommen politische und wirtschaftliche Absichten zur Vollendung der **Panamericana durch den Regenwald** im <a href="https://de.wikipedia.org/wiki/Dari%C3%A9n_Gap" target="_blank">Darien-Gap</a> noch hinzu.
-
-<h2 id="ideale-finca-1">Die Aufforstung auf unserer Finca</h2>
-
-### Sicherer Ort für bedrohte Baumarten
-
-Unsere Finca leistet einen **besonderen ökologischen Beitrag mitten im Biodiversitäts-Hotspot**, da wir gezielt das **Aussterben bedrohter endemischer Spezies aufhalten**, indem wir den regional oder weltweit selten gewordenen, gefährdeten oder bedrohten Arten ein Refugium zum Wachsen und Überleben bieten. So kann sich ihr **genetisches Material** nicht nur auf natürliche Weise **in der Region vermehren**, sondern wird auch für **zukünftige Aufforstungsprojekte** bereitgehalten.
-
-<h3 id="ideale-finca-2">Konkrete Beispiele</h3>
-
-In einem Teil der Finca wächst eine regionale Palmenart, die [Palma Amarga](https://tropical.theferns.info/viewtropical.php?id=Sabal+mauritiiformis) (Sabal mauritiiformes), aus deren Blättern die traditionellen Palmdächer gebaut werden. Man sieht noch ausgewachsene Palmen im Landschaftsbild, aber keine jungen Triebe mehr. Da sie nicht als Tierfutter dienen, werden sie auf den Weideflächen mit Unkrautvernichtungsmitteln bekämpft. Bei uns auf der Finca haben sich junge Palmas Amargas angesiedelt, und sofern wir ihnen ausreichend Licht und Platz geben können, können sie und ihre Nachkommen überleben.
-
-Das Gleiche geschieht mit jungen [Polvillos](https://tropical.theferns.info/viewtropical.php?id=Handroanthus+serratifolius) (Handroanthus serratifolius), einer international stark bedrohten Baumart. Dort, wo sie auf unserer Finca von allein nachwachsen, haben sie im Moment nicht ausreichend Licht und Platz und überleben daher nicht. Dies möchten wir ändern.
-
-Unterstütze uns beim Erhalt unserer bedrohten Arten auf der Finca und werde [Baumpate](/pflanze-und-schütze/baumpatenschaft)!
-
-<h2 id="ideale-finca-3">Ökologische Land- und Forstwirtschaft auf unserer Finca</h2>
-
-Auf unserer 22 Hektar großen Finca betreiben wir zum einen **ökologische Landwirtschaft**, bei der wir gezielt die tropischen Böden schützen, auf denen wir Mais, Reis, Sesam, Maniok, usw. anbauen. Zum anderen bauen wir **Forstflächen für „Nahrungswälder“** aus (mehr darüber in unserem Substack-Newsletter zum Thema <a href="https://vivalaselva.substack.com/p/bauminseln?utm_source=profile&utm_medium=reader2" target="_blank">Bauminseln</a>). Darin wachsen nach und nach verschiedene Früchte, wie Kakao, Kokospalmen, Mangos, Brotbäumen, Café, Bananen, Kochbananen, zusammen mit unseren seltenen Baumarten wie Waldmandeln, Algarroba, Bálsamo-Bäumen, Mamey Sapote, u.v.a.m. in einem artenreichen „Multi-Kulti“.
-
-### Vorteile Nahrungswälder:
-
-- hohes Potential für Artenvielfalt (Pflanzen- und Tierwelt)
-
-- hohe Fixierung von CO2 pro Quadratmeter durch dichten Bewuchs
-
-- sinnvolle Balance zwischen Bedürfnissen von Natur und Mensch
-
-Unsere Finca kann **ein Beispiel für ökologische Land- und Forstwirtschaft für die ganze Region** werden. Hilf uns, in unserem konventionellen Umfeld ein Zeichen zu setzen.
-Pflanze mit uns bedrohte Tropenbäume in einen biodiversen Nahrungswald und werde [Baumpate](/pflanze-und-schütze/baumpatenschaft)!
-
-<h2 id="lage-exakt">Die genaue Lage:</h2>
-
-„La Tribu“ liegt 16 Meter über dem Meeresspiegel auf 8°11‘ nördlicher Breite und 77° westlicher Länge im Landkreis Unguía, Gemeinde Gilgal, in der Tieflandebene des Flusses Cutí. Der Cutí-Fluss entspringt dem Bergland des Darién, fließt in den Fluss Tanela und mit ihm in den Atrato-Strom, kurz bevor dieser im Golf von Urabá ins karibische Meer mündet.
-
-<h2 id="geschichte-tribu">Die Geschichte von La Tribu</h2>
-
-<h3 id="geschichte-1">Wie wir „öko“ wurden</h3>
-
-Auf unserer Finca „La Tribu“ entdeckten wir im Jahr 1991 die ökologische Landwirtschaft und noch viel wichtiger, wir begannen in diesem Jahr ihre Böden zu regenerieren. Dies war ein entscheidender Wendepunkt, denn so begannen wir in ausreichenden Mengen nahezu alle Lebensmittel zu produzieren, die wir zum Leben brauchten, ohne den Einsatz von Chemikalien, ohne das Gestrüpp auf den Äckern vor der Aussaat großflächig abzubrennen (wie in dieser Region traditionell üblich) und trotz allem mit weniger Aufwand als unsere Nachbarn.
-
-<h3 id="geschichte-2">Die Natur in den Jahren der Gewalt</h3>
-
-Leider erreichte fünf Jahre später, 1996, die Welle der Gewalt, die über ganz Kolumbien hereinbrach, auch den Chocó-Darién, in ihrem kompletten Ausmaß. Wir mussten aus der Region fliehen und unsere Finca für mehrere Jahre verlassen. Die kommenden Jahre gaben der Natur Zeit, auf unseren erholten Böden einen Erneuerungsprozess der wilden Flora ohnegleichen anzustoßen.
-
-<h3>Unser Beitritt zum Netzwerk der Naturreservate</h3>
-
-Zur selben Zeit breitete sich eine Bewegung im Land und in der Region aus, die es sich zu ihrem Ziel machte, private Naturreservate zu schaffen, um regionale Ökosysteme zu schützen und biologische Korridore zu erhalten. Noch im Jahr 2000 traten wir mit unserem Artenschutzprojekt ins **Netzwerk der zivilen Naturreservate Kolumbiens** (Red Colombiana de Reservas Naturales de la Sociedad Civil – **RESNATUR**) und in deren **regionale Teilgruppe**, das Netzwerk der zivilen Naturreservate des karibisch-kolumbianischen Dairén (Red de Reservas Naturales de la Sociedad Civil Del Darién Caribe Colombiano - **UNGANDÍ**) ein.
+<h2 id="ideale-finca-3">Ecological Agriculture and Forestry on Our Finca</h2>
+On our 22-hectare Finca, we practice ecological agriculture, protecting the tropical soils on which we cultivate corn, rice, sesame, cassava, etc. We are also expanding forest areas for 'food forests' (learn more in our Substack newsletter on the topic of tree islands). Gradually, various fruits such as cocoa, coconut palms, mangoes, breadfruit, coffee, bananas, and plantains grow together with our rare tree species like wild almonds, Algarroba, Bálsamo trees, Mamey Sapote, and many more in a species-rich "multiculti."
+Advantages of Food Forests:
+High potential for biodiversity (plant and animal life)
+Increased carbon dioxide fixation per square meter due to dense vegetation
+A sensible balance between nature and human needs
+Our Finca can set an example of ecological agriculture and forestry for the entire region.
+Plant endangered tropical trees with us into a biodiverse food forest by adopting a tree!
+<h2 id="lage-exakt">The Exact Location:</h2>
+"La Tribu" is situated 16 meters above sea level at 8°11' north latitude and 77° west longitude in the Unguía district, Gilgal community, on the floodplains of the Cutí River. The Cutí River originates in the Darién highlands, flows into the Tanela River, and together they flow into the Atrato River, shortly before it empties into the Caribbean Sea in the Gulf of Urabá.
+<h2 id="geschichte-tribu">The Story of La Tribu</h2>
+<h3 id="geschichte-1">How We Became "Eco"</h3>
+On our Finca "La Tribu," we discovered ecological agriculture in 1991, and more importantly, we began regenerating its soils that year. This was a turning point, as we began to produce almost all the food we needed for living in sufficient quantities, without chemicals, slash and burn on the fields before sowing (as traditionally done in this region), and all with less effort than our neighbors.
+<h3 id="geschichte-2">Nature During the Years of Violence</h3>
+Unfortunately, five years later, in 1996, the wave of violence that swept across Colombia also reached Chocó-Darién to its full extent. We had to flee the region and abandon our Finca for several years. The ensuing years allowed nature to begin an unparalleled renewal process of the wild flora on our recovered soils.
+<h3>Joining the Network of Nature Reserves</h3>
+At the same time, a movement spread across the country and the region aimed at creating private nature reserves to protect regional ecosystems and maintain biological corridors. In 2000, we joined the Colombian Network of Civil Nature Reserves (Red Colombiana de Reservas Naturales de la Sociedad Civil – RESNATUR) with our species conservation project, as well as its regional subgroup, the Network of Civil Nature Reserves of the Caribbean Colombian Dairén (Red de Reservas Naturales de la Sociedad Civil Del Darién Caribe Colombiano - UNGANDÍ).
