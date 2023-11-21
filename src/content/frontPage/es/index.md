@@ -3,36 +3,36 @@ pageMetaTitle: Viva la Selva
 hero:
   greeting: Bienvenido@ a
   title: Viva la Selva!
-  msg: Plantamos bosques tropicales para conservar especies y biodiversidad.
+  msg: Plantamos y cuidamos árboles en peligro para un futuro mas verde y biodiverso.
   button: Participa
   hero_bg_image: /src/assets/plant-a-tree.png
 participate:
-  title: Únete a nosotros
+  title: Únete
   cards:
     - title: Adopta un Árbol
       image: /src/assets/dsc00904-copy-2.jpeg
       image_alt: Vivero de Viva la Selva con Bálsamos y Almendros
       link: planta-y-protege/adopta-un-arbol
-    - title: Apoyo Sencillo
+    - title: Apóyanos
       link: participa
       image: /src/assets/DSC00971 copy.jpeg
-      image_alt: Pequeño plantón en el vivero de Viva la Selva
+      image_alt: Pequeño arbolito en el vivero de Viva la Selva
 about_us:
   title: ¿Quiénes somos?
-  paragraph: Somos un equipo comprometido con la preservación de especies de árboles en peligro de extinción o raras en la región del Darién, ubicada en el norte de Chocó, Colombia.
-  link: sobre-nosotros
+  paragraph: Somos un equipo pequeño pero apasionado, enfocado en proteger las especies de árboles raros y en peligro de extinción en la región del Darién caribe, ubicada en el Norte del Chocó, Colombia.
+  link: nosotros
   link_text: Conoce nuestro equipo
 situation:
   title: Ecosistema Tropical en Riesgo
-  paragraph: El Darién, una región entre Colombia y Panamá en el Caribe, enfrenta una crisis ecológica. La deforestación en esta antigua selva tropical avanza sin control, y las especies de árboles amenazados a nivel internacional se han vuelto cada vez más escasas en esta región. El ecosistema está en deterioro.
+  paragraph: El Darién caribe colombiano, una región entre Colombia y Panamá, enfrenta una crisis ecológica. La deforestación en esta antigua selva tropical avanza sin control, y las especies de árboles amenazados a nivel local e internacional se han vuelto cada vez más escasas. El ecosistema está en peligro.
   image: /src/assets/balsamos-cortados_1.17.1.jpg
   image_alt: Restos de árboles talados en el bosque lluvioso del Darién
-  button: Más información sobre los Puntos Críticos de Biodiversidad
+  button: Puntos Críticos de Biodiversidad
   button_link: proyectos/la-finca/texto-completo#region-significado
 problem:
   title: Desequilibrio Causado por la Deforestación
   paragraph: >-
-    La madera más codiciada proviene de los gigantes de la selva tropical y otras especies de árboles grandes que son mucho más que simples almacenes de carbono. Estos árboles proporcionan hábitat para todo un ecosistema, incluyendo a más de 1000 otras especies. Su sombra y sus raíces profundas protegen manantiales y mantienen el flujo natural de los ríos, las temperaturas de la superficie y las capas de suelo fértiles, que son la base para el crecimiento de nuevas especies.
+    Las maderas altamente valoradas a menudo se cosechan de los árboles más grandes de la selva tropical. Estos árboles hacen mucho más que solo almacenar dióxido de carbono. Son hogares para miles de otras especies vivientes. Su sombra y sus raíces profundas protegen manantiales y mantienen el flujo natural de los ríos. Sus raíces, manteniendo el suelo sano y fértil. Esto ayuda a todo tipo de especies de plantas y animales a sobrevivir y prosperar.
   image: /src/assets/dsc01083-copy.jpeg
   image_alt: Dos Tachuleos y un árbol de Bálsamo en la finca de Viva la Selva
   button: Conoce más sobre los Árboles
@@ -40,7 +40,7 @@ problem:
 solution:
   title: Encontramos, Plantamos y Protegemos
   paragraph: >-
-    En Viva la Selva, damos refugio a especies nativas en peligro de extinción. Buscamos y rescatamos semillas y plántulas de especies en declive y las plantamos en un entorno protegido y biodiverso para preservarlas en su hábitat natural. No todas las semillas plantadas se convierten en árboles, ¡pero cuando lo hacen, florece un milagro de vida en una abundancia inimaginable!
+    En Viva la Selva, damos refugio a especies nativas escasas o en peligro de extinción. Buscamos y rescatamos semillas y plántulas de especies en declive y las plantamos en un entorno protegido y biodiverso. No todas las semillas plantadas se convierten en árboles, ¡pero cuando lo hacen, florece un milagro de vida en una abundancia inimaginable!
   button: Visita nuestro Vivero
   button_2: Planta y Protege
   image: /src/assets/dsc01007-copy.jpeg
