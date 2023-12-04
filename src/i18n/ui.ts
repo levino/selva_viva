@@ -42,7 +42,7 @@ export const ui = {
   },
   en: {
     "nav.home": "Home",
-    "nav.projects": "Proyects",
+    "nav.projects": "Projects",
     "nav.plantAndProtect": "Plant and Protect",
     "nav.plantAndProtect.adoptATree": "Adopt A Tree",
     "nav.plantAndProtect.forestGuardian": "Forest Guardian",
