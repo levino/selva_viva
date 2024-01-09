@@ -31,7 +31,7 @@ what_you_get:
   image: /src/assets/dsc01088-copy_smaller.jpeg
   image_alt: En nuestro bosque que ha crecido durante aproximadamente 20 años
 button_text: Donar
-button_link: https://www.paypal.com/donate/?hosted_button_id=UZCCX7HNS9HS8
+button_link: https://www.paypal.com/donate/?hosted_button_id=YAGNK7Y7L8B8W
 back_button_text: Regresa a planta y protege
 back_button_link: planta-y-protege
 cover_image: /src/assets/dsc00964-copy.jpeg
