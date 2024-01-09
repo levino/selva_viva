@@ -3,6 +3,10 @@ page_meta_title: Ayudanos a conservar la biodiversidad del Darien Caribe
 title: AQUÍ ES DONDE TU DONACIÓN ECHA RAÍCES...
 subtitle: ...en la preservación de la selva tropical, la conservación de especies y la lucha contra el cambio climático.
 excerpt: Apoya a Viva la Selva y protege los suelos tropicales, los ríos y el clima. Contribuye a la reforestación diversificada y recupera especies de árboles en peligro de extinción.
+
+donation_form: |
+  <script src="https://donorbox.org/widget.js" paypalExpress="true"></script><iframe src="https://donorbox.org/embed/apoyanos-6" name="donorbox" allowpaymentrequest="allowpaymentrequest" seamless="seamless" frameborder="0" scrolling="no" height="900px" width="100%" style="max-width: 500px; min-width: 250px; max-height:none!important"></iframe>
+
 list_how_we_use_money:
   - Con tu donación, lograremos...
   - ... fomentar el crecimiento de árboles de especies en peligro de extinción.
