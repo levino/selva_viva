@@ -1,6 +1,7 @@
 ---
 title: Adopta un árbol
 page_title: Adopta un árbol
+spanish_donation_msg: En este momento solo tenemos opción de pago con Paypal. Si quieres apoyarnos de otra forma puedes contactarnos para darte otras opciones.
 page_card:
   title: Adopta un árbol
   excerpt: La conservación y protección de especies en peligro es una tarea dificil. Tu apoyo hace la diferencia.

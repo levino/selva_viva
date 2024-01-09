@@ -6,6 +6,7 @@ excerpt: Apoya a Viva la Selva y protege los suelos tropicales, los ríos y el c
 
 donation_form: |
   <script src="https://donorbox.org/widget.js" paypalExpress="true"></script><iframe src="https://donorbox.org/embed/apoyanos-6" name="donorbox" allowpaymentrequest="allowpaymentrequest" seamless="seamless" frameborder="0" scrolling="no" height="900px" width="100%" style="max-width: 500px; min-width: 250px; max-height:none!important"></iframe>
+spanish_donation_msg: En este momento solo tenemos opción de donación con Paypal. Si quieres apoyarnos de otra forma puedes contactarnos para darte otras opciones.
 
 list_how_we_use_money:
   - Con tu donación, lograremos...

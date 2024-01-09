@@ -16,6 +16,18 @@ const heroImageOptimized = await getImage({ src: frontmatter.bg_image });
 ---
 
 <Layout title={frontmatter.title}>
+  {
+    frontmatter.spanish_donation_msg && (
+      <>
+        <div class="bg-yellow_leave-600 text-center font-all font-bold  p-3 text-brown_dark-900 text-lg tracking-wider">
+          {frontmatter.spanish_donation_msg}
+          <a class="text-blue-900 hover:underline" href="/contacto">
+            Contacto
+          </a>
+        </div>
+      </>
+    )
+  }
   <section
     class="relative plant-a-tree-hero text-gray-500"
     style={`background-image: url(${heroImageOptimized.src});`}

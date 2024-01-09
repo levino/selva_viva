@@ -5,6 +5,7 @@ export const plantAndProtectSchema = ({ image }) =>
   z.object({
     title: z.string(),
     page_title: z.string(),
+    spanish_donation_msg: z.string().optional(),
     page_card: pageCard(z, image),
     bg_image: image(),
     bg_alt: z.string(),
