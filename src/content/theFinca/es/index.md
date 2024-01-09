@@ -5,7 +5,7 @@ page_card:
   title: Nuestra Finca
   excerpt: "Nuestra finca se encuentra en la comunidad de Gilgal, en el Departamento de Chocó, Colombia."
   link: proyectos/la-finca
-  link_text: Saber Más...
+  link_text: Leer más...
   cover_image: /src/assets/dsc01052-copy_smaller.jpeg
   cover_image_alt: Árbol
 hero:
