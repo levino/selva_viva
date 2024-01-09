@@ -1,9 +1,9 @@
 ---
 pageMetaTitle: Viva la Selva
 hero:
-  greeting: Bienvenido@ a
+  greeting: Bienvenid@ a
   title: Viva la Selva!
-  msg: Plantamos y cuidamos árboles en peligro para un futuro mas verde y biodiverso.
+  msg: Plantamos y cuidamos árboles en peligro para un futuro más verde y biodiverso.
   button: Participa
   hero_bg_image: /src/assets/plant-a-tree.png
 participate:
@@ -21,10 +21,10 @@ about_us:
   title: ¿Quiénes somos?
   paragraph: Somos un equipo pequeño pero apasionado, enfocado en proteger las especies de árboles raros y en peligro de extinción en la región del Darién caribe, ubicada en el Norte del Chocó, Colombia.
   link: nosotros
-  link_text: Conoce nuestro equipo
+  link_text: Conoce nuestro equipo 
 situation:
   title: Ecosistema Tropical en Riesgo
-  paragraph: El Darién caribe colombiano, una región entre Colombia y Panamá, enfrenta una crisis ecológica. La deforestación en esta antigua selva tropical avanza sin control, y las especies de árboles amenazados a nivel local e internacional se han vuelto cada vez más escasas. El ecosistema está en peligro.
+  paragraph: El Darién caribe colombiano, enfrenta una crisis ecológica. La deforestación en esta antigua selva tropical avanza sin control, y las especies de árboles amenazadas a nivel local e internacional se han vuelto cada vez más escasas. El ecosistema está en peligro.
   image: /src/assets/balsamos-cortados_1.17.1.jpg
   image_alt: Restos de árboles talados en el bosque lluvioso del Darién
   button: Puntos Críticos de Biodiversidad
@@ -32,7 +32,7 @@ situation:
 problem:
   title: Desequilibrio Causado por la Deforestación
   paragraph: >-
-    Las maderas altamente valoradas a menudo se cosechan de los árboles más grandes de la selva tropical. Estos árboles hacen mucho más que solo almacenar CO2. Son hogares para miles de otros sere vivos. Su sombra y sus raíces profundas protegen manantiales y mantienen el flujo natural de los ríos. Sus raíces, manteniendo el suelo sano y fértil. Esto ayuda a todo tipo de especies de plantas y animales a sobrevivir y prosperar.
+    Las maderas altamente valoradas a menudo se cosechan de los árboles más grandes de la selva tropical. Estos árboles hacen mucho más que sólo almacenar CO2. Son hogares para miles de otros seres vivos. Su sombra y sus raíces profundas protegen manantiales y mantienen el flujo natural de los ríos. Sus raíces, mantienen el suelo sano y fértil. Esto ayuda a todo tipo de especies de plantas y animales a sobrevivir y prosperar.
   image: /src/assets/dsc01083-copy.jpeg
   image_alt: Dos Tachuleos y un árbol de Bálsamo en la finca de Viva la Selva
   button: Conoce más sobre los Árboles
@@ -40,7 +40,7 @@ problem:
 solution:
   title: Encontramos, Plantamos y Protegemos
   paragraph: >-
-    En Viva la Selva, damos refugio a especies nativas escasas o en peligro de extinción. Buscamos y rescatamos semillas y plántulas de especies en declive y las plantamos en un entorno protegido y biodiverso. No todas las semillas plantadas se convierten en árboles, ¡pero cuando lo hacen, florece un milagro de vida en una abundancia inimaginable!
+    En Viva la Selva damos refugio a especies nativas escasas o en peligro de extinción. Buscamos y rescatamos semillas y plántulas de especies en declive y las plantamos en un entorno protegido y biodiverso. No todas las semillas plantadas se convierten en árboles, pero cuando lo hacen, ¡florece un milagro de vida en una abundancia inimaginable!
   button: Visita nuestro Vivero
   button_2: Planta y Protege
   image: /src/assets/dsc01007-copy.jpeg
