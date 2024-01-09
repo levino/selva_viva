@@ -38,12 +38,12 @@ const sortedBlogCollection = blogCollection
               <div class="bg-white flex flex-col shadow-lg">
                 <a
                   href={`${blog.slug.split("/").pop()}`}
-                  class="block hover:opacity-75"
+                  class="block hover:opacity-75 aspect-video"
                 >
                   <Image
                     src={blog.data.cover_image}
                     alt={blog.data.cover_alt}
-                    class="w-full"
+                    class="w-full h-full object-cover"
                     width="350"
                     height="240"
                   />
