@@ -19,6 +19,14 @@ export const plantAndProtectSchema = ({ image }) =>
       image: image(),
       image_alt: z.string(),
     }),
+    certificate_sample: z
+      .object({
+        title: z.string(),
+        body: z.string(),
+        image: image(),
+        image_alt: z.string(),
+      })
+      .optional(),
     button_text: z.string(),
     button_link: z.string(),
     back_button_text: z.string(),
