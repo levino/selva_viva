@@ -31,6 +31,25 @@ what_you_get:
     - Informes del proyecto Viva la Selva
   image: /src/assets/dsc01088-copy_smaller.jpeg
   image_alt: En nuestro bosque que ha crecido durante aproximadamente 20 años
+certificate_sample:
+  title: Certificados Flexibles
+  body: >-
+    Nuestros certificados son completamente personalizables, permitiéndote adaptarlos a cualquier ocasión o intención. Algunos ejemplos incluyen:
+
+      - Certificados personales para autorregalarse.
+      - Obsequios de cumpleaños.
+      - Regalos navideños.
+      - Dedicatorias en memoria de alguien especial.
+      - Regalos de amistad.
+      - Reconocimientos empresariales.
+      - Premios diversos.
+      - Etc.
+
+    Simplemente escríbenos detallando cómo te gustaría el certificado, y nos esforzaremos al máximo por adaptarlo a tus preferencias. ¡Estamos aquí para crear una experiencia personalizada para ti!
+  
+  image: /src/assets/certificate-spanish-small.png
+  image_alt: certificado de adopción de un árbol
+  
 button_text: Donar
 button_link: https://www.paypal.com/donate/?hosted_button_id=YAGNK7Y7L8B8W
 back_button_text: Regresa a planta y protege
