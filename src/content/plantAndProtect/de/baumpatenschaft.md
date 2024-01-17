@@ -10,6 +10,26 @@ page_card:
   link_text: Mehr lesen...
   cover_image: /src/assets/aimg_20230712_102052-copy.jpeg
   cover_image_alt: Selten gewordene Baumarten
+
+certificate_sample:
+  title: Certificados Flexibles
+  body: >-
+    Nuestros certificados son completamente personalizables, permitiéndote adaptarlos a cualquier ocasión o intención. Algunos ejemplos incluyen:
+
+      - Certificados personales para autorregalarse.
+      - Obsequios de cumpleaños.
+      - Regalos navideños.
+      - Dedicatorias en memoria de alguien especial.
+      - Regalos de amistad.
+      - Reconocimientos empresariales.
+      - Premios diversos.
+      - Etc.
+
+    Simplemente escríbenos detallando cómo te gustaría el certificado, y nos esforzaremos al máximo por adaptarlo a tus preferencias. ¡Estamos aquí para crear una experiencia personalizada para ti!
+  
+  image: /src/assets/certificate-spanish-small.png
+  image_alt: certificado de adopción de un árbol
+
 bg_image: /src/assets/dsc01079-copy_2000px.jpeg
 bg_alt: Zwei Higuerón-Bäume auf der Finca von Viva la Selva
 subtitle: gefährdete Tropenbäume brauchen dich !
