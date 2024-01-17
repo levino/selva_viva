@@ -2,7 +2,7 @@
 page_meta_title: Vivero
 page_card:
   title: El Vivero
-  excerpt: Aquí, las semillas y los brotes jóvenes reciben el cuidado y la atención que necesitan para prosperar.
+  excerpt: Aquí las semillas y los arbolitos jóvenes reciben el cuidado y la atención que necesitan para prosperar.
   link: proyectos/vivero
   link_text: Leer más...
   cover_image: /src/assets/dsc00904-copy-2.jpeg
@@ -51,7 +51,7 @@ goals:
   title: Objetivos
   button_text: Únete
   image: /src/assets/DSC00971 copy.jpeg
-  read_more_link: "#vivero"
+  read_more_link: "vivero/#vivero"
   list:
     - ...especies en peligro tanto a nivel regional como mundial
     - ...alternativas de madera de crecimiento rápido
@@ -65,7 +65,7 @@ cta_center:
 
 ### I) Plantamos y cuidamos ESPECIES EN PELIGRO
 
-#### Porque los árboles de selvas antiguas rara vez se reproducen por sí solos.
+#### Porque los árboles de selvas antiguas rara vez se reproducen por sí solos
 
 La selva tropical de esta región (Darién-Chocó) es uno de los hábitats con mayor biodiversidad en el mundo (más sobre [Puntos calientes de biodiversidad](./la-finca/texto-completo#región-significativa)). Sin embargo, esta región del Chocó está muy amenazada por la deforestación.
 Los descendientes de especies sobreexplotadas a menudo se encuentran en lugares remotos y de difícil acceso, donde todavía existen plantas madre que proveen semillas. Bajo las plantas madre, solo sobreviven unos pocos brotes, y solo si la planta madre muere a tiempo para dar espacio a un árbol joven. Solo el más fuerte sobrevive. <br>
@@ -76,7 +76,7 @@ Buscamos lugares seguros con propiedades de suelo adecuadas para nuestras plánt
 
 ### II) Plantamos ALTERNATIVAS PARA LA MADERA
 
-#### Porque la protección efectiva de las especies en peligro debe ofrecer a la gente de la región alternativas significativas para sus casas y vallas.
+#### Porque la protección efectiva de las especies en peligro debe ofrecer a la gente de la región alternativas significativas para sus casas y vallas
 
 La región de Chocó-Darién está geográficamente aislada por la costa del Caribe y el Golfo de Urabá (al noreste), el río Atrato y una zona de selva adyacente (al sur), y la cadena montañosa de Darién con la frontera con Panamá (al oeste) como una "isla" frente al "continente colombiano".
 
@@ -85,7 +85,7 @@ Esto incluye especies de árboles que también pueden servir como cercas vivas, 
 
 ### III) Plantamos MUCHAS VARIEDADES DE FRUTALES
 
-#### Porque las frutas y jugos caseros son más saludables para las personas y el medio ambiente que los refrescos de colores en botellas de plástico con largas rutas de transporte. Además, proporcionan alimento a las especies animales que necesitamos como polinizadores y dispersores de semillas para las especies de árboles en peligro.
+#### Porque las frutas y jugos caseros son más saludables para las personas y el medio ambiente que los refrescos de colores en botellas de plástico con largas rutas de transporte. Además, proporcionan alimento a las especies animales que necesitamos como polinizadores y dispersores de semillas para las especies de árboles en peligro
 
 Los árboles frutales tienen ciclos de vida más cortos. También son más susceptibles a las plagas o han tenido que ceder espacio a los pastizales y a la urbanización. Existen, pero en menor número y diversidad, y no se han replantado lo suficiente. El derecho anteriormente reconocido de recoger frutas en el camino para un pequeño bocado ha sido cada vez más restringido, ya que los árboles en los pastizales fueron talados con la justificación de que el tráfico peatonal dañaba las vallas.
 
