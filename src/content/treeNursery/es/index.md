@@ -67,8 +67,8 @@ cta_center:
 
 #### Porque los árboles de selvas antiguas rara vez se reproducen por sí solos
 
-La selva tropical de esta región (Darién-Chocó) es uno de los hábitats con mayor biodiversidad en el mundo (más sobre [Puntos calientes de biodiversidad](./la-finca/texto-completo#región-significativa)). Sin embargo, esta región del Chocó está muy amenazada por la deforestación.
-Los descendientes de especies sobreexplotadas a menudo se encuentran en lugares remotos y de difícil acceso, donde todavía existen plantas madre que proveen semillas. Bajo las plantas madre, solo sobreviven unos pocos brotes, y solo si la planta madre muere a tiempo para dar espacio a un árbol joven. Solo el más fuerte sobrevive. <br>
+La selva tropical de esta región (Darién-Chocó) es uno de los hábitats con mayor biodiversidad en el mundo (más sobre [Puntos calientes de biodiversidad](/es/proyectos/la-finca/texto-completo#región-significativa)). Sin embargo, esta región del Chocó está muy amenazada por la deforestación.
+Los descendientes de especies sobreexplotadas a menudo se encuentran en lugares remotos y de difícil acceso, donde todavía existen plantas madre que proveen semillas. Bajo las plantas madre, sólo sobreviven unos pocos brotes, y sólo si la planta madre muere a tiempo para dar espacio a un árbol joven. Sólo el más fuerte sobrevive. <br>
 Nos embarcamos en la búsqueda y salvamos una parte de las semillas y plantitas jóvenes de estas especies de árboles en peligro. Algunos especímenes también se encuentran en pastizales, donde los brotes deben ser salvados a tiempo del uso de herbicidas. A veces tenemos la suerte de estar en el lugar correcto en el momento adecuado. <br>
 Hasta ahora, sembramos o plantamos las semillas o plántulas (en condiciones lo más adaptadas posible a sus necesidades) en bolsas de siembra o en camas de cultivo cuando los brotes permiten una selección posterior y un trasplante. En el futuro, habrá islas de árboles para algunas de las especies, más sobre esto en nuestro [Boletín sobre islas de árboles](https://vivalaselva.substack.com/p/islas-de-árboles).
 
@@ -109,7 +109,7 @@ Y, por último, los árboles frutales proporcionan una fuente de alimento para t
 
 #### Plástico en viveros
 
-Para evitar el uso innecesario de plástico en bolsas de cultivo y mallas de plástico como sombra y protección contra lluvias intensas, sembramos (dependiendo de la cantidad de material genético disponible) las semillas o plántulas en camas de cultivo, o (solo para especies con muy pocos números y alto riesgo de extinción) adicionalmente en bolsas de cultivo, las cuales también intentamos reciclar. Con un mayor volumen de semillas disponibles, pronto también podremos plantar diferentes especies juntas en islas de árboles, es decir, directamente en el lugar de destino en el suelo. Lee más sobre el [concepto de islas de árboles](https://vivalaselva.substack.com/p/islas-de-árboles). Más sobre plástico en viveros en nuestro detallado [artículo del boletín](https://vivalaselva.substack.com/p/sobre-viveros-y-su-plástico).
+Para evitar el uso innecesario de plástico en bolsas de cultivo y mallas de plástico como sombra y protección contra lluvias intensas, sembramos (dependiendo de la cantidad de material genético disponible) las semillas o plántulas en camas de cultivo, o (sólo para especies con muy pocos números y alto riesgo de extinción) adicionalmente en bolsas de cultivo, las cuales también intentamos reciclar. Con un mayor volumen de semillas disponibles, pronto también podremos plantar diferentes especies juntas en islas de árboles, es decir, directamente en el lugar de destino en el suelo. Lee más sobre el [concepto de islas de árboles](https://vivalaselva.substack.com/p/islas-de-árboles). Más sobre plástico en viveros en nuestro detallado [artículo del boletín](https://vivalaselva.substack.com/p/sobre-viveros-y-su-plástico).
 
 ### Pequeña retrospectiva
 

@@ -65,16 +65,20 @@ const heroImageOptimized = await getImage({ src: frontmatter.bg_image });
     </div>
     <HeroCaption text={frontmatter.bg_alt} />
   </section>
+
+  <!-- How does it work -->
   <section class="bg-white py-10">
     <h3 class="font-bold mb-5 text-3xl text-center text-yellow_leave-600">
       {frontmatter.description_title}
     </h3>
     <div
       set:html={micromark(frontmatter.description)}
-      class="font-all px-10 text-green_dark-300 text-xl tracking-wider lg:px-20 lg:text-2xl"
+      class="font-all px-4 md:px-10 text-green_dark-300 text-xl tracking-wider lg:px-20 lg:text-2xl"
     />
   </section>
-  <section class="container mx-auto px-20 py-10">
+
+  <!-- Donation Section -->
+  <section class="container mx-auto px-4 md:px-24 py-10">
     <div class="flex flex-wrap -mx-4 justify-center">
       <!-- donation data -->
       <div
@@ -124,10 +128,12 @@ const heroImageOptimized = await getImage({ src: frontmatter.bg_image });
   </section>
 
   <!-- certificate sample -->
-  <section class="container mx-auto px-20 py-10">
+  <section class="container mx-auto md:px-24 py-10">
     <div class="flex flex-wrap -mx-4 justify-center">
       <!-- Image -->
-      <div class="w-full md:flex md:items-center md:w-1/2 order-2 md:order-1">
+      <div
+        class="w-full p-4 md:flex md:items-center md:w-1/2 order-2 md:order-1"
+      >
         <div class="relative p-3 shadow-lg">
           <Image
             src={frontmatter.certificate_sample.image}
