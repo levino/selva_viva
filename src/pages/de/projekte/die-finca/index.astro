@@ -1,38 +1,10 @@
 ---
 import { getEntry } from "astro:content";
-import Layout from "../../../../layouts/Layout.astro";
-
-import { Image } from "astro:assets";
-import TheFincaHero from "../../../../components/TheFincaHero.astro";
-import OurTreesSection from "../../../../components/OurTreesSection.astro";
-import RelevanceSection from "../../../../components/ContentRightList.astro";
-import CTACenter from "../../../../components/CTACenter.astro";
-import LocationSection from "../../../../components/LocationSection.astro";
-import TheFincaStorySection from "../../../../components/TheFincaStorySection.astro";
-import CTABottom from "../../../../components/CTABottom.astro";
+import FincaPageLayout from "../../../../pageLayouts/FincaPageLayout.astro";
 
 const content = await getEntry("theFinca", "de");
 
-const {
-  data,
-  data: {
-    hero,
-    our_trees,
-    relevance,
-    cta_center,
-    location,
-    the_finca_story,
-    cta_bottom,
-  },
-} = content;
+const { data } = content;
 ---
 
-<Layout data={data.meta}>
-  <TheFincaHero hero={hero} />
-  <OurTreesSection trees={our_trees} />
-  <RelevanceSection content={relevance} />
-  <CTACenter cta_center={cta_center} />
-  <LocationSection location={location} />
-  <TheFincaStorySection the_finca_story={the_finca_story} />
-  <CTABottom cta_bottom={cta_bottom} />
-</Layout>
+<FincaPageLayout data={data} />
