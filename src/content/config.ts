@@ -4,6 +4,7 @@ import { frontPageSchema } from "../contentSchemas/frontPage";
 import { treeNurserySchema } from "../contentSchemas/treeNursery";
 import { projectsPageSchema } from "../contentSchemas/projectsPage";
 import { plantAndProtectSchema } from "../contentSchemas/plantAndProtect";
+import { headMetaData } from "../contentSchemas//commonFields/headMetaData";
 
 const frontPage = defineCollection({
   type: "content",
@@ -22,27 +23,33 @@ const treeNursery = defineCollection({
 
 const plantAndProtectIndexPage = defineCollection({
   type: "content",
-  schema: z.object({
-    title: z.string(),
-    subtitle: z.string(),
-  }),
+  schema: ({ image }) =>
+    z.object({
+      meta: headMetaData(z, image),
+      title: z.string(),
+      subtitle: z.string(),
+    }),
 });
 
 const blogIndexPage = defineCollection({
   type: "content",
-  schema: z.object({
-    title: z.string(),
-    subtitle: z.string(),
-  }),
+  schema: ({ image }) =>
+    z.object({
+      meta: headMetaData(z, image),
+      title: z.string(),
+      subtitle: z.string(),
+    }),
 });
 
 const contactPage = defineCollection({
   type: "content",
-  schema: z.object({
-    page_title: z.string(),
-    paragraph: z.string(),
-    email: z.string().email(),
-  }),
+  schema: ({ image }) =>
+    z.object({
+      meta: headMetaData(z, image),
+      page_title: z.string(),
+      paragraph: z.string(),
+      email: z.string().email(),
+    }),
 });
 const plantAndProtectCollection = defineCollection({
   type: "content",
@@ -53,6 +60,7 @@ const blogCollection = defineCollection({
   type: "content",
   schema: ({ image }) =>
     z.object({
+      meta: headMetaData(z, image),
       title: z.string(),
       subtitle: z.string(),
       excerpt: z.string(),
@@ -66,6 +74,7 @@ const treesCollection = defineCollection({
   type: "content",
   schema: ({ image }) =>
     z.object({
+      meta: headMetaData(z, image),
       name: z.string(),
       other_names: z.array(z.string()),
       galleryImages: z.array(image()),
@@ -100,6 +109,7 @@ const supportPageSchema = defineCollection({
   type: "content",
   schema: ({ image }) =>
     z.object({
+      meta: headMetaData(z, image),
       page_meta_title: z.string(),
       title: z.string(),
       subtitle: z.string(),
@@ -118,6 +128,7 @@ const aboutUsPageSchema = defineCollection({
   type: "content",
   schema: ({ image }) =>
     z.object({
+      meta: headMetaData(z, image),
       page_meta_title: z.string(),
       title: z.string(),
       subtitle: z.string(),

@@ -1,4 +1,5 @@
 ---
+
 page_meta_title: Nursery
 page_card:
   title: The Nursery
@@ -66,7 +67,7 @@ cta_center:
 
 ### I) We Plant and Care for Endangered Species
 
-#### Because rare rainforest trees no longer spread on their own.
+#### Because rare rainforest trees no longer spread on their own
 
 The rainforest of this region (Darién-Chocó) is one of the most biodiverse habitats worldwide (more about the [biodiversity hotspot](./the-farm/full-text#region-bedeutung)). However, the harsh reality of deforestation poses a severe threat to this region's ecosystems. The offspring of more heavily exploited species are often found in remote and hard-to-reach places where mother trees still exist and provide seeds. Only a few shoots survive under mother trees, and only if the mother tree dies in time and makes room for a young one. Only the strongest survive.
 
@@ -78,14 +79,14 @@ We look for safe places with suitable soil properties for our mature seedlings a
 
 ### II) We Plant ALTERNATIVE TIMBER SPECIES
 
-#### Adequate protection for endangered species must provide the region's people with meaningful alternatives for constructing their homes and fences.
+#### Adequate protection for endangered species must provide the region's people with meaningful alternatives for constructing their homes and fences
 
 The Chocó-Darién region is geographically delimited by the Caribbean coast and the Gulf of Urabá (in the northeast), the Atrato River and an adjacent rainforest area (in the south), and the Darién mountain range with the border to Panama (in the west) like an island "in front of" the "Colombian mainland."
 This explains, on the one hand, the - now endangered - abundance of endemic species but also hampers work and trade in the region. The only significant legal source of income is livestock farming. Building materials such as concrete and steel are expensive, and their procurement is logistically demanding; therefore, many houses and pasture fence posts are still made of wood. Rather than harvesting regionally or globally endangered species for this purpose, the region should have greater availability of alternative species that are equally suitable for the task and can grow faster. Among them are tree species that serve as living fences, holding the wire fence and providing shade, root systems, and food for animals and soil. These species include Fría and Mataratón; the latter is also used medicinally (e.g., mosquito protection).
 
 ### III) We Plant MANY DIFFERENT TYPES OF FRUIT TREES
 
-#### Because fruits and homemade juices are healthier for humans and the environment than colorful sodas in plastic bottles with long transport routes; additionally, they serve as a food source for animal species that are vital as pollinators and seed spreaders for the conservation of endangered trees.
+#### Because fruits and homemade juices are healthier for humans and the environment than colorful sodas in plastic bottles with long transport routes; additionally, they serve as a food source for animal species that are vital as pollinators and seed spreaders for the conservation of endangered trees
 
 Fruit trees have shorter life cycles. They are also more susceptible to pests, and in the region, they had to give way to the space requirements of pastures and buildings. They exist in fewer numbers and less diversity; more replanting needs to be done. The once widely accepted right to pick fruit for a little snack on the go has been increasingly restricted by cutting down trees on pastures, with the argument that fences suffered from pedestrian traffic.
 However, people and animals live on limes, mandarins, oranges, avocados, mangoes, guavas, chili, bananas, coconuts, etc. Their consumption helps prevent diseases or helps to recover from them. Importing fruit into the isolated region (see above) is difficult due to high temperatures, high humidity, rough seas, and high transport costs across the gulf. Plastic bottles filled with over-sugared colorful drinks withstand the journey better. However, local fruit trees offer a cheaper, healthier, plastic-free, and CO2-negative alternative and are therefore essential for people's and nature's health in the region. Last but not least, fruit trees provide food for all the animals that can help us pollinate the endangered species and distribute their seeds far and wide.

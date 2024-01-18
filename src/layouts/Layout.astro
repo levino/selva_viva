@@ -10,55 +10,71 @@ import "@fontsource/fira-sans/400.css";
 import "@fontsource/fira-sans/500.css";
 import "@fontsource/fira-sans/700.css";
 import "@fontsource/fira-sans/800.css";
+
 export interface Props {
-  title: string;
+  data: {
+    title: string;
+    description: string;
+    image: string;
+  };
 }
 
-const { title } = Astro.props;
+const {
+  data: { title, description, image },
+} = Astro.props;
 
 import { getLangFromUrl } from "../i18n/utils";
 
 const lang = getLangFromUrl(Astro.url);
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang={lang}>
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="Astro description" />
+
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/vivalaselvalogo_thick.svg" />
     <meta name="generator" content={Astro.generator} />
 
     <title>{title}</title>
+    <meta name="description" content={description} />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={Astro.url} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={new URL(image, Astro.url)} />
   </head>
+
   <body>
     <Navbar />
     <slot />
     <Footer />
   </body>
+
+  <style is:global>
+    @media (min-width: 768px) {
+      .clip_photo_right_lower {
+        -webkit-clip-path: polygon(0 0, 100% 0%, 80% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0%, 80% 100%, 0% 100%);
+      }
+
+      .clip_photo_left_upper {
+        -webkit-clip-path: polygon(20% 0, 100% 0%, 100% 100%, 0% 100%);
+        clip-path: polygon(20% 0, 100% 0%, 100% 100%, 0% 100%);
+      }
+
+      .clip_photo_upper_right {
+        -webkit-clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);
+      }
+
+      .clip_photo_lower_left {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
+      }
+    }
+  </style>
 </html>
-
-<style is:global>
-  @media (min-width: 768px) {
-    .clip_photo_right_lower {
-      -webkit-clip-path: polygon(0 0, 100% 0%, 80% 100%, 0% 100%);
-      clip-path: polygon(0 0, 100% 0%, 80% 100%, 0% 100%);
-    }
-
-    .clip_photo_left_upper {
-      -webkit-clip-path: polygon(20% 0, 100% 0%, 100% 100%, 0% 100%);
-      clip-path: polygon(20% 0, 100% 0%, 100% 100%, 0% 100%);
-    }
-
-    .clip_photo_upper_right {
-      -webkit-clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);
-      clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);
-    }
-
-    .clip_photo_lower_left {
-      -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
-      clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
-    }
-  }
-</style>

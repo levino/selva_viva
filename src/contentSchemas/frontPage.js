@@ -1,7 +1,9 @@
 import { z } from "astro:content";
+import { headMetaData } from "./commonFields/headMetaData";
 
 export const frontPageSchema = ({ image }) =>
   z.object({
+    meta: headMetaData(z, image),
     pageMetaTitle: z.string(),
     hero: z.object({
       greeting: z.string(),

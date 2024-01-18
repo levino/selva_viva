@@ -52,7 +52,7 @@ certificate_sample:
   
 button_text: Donar
 button_link: https://www.paypal.com/donate/?hosted_button_id=YAGNK7Y7L8B8W
-back_button_text: Regresa a planta y protege
+back_button_text: Regresar "a planta y protege"
 back_button_link: planta-y-protege
 cover_image: /src/assets/dsc00964-copy.jpeg
 cover_alt: Plántula en nuestro vivero de árboles

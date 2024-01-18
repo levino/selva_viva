@@ -1,8 +1,10 @@
 import { z } from "astro:content";
 import { pageCard } from "./commonFields/pageCard";
+import { headMetaData } from "./commonFields/headMetaData";
 
 export const plantAndProtectSchema = ({ image }) =>
   z.object({
+    meta: headMetaData(z, image),
     title: z.string(),
     page_title: z.string(),
     spanish_donation_msg: z.string().optional(),
