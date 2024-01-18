@@ -7,7 +7,7 @@ import PlantAndProtectCard from "../components/PlantAndProtectCard.astro";
 const { indexContent, plantAndProtect } = Astro.props;
 ---
 
-<Layout title={indexContent.title}>
+<Layout data={indexContent.meta}>
   <PageTitle>{indexContent.title}</PageTitle>
   <p class="text-gray-900 text-center font-bold text-2xl">
     {indexContent.subtitle}
