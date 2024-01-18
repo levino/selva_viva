@@ -1,4 +1,9 @@
 ---
+meta:
+  title: Vivero
+  description:  Aquí las semillas y los arbolitos jóvenes reciben el cuidado y la atención que necesitan para prosperar.
+  image: /src/assets/dsc00904-copy-2.jpeg
+  
 title: Kritische Reflexion zu Baumschulen
 publish_date: 10 Sep 2023
 cover_image: /src/assets/substack-cover-2.jpeg
