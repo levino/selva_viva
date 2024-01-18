@@ -18,20 +18,21 @@ page_card:
   cover_image_alt: Selten gewordene Baumarten
 
 certificate_sample:
-  title: Certificados Flexibles
+  title: Unsere Zertifikate sind flexibel.
   body: >-
-    Nuestros certificados son completamente personalizables, permitiéndote adaptarlos a cualquier ocasión o intención. Algunos ejemplos incluyen:
+    Wir stellen dir dein Zertifikat je nach Anlass und Patenschaft personalisiert aus und passen uns, bestmöglich deinen Wünschen und Absichten an. Du kannst z.B. Zertifikate kaufen..
 
-      - Certificados personales para autorregalarse.
-      - Obsequios de cumpleaños.
-      - Regalos navideños.
-      - Dedicatorias en memoria de alguien especial.
-      - Regalos de amistad.
-      - Reconocimientos empresariales.
-      - Premios diversos.
-      - Etc.
+      - für dich selbst 
+      - zu Geburtstag, Weihnachten, Schul- oder Studienabschluss
+      - zu Geburt, Taufe, Konfirmation, Hochzeit, Silberhochzeit, hölzerne ...
+      - als Widmung oder Erinnerung an einen dir wichtigen Menschen
+      - als Freundschaftssymbol
+      - als kleinen Gegenbeitrag für Flugreisen, Kreuzfahrten, Autofahrten, o.ä.
+      - als Anerkennung für deine Kolleg*inn*en oder Angestellten
+      - als Auszeichnung oder Gewinn für Wettkämpfe oder Firmenevents
+      - und viele mehr
 
-    Simplemente escríbenos detallando cómo te gustaría el certificado, y nos esforzaremos al máximo por adaptarlo a tus preferencias. ¡Estamos aquí para crear una experiencia personalizada para ti!
+    Schreib uns einfach genau deine Wünsche für dein Zertifikat! Wir geben unser Bestes, dir zu deinem individuellen Ereignis ein passendes Zertifikat auszustellen.
   
   image: /src/assets/certificate-spanish-small.png
   image_alt: certificado de adopción de un árbol
