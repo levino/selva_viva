@@ -16,9 +16,11 @@ const sortedBlogCollection = blogCollection
     };
   })
   .sort((a, b) => b.data.publish_date - a.data.publish_date);
+
+console.log(sortedBlogCollection[0]);
 ---
 
-<Layout title="Blog">
+<Layout data={indexPageContent.data.meta}>
   <section class="bg-gray-50 blog_window font-light py-8 text-gray-500">
     <h1
       class="font-bold font-sans mt-9 text-3xl text-center text-yellow_leave-600 uppercase"

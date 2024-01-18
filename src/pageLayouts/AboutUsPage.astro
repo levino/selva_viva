@@ -16,7 +16,7 @@ const {
 const heroImage = await getImage({ src: data.hero_image });
 ---
 
-<Layout title={data.page_meta_title}>
+<Layout data={data.meta}>
   <section
     class="hero relative text-gray-500"
     style={`background-image: url(${heroImage.src});`}

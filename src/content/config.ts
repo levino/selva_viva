@@ -60,7 +60,7 @@ const blogCollection = defineCollection({
   type: "content",
   schema: ({ image }) =>
     z.object({
-      meta: headMetaData(z, image),
+      meta: headMetaData(z, image).optional(),
       title: z.string(),
       subtitle: z.string(),
       excerpt: z.string(),

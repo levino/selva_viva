@@ -8,7 +8,7 @@ const {
 } = Astro.props;
 ---
 
-<Layout title="blog post">
+<Layout data={data.meta}>
   <div class="prose mx-auto mb-9">
     <PageTitle>
       {data.title}
