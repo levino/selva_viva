@@ -1,4 +1,9 @@
 ---
+meta:
+  title: Vivero
+  description:  Aquí las semillas y los arbolitos jóvenes reciben el cuidado y la atención que necesitan para prosperar.
+  image: /src/assets/dsc00904-copy-2.jpeg
+  
 page_meta_title: Baumschule
 page_card:
   title: Die Baumschule
@@ -65,9 +70,9 @@ cta_center:
 
 <h2 id="nursery">Zu unseren drei Zielen</h2>
 
-### I) Wir pflanzen und pflegen BEDROHTE ARTEN 
+### I) Wir pflanzen und pflegen BEDROHTE ARTEN
 
-#### Denn selten gewordene Urwald-Bäume verbreiten sich nicht mehr genügend von allein.
+#### Denn selten gewordene Urwald-Bäume verbreiten sich nicht mehr genügend von allein
 
 Der Regenwald dieser Region (Darién-Chocó) gehört zu den artenreichsten Biotopen weltweit (mehr zum [Biodiversitäts-Hotspot](./die-finca/kompletter-text#region-bedeutung)). Allerdings ist gerade diese Region des Chocó sehr stark durch Abholzung bedroht.
 Die Nachkommen stärker ausgebeuteter Arten finden wir häufig an weiter abgelegenen und schwer zugänglichen Orten, an denen noch Mutterpflanzen stehen, die Samen spenden. Unter Mutterpflanzen überleben nur wenige Triebe und auch nur, wenn die Mutterpflanze rechtzeitig stirbt und einem jungen Baum Platz macht. Nur der Stärkste setzt sich durch. <br>
@@ -78,7 +83,7 @@ Für unsere fertigen Setzlinge und unsere Bauminseln, suchen wir möglichst sic
 
 ### II) Wir pflanzen ALTERNATIVE BAUHOLZ-ARTEN
 
-#### Denn wirksamer Schutz für bedrohte Arten muss den Menschen der Region sinnvolle Alternativen für ihre Häuser und Zäune bieten.
+#### Denn wirksamer Schutz für bedrohte Arten muss den Menschen der Region sinnvolle Alternativen für ihre Häuser und Zäune bieten
 
 Die Region Chocó-Darién liegt geografisch abgegrenzt durch die Karibik-Küste und den Golf von Urabá (im Nord-Osten), den Atrato-Strom und ein angrenzendes Regenwald-Gebiet (im Süden) und die Bergkette des Darién mit der Grenze zu Panama (im Westen) wie eine Insel „vor“ dem „kolumbianischen Festland“.
 
@@ -87,7 +92,7 @@ Darunter sind auch Baumarten, die als lebende Zäune herhalten, also den Zaund
 
 ### III) Wir pflanzen VIELE VERSCHIEDENE OBSTSORTEN
 
-#### Denn Obst und selbstgemachte Säfte sind gesünder für Mensch und Umwelt als bunte Limos aus Plastikflaschen mit langen Transportwegen. Außerdem bieten sie den Tierarten Nahrung, die wir als Bestäuber und Samenverbreiter für die bedrohten Baumarten dringend brauchen.
+#### Denn Obst und selbstgemachte Säfte sind gesünder für Mensch und Umwelt als bunte Limos aus Plastikflaschen mit langen Transportwegen. Außerdem bieten sie den Tierarten Nahrung, die wir als Bestäuber und Samenverbreiter für die bedrohten Baumarten dringend brauchen
 
 Obstbäume haben kürzere Lebenszyklen. Sie sind außerdem stärker von Schädlingsbefall betroffen oder mussten dem Platzbedarf auf Weiden und um Bebauungen herum weichen. Es gibt sie, aber weniger und weniger artenreich, es wurde nicht genug nachgepflanzt. Das früher allgemein anerkannte Recht, unterwegs Früchte für den kleinen Hunger zu pflücken, wurde zunehmend unterbunden, indem die Bäume auf den Weiden abgeholzt wurden, mit der Begründung, dass die Zäune unter dem Laufpublikum litten.
 

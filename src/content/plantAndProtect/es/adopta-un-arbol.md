@@ -1,4 +1,9 @@
 ---
+meta:
+  title: Vivero
+  description:  Aquí las semillas y los arbolitos jóvenes reciben el cuidado y la atención que necesitan para prosperar.
+  image: /src/assets/dsc00904-copy-2.jpeg
+  
 title: Adopta un árbol
 page_title: Adopta un árbol
 spanish_donation_msg: En este momento solo tenemos opción de pago con Paypal. Si quieres apoyarnos de otra forma puedes contactarnos para darte otras opciones.
