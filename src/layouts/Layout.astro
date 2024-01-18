@@ -15,29 +15,38 @@ export interface Props {
   data: {
     title: string;
     description: string;
-    image: string;
+    image: any;
   };
 }
 
 const {
-  data: { title, description, image },
+  data: {
+    title,
+    description,
+    image: { src: imageSrc },
+  },
 } = Astro.props;
 
 import { getLangFromUrl } from "../i18n/utils";
 
 const lang = getLangFromUrl(Astro.url);
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
 <!doctype html>
 <html lang={lang}>
   <head>
     <meta charset="UTF-8" />
-
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/vivalaselvalogo_thick.svg" />
     <meta name="generator" content={Astro.generator} />
 
+    <!-- Canonical URL -->
+    <link rel="canonical" href={canonicalURL} />
+
+    <!-- Primary Meta Tags -->
     <title>{title}</title>
+    <meta name="title" content={title} />
     <meta name="description" content={description} />
 
     <!-- Open Graph / Facebook -->
@@ -45,7 +54,14 @@ const lang = getLangFromUrl(Astro.url);
     <meta property="og:url" content={Astro.url} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:image" content={new URL(image, Astro.url)} />
+    <meta property="og:image" content={new URL(imageSrc, Astro.url)} />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content={Astro.url} />
+    <meta property="twitter:title" content={title} />
+    <meta property="twitter:description" content={description} />
+    <meta property="twitter:image" content={new URL(imageSrc, Astro.url)} />
   </head>
 
   <body>
