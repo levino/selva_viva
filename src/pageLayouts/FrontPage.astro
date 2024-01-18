@@ -14,11 +14,7 @@ const {
 } = Astro.props;
 ---
 
-<Layout
-  title={data.pageMetaTitle}
-  description={data.hero.msg}
-  image={data.hero.hero_bg_image.src}
->
+<Layout data={data.meta}>
   <Hero content={data.hero} bgImg={bgImg} />
   <ParticipateSection data={data} />
   <AboutUsSection data={data} />
