@@ -4,9 +4,17 @@ import TreeCard from "../components/TreeCard.astro";
 import PageTitle from "../components/PageTitle.astro";
 
 const { treesCollection } = Astro.props;
+// TODO: add a index content to the treesindex page
+
+// this is temparary it must be removed when the data is ready
+const headMetaData = {
+  title: "Conoce nuestros árboles",
+  description: "Conoce nuestros árboles",
+  image: "/src/assets/aimg_20230504_124843-copy.jpeg",
+};
 ---
 
-<Layout title="selva viva projects page">
+<Layout data={headMetaData}>
   <PageTitle>Conoce nuestros árboles</PageTitle>
   <div class="mx-auto px-10 my-9">
     <ul class="-mx-4 flex flex-wrap">

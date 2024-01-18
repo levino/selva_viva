@@ -14,7 +14,7 @@ const {
 } = Astro.props;
 ---
 
-<Layout title={tree.name}>
+<Layout data={tree.meta}>
   <PageTitle>{tree.name}</PageTitle>
   <div class="prose mx-auto md:max-w-none w-8/12 mb-9">
     <div class="flex flex-col-reverse md:flex-row bg-beige-200 p-10 rounded-xl">
