@@ -15,7 +15,7 @@ const { frontmatter } = Astro.props;
 const heroImageOptimized = await getImage({ src: frontmatter.bg_image });
 ---
 
-<Layout title={frontmatter.title}>
+<Layout data={frontmatter.meta}>
   {
     frontmatter.spanish_donation_msg && (
       <>
