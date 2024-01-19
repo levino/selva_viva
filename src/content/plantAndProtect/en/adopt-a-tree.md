@@ -17,20 +17,29 @@ page_card:
 certificate_sample:
   title: Certificados Flexibles
   body: >-
-    Nuestros certificados son completamente personalizables, permitiéndote adaptarlos a cualquier ocasión o intención. Algunos ejemplos incluyen:
+    We will personalize your certificate according to the occasion. And adapt it to your wishes and intentions in the best possible way. For example, you can get certificates...
 
-      - Certificados personales para autorregalarse.
-      - Obsequios de cumpleaños.
-      - Regalos navideños.
-      - Dedicatorias en memoria de alguien especial.
-      - Regalos de amistad.
-      - Reconocimientos empresariales.
-      - Premios diversos.
-      - Etc.
+      - for yourself 
 
-    Simplemente escríbenos detallando cómo te gustaría el certificado, y nos esforzaremos al máximo por adaptarlo a tus preferencias. ¡Estamos aquí para crear una experiencia personalizada para ti!
+      - for a birthday, Christmas, school or university graduation
+
+      - for birth, baptism, confirmation, wedding, silver wedding anniversary, wooden 
+
+      - as a dedication or reminder of someone important to you
+
+      - as a symbol of friendship
+
+      - as a small counter-contribution for air travel, cruises, car trips, etc.
+
+      - as recognition for your colleagues or employees
+
+      - as an award or prize for competitions or company events
+
+      - and many more
+
+    let us know exactly what you want for your certificate! We will do our best to issue you with a suitable certificate for your individual event.
   
-  image: /src/assets/certificate-spanish-small.png
+  image: /src/assets/certificate-english-wm-sm.png
   image_alt: certificado de adopción de un árbol
 
 bg_image: /src/assets/dsc01079-copy_2000px.jpeg

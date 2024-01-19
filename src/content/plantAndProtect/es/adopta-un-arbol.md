@@ -41,18 +41,19 @@ certificate_sample:
   body: >-
     Nuestros certificados son completamente personalizables, permitiéndote adaptarlos a cualquier ocasión o intención. Algunos ejemplos incluyen:
 
-      - Certificados personales para autorregalarse.
-      - Obsequios de cumpleaños.
-      - Regalos navideños.
-      - Dedicatorias en memoria de alguien especial.
-      - Regalos de amistad.
-      - Reconocimientos empresariales.
-      - Premios diversos.
-      - Etc.
+      - Certificados personales para autorregalarse
+      - Obsequios de cumpleaños
+      - Regalos navideños
+      - Dedicatorias en memoria de alguien especial
+      - Regalos de amistad
+      - Reconocimientos empresariales
+      - Premios diversos
+      - Para compensar tu huella de carbono o la de alguien querido
+      - Etc
 
     Simplemente escríbenos detallando cómo te gustaría el certificado, y nos esforzaremos al máximo por adaptarlo a tus preferencias. ¡Estamos aquí para crear una experiencia personalizada para ti!
   
-  image: /src/assets/certificate-spanish-small.png
+  image: /src/assets/certificate-spanish-wm-sm.png
   image_alt: certificado de adopción de un árbol
   
 button_text: Donar

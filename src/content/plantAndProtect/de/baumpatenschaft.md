@@ -34,7 +34,7 @@ certificate_sample:
 
     Schreib uns einfach genau deine Wünsche für dein Zertifikat! Wir geben unser Bestes, dir zu deinem individuellen Ereignis ein passendes Zertifikat auszustellen.
   
-  image: /src/assets/certificate-spanish-small.png
+  image: /src/assets/certificate-german-wm-sm.png
   image_alt: certificado de adopción de un árbol
 
 bg_image: /src/assets/dsc01079-copy_2000px.jpeg
