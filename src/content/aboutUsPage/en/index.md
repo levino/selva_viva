@@ -1,8 +1,8 @@
 ---
 meta:
-  title: Vivero
-  description:  Aquí las semillas y los arbolitos jóvenes reciben el cuidado y la atención que necesitan para prosperar.
-  image: /src/assets/dsc00904-copy-2.jpeg
+  title: About Us
+  description: Our hands plant and nurture the trees and forests you adopt and protect.
+  image: /src/assets/dsc01083-copy_smaller.jpeg
   
 page_meta_title: About Us
 title: VIVA LA SELVA
