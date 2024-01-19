@@ -1,8 +1,8 @@
 ---
 meta:
-  title: Vivero
-  description:  Aquí las semillas y los arbolitos jóvenes reciben el cuidado y la atención que necesitan para prosperar.
-  image: /src/assets/dsc00904-copy-2.jpeg
+  title: spende
+  description: Hilf Viva la Selva dabei tropische Böden, Wasserläufe und Klima zu schützen. Unterstütze biodiverse Wiederbepflanzungen mit selten gewordenen Baumarten.
+  image: /src/assets/dsc00964-copy.jpeg
   
 page_meta_title: spende
 title: HIER SCHLÄGT DEINE SPENDE WURZELN...

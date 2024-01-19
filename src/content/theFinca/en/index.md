@@ -1,8 +1,8 @@
 ---
 meta:
-  title: Vivero
-  description:  Aquí las semillas y los arbolitos jóvenes reciben el cuidado y la atención que necesitan para prosperar.
-  image: /src/assets/dsc00904-copy-2.jpeg
+  title: The Farm
+  description: "Our farm is located in Gilgal community, Unguía district, Chocó Department, Colombia."
+  image: /src/assets/dsc01052-copy_smaller.jpeg
   
 page_meta_title: The Farm
 title: Explore Our Farm

@@ -1,8 +1,8 @@
 ---
 meta:
-  title: Vivero
-  description:  Aquí las semillas y los arbolitos jóvenes reciben el cuidado y la atención que necesitan para prosperar.
-  image: /src/assets/dsc00904-copy-2.jpeg
+  title: die-finca
+  description: "Unsere Finca liegt in der Gemeinde Gilgal (Landkreis Unguía) in der\r Tieflandebene des Flusses Cutí, im Departamento Chocó in Kolumbien."
+  image: /src/assets/dsc01052-copy_smaller.jpeg
   
 page_meta_title: die-finca
 title: DIE FINCA

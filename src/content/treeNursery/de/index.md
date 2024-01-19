@@ -1,8 +1,8 @@
 ---
 meta:
-  title: Vivero
-  description:  Aquí las semillas y los arbolitos jóvenes reciben el cuidado y la atención que necesitan para prosperar.
-  image: /src/assets/dsc00904-copy-2.jpeg
+  title: Baumschule
+  description: Hier bekommen Samen und junge Triebe die Pflege und Aufmerksamkeit, die sie brauchen, um überlebensfähig zu werden.
+  image: /src/assets/dsc00904-copy_small.jpeg
   
 page_meta_title: Baumschule
 page_card:

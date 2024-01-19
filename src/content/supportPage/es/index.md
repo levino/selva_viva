@@ -1,8 +1,9 @@
 ---
 meta:
-  title: Vivero
-  description:  Aquí las semillas y los arbolitos jóvenes reciben el cuidado y la atención que necesitan para prosperar.
-  image: /src/assets/dsc00904-copy-2.jpeg
+  title: Ayudanos a conservar la biodiversidad del Darien Caribe
+  description: Apoya a Viva la Selva y protege los suelos tropicales, los ríos y el clima. Contribuye a la reforestación diversificada y recupera especies de árboles en peligro de extinción.
+  
+  image: /src/assets/dsc00964-copy.jpeg
   
 page_meta_title: Ayudanos a conservar la biodiversidad del Darien Caribe
 title: AQUÍ ES DONDE TU DONACIÓN ECHA RAÍCES...
