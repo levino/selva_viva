@@ -1,8 +1,8 @@
 ---
 meta:
-  title: Vivero
-  description:  Aquí las semillas y los arbolitos jóvenes reciben el cuidado y la atención que necesitan para prosperar.
-  image: /src/assets/dsc00904-copy-2.jpeg
+  title: Viva la Selva
+  description:  Plantamos y cuidamos árboles en peligro para un futuro más verde y biodiverso.
+  image: /src/assets/plant-a-tree.png
 
 pageMetaTitle: Viva la Selva
 hero:
