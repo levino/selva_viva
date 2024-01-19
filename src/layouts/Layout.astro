@@ -15,17 +15,15 @@ export interface Props {
   data: {
     title: string;
     description: string;
-    image: any;
+    //image: string;
   };
 }
 
 const {
-  data: {
-    title,
-    description,
-    image = "/src/assets/image-square-2-copy-2.jpeg",
-  },
+  data: { title, description },
 } = Astro.props;
+
+const image = "/src/assets/image-square-2-copy-2.jpeg";
 
 import { getLangFromUrl } from "../i18n/utils";
 
