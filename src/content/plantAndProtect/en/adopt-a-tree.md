@@ -1,8 +1,8 @@
 ---
 meta:
-  title: Vivero
-  description:  Aquí las semillas y los arbolitos jóvenes reciben el cuidado y la atención que necesitan para prosperar.
-  image: /src/assets/dsc00904-copy-2.jpeg
+  title: Adopt A Tree
+  description: The preservation of rare tree species is a difficult task. Your support can make a difference.
+  image: /src/assets/aimg_20230712_102052-copy.jpeg
   
 title: Adopt A Tree
 page_title: Adopt a tree
