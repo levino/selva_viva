@@ -1,8 +1,8 @@
 ---
 meta:
-  title: Vivero
-  description:  Aquí las semillas y los arbolitos jóvenes reciben el cuidado y la atención que necesitan para prosperar.
-  image: /src/assets/dsc00904-copy-2.jpeg
+  title: '"Yippie, yeah!" und "oh, nooo!"'
+  description: Neue Sämlinge und Schimmelpilz in der Baumschule
+  image: /src/assets/screen-shot-2023-08-29-at-18.20.25.png
   
 title: '"Yippie, yeah!" und "oh, nooo!"'
 publish_date: 20 Jul 2023

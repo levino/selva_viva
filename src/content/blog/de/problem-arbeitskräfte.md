@@ -1,8 +1,8 @@
 ---
 meta:
-  title: Vivero
-  description:  Aquí las semillas y los arbolitos jóvenes reciben el cuidado y la atención que necesitan para prosperar.
-  image: /src/assets/dsc00904-copy-2.jpeg
+  title: Problem Arbeitskräfte
+  description: Fehlende Arbeitskräfte behindern die Arbeiten an der neuen Baumschule und den Zäunen
+  image: /src/assets/img_20230712_103854-copy.jpeg
   
 title: Problem Arbeitskräfte
 publish_date: 15 Jul 2023

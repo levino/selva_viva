@@ -1,8 +1,8 @@
 ---
 meta:
-  title: Vivero
-  description:  Aquí las semillas y los arbolitos jóvenes reciben el cuidado y la atención que necesitan para prosperar.
-  image: /src/assets/dsc00904-copy-2.jpeg
+  title: Unsere erste Kampagne fand schnell Zuspruch
+  description: Arbeiten für unsere Baumschule für bedrohte Baumarten der Region laufen
+  image: /src/assets/img_20230613_142546_small.jpeg
   
 title: Unsere erste Kampagne fand schnell Zuspruch
 publish_date: 22 Jun 2023

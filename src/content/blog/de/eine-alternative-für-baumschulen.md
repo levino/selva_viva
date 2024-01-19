@@ -1,8 +1,8 @@
 ---
 meta:
-  title: Vivero
-  description:  Aquí las semillas y los arbolitos jóvenes reciben el cuidado y la atención que necesitan para prosperar.
-  image: /src/assets/dsc00904-copy-2.jpeg
+  title: Bauminseln statt Baumschulen
+  description: Wie wir mit syntropischer Landwirtschaft bedrohte Tropenbaum-Arten aufforsten wollen
+  image: /src/assets/substack-cover-3.jpeg
   
 title: Bauminseln statt Baumschulen
 publish_date: 24 Sep 2023
