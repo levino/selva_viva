@@ -20,7 +20,11 @@ export interface Props {
 }
 
 const {
-  data: { title, description, image },
+  data: {
+    title,
+    description,
+    image = "/src/assets/image-square-2-copy-2.jpeg",
+  },
 } = Astro.props;
 
 import { getLangFromUrl } from "../i18n/utils";
