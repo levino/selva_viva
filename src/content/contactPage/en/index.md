@@ -1,8 +1,8 @@
 ---
 meta:
-  title: Vivero
-  description:  Aquí las semillas y los arbolitos jóvenes reciben el cuidado y la atención que necesitan para prosperar.
-  image: /src/assets/dsc00904-copy-2.jpeg
+  title: Contact
+  description: You can reach us through this email address.
+  image: /src/assets/dsc01148-copy.jpeg
   
 page_title: Contact
 paragraph: You can reach us through this email address.
