@@ -1,4 +1,5 @@
 import { defineConfig } from "astro/config";
+import icon from "astro-icon";
 //import NetlifyCMS from "astro-netlify-cms";
 import { treesSchema } from "./src/cms_collection_schemas/folder_collections/trees";
 import pages_schemas from "./src/cms_collection_schemas/file_collections/pages_schemas";
@@ -22,5 +23,5 @@ export default defineConfig({
     locales: ["de", "es", "en"],
   },
 
-  integrations: [tailwind()],
+  integrations: [tailwind(), icon()],
 });

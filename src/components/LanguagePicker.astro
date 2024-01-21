@@ -1,7 +1,7 @@
 ---
 import { languages } from "../i18n/ui";
 import { getLangFromUrl } from "../i18n/utils";
-import { Icon } from "astro-icon";
+import { Icon } from "astro-icon/components";
 import { getRelativeLocaleUrl } from "astro:i18n";
 
 const lang = getLangFromUrl(Astro.url);
@@ -13,7 +13,7 @@ const lang = getLangFromUrl(Astro.url);
       Object.entries(languages).map(([lang, label]) => (
         <li class="p-1">
           <a href={getRelativeLocaleUrl(lang)} class="flex items-center">
-            <Icon name={lang} />
+            <Icon name={lang} size="21" />
             <span class="inline-block ml-2 uppercase text-xs font-semibold font-all">
               {label}
             </span>
@@ -23,9 +23,3 @@ const lang = getLangFromUrl(Astro.url);
     }
   </ul>
 </div>
-
-<style lang="css">
-  [astro-icon] {
-    width: 1.3rem;
-  }
-</style>
