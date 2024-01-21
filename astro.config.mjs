@@ -16,11 +16,11 @@ const {
 // https://astro.build/config
 export default defineConfig({
   site: "https://vivalaselva.org",
-  experimental: {
-    i18n: {
-      defaultLocale: "en",
-      locales: ["de", "es", "en"],
-    },
+
+  i18n: {
+    defaultLocale: "en",
+    locales: ["de", "es", "en"],
   },
+
   integrations: [tailwind()],
 });
