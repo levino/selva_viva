@@ -23,7 +23,11 @@ const {
   data: { title, description },
 } = Astro.props;
 
-const image = "/og-image.png";
+const image = {
+  de: "/og-image-1.png",
+  en: "/og-image.png",
+  es: "/og-image-1.png",
+};
 
 import { getLangFromUrl } from "../i18n/utils";
 
@@ -53,14 +57,14 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <meta property="og:url" content={Astro.url} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:image" content={new URL(image, Astro.url)} />
+    <meta property="og:image" content={new URL(image[lang], Astro.url)} />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content={Astro.url} />
     <meta property="twitter:title" content={title} />
     <meta property="twitter:description" content={description} />
-    <meta property="twitter:image" content={new URL(image, Astro.url)} />
+    <meta property="twitter:image" content={new URL(image[lang], Astro.url)} />
   </head>
 
   <body>
